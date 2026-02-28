@@ -1,10 +1,9 @@
 name: 🔄 Ежедневное обновление подписок
 
-
 on:
   schedule:
-    - cron: '0 */3 * * *'   # Каждый день в 3:00 UTC
-  workflow_dispatch:      # Возможность ручного запуска
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
   push:
     paths:
       - 'parser.py'
@@ -15,68 +14,50 @@ jobs:
   update-subscriptions:
     name: Сбор и проверка серверов
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    permissions:
+      contents: write  # Явно даем права на запись
+      actions: read
     
     steps:
       - name: 📥 Клонирование репозитория
         uses: actions/checkout@v4
-      
-      - name: 🐍 Установка Python
-        uses: actions/setup-python@v5
         with:
-          python-version: '3.14'
-          cache: 'pip'
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: 📦 Установка зависимостей
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
       
       - name: 🚀 Запуск парсера
-        id: parser
         run: python parser.py
-        continue-on-error: true
+        continue-on-error: false  # Лучше false, чтобы видеть реальные ошибки
       
-      - name: 📊 Сбор статистики
-        id: stats
+      - name: 🔍 Проверка созданных файлов
         run: |
-          if [ -f "deploy/debug.json" ]; then
-            # Устанавливаем jq для парсинга JSON
-            sudo apt-get install -y jq
-            ALIVE=$(jq '.alive' deploy/debug.json)
-            TOTAL=$(jq '.total' deploy/debug.json)
-            echo "alive=$ALIVE" >> $GITHUB_OUTPUT
-            echo "total=$TOTAL" >> $GITHUB_OUTPUT
-            echo "✅ Найдено: $TOTAL, рабочих: $ALIVE"
-          else
-            echo "alive=0" >> $GITHUB_OUTPUT
-            echo "total=0" >> $GITHUB_OUTPUT
-            echo "❌ Файл debug.json не найден"
-          fi
+          echo "📁 Содержимое deploy после парсера:"
+          find deploy -type f -name "*.txt" | sort || echo "Нет .txt файлов"
+          echo "📊 Статистика файлов:"
+          wc -l deploy/*.txt 2>/dev/null || echo "Нет текстовых файлов"
       
-      - name: 📦 Коммит и пуш обновлений
-        if: steps.stats.outputs.alive != '0'
+      - name: 📦 Коммит и пуш изменений
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Добавляем все изменения в deploy
           git add deploy/
-          if git diff --staged --quiet; then
+          
+          # Проверяем, есть ли изменения для коммита
+          if git diff --cached --quiet; then
             echo "ℹ️ Нет изменений для коммита"
-            echo "changed=false" >> $GITHUB_ENV
           else
-            git commit -m "🔄 Автообновление подписок $(date +'%Y-%m-%d')"
+            git commit -m "🔄 Обновление подписок $(date +'%Y-%m-%d %H:%M UTC')"
             git push
-            echo "changed=true" >> $GITHUB_ENV
-            echo "✅ Изменения отправлены в репозиторий"
+            echo "✅ Изменения отправлены"
           fi
-
       
-      - name: 📤 Загрузка артефактов
+      - name: 📤 Загрузка артефактов (для резервного копирования)
         if: always()
-        uses: actions/upload-artifact@v4 
+        uses: actions/upload-artifact@v4
         with:
           name: subscriptions-${{ github.run_id }}
           path: deploy/
           retention-days: 7
-
-
