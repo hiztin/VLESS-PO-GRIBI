@@ -1,0 +1,79 @@
+name: 🔄 Ежедневное обновление подписок
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Каждый день в 3:00 UTC
+  workflow_dispatch:      # Возможность ручного запуска
+  push:
+    paths:
+      - 'parser.py'
+      - 'requirements.txt'
+      - '.github/workflows/*'
+
+jobs:
+  update-subscriptions:
+    name: Сбор и проверка серверов
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+      - name: 📥 Клонирование репозитория
+        uses: actions/checkout@v4
+      
+      - name: 🐍 Установка Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      
+      - name: 📦 Установка зависимостей
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: 🚀 Запуск парсера
+        id: parser
+        run: python parser.py
+        continue-on-error: true
+      
+      - name: 📊 Сбор статистики
+        id: stats
+        run: |
+          if [ -f "deploy/debug.json" ]; then
+            # Устанавливаем jq для парсинга JSON
+            sudo apt-get install -y jq
+            ALIVE=$(jq '.alive' deploy/debug.json)
+            TOTAL=$(jq '.total' deploy/debug.json)
+            echo "alive=$ALIVE" >> $GITHUB_OUTPUT
+            echo "total=$TOTAL" >> $GITHUB_OUTPUT
+            echo "✅ Найдено: $TOTAL, рабочих: $ALIVE"
+          else
+            echo "alive=0" >> $GITHUB_OUTPUT
+            echo "total=0" >> $GITHUB_OUTPUT
+            echo "❌ Файл debug.json не найден"
+          fi
+      
+      - name: 📦 Коммит и пуш обновлений
+        if: steps.stats.outputs.alive != '0'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add deploy/
+          if git diff --staged --quiet; then
+            echo "ℹ️ Нет изменений для коммита"
+            echo "changed=false" >> $GITHUB_ENV
+          else
+            git commit -m "🔄 Автообновление подписок $(date +'%Y-%m-%d')"
+            git push
+            echo "changed=true" >> $GITHUB_ENV
+            echo "✅ Изменения отправлены в репозиторий"
+          fi
+
+      
+      - name: 📤 Загрузка артефактов
+        if: always()
+        uses: actions/upload-artifact@v4  # ИСПРАВЛЕНО: теперь v4
+        with:
+          name: subscriptions-${{ github.run_id }}
+          path: deploy/
+          retention-days: 7
