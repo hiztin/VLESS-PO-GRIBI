@@ -1,8 +1,9 @@
 name: 🔄 Ежедневное обновление подписок
 
+
 on:
   schedule:
-    - cron: '0 3 * * *'  # Каждый день в 3:00 UTC
+    - cron: '0 */3 * * *'   # Каждый день в 3:00 UTC
   workflow_dispatch:      # Возможность ручного запуска
   push:
     paths:
@@ -77,4 +78,5 @@ jobs:
           name: subscriptions-${{ github.run_id }}
           path: deploy/
           retention-days: 7
+
 
