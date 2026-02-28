@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### 🚀 Ежедневно обновляемая коллекция рабочих VPN-серверов
+### 🚀 Ежедневно обновляемая коллекция рабочих VPN-серверов(В РАЗРАБОТКЕ)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/hiztin/VLESS-PO-GRIBI)](https://github.com/hiztin/VLESS-PO-GRIBI/commits/main)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/hiztin/VLESS-PO-GRIBI/update-subscriptions.yml)](https://github.com/hiztin/VLESS-PO-GRIBI/actions)
