@@ -244,9 +244,9 @@ def split_into_files(data, base_filename, items_per_file=200):
     if not data:
         return
 
-    subs_dir = os.path.join('deploy', 'subscriptions')
+    subs_dir = os.path.join('deploy', 'subscribes') 
     os.makedirs(subs_dir, exist_ok=True)
-
+    
     total_items = len(data)
     num_files = (total_items + items_per_file - 1) // items_per_file
 
