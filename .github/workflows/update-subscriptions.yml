@@ -23,7 +23,7 @@ jobs:
       - name: 🐍 Установка Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.14'
           cache: 'pip'
       
       - name: 📦 Установка зависимостей
@@ -72,8 +72,9 @@ jobs:
       
       - name: 📤 Загрузка артефактов
         if: always()
-        uses: actions/upload-artifact@v4  # ИСПРАВЛЕНО: теперь v4
+        uses: actions/upload-artifact@v4 
         with:
           name: subscriptions-${{ github.run_id }}
           path: deploy/
           retention-days: 7
+
