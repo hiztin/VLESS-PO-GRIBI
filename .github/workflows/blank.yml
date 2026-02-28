@@ -1,0 +1,80 @@
+# .github/workflows/update-subscriptions.yml
+name: 🔄 Ежедневное обновление подписок
+
+on:
+  schedule:
+    # Запуск каждый день в 3:00 UTC
+    - cron: '0 3 * * *'
+  # Возможность ручного запуска
+  workflow_dispatch:
+  # Запуск при изменениях в коде парсера
+  push:
+    paths:
+      - 'parser.py'
+      - 'requirements.txt'
+      - '.github/workflows/*'
+
+jobs:
+  update-subscriptions:
+    name: Сбор и проверка серверов
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+      - name: 📥 Клонирование репозитория
+        uses: actions/checkout@v3
+      
+      - name: 🐍 Установка Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      
+      - name: 📦 Установка зависимостей
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: 🚀 Запуск парсера
+        run: python parser.py
+        continue-on-error: true  # Продолжаем даже при ошибках парсера
+      
+      - name: 🔍 Проверка результатов
+        id: check
+        run: |
+          if [ -d "deploy" ] && [ "$(ls -A deploy)" ]; then
+            echo "status=success" >> $GITHUB_OUTPUT
+            echo "📊 Статистика:"
+            if [ -f "deploy/debug.json" ]; then
+              cat deploy/debug.json | jq '.'
+            fi
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+            echo "Папка deploy пуста или не существует"
+          fi
+      
+      - name: 📦 Коммит и пуш обновлений
+        if: steps.check.outputs.status == 'success'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Добавляем все новые файлы
+          git add deploy/
+          
+          # Проверяем, есть ли изменения
+          if git diff --staged --quiet; then
+            echo " Нет изменений для коммита"
+          else
+            git commit -m " Автообновление подписок $(date +'%Y-%m-%d')"
+            git push
+            echo "Изменения отправлены в репозиторий"
+          fi
+      
+      - name: 📤
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: subscriptions-${{ github.run_id }}
+          path: deploy/
+          retention-days: 7
