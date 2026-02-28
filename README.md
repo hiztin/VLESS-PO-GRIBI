@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### 🚀 Ежедневно обновляемая коллекция рабочих VPN-серверов(В РАЗРАБОТКЕ)
+### 🚀 Ежедневно обновляемая коллекция рабочих VPN-серверов
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/hiztin/VLESS-PO-GRIBI)](https://github.com/hiztin/VLESS-PO-GRIBI/commits/main)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/hiztin/VLESS-PO-GRIBI/update-subscriptions.yml)](https://github.com/hiztin/VLESS-PO-GRIBI/actions)
@@ -64,8 +64,8 @@
 
 | Приложение | Инструкция |
 |------------|------------|
-| **v2rayN** | 1. Открой приложение > 2. Нажми "Подписки" > 3. "Управление подписками" > 4. "Добавить" > 5. Вставь ссылку на `sub_base64.txt` |
-| **Clash Verge** | 1. Открой приложение > 2. Перейди в "Подписки" > 3. Вставь ссылку > 4. Нажми "Импортировать" |
+| **Throne** | 1. Открой приложение > 2. Нажми "Профили" > 3. "Добавить профиль из буфера" >  4. Вставь ссылку на `sub_base64.txt` |
+
 
 ## 📊 Статистика
 
