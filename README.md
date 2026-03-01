@@ -1,4 +1,4 @@
-# 🍄 VLESS PO GRIBI - Бесплатные VPN подписки 
+# 🍄 V LESS ПО ГРИБЫ - Бесплатные VPN подписки 
 
 <div align="center">
   
