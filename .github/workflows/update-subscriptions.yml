@@ -26,11 +26,30 @@ jobs:
       - working-directory: ./source
         run: python parser.py
       
-      - name: Коммит и пуш
+      - name: ПРИНУДИТЕЛЬНОЕ ИЗМЕНЕНИЕ
+        run: |
+          # Создаём уникальный файл с timestamp
+          echo "🕒 Force update $(date -Iseconds)" > deploy/force-update.txt
+          
+          # Меняем README если есть
+          if [ -f "README.md" ]; then
+            echo -e "\n\n*Force update: $(date)*" >> README.md
+          fi
+          
+      - name: 
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Добавляем всё принудительно
           git add -f deploy/
-          git commit -m "🔄 Обновление $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          git add -f README.md
+          
+          # ВСЕГДА делаем коммит (даже если нет изменений)
+          git commit -m "🔄 Принудительное обновление $(date +'%Y-%m-%d %H:%M:%S')" --allow-empty
+          
+          # Пушим
           git pull --rebase origin main || true
           git push origin main
+          
+          echo "✅ КОММИТ СОЗДАН!"
