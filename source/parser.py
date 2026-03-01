@@ -53,11 +53,13 @@ URLS = [
     "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
 ]
 
+
 # -------------------- ЛОГИРОВАНИЕ --------------------
 def log(message: str):
     """Добавляет сообщение в лог"""
     timestamp = datetime.now().strftime("%H:%M:%S")
     print(f"[{timestamp}] {message}")
+
 
 # -------------------- HTTP КЛИЕНТ --------------------
 class HTTPFetcher:
@@ -66,18 +68,18 @@ class HTTPFetcher:
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
         }
         self.session = None
-        
+
     async def __aenter__(self):
         self.session = aiohttp.ClientSession(
             headers=self.headers,
             timeout=aiohttp.ClientTimeout(total=30)
         )
         return self
-        
+
     async def __aexit__(self, *args):
         if self.session:
             await self.session.close()
-    
+
     async def fetch(self, url: str) -> Optional[str]:
         """Загрузка с retry"""
         for attempt in range(1, 4):
@@ -92,6 +94,7 @@ class HTTPFetcher:
                 if attempt < 3:
                     await asyncio.sleep(1)
         return None
+
 
 # -------------------- ПАРСЕР КОНФИГОВ --------------------
 class ConfigParser:
@@ -139,11 +142,11 @@ class ConfigParser:
                         return j.get('add'), int(j.get('port', 0))
                 except:
                     pass
-            
+
             parsed = urlparse(config)
             if parsed.hostname and parsed.port:
                 return parsed.hostname, parsed.port
-            
+
             parts = config.split('://')[1].split('@')
             addr = parts[-1].split('/')[0].split('?')[0]
             if ':' in addr:
@@ -158,150 +161,153 @@ class ConfigParser:
         lines = data.splitlines()
         result = []
         filtered = 0
-        
+
         for line in lines:
             if ConfigParser.INSECURE_PATTERN.search(line):
                 filtered += 1
                 continue
             result.append(line)
-        
+
         return "\n".join(result), filtered
+
 
 # -------------------- ПРОВЕРКА ПИНГА --------------------
 async def check_server_ping(config: str, semaphore: asyncio.Semaphore) -> Tuple[Optional[str], Optional[float]]:
     host, port = ConfigParser.extract_host_port(config)
     if not host or not port:
         return None, None
-        
+
     async with semaphore:
         try:
             start = time.time()
-            
+
             try:
                 ipaddress.ip_address(host)
             except ValueError:
                 await asyncio.get_event_loop().getaddrinfo(host, port)
-            
+
             conn = asyncio.open_connection(host, port)
             _, writer = await asyncio.wait_for(conn, timeout=PING_TIMEOUT)
-            
+
             elapsed = (time.time() - start) * 1000
             writer.close()
             await writer.wait_closed()
-            
+
             if elapsed <= MAX_PING_MS:
                 return config, elapsed
             else:
                 return None, elapsed
-            
+
         except:
             return None, None
 
+
 # -------------------- ОБРАБОТКА ИСТОЧНИКА --------------------
 async def process_source(idx: int, url: str, fetcher: HTTPFetcher) -> Tuple[int, List[str]]:
-    log(f"\n🔍 Источник {idx+1}")
-    
+    log(f"\n🔍 Источник {idx + 1}")
+
     data = await fetcher.fetch(url)
     if not data:
         log(f"  ❌ Не удалось загрузить")
         return idx, []
-    
+
     data, filtered_insecure = ConfigParser.filter_insecure(data)
     if filtered_insecure > 0:
         log(f"  ℹ️ Отфильтровано небезопасных: {filtered_insecure}")
-    
+
     all_configs = ConfigParser.extract_keys(data)
     log(f"  📊 Всего конфигов: {len(all_configs)}")
-    
+
     valid_configs = []
     for c in all_configs:
         proto = c.split('://')[0].lower()
         if proto in ALLOWED_PROTOCOLS:
             valid_configs.append(c)
-    
+
     log(f"  🔬 После фильтрации протоколов: {len(valid_configs)}")
-    
+
     if not valid_configs:
         return idx, []
-    
+
     log(f"  ⚡ Проверка пинга...")
-    
+
     check_limit = min(len(valid_configs), 500)
     sem = asyncio.Semaphore(CONCURRENT_PINGS)
     ping_tasks = []
-    
+
     for config in valid_configs[:check_limit]:
         ping_tasks.append(check_server_ping(config, sem))
-    
+
     ping_results = await asyncio.gather(*ping_tasks)
-    
+
     good_servers = []
     for config, ping in ping_results:
         if config:
             good_servers.append((config, ping))
-    
+
     log(f"  ✅ Хороший пинг у {len(good_servers)}")
-    
+
     if not good_servers:
         return idx, []
-    
+
     good_servers.sort(key=lambda x: x[1])
     best_servers = [c for c, _ in good_servers[:SERVERS_PER_SOURCE]]
-    
+
     if best_servers:
         log(f"  🏆 Отобрано {len(best_servers)} лучших")
-    
+
     return idx, best_servers
+
 
 # -------------------- СОХРАНЕНИЕ НА ГИТХАБ --------------------
 def save_results(source_results: List[Tuple[int, List[str]]]):
     """Сохраняет файлы прямо в папку репозитория"""
-    
+
     # СОЗДАЁМ ПАПКИ ПРЯМО ЗДЕСЬ
     os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
-    
+
     log(f"\n💾 СОХРАНЕНИЕ В {DEPLOY_PATH}")
     log(f"   Папка создана: {os.path.exists(DEPLOY_PATH)}")
     log(f"   Подпапка создана: {os.path.exists(SUBSCRIPTIONS_PATH)}")
-    
+
     total_servers = 0
     sources_with_data = 0
-    
+
     # Сохраняем по одному файлу на источник
     for idx, servers in source_results:
         if servers:
             # Текстовый файл
-            txt_path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx+1}.txt")
+            txt_path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx + 1}.txt")
             with open(txt_path, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(servers))
-            
+
             # Base64 файл
-            b64_path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx+1}_b64.txt")
+            b64_path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx + 1}_b64.txt")
             b64 = base64.b64encode('\n'.join(servers).encode()).decode()
             with open(b64_path, 'w', encoding='utf-8') as f:
                 f.write(b64)
-            
-            log(f"  ✅ {idx+1}.txt: {len(servers)} серверов")
+
+            log(f"  ✅ {idx + 1}.txt: {len(servers)} серверов")
             total_servers += len(servers)
             sources_with_data += 1
-    
+
     # Общий файл
     all_servers = []
     for _, servers in source_results:
         all_servers.extend(servers)
-    
+
     if all_servers:
         txt_path = os.path.join(DEPLOY_PATH, "sub.txt")
         with open(txt_path, 'w', encoding='utf-8') as f:
             f.write('\n'.join(all_servers))
-        
+
         b64_path = os.path.join(DEPLOY_PATH, "sub_base64.txt")
         b64 = base64.b64encode('\n'.join(all_servers).encode()).decode()
         with open(b64_path, 'w', encoding='utf-8') as f:
             f.write(b64)
-        
+
         log(f"  ✅ sub.txt: {len(all_servers)} всего серверов")
-    
+
     # ПРОВЕРЯЕМ, ЧТО ФАЙЛЫ РЕАЛЬНО СОЗДАЛИСЬ
     log("\n🔍 ПРОВЕРКА:")
     if os.path.exists(DEPLOY_PATH):
@@ -309,43 +315,218 @@ def save_results(source_results: List[Tuple[int, List[str]]]):
         log(f"   В {DEPLOY_PATH} найдено: {files}")
     else:
         log(f"   ❌ {DEPLOY_PATH} НЕ СУЩЕСТВУЕТ!")
-    
+
     if os.path.exists(SUBSCRIPTIONS_PATH):
         files = os.listdir(SUBSCRIPTIONS_PATH)
         log(f"   В {SUBSCRIPTIONS_PATH} найдено: {sorted(files)[:5]}")
     else:
         log(f"   ❌ {SUBSCRIPTIONS_PATH} НЕ СУЩЕСТВУЕТ!")
-    
+
     return sources_with_data, total_servers
+
 
 # -------------------- ОСНОВНАЯ ФУНКЦИЯ --------------------
 async def main():
     start_time = time.time()
-    
-    print("\n" + "="*60)
+
+    print("\n" + "=" * 60)
     print("🚀 ПАРСЕР ДЛЯ ГИТХАБА")
-    print("="*60)
+    print("=" * 60)
     print(f"📁 Будет сохранено в: {DEPLOY_PATH}")
-    
+
     # Принудительно создаём папки ещё раз
     os.makedirs(DEPLOY_PATH, exist_ok=True)
     os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
-    
+
     async with HTTPFetcher() as fetcher:
         tasks = [process_source(i, url, fetcher) for i, url in enumerate(URLS)]
         results = await asyncio.gather(*tasks)
-    
+
     results.sort(key=lambda x: x[0])
     sources_with_data, total_servers = save_results(results)
-    
+
     elapsed = time.time() - start_time
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("✅ РАБОТА ЗАВЕРШЕНА")
-    print("="*60)
+    print("=" * 60)
     print(f"📊 Источников с данными: {sources_with_data}/{len(URLS)}")
     print(f"📊 Всего серверов: {total_servers}")
     print(f"⏱ Время: {elapsed:.1f}с")
-    print("="*60)
+    print("=" * 60)
 
+
+def generate_readme():
+    """Автоматически генерирует README.md на основе созданных файлов"""
+
+    # Получаем список всех файлов в subscriptions
+    subs_dir = "deploy/subscriptions"
+    if not os.path.exists(subs_dir):
+        print("❌ Папка subscriptions не найдена")
+        return
+
+    files = os.listdir(subs_dir)
+    # Находим все уникальные номера источников (1,2,3... из 1.txt, 2_b64.txt и т.д.)
+    source_numbers = set()
+    for f in files:
+        match = re.match(r'(\d+)', f)
+        if match:
+            source_numbers.add(int(match.group(1)))
+
+    source_list = sorted(source_numbers)
+    total_sources = len(source_list)
+
+    print(f"📊 Найдено источников с данными: {total_sources}")
+
+    # Базовая статистика
+    total_servers = 0
+    if os.path.exists("deploy/sub.txt"):
+        with open("deploy/sub.txt", "r", encoding="utf-8") as f:
+            total_servers = len(f.readlines())
+
+    # Генерируем таблицы для каждой платформы
+    android_table = ""
+    ios_table = ""
+    windows_table = ""
+    linux_table = ""
+
+    for num in source_list:
+        # Android/iOS - Base64 версии
+        android_table += f"| {num} | [`{num}_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/{num}_b64.txt) |\n"
+        ios_table += f"| {num} | [`{num}_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/{num}_b64.txt) |\n"
+
+        # Windows/Linux - текстовые версии
+        windows_table += f"| {num} | [`{num}.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/{num}.txt) |\n"
+        linux_table += f"| {num} | [`{num}.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/{num}.txt) |\n"
+
+    # Шаблон README
+    readme_content = f"""# 🍄 VLESS ПО ГРИБЫ - Бесплатные VPN подписки 
+
+<div align="center">
+
+### 🍄‍🟫 Ежедневно обновляемая коллекция рабочих VPN-серверов
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/hiztin/VLESS-PO-GRIBI)](https://github.com/hiztin/VLESS-PO-GRIBI/commits/main)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/hiztin/VLESS-PO-GRIBI/update-subscriptions.yml)](https://github.com/hiztin/VLESS-PO-GRIBI/actions)
+[![License](https://img.shields.io/github/license/hiztin/VLESS-PO-GRIBI)](LICENSE)
+![Серверов](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=alive&label=рабочих&color=green)
+
+</div>
+
+## 🍄‍🟫 О проекте
+
+Этот проект автоматически собирает и проверяет **бесплатные VPN-серверы** из открытых источников. Обновление происходит **каждый день** через GitHub Actions, поэтому подписки всегда актуальны. Проект ещё в разработке,
+поэтому подписки не подписаны и\или что-то может не работать
+
+
+### 🍄‍🟫 Основные подписки
+
+| Формат | Описание | Прямая ссылка для копирования |
+|--------|----------|-------------------------------|
+| **Base64 (для V2Ray/V2Box)** | Полная подписка, все серверы | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt` |
+| **Текстовый формат** | Обычный текст, по одному ключу в строке | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt` |
+| **Статистика** | Данные о количестве серверов | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json` |
+
+
+**[🍄 Открыть папку со всеми файлами (СЕРВЕРАМИ)](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+
+## 📱 Как использовать (нажми для раскрытия)
+
+<details>
+<summary><b>📱 Android — v2rayNG</b></summary>
+
+**Как добавить подписку:**
+1. Открой v2rayNG
+2. Нажми `+` → **"Импорт подписки из буфера"**
+3. Вставь одну из ссылок ниже:
+
+| № источника | Base64 (для v2rayNG) |
+|-------------|----------------------|
+{android_table}
+**[📂 Все файлы Android](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+
+</details>
+
+<details>
+<summary><b>📱 iOS — V2Box</b></summary>
+
+**Как добавить подписку:**
+1. Открой V2Box
+2. Перейди в **"Конфигурации"** → `+` → **"Импортировать V2Ray URL из буфера"**
+3. Вставь одну из ссылок ниже:
+
+| № источника | Base64 (для V2Box) |
+|-------------|---------------------|
+{ios_table}
+**[📂 Все файлы iOS](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+
+</details>
+
+<details>
+<summary><b>💻 Windows — Throne</b></summary>
+
+**Как добавить подписку:**
+1. Открой Throne
+2. Нажми **"Профили"** → **"Добавить профиль из буфера"**
+3. Вставь одну из ссылок ниже:
+
+| № источника | Текстовый формат |
+|-------------|------------------|
+{windows_table}
+**[📂 Все файлы Windows](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+
+</details>
+
+<details>
+<summary><b>🐧 Linux — NekoRay</b></summary>
+
+**Как добавить подписку:**
+1. Открой NekoRay
+2. Нажми **"Программа"** → **"Добавить подписку"**
+3. Вставь одну из ссылок ниже:
+
+| № источника | Текстовый формат |
+|-------------|------------------|
+{linux_table}
+**[📂 Все файлы Linux](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+
+</details>
+
+
+## 📊 Статистика
+
+- **Всего серверов**: ~{total_servers}+
+- **Активных источников**: {total_sources}
+- **Протоколы**: VMess, VLESS, Shadowsocks (Trojan отфильтрован)
+- **Обновление**: каждые 3 часа UTC
+
+
+
+## 🍄 Контакты и поддержка
+
+- **Discord**: `h1zz`
+- **GitHub Issues**: [Создать issue](https://github.com/hiztin/VLESS-PO-GRIBI/issues)
+
+## 🍄 Дисклеймер
+
+Данный проект носит исключительно образовательный и технический характер. Материалы предоставлены для изучения принципов работы сетевых протоколов и автоматизации сбора данных.
+
+Автор не несет ответственности за использование предоставленной информации. Проект не ставит целью рекламу или побуждение к обходу законодательства РФ. Использование любых технологий должно соответствовать законам вашей страны.
+
+<div align="center">
+
+### ⭐ Если проект полезен, поставь звезду! ⭐
+
+[![GitHub stars](https://img.shields.io/github/stars/hiztin/VLESS-PO-GRIBI?style=social)](https://github.com/hiztin/VLESS-PO-GRIBI/stargazers)
+
+</div>
+"""
+
+    # Сохраняем README
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(readme_content)
+
+    print(f"✅ README.md сгенерирован! ({total_sources} источников, {total_servers} серверов)")
+    return total_sources
+# В конце main(), после save_results():
 if __name__ == "__main__":
     asyncio.run(main())
