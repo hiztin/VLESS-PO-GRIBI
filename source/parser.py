@@ -11,6 +11,7 @@ from collections import defaultdict
 from urllib.parse import urlparse
 from typing import List, Tuple, Optional
 from datetime import datetime
+import zoneinfo
 
 # -------------------- НАСТРОЙКИ --------------------
 PING_TIMEOUT = 3.0
@@ -53,13 +54,11 @@ URLS = [
     "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
 ]
 
-
 # -------------------- ЛОГИРОВАНИЕ --------------------
 def log(message: str):
     """Добавляет сообщение в лог"""
     timestamp = datetime.now().strftime("%H:%M:%S")
     print(f"[{timestamp}] {message}")
-
 
 # -------------------- HTTP КЛИЕНТ --------------------
 class HTTPFetcher:
@@ -94,7 +93,6 @@ class HTTPFetcher:
                 if attempt < 3:
                     await asyncio.sleep(1)
         return None
-
 
 # -------------------- ПАРСЕР КОНФИГОВ --------------------
 class ConfigParser:
@@ -170,7 +168,6 @@ class ConfigParser:
 
         return "\n".join(result), filtered
 
-
 # -------------------- ПРОВЕРКА ПИНГА --------------------
 async def check_server_ping(config: str, semaphore: asyncio.Semaphore) -> Tuple[Optional[str], Optional[float]]:
     host, port = ConfigParser.extract_host_port(config)
@@ -200,7 +197,6 @@ async def check_server_ping(config: str, semaphore: asyncio.Semaphore) -> Tuple[
 
         except:
             return None, None
-
 
 # -------------------- ОБРАБОТКА ИСТОЧНИКА --------------------
 async def process_source(idx: int, url: str, fetcher: HTTPFetcher) -> Tuple[int, List[str]]:
@@ -258,34 +254,22 @@ async def process_source(idx: int, url: str, fetcher: HTTPFetcher) -> Tuple[int,
 
     return idx, best_servers
 
-
-# -------------------- СОХРАНЕНИЕ НА ГИТХАБ --------------------
+# -------------------- СОХРАНЕНИЕ В ФАЙЛЫ (ТОЛЬКО .TXT) --------------------
 def save_results(source_results: List[Tuple[int, List[str]]]):
-    """Сохраняет файлы прямо в папку репозитория"""
-
-    # СОЗДАЁМ ПАПКИ ПРЯМО ЗДЕСЬ
+    """Сохраняет только текстовые файлы .txt"""
     os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
 
     log(f"\n💾 СОХРАНЕНИЕ В {DEPLOY_PATH}")
-    log(f"   Папка создана: {os.path.exists(DEPLOY_PATH)}")
-    log(f"   Подпапка создана: {os.path.exists(SUBSCRIPTIONS_PATH)}")
 
     total_servers = 0
     sources_with_data = 0
 
-    # Сохраняем по одному файлу на источник
+    # Сохраняем по одному файлу на источник (только .txt)
     for idx, servers in source_results:
         if servers:
-            # Текстовый файл
             txt_path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx + 1}.txt")
             with open(txt_path, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(servers))
-
-            # Base64 файл
-            b64_path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx + 1}_b64.txt")
-            b64 = base64.b64encode('\n'.join(servers).encode()).decode()
-            with open(b64_path, 'w', encoding='utf-8') as f:
-                f.write(b64)
 
             log(f"  ✅ {idx + 1}.txt: {len(servers)} серверов")
             total_servers += len(servers)
@@ -301,65 +285,13 @@ def save_results(source_results: List[Tuple[int, List[str]]]):
         with open(txt_path, 'w', encoding='utf-8') as f:
             f.write('\n'.join(all_servers))
 
-        b64_path = os.path.join(DEPLOY_PATH, "sub_base64.txt")
-        b64 = base64.b64encode('\n'.join(all_servers).encode()).decode()
-        with open(b64_path, 'w', encoding='utf-8') as f:
-            f.write(b64)
-
         log(f"  ✅ sub.txt: {len(all_servers)} всего серверов")
-
-    # ПРОВЕРЯЕМ, ЧТО ФАЙЛЫ РЕАЛЬНО СОЗДАЛИСЬ
-    log("\n🔍 ПРОВЕРКА:")
-    if os.path.exists(DEPLOY_PATH):
-        files = os.listdir(DEPLOY_PATH)
-        log(f"   В {DEPLOY_PATH} найдено: {files}")
-    else:
-        log(f"   ❌ {DEPLOY_PATH} НЕ СУЩЕСТВУЕТ!")
-
-    if os.path.exists(SUBSCRIPTIONS_PATH):
-        files = os.listdir(SUBSCRIPTIONS_PATH)
-        log(f"   В {SUBSCRIPTIONS_PATH} найдено: {sorted(files)[:5]}")
-    else:
-        log(f"   ❌ {SUBSCRIPTIONS_PATH} НЕ СУЩЕСТВУЕТ!")
 
     return sources_with_data, total_servers
 
-
-# -------------------- ОСНОВНАЯ ФУНКЦИЯ --------------------
-async def main():
-    start_time = time.time()
-
-    print("\n" + "=" * 60)
-    print("🚀 ПАРСЕР ДЛЯ ГИТХАБА")
-    print("=" * 60)
-    print(f"📁 Будет сохранено в: {DEPLOY_PATH}")
-
-    # Принудительно создаём папки ещё раз
-    os.makedirs(DEPLOY_PATH, exist_ok=True)
-    os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
-
-    async with HTTPFetcher() as fetcher:
-        tasks = [process_source(i, url, fetcher) for i, url in enumerate(URLS)]
-        results = await asyncio.gather(*tasks)
-
-    results.sort(key=lambda x: x[0])
-    sources_with_data, total_servers = save_results(results)
-
-    elapsed = time.time() - start_time
-    print("\n" + "=" * 60)
-    print("✅ РАБОТА ЗАВЕРШЕНА")
-    print("=" * 60)
-    print(f"📊 Источников с данными: {sources_with_data}/{len(URLS)}")
-    print(f"📊 Всего серверов: {total_servers}")
-    print(f"⏱ Время: {elapsed:.1f}с")
-    print("=" * 60)
-
-
+# -------------------- ГЕНЕРАЦИЯ README (БЕЗ BASE64) --------------------
 def generate_readme():
-    """Автоматически генерирует README.md с таблицей статусов и рабочими ссылками"""
-    
-    from datetime import datetime
-    import zoneinfo
+    """Генерирует README.md с таблицей статусов и только .txt ссылками"""
     
     # Текущее время по Москве
     zone = zoneinfo.ZoneInfo("Europe/Moscow")
@@ -367,8 +299,8 @@ def generate_readme():
     time_str = current_time.strftime("%H:%M")
     date_str = current_time.strftime("%d.%m.%Y")
     
-    # Получаем список источников
-    sources = [
+    # Список источников с названиями
+    source_names = [
         "sakha1370/OpenRay",
         "sevcator/5ubscrpt10n",
         "yitong2333/proxy-minging",
@@ -396,7 +328,6 @@ def generate_readme():
         "V2RayRoot/V2RayConfig",
     ]
     
-    # Проверяем, какие файлы реально существуют
     subs_dir = "deploy/subscriptions"
     existing_files = set()
     if os.path.exists(subs_dir):
@@ -405,35 +336,22 @@ def generate_readme():
             if match:
                 existing_files.add(int(match.group(1)))
     
-    # Генерируем таблицу статусов
+    # Таблица статусов
     status_table = ""
-    for i, source in enumerate(sources, 1):
+    for i, source in enumerate(source_names, 1):
         filename = f"{i}.txt"
         if i in existing_files:
             status_table += f"| {i} | `{filename}` | {source} | {time_str} | {date_str} |\n"
         else:
             status_table += f"| {i} | `{filename}` | {source} | ⏳ Нет данных | ⏳ Нет данных |\n"
     
-    # Добавляем 26-й файл если есть
-    if os.path.exists("deploy/subscriptions/26.txt"):
-        status_table += f"| 26 | `26.txt` | Обход SNI/CIDR белых списков | {time_str} | {date_str} |\n"
-    
-    # Генерируем рабочие ссылки (как в предыдущей версии)
-    android_table = ""
-    ios_table = ""
-    windows_table = ""
-    linux_table = ""
-    
+    # Таблица рабочих ссылок (только .txt)
+    working_table = ""
     BASE_RAW_URL = "https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions"
     
-    for i in range(1, 27):
-        if os.path.exists(f"deploy/subscriptions/{i}_b64.txt"):
-            android_table += f"| {i} | [`{i}_b64.txt`]({BASE_RAW_URL}/{i}_b64.txt) |\n"
-            ios_table += f"| {i} | [`{i}_b64.txt`]({BASE_RAW_URL}/{i}_b64.txt) |\n"
-        
+    for i in range(1, 26):
         if os.path.exists(f"deploy/subscriptions/{i}.txt"):
-            windows_table += f"| {i} | [`{i}.txt`]({BASE_RAW_URL}/{i}.txt) |\n"
-            linux_table += f"| {i} | [`{i}.txt`]({BASE_RAW_URL}/{i}.txt) |\n"
+            working_table += f"| {i} | [`{i}.txt`]({BASE_RAW_URL}/{i}.txt) |\n"
     
     # Подсчёт серверов
     total_servers = 0
@@ -441,7 +359,6 @@ def generate_readme():
         with open("deploy/sub.txt", "r", encoding="utf-8") as f:
             total_servers = len(f.readlines())
     
-    # Полный README
     readme_content = f"""# 🍄 VLESS ПО ГРИБЫ - Бесплатные VPN подписки 
 
 <div align="center">
@@ -465,101 +382,35 @@ def generate_readme():
 ## 📊 Статус конфигов
 
 > ⚠️ **Внимание!** Эта таблица показывает только источники и статус обновления конфигов. **Не копируйте ссылки отсюда!**  
-> Для использования копируйте ссылки из раздела **«🍄 Общий список всех вечно актуальных конфигов»** ниже.
+> Для использования копируйте ссылки из раздела **«🍄 Рабочие конфиги»** ниже.
 
 | № | Файл | Источник | Время | Дата |
 |---|------|----------|-------|------|
 {status_table}
 
+---
+
+## 🍄 Рабочие конфиги
+
+### 📦 Полная подписка (все серверы сразу)
+
+`https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt`
+
+### 📁 Конфиги по источникам (по 200 лучших с каждого)
+
+| № | Ссылка для скачивания |
+|---|----------------------|
+{working_table}
+
 **[🍄 Открыть папку со всеми файлами](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
-
----
-
-## 🍄 Общий список всех вечно актуальных конфигов
-
-### 📦 Основные подписки (все серверы сразу)
-
-| Формат | Описание | Прямая ссылка для копирования |
-|--------|----------|-------------------------------|
-| **Base64** | Для V2Ray/V2Box (Android/iOS) | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt` |
-| **Текст** | Для Throne/NekoRay (Windows/Linux) | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt` |
-| **Статистика** | Данные о количестве серверов | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json` |
-
----
-
-## 📁 Конфиги по источникам (по 200 лучших с каждого)
-
-<details>
-<summary><b>📱 Android — v2rayNG</b></summary>
-
-**Как добавить подписку:**
-1. Открой v2rayNG
-2. Нажми `+` → **"Импорт подписки из буфера"**
-3. Вставь ссылку из таблицы ниже:
-
-| № | Base64 ссылка (копировать) |
-|---|---------------------------|
-{android_table}
-
-**[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
-
-</details>
-
-<details>
-<summary><b>📱 iOS — V2Box</b></summary>
-
-**Как добавить подписку:**
-1. Открой V2Box
-2. Перейди в **"Конфигурации"** → `+` → **"Импортировать V2Ray URL из буфера"**
-3. Вставь ссылку из таблицы ниже:
-
-| № | Base64 ссылка |
-|---|--------------|
-{ios_table}
-
-**[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
-
-</details>
-
-<details>
-<summary><b>💻 Windows — Throne</b></summary>
-
-**Как добавить подписку:**
-1. Открой Throne
-2. Нажми **"Профили"** → **"Добавить профиль из буфера"**
-3. Вставь ссылку из таблицы ниже:
-
-| № | Текстовая ссылка |
-|---|-----------------|
-{windows_table}
-
-**[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
-
-</details>
-
-<details>
-<summary><b>🐧 Linux — NekoRay</b></summary>
-
-**Как добавить подписку:**
-1. Открой NekoRay
-2. Нажми **"Программа"** → **"Добавить подписку"**
-3. Вставь ссылку из таблицы ниже:
-
-| № | Текстовая ссылка |
-|---|-----------------|
-{linux_table}
-
-**[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
-
-</details>
 
 ---
 
 ## 📊 Статистика
 
 - **Всего серверов**: ~{total_servers}+
-- **Активных источников**: {len([i for i in range(1,27) if os.path.exists(f'deploy/subscriptions/{i}.txt')])}
-- **Протоколы**: VMess, VLESS, Shadowsocks
+- **Активных источников**: {len(existing_files)}
+- **Протоколы**: VMess, VLESS, Shadowsocks (Trojan отфильтрован)
 - **Обновление**: каждые 3 часа UTC
 - **Последнее обновление**: {time_str} {date_str}
 
@@ -584,9 +435,38 @@ def generate_readme():
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
     
-    print(f"✅ README.md обновлён!")
-    print(f"📊 Таблица статусов: {len([i for i in range(1,27) if os.path.exists(f'deploy/subscriptions/{i}.txt')])} активных источников")
-# В конце main(), после save_results():
+    print(f"✅ README.md обновлён! ({len(existing_files)} источников, {total_servers} серверов)")
+
+# -------------------- ОСНОВНАЯ ФУНКЦИЯ --------------------
+async def main():
+    start_time = time.time()
+
+    print("\n" + "=" * 60)
+    print("🚀 ПАРСЕР ДЛЯ ГИТХАБА")
+    print("=" * 60)
+    print(f"📁 Будет сохранено в: {DEPLOY_PATH}")
+
+    os.makedirs(DEPLOY_PATH, exist_ok=True)
+    os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
+
+    async with HTTPFetcher() as fetcher:
+        tasks = [process_source(i, url, fetcher) for i, url in enumerate(URLS)]
+        results = await asyncio.gather(*tasks)
+
+    results.sort(key=lambda x: x[0])
+    sources_with_data, total_servers = save_results(results)
+    
+    # Генерируем README после сохранения
+    generate_readme()
+
+    elapsed = time.time() - start_time
+    print("\n" + "=" * 60)
+    print("✅ РАБОТА ЗАВЕРШЕНА")
+    print("=" * 60)
+    print(f"📊 Источников с данными: {sources_with_data}/{len(URLS)}")
+    print(f"📊 Всего серверов: {total_servers}")
+    print(f"⏱ Время: {elapsed:.1f}с")
+    print("=" * 60)
+
 if __name__ == "__main__":
     asyncio.run(main())
-
