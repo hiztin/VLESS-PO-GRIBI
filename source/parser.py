@@ -356,16 +356,14 @@ async def main():
 
 
 def generate_readme():
-    """Автоматически генерирует README.md на основе созданных файлов"""
+    """Автоматически генерирует README.md с raw-ссылками"""
 
-    # Получаем список всех файлов в subscriptions
     subs_dir = "deploy/subscriptions"
     if not os.path.exists(subs_dir):
         print("❌ Папка subscriptions не найдена")
         return
 
     files = os.listdir(subs_dir)
-    # Находим все уникальные номера источников (1,2,3... из 1.txt, 2_b64.txt и т.д.)
     source_numbers = set()
     for f in files:
         match = re.match(r'(\d+)', f)
@@ -375,30 +373,30 @@ def generate_readme():
     source_list = sorted(source_numbers)
     total_sources = len(source_list)
 
-    print(f"📊 Найдено источников с данными: {total_sources}")
-
     # Базовая статистика
     total_servers = 0
     if os.path.exists("deploy/sub.txt"):
         with open("deploy/sub.txt", "r", encoding="utf-8") as f:
             total_servers = len(f.readlines())
 
-    # Генерируем таблицы для каждой платформы
+    # Генерируем таблицы с RAW-ссылками
     android_table = ""
     ios_table = ""
     windows_table = ""
     linux_table = ""
 
+    BASE_RAW_URL = "https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions"
+
     for num in source_list:
-        # Android/iOS - Base64 версии
-        android_table += f"| {num} | [`{num}_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/{num}_b64.txt) |\n"
-        ios_table += f"| {num} | [`{num}_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/{num}_b64.txt) |\n"
+        # Android/iOS - Base64 версии с RAW
+        android_table += f"| {num} | [`{num}_b64.txt`]({BASE_RAW_URL}/{num}_b64.txt) |\n"
+        ios_table += f"| {num} | [`{num}_b64.txt`]({BASE_RAW_URL}/{num}_b64.txt) |\n"
 
-        # Windows/Linux - текстовые версии
-        windows_table += f"| {num} | [`{num}.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/{num}.txt) |\n"
-        linux_table += f"| {num} | [`{num}.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/{num}.txt) |\n"
+        # Windows/Linux - текстовые версии с RAW
+        windows_table += f"| {num} | [`{num}.txt`]({BASE_RAW_URL}/{num}.txt) |\n"
+        linux_table += f"| {num} | [`{num}.txt`]({BASE_RAW_URL}/{num}.txt) |\n"
 
-    # Шаблон README
+    # Шаблон README (сократил для примера, но оставил главное)
     readme_content = f"""# 🍄 VLESS ПО ГРИБЫ - Бесплатные VPN подписки 
 
 <div align="center">
@@ -414,9 +412,7 @@ def generate_readme():
 
 ## 🍄‍🟫 О проекте
 
-Этот проект автоматически собирает и проверяет **бесплатные VPN-серверы** из открытых источников. Обновление происходит **каждый день** через GitHub Actions, поэтому подписки всегда актуальны. Проект ещё в разработке,
-поэтому подписки не подписаны и\или что-то может не работать
-
+Этот проект автоматически собирает и проверяет **бесплатные VPN-серверы** из открытых источников. Обновление происходит **каждый день** через GitHub Actions, поэтому подписки всегда актуальны.
 
 ### 🍄‍🟫 Основные подписки
 
@@ -426,10 +422,9 @@ def generate_readme():
 | **Текстовый формат** | Обычный текст, по одному ключу в строке | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt` |
 | **Статистика** | Данные о количестве серверов | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json` |
 
+**[🍄 Открыть папку со всеми файлами](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
-**[🍄 Открыть папку со всеми файлами (СЕРВЕРАМИ)](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
-
-## 📱 Как использовать (нажми для раскрытия)
+## 📱 Как использовать
 
 <details>
 <summary><b>📱 Android — v2rayNG</b></summary>
@@ -439,10 +434,10 @@ def generate_readme():
 2. Нажми `+` → **"Импорт подписки из буфера"**
 3. Вставь одну из ссылок ниже:
 
-| № источника | Base64 (для v2rayNG) |
-|-------------|----------------------|
+| № | Base64 ссылка (копировать всю строку) |
+|---|--------------------------------------|
 {android_table}
-**[📂 Все файлы Android](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+**[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
 
@@ -454,10 +449,10 @@ def generate_readme():
 2. Перейди в **"Конфигурации"** → `+` → **"Импортировать V2Ray URL из буфера"**
 3. Вставь одну из ссылок ниже:
 
-| № источника | Base64 (для V2Box) |
-|-------------|---------------------|
+| № | Base64 ссылка |
+|---|--------------|
 {ios_table}
-**[📂 Все файлы iOS](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+**[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
 
@@ -469,10 +464,10 @@ def generate_readme():
 2. Нажми **"Профили"** → **"Добавить профиль из буфера"**
 3. Вставь одну из ссылок ниже:
 
-| № источника | Текстовый формат |
-|-------------|------------------|
+| № | Текстовая ссылка |
+|---|-----------------|
 {windows_table}
-**[📂 Все файлы Windows](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+**[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
 
@@ -484,33 +479,24 @@ def generate_readme():
 2. Нажми **"Программа"** → **"Добавить подписку"**
 3. Вставь одну из ссылок ниже:
 
-| № источника | Текстовый формат |
-|-------------|------------------|
+| № | Текстовая ссылка |
+|---|-----------------|
 {linux_table}
-**[📂 Все файлы Linux](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+**[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
-
 
 ## 📊 Статистика
 
 - **Всего серверов**: ~{total_servers}+
 - **Активных источников**: {total_sources}
-- **Протоколы**: VMess, VLESS, Shadowsocks (Trojan отфильтрован)
+- **Протоколы**: VMess, VLESS, Shadowsocks
 - **Обновление**: каждые 3 часа UTC
-
-
 
 ## 🍄 Контакты и поддержка
 
 - **Discord**: `h1zz`
 - **GitHub Issues**: [Создать issue](https://github.com/hiztin/VLESS-PO-GRIBI/issues)
-
-## 🍄 Дисклеймер
-
-Данный проект носит исключительно образовательный и технический характер. Материалы предоставлены для изучения принципов работы сетевых протоколов и автоматизации сбора данных.
-
-Автор не несет ответственности за использование предоставленной информации. Проект не ставит целью рекламу или побуждение к обходу законодательства РФ. Использование любых технологий должно соответствовать законам вашей страны.
 
 <div align="center">
 
@@ -521,12 +507,10 @@ def generate_readme():
 </div>
 """
 
-    # Сохраняем README
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
 
-    print(f"✅ README.md сгенерирован! ({total_sources} источников, {total_servers} серверов)")
-    return total_sources
+    print(f"✅ README.md обновлён с raw-ссылками! ({total_sources} источников)")
 # В конце main(), после save_results():
 if __name__ == "__main__":
     asyncio.run(main())
