@@ -1,0 +1,10 @@
+{
+  "total": 2711,
+  "by_protocol": {
+    "vless": 2080,
+    "vmess": 631
+  },
+  "filtered_out": [
+    "trojan"
+  ]
+}
