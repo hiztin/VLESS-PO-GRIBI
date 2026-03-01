@@ -94,6 +94,7 @@ b64
 ## 🍄 Контакты и поддержка
 
 - **Discord**: `h1zz`
+- tg: https://t.me/h1zzich
 - **GitHub Issues**: [Создать issue](https://github.com/hiztin/VLESS-PO-GRIBI/issues)
 
 ## 🍄 Дисклеймер
