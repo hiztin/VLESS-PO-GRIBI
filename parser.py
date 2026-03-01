@@ -7,6 +7,7 @@ import os
 import ipaddress
 import math
 import time
+import statistics
 from urllib.parse import urlparse
 from typing import List, Tuple, Optional
 
@@ -15,11 +16,13 @@ SOURCES = [
     # "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/All_Configs_Sub.txt",
     #"https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/refs/heads/main/all_extracted_configs.txt"
 ]
-
-TIMEOUT = 0.5
+TIMEOUT = 7.0
 CONCURRENT_LIMIT = 50
 SERVERS_PER_FILE = 200
-MAX_PING_MS = 500  # Максимальный пинг для сохранения (отсекаем очень медленные)
+
+MAX_PING_MS = 800
+MIN_PING_MS = 10
+PING_SAMPLES = 2
 
 # Протоколы, которые нужно сохранять
 ALLOWED_PROTOCOLS = ['vless', 'vmess', 'ss']
@@ -30,7 +33,6 @@ class TurboParser:
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
         }
-        # Для хранения результатов с пингом
         self.servers_with_ping: List[Tuple[str, float]] = []
 
     def decode_base64(self, text):
@@ -142,7 +144,7 @@ class TurboParser:
             return []
 
     async def check_server_with_ping(self, config, semaphore):
-        """Проверка доступности сервера с замером пинга"""
+        """Умная проверка сервера с несколькими замерами"""
         host, port = self.extract_host_port(config)
 
         if not host or not port:
@@ -150,32 +152,45 @@ class TurboParser:
 
         async with semaphore:
             try:
-                # Замеряем время разрешения DNS (если нужно)
-                try:
-                    ipaddress.ip_address(host)
-                except ValueError:
-                    start_dns = time.time()
+                # Делаем несколько замеров
+                pings = []
+
+                for sample in range(PING_SAMPLES):
                     try:
-                        await asyncio.get_event_loop().getaddrinfo(host, port)
-                        dns_time = (time.time() - start_dns) * 1000
-                    except:
+                        start = time.time()
+
+                        # Проверяем DNS если нужно
+                        try:
+                            ipaddress.ip_address(host)
+                        except ValueError:
+                            await asyncio.get_event_loop().getaddrinfo(host, port)
+
+                        # Подключаемся
+                        conn = asyncio.open_connection(host, port)
+                        _, writer = await asyncio.wait_for(conn, timeout=TIMEOUT)
+
+                        elapsed = (time.time() - start) * 1000
+                        pings.append(elapsed)
+
+                        writer.close()
+                        await writer.wait_closed()
+
+                        # Небольшая пауза между замерами
+                        if sample < PING_SAMPLES - 1:
+                            await asyncio.sleep(0.1)
+
+                    except Exception:
                         return None, None
-                else:
-                    dns_time = 0
 
-                # Замеряем время подключения
-                start_conn = time.time()
-                conn = asyncio.open_connection(host, port)
-                _, writer = await asyncio.wait_for(conn, timeout=TIMEOUT)
-                conn_time = (time.time() - start_conn) * 1000
+                # Берём медиану (устойчива к выбросам)
+                final_ping = statistics.median(pings)
 
-                writer.close()
-                await writer.wait_closed()
+                # Проверяем на реалистичность
+                if final_ping < MIN_PING_MS or final_ping > 2000:
+                    return None, None
 
-                total_time = dns_time + conn_time
-                print(f"    [LIVE] {host}:{port} - {total_time:.1f}ms (DNS: {dns_time:.1f}ms, Conn: {conn_time:.1f}ms)")
-
-                return config, total_time
+                print(f"    [LIVE] {host}:{port} - {final_ping:.1f}ms (медиана из {PING_SAMPLES})")
+                return config, final_ping
 
             except asyncio.TimeoutError:
                 return None, None
@@ -209,14 +224,12 @@ def split_into_files(data, base_filename="sub", items_per_file=SERVERS_PER_FILE)
         file_number = i + 1
         file_prefix = f"{base_filename}_{file_number:03d}"
 
-        # Текстовый файл
         txt_filename = f"{file_prefix}.txt"
         txt_path = os.path.join(subs_dir, txt_filename)
         with open(txt_path, 'w', encoding='utf-8') as f:
             f.write(chunk_text)
         created_files.append(txt_path)
 
-        # Base64 файл
         b64_filename = f"{file_prefix}_b64.txt"
         b64_path = os.path.join(subs_dir, b64_filename)
         chunk_b64 = base64.b64encode(chunk_text.encode()).decode()
@@ -252,53 +265,63 @@ def create_links_file(subs_dir, num_files, base_filename):
 
 
 def save_sorted_by_ping(servers_with_ping: List[Tuple[str, float]]):
-    """
-    Сохраняет серверы, отсортированные по пингу
-    """
+    """Сохраняет серверы, отсортированные по пингу"""
     if not servers_with_ping:
         return
 
-    # Сортируем по пингу (от быстрых к медленным)
+    # Сортируем по пингу
     sorted_servers = sorted(servers_with_ping, key=lambda x: x[1])
-
-    # Отделяем только конфиги (без пинга) для обычных файлов
     sorted_configs = [s[0] for s in sorted_servers]
 
-    # Сохраняем отсортированные версии
     os.makedirs('deploy', exist_ok=True)
 
-    # Текстовый файл (отсортированный)
+    # Текстовый файл
     with open('deploy/sub_sorted.txt', 'w', encoding='utf-8') as f:
         f.write("\n".join(sorted_configs))
 
-    # Base64 файл (отсортированный)
+    # Base64 файл
     with open('deploy/sub_sorted_b64.txt', 'w', encoding='utf-8') as f:
         all_b64 = base64.b64encode("\n".join(sorted_configs).encode()).decode()
         f.write(all_b64)
 
-    # Создаём JSON с детальной информацией о пинге
+    # Статистика по пингу
+    ping_values = [p for _, p in sorted_servers]
+
+    # Квартили для анализа
+    q1 = statistics.quantiles(ping_values, n=4)[0] if len(ping_values) >= 4 else 0
+    q3 = statistics.quantiles(ping_values, n=4)[2] if len(ping_values) >= 4 else 0
+
     ping_details = []
-    for config, ping_ms in sorted_servers[:100]:  # Только первые 100 для читаемости
+    for config, ping_ms in sorted_servers[:50]:  # Только первые 50 для читаемости
         host, _ = extract_host_port_simple(config)
         ping_details.append({
             'host': host,
             'ping_ms': round(ping_ms, 1),
-            'config_preview': config[:50] + '...'
+            'quality': 'быстрый' if ping_ms < 200 else 'средний' if ping_ms < 400 else 'медленный'
         })
 
     with open('deploy/ping_stats.json', 'w', encoding='utf-8') as f:
         json.dump({
             'total': len(sorted_servers),
-            'fastest_ping': round(sorted_servers[0][1], 1) if sorted_servers else None,
-            'slowest_ping': round(sorted_servers[-1][1], 1) if sorted_servers else None,
-            'average_ping': round(sum(p[1] for p in sorted_servers) / len(sorted_servers), 1),
+            'min_ping': round(min(ping_values), 1),
+            'max_ping': round(max(ping_values), 1),
+            'avg_ping': round(statistics.mean(ping_values), 1),
+            'median_ping': round(statistics.median(ping_values), 1),
+            'q1_ping': round(q1, 1),
+            'q3_ping': round(q3, 1),
+            'fast_servers': len([p for p in ping_values if p < 200]),
+            'medium_servers': len([p for p in ping_values if 200 <= p < 400]),
+            'slow_servers': len([p for p in ping_values if p >= 400]),
+            'samples_per_server': PING_SAMPLES,
             'servers_by_ping': ping_details
         }, f, indent=2, ensure_ascii=False)
 
-    print(f"📊 Отсортировано по пингу:")
-    print(f"   • Самый быстрый: {sorted_servers[0][1]:.1f}ms")
-    print(f"   • Средний пинг: {sum(p[1] for p in sorted_servers) / len(sorted_servers):.1f}ms")
-    print(f"   • Самый медленный: {sorted_servers[-1][1]:.1f}ms")
+    print(f"📊 Статистика по пингу:")
+    print(f"   • Мин: {min(ping_values):.1f}ms, Макс: {max(ping_values):.1f}ms")
+    print(f"   • Средний: {statistics.mean(ping_values):.1f}ms")
+    print(f"   • Медиана: {statistics.median(ping_values):.1f}ms")
+    print(f"   • Быстрых (<200ms): {len([p for p in ping_values if p < 200])}")
+    print(f"   • Медленных (>400ms): {len([p for p in ping_values if p >= 400])}")
 
     return sorted_configs
 
@@ -316,19 +339,39 @@ def extract_host_port_simple(config):
         return "unknown", 0
 
 
-def filter_slow_servers(servers_with_ping: List[Tuple[str, float]], max_ping=MAX_PING_MS):
-    """Отсеивает серверы с пингом выше max_ping"""
-    filtered = [(c, p) for c, p in servers_with_ping if p <= max_ping]
+def filter_by_ping_intelligently(servers_with_ping: List[Tuple[str, float]]):
+    """
+    Умная фильтрация по пингу:
+    - Не отсекаем всех подряд, а анализируем распределение
+    """
+    if not servers_with_ping:
+        return []
+
+    ping_values = [p for _, p in servers_with_ping]
+
+    # Если серверов мало - оставляем все
+    if len(ping_values) < 10:
+        print(f"⚠️ Мало серверов ({len(ping_values)}), оставляем все")
+        return servers_with_ping
+
+    median_ping = statistics.median(ping_values)
+    q3 = statistics.quantiles(ping_values, n=4)[2] if len(ping_values) >= 4 else median_ping * 1.5
+
+    threshold = min(median_ping * 2, q3 * 1.2, 800)  
+
+    filtered = [(c, p) for c, p in servers_with_ping if p <= threshold]
     removed = len(servers_with_ping) - len(filtered)
 
-    if removed > 0:
-        print(f"⚠️ Отсеяно {removed} медленных серверов (пинг > {max_ping}ms)")
+    print(f"📊 Анализ пинга:")
+    print(f"   • Медиана: {median_ping:.1f}ms")
+    print(f"   • Порог отсечения: {threshold:.1f}ms")
+    print(f"   • Оставлено: {len(filtered)}, отсеяно: {removed}")
 
     return filtered
 
 
 def save_main_files(alive_servers, total_found):
-    """Сохраняет основные файлы (без сортировки)"""
+    """Сохраняет основные файлы"""
     os.makedirs('deploy', exist_ok=True)
 
     with open('deploy/sub.txt', 'w', encoding='utf-8') as f:
@@ -414,11 +457,9 @@ async def main():
         print("\n⚡ ПРОВЕРКА ДОСТУПНОСТИ И ЗАМЕР ПИНГА")
         sem = asyncio.Semaphore(CONCURRENT_LIMIT)
 
-        # Собираем результаты с пингом
         check_tasks = [parser.check_server_with_ping(link, sem) for link in unique_links]
         results_with_ping = await asyncio.gather(*check_tasks)
 
-        # Фильтруем успешные
         servers_with_ping = [(c, p) for c, p in results_with_ping if c is not None]
 
         print(f"\n📊 ДОСТУПНО СЕРВЕРОВ: {len(servers_with_ping)}")
@@ -426,50 +467,32 @@ async def main():
         if not servers_with_ping:
             print("❌ Нет доступных серверов")
             return
+        servers_with_ping = filter_by_ping_intelligently(servers_with_ping)
 
-        # Отсеиваем медленные (>500ms)
-        servers_with_ping = filter_slow_servers(servers_with_ping, MAX_PING_MS)
-
-        # Извлекаем только конфиги для фильтрации по протоколу
         alive_configs = [c for c, _ in servers_with_ping]
 
         print(f"\n🔬 ФИЛЬТРАЦИЯ ПО ПРОТОКОЛАМ")
         filtered_servers = parser.filter_by_protocol(alive_configs)
 
-        # Оставляем только те записи с пингом, чьи конфиги прошли фильтрацию
         filtered_with_ping = [(c, p) for c, p in servers_with_ping if c in filtered_servers]
 
         print(f"\n💾 СОХРАНЕНИЕ РЕЗУЛЬТАТОВ ({len(filtered_with_ping)} серверов)")
 
         if filtered_with_ping:
-            # Сохраняем обычные (неотсортированные) файлы
             save_main_files([c for c, _ in filtered_with_ping], len(unique_links))
-
-            # Сохраняем статистику по протоколам
             save_protocol_stats([c for c, _ in filtered_with_ping])
-
-            # Сохраняем отсортированные по пингу файлы
             sorted_configs = save_sorted_by_ping(filtered_with_ping)
 
-            # Разбиваем отсортированные файлы на маленькие части
+            # Разбиваем на файлы
             split_into_files(sorted_configs, items_per_file=SERVERS_PER_FILE)
 
-            # Итоговая статистика
             elapsed = time.time() - start_time
             print("\n" + "=" * 60)
             print("✅ ВСЁ УСПЕШНО ЗАВЕРШЕНО!")
             print("=" * 60)
-            print(f"📊 Всего рабочих серверов: {len(filtered_with_ping)}")
-            print(f"⚡ Средний пинг: {sum(p for _, p in filtered_with_ping) / len(filtered_with_ping):.1f}ms")
-            print(f"🚀 Самый быстрый: {min(p for _, p in filtered_with_ping):.1f}ms")
-            print(f"🐢 Самый медленный: {max(p for _, p in filtered_with_ping):.1f}ms")
-            print(f"🔒 Протоколы: {', '.join(ALLOWED_PROTOCOLS)}")
+            print(f"📊 Всего серверов: {len(filtered_with_ping)}")
+            print(f"⚡ Медианный пинг: {statistics.median([p for _, p in filtered_with_ping]):.1f}ms")
             print(f"⏱ Время выполнения: {elapsed:.1f}с")
-            print("\n📁 СОЗДАННЫЕ ФАЙЛЫ:")
-            print(f"   • Обычные: sub.txt, sub_base64.txt")
-            print(f"   • По пингу: sub_sorted.txt, sub_sorted_b64.txt")
-            print(f"   • Статистика: ping_stats.json, protocol_stats.json")
-            print(f"   • Разбивка: subscriptions/sub_*.txt")
         else:
             print("❌ Нет серверов после фильтрации")
 
