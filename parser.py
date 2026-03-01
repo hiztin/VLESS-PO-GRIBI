@@ -8,7 +8,6 @@ import ipaddress
 import math
 from urllib.parse import urlparse
 
-# --- ИСТОЧНИКИ ---
 SOURCES = [
     #"https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/All_Configs_Sub.txt",
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/All_Configs_Sub.txt",
@@ -17,9 +16,8 @@ SOURCES = [
 
 TIMEOUT = 7.0
 CONCURRENT_LIMIT = 50
-SERVERS_PER_FILE = 200  # Количество серверов в одном маленьком файле
+SERVERS_PER_FILE = 200  # Количество серверов в одном файле
 
-# Протоколы, которые нужно сохранять
 ALLOWED_PROTOCOLS = ['vless', 'vmess', 'ss']  # Только эти протоколы
 
 
@@ -77,9 +75,9 @@ class TurboParser:
             else:
                 removed.append(config)
 
-        print(f"🔍 Фильтрация протоколов:")
-        print(f"   ✅ Оставлено ({len(filtered)}): {', '.join(ALLOWED_PROTOCOLS)}")
-        print(f"   ❌ Удалено ({len(removed)}): trojan и другие")
+        print(f" Фильтрация протоколов:")
+        print(f"    Оставлено ({len(filtered)}): {', '.join(ALLOWED_PROTOCOLS)}")
+        print(f"    Удалено ({len(removed)}): trojan и другие")
 
         return filtered
 
@@ -217,44 +215,40 @@ def split_into_files(data, base_filename="sub", items_per_file=SERVERS_PER_FILE)
 
         print(f"  [{file_number:03d}/{num_files:03d}] {txt_filename}: {len(chunk)} серверов")
 
-    create_readme(subs_dir, num_files, items_per_file, total_items)
 
     # Создаём файл со всеми ссылками
     create_links_file(subs_dir, num_files, base_filename)
 
     print(f"✅ Всего создано файлов: {len(created_files)}")
     return created_files
-
-
+    create_readme(subs_dir, num_files, items_per_file, total_items)
+    
 def create_readme(subs_dir, num_files, items_per_file, total_items):
     """Создаёт README в папке с маленькими файлами"""
     readme_path = os.path.join(subs_dir, 'README.md')
+    
+    content = f"""#  Маленькие подписки по {items_per_file} серверов
 
-    content = f"""# 📁 Маленькие подписки (только VLESS, VMess, SS)
-
-## 📊 Статистика
+## Статистика
 - **Всего серверов:** {total_items}
 - **Количество файлов:** {num_files}
 - **Серверов в файле:** ~{items_per_file}
-- **Протоколы:** VLESS, VMess, SS (Trojan отфильтрован)
+- **Протоколы:** VLESS, VMess, SS
 - **Форматы:** Текст (.txt) и Base64 (_b64.txt)
 
-    content += "| № | Файл | Base64 (для V2Ray) | Серверов |\n"
-    content += "|---|------|-------------------|----------|\n"
+##  Прямые ссылки
 
+"""
+    
     base_url = "https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions"
-
+    
     for i in range(num_files):
-        file_num = i + 1
-        servers_count = items_per_file if i < num_files - 1 else (total_items - i * items_per_file)
-
-        content += f"| {file_num:03d} | [sub_{file_num:03d}.txt]({base_url}/sub_{file_num:03d}.txt) | [sub_{file_num:03d}_b64.txt]({base_url}/sub_{file_num:03d}_b64.txt) | {servers_count} |\n"
-
-    content += """
-
+        file_number = i + 1
+        content += f"- **Часть {file_number:02d}**: [`sub_{file_number:03d}.txt`]({base_url}/sub_{file_number:03d}.txt) | [`sub_{file_number:03d}_b64.txt`]({base_url}/sub_{file_number:03d}_b64.txt)\n"
+    
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(content)
-
+    
     print(f"📖 Создан README: {readme_path}")
 
 
@@ -307,7 +301,7 @@ def save_main_files(alive_servers, total_found):
             'servers_preview': alive_servers[:10]
         }, f, indent=2, ensure_ascii=False)
 
-    print(f"📦 Основные файлы сохранены в deploy/")
+    print(f" Основные файлы сохранены в deploy/")
     print(f"   - sub.txt: {len(alive_servers)} серверов (VLESS/VMess/SS)")
     print(f"   - sub_base64.txt: для V2Ray")
     print(f"   - debug.json: статистика")
@@ -388,18 +382,18 @@ async def main():
             split_into_files(filtered_servers, items_per_file=SERVERS_PER_FILE)
 
             print("\n" + "=" * 50)
-            print("✅ ВСЁ ГОТОВО!")
+            print(" ВСЁ ГОТОВО!")
             print("=" * 50)
-            print(f"📊 Всего рабочих серверов: {len(filtered_servers)}")
-            print(f"🔒 Разрешённые протоколы: {', '.join(ALLOWED_PROTOCOLS)}")
-            print(f"❌ Отфильтровано: trojan и другие")
-            print(f"📁 Основные файлы: deploy/sub.txt, deploy/sub_base64.txt")
-            print(f"📁 Маленькие файлы: deploy/subscriptions/ (папка)")
-            print("\n🔗 Ссылки для V2Ray/V2Box:")
+            print(f" Всего рабочих серверов: {len(filtered_servers)}")
+            print(f" Разрешённые протоколы: {', '.join(ALLOWED_PROTOCOLS)}")
+            print(f" Отфильтровано: trojan и другие")
+            print(f" Основные файлы: deploy/sub.txt, deploy/sub_base64.txt")
+            print(f" Маленькие файлы: deploy/subscriptions/ (папка)")
+            print("\n Ссылки для V2Ray/V2Box:")
             print(f"   • Полная: https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt")
             print(f"   • По частям: в папке deploy/subscriptions/")
         else:
-            print("❌ Не найдено рабочих серверов с разрешёнными протоколами")
+            print(" Не найдено рабочих серверов с разрешёнными протоколами")
             # Всё равно создаём тестовые файлы
             test_servers = [
                 "vmess://test-vmess",
