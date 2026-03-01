@@ -353,14 +353,14 @@ async def main():
 
         results = await asyncio.gather(*tasks)
 
-
+    # ШАГ 2: Сортируем результаты по номеру источника
     results.sort(key=lambda x: x[0])
 
-
+    # ШАГ 3: Сохраняем
     log("\n💾 СОХРАНЕНИЕ РЕЗУЛЬТАТОВ")
     sources_with_data, total_servers = save_results(results)
 
-
+    # ИТОГ
     elapsed = time.time() - start_time
 
     log("\n" + "=" * 60)
@@ -373,6 +373,21 @@ async def main():
     log(f"⏱ Время выполнения: {elapsed:.1f}с")
     log("=" * 60)
 
+
+log("\n🔍 ПРОВЕРКА СОХРАНЁННЫХ ФАЙЛОВ:")
+if os.path.exists('deploy/subscriptions'):
+    files = os.listdir('deploy/subscriptions')
+    log(f"   📁 Папка существует, файлов: {len(files)}")
+    for f in sorted(files)[:10]:  # Первые 10 файлов
+        log(f"      • {f}")
+else:
+    log(f"   ❌ Папка deploy/subscriptions НЕ создана!")
+
+    # Проверим, создалась ли вообще папка deploy
+    if os.path.exists('deploy'):
+        log(f"   📁 Папка deploy существует, но subscriptions - нет")
+    else:
+        log(f"   ❌ Папка deploy тоже не создана!")
 
 if __name__ == "__main__":
     asyncio.run(main())
