@@ -356,51 +356,96 @@ async def main():
 
 
 def generate_readme():
-    """Автоматически генерирует README.md с raw-ссылками"""
-
+    """Автоматически генерирует README.md с таблицей статусов и рабочими ссылками"""
+    
+    from datetime import datetime
+    import zoneinfo
+    
+    # Текущее время по Москве
+    zone = zoneinfo.ZoneInfo("Europe/Moscow")
+    current_time = datetime.now(zone)
+    time_str = current_time.strftime("%H:%M")
+    date_str = current_time.strftime("%d.%m.%Y")
+    
+    # Получаем список источников
+    sources = [
+        "sakha1370/OpenRay",
+        "sevcator/5ubscrpt10n",
+        "yitong2333/proxy-minging",
+        "acymz/AutoVPN",
+        "miladtahanian/V2RayCFGDumper",
+        "roosterkid/openproxylist",
+        "Epodonios/v2ray-configs",
+        "CidVpn/cid-vpn-config",
+        "mohamadfg-dev/telegram-v2ray-configs-collector",
+        "mheidari98/.proxy",
+        "youfoundamin/V2rayCollector",
+        "expressalaki/ExpressVPN",
+        "MahsaNetConfigTopic/config",
+        "LalatinaHub/Mineral",
+        "miladtahanian/Config-Collector",
+        "Pawdroid/Free-servers",
+        "MhdiTaheri/V2rayCollector_Py",
+        "free18/v2ray",
+        "MhdiTaheri/V2rayCollector",
+        "Argh94/Proxy-List",
+        "shabane/kamaji",
+        "wuqb2i4f/xray-config-toolkit",
+        "Delta-Kronecker/V2ray-Config",
+        "STR97/STRUGOV",
+        "V2RayRoot/V2RayConfig",
+    ]
+    
+    # Проверяем, какие файлы реально существуют
     subs_dir = "deploy/subscriptions"
-    if not os.path.exists(subs_dir):
-        print("❌ Папка subscriptions не найдена")
-        return
-
-    files = os.listdir(subs_dir)
-    source_numbers = set()
-    for f in files:
-        match = re.match(r'(\d+)', f)
-        if match:
-            source_numbers.add(int(match.group(1)))
-
-    source_list = sorted(source_numbers)
-    total_sources = len(source_list)
-
-    # Базовая статистика
-    total_servers = 0
-    if os.path.exists("deploy/sub.txt"):
-        with open("deploy/sub.txt", "r", encoding="utf-8") as f:
-            total_servers = len(f.readlines())
-
-    # Генерируем таблицы с RAW-ссылками
+    existing_files = set()
+    if os.path.exists(subs_dir):
+        for f in os.listdir(subs_dir):
+            match = re.match(r'(\d+)\.txt', f)
+            if match:
+                existing_files.add(int(match.group(1)))
+    
+    # Генерируем таблицу статусов
+    status_table = ""
+    for i, source in enumerate(sources, 1):
+        filename = f"{i}.txt"
+        if i in existing_files:
+            status_table += f"| {i} | `{filename}` | {source} | {time_str} | {date_str} |\n"
+        else:
+            status_table += f"| {i} | `{filename}` | {source} | ⏳ Нет данных | ⏳ Нет данных |\n"
+    
+    # Добавляем 26-й файл если есть
+    if os.path.exists("deploy/subscriptions/26.txt"):
+        status_table += f"| 26 | `26.txt` | Обход SNI/CIDR белых списков | {time_str} | {date_str} |\n"
+    
+    # Генерируем рабочие ссылки (как в предыдущей версии)
     android_table = ""
     ios_table = ""
     windows_table = ""
     linux_table = ""
-
+    
     BASE_RAW_URL = "https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions"
-
-    for num in source_list:
-        # Android/iOS - Base64 версии с RAW
-        android_table += f"| {num} | [`{num}_b64.txt`]({BASE_RAW_URL}/{num}_b64.txt) |\n"
-        ios_table += f"| {num} | [`{num}_b64.txt`]({BASE_RAW_URL}/{num}_b64.txt) |\n"
-
-        # Windows/Linux - текстовые версии с RAW
-        windows_table += f"| {num} | [`{num}.txt`]({BASE_RAW_URL}/{num}.txt) |\n"
-        linux_table += f"| {num} | [`{num}.txt`]({BASE_RAW_URL}/{num}.txt) |\n"
-
-    # Шаблон README (сократил для примера, но оставил главное)
+    
+    for i in range(1, 27):
+        if os.path.exists(f"deploy/subscriptions/{i}_b64.txt"):
+            android_table += f"| {i} | [`{i}_b64.txt`]({BASE_RAW_URL}/{i}_b64.txt) |\n"
+            ios_table += f"| {i} | [`{i}_b64.txt`]({BASE_RAW_URL}/{i}_b64.txt) |\n"
+        
+        if os.path.exists(f"deploy/subscriptions/{i}.txt"):
+            windows_table += f"| {i} | [`{i}.txt`]({BASE_RAW_URL}/{i}.txt) |\n"
+            linux_table += f"| {i} | [`{i}.txt`]({BASE_RAW_URL}/{i}.txt) |\n"
+    
+    # Подсчёт серверов
+    total_servers = 0
+    if os.path.exists("deploy/sub.txt"):
+        with open("deploy/sub.txt", "r", encoding="utf-8") as f:
+            total_servers = len(f.readlines())
+    
+    # Полный README
     readme_content = f"""# 🍄 VLESS ПО ГРИБЫ - Бесплатные VPN подписки 
 
 <div align="center">
-
+  
 ### 🍄‍🟫 Ежедневно обновляемая коллекция рабочих VPN-серверов
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/hiztin/VLESS-PO-GRIBI)](https://github.com/hiztin/VLESS-PO-GRIBI/commits/main)
@@ -412,19 +457,37 @@ def generate_readme():
 
 ## 🍄‍🟫 О проекте
 
-Этот проект автоматически собирает и проверяет **бесплатные VPN-серверы** из открытых источников. Обновление происходит **каждый день** через GitHub Actions, поэтому подписки всегда актуальны.
+Этот проект автоматически собирает и проверяет **бесплатные VPN-серверы** из открытых источников. Обновление происходит **каждый день** через GitHub Actions, поэтому подписки всегда актуальны. Проект ещё в разработке,
+поэтому подписки не подписаны и\или что-то может не работать
 
-### 🍄‍🟫 Основные подписки
+---
 
-| Формат | Описание | Прямая ссылка для копирования |
-|--------|----------|-------------------------------|
-| **Base64 (для V2Ray/V2Box)** | Полная подписка, все серверы | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt` |
-| **Текстовый формат** | Обычный текст, по одному ключу в строке | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt` |
-| **Статистика** | Данные о количестве серверов | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json` |
+## 📊 Статус конфигов
+
+> ⚠️ **Внимание!** Эта таблица показывает только источники и статус обновления конфигов. **Не копируйте ссылки отсюда!**  
+> Для использования копируйте ссылки из раздела **«🍄 Общий список всех вечно актуальных конфигов»** ниже.
+
+| № | Файл | Источник | Время | Дата |
+|---|------|----------|-------|------|
+{status_table}
 
 **[🍄 Открыть папку со всеми файлами](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
-## 📱 Как использовать
+---
+
+## 🍄 Общий список всех вечно актуальных конфигов
+
+### 📦 Основные подписки (все серверы сразу)
+
+| Формат | Описание | Прямая ссылка для копирования |
+|--------|----------|-------------------------------|
+| **Base64** | Для V2Ray/V2Box (Android/iOS) | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt` |
+| **Текст** | Для Throne/NekoRay (Windows/Linux) | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt` |
+| **Статистика** | Данные о количестве серверов | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json` |
+
+---
+
+## 📁 Конфиги по источникам (по 200 лучших с каждого)
 
 <details>
 <summary><b>📱 Android — v2rayNG</b></summary>
@@ -432,11 +495,12 @@ def generate_readme():
 **Как добавить подписку:**
 1. Открой v2rayNG
 2. Нажми `+` → **"Импорт подписки из буфера"**
-3. Вставь одну из ссылок ниже:
+3. Вставь ссылку из таблицы ниже:
 
-| № | Base64 ссылка (копировать всю строку) |
-|---|--------------------------------------|
+| № | Base64 ссылка (копировать) |
+|---|---------------------------|
 {android_table}
+
 **[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
@@ -447,11 +511,12 @@ def generate_readme():
 **Как добавить подписку:**
 1. Открой V2Box
 2. Перейди в **"Конфигурации"** → `+` → **"Импортировать V2Ray URL из буфера"**
-3. Вставь одну из ссылок ниже:
+3. Вставь ссылку из таблицы ниже:
 
 | № | Base64 ссылка |
 |---|--------------|
 {ios_table}
+
 **[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
@@ -462,11 +527,12 @@ def generate_readme():
 **Как добавить подписку:**
 1. Открой Throne
 2. Нажми **"Профили"** → **"Добавить профиль из буфера"**
-3. Вставь одну из ссылок ниже:
+3. Вставь ссылку из таблицы ниже:
 
 | № | Текстовая ссылка |
 |---|-----------------|
 {windows_table}
+
 **[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
@@ -477,26 +543,34 @@ def generate_readme():
 **Как добавить подписку:**
 1. Открой NekoRay
 2. Нажми **"Программа"** → **"Добавить подписку"**
-3. Вставь одну из ссылок ниже:
+3. Вставь ссылку из таблицы ниже:
 
 | № | Текстовая ссылка |
 |---|-----------------|
 {linux_table}
+
 **[📂 Все файлы](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
 
+---
+
 ## 📊 Статистика
 
 - **Всего серверов**: ~{total_servers}+
-- **Активных источников**: {total_sources}
+- **Активных источников**: {len([i for i in range(1,27) if os.path.exists(f'deploy/subscriptions/{i}.txt')])}
 - **Протоколы**: VMess, VLESS, Shadowsocks
 - **Обновление**: каждые 3 часа UTC
+- **Последнее обновление**: {time_str} {date_str}
+
+---
 
 ## 🍄 Контакты и поддержка
 
 - **Discord**: `h1zz`
 - **GitHub Issues**: [Создать issue](https://github.com/hiztin/VLESS-PO-GRIBI/issues)
+
+---
 
 <div align="center">
 
@@ -506,11 +580,13 @@ def generate_readme():
 
 </div>
 """
-
+    
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
-
-    print(f"✅ README.md обновлён с raw-ссылками! ({total_sources} источников)")
+    
+    print(f"✅ README.md обновлён!")
+    print(f"📊 Таблица статусов: {len([i for i in range(1,27) if os.path.exists(f'deploy/subscriptions/{i}.txt')])} активных источников")
 # В конце main(), после save_results():
 if __name__ == "__main__":
     asyncio.run(main())
+
