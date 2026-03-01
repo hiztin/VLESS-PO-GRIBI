@@ -61,22 +61,34 @@ jobs:
             echo "⚠️ Папка deploy пуста"
             echo "files_exist=false" >> $GITHUB_OUTPUT
           fi
-      
-      - name: 📦 Коммит и пуш обновлений
+      - name: 📦 Коммит и пуш обновлений (с авто-синхронизацией)
         if: steps.check.outputs.files_exist == 'true'
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          git add deploy/
+          # Добавляем все изменения
+          git add -f deploy/
           
+          # Проверяем, есть ли изменения для коммита
           if git diff --cached --quiet; then
             echo "ℹ️ Нет изменений для коммита"
-          else
-            git commit -m "🔄 Автообновление подписок $(date +'%Y-%m-%d %H:%M UTC')"
-            git push
-            echo "✅ Изменения отправлены в репозиторий"
+            exit 0
           fi
+          
+          # Делаем коммит
+          git commit -m "🔄 Автообновление подписок $(date +'%Y-%m-%d %H:%M UTC')"
+          
+          # Пытаемся запушить, если не получается - стягиваем изменения и пушим снова
+          echo "📤 Пытаемся запушить..."
+          if ! git push origin main; then
+            echo "⚠️ Конфликт при пуше"
+            git pull --rebase origin main
+            echo "📤 Пушим после rebase..."
+            git push origin main
+          fi
+          
+          echo "✅ Изменения успешно отправлены"
       
       - name: 📤 Загрузка артефактов
         if: always()
@@ -86,3 +98,4 @@ jobs:
           path: deploy/
           retention-days: 7
           if-no-files-found: warn
+
