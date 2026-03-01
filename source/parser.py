@@ -297,6 +297,9 @@ def force_commit_update():
     import zoneinfo
     import os
     
+    # СОЗДАЁМ ПАПКУ deploy, если её нет
+    os.makedirs("deploy", exist_ok=True)
+    
     # Текущее время
     zone = zoneinfo.ZoneInfo("Europe/Moscow")
     now = datetime.now(zone)
@@ -328,6 +331,10 @@ def force_commit_update():
         
         with open(readme_path, "w", encoding="utf-8") as f:
             f.write(new_content)
+    else:
+        # Если README нет, создаём простой
+        with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(f"# VLESS ПО ГРИБЫ\n\nПоследнее обновление: {date_str} {time_str}")
     
     print(f"✅ Принудительное обновление: {date_str} {time_str}")
     return True
@@ -512,6 +519,7 @@ force_commit_update()
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
