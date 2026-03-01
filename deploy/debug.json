@@ -1,26 +1,26 @@
 {
   "total": 9108,
-  "alive": 2712,
+  "alive": 2709,
   "allowed_protocols": [
     "vless",
     "vmess",
     "ss"
   ],
-  "date": "2026-03-01 06:36:55.871623",
+  "date": "2026-03-01 07:18:09.546289",
   "protocol_stats": {
-    "vless": 74,
-    "vmess": 26
+    "vless": 82,
+    "vmess": 18
   },
   "servers_preview": [
-    "vless://16068e83-af4c-49ba-8048-98fcff3e5e7b@104.26.15.21:443",
-    "vless://4a942a11-2178-4b10-af73-15b1cfee99df@172.67.73.14:443",
-    "vless://a13df940-020c-465f-bc89-ee5279b5cd6a@185.135.9.15:443",
-    "vless://c843ed62-34da-44be-87b8-8b4ad34f6deb@172.64.145.38:8443",
-    "vless://e5f8a9f6-f164-479b-b3b5-b90f213c7145@141.101.121.171:2053",
-    "vmess://eyJhZGQiOiIxNDYuNTkuNTUuNTAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im8ubWV0dWppLmNvbSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiaW5zZWN1cmUiOiIxIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJwb3J0IjoiNDQzIiwicHMiOiJJUi1AVjJyYXlBbHBoYS0zNSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
-    "vmess://eyJhZGQiOiIxNS4yMzUuNTAuMTcyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJiYXJhZGloYS5jb20iLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImluc2VjdXJlIjoiMSIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiSVItQFYycmF5QWxwaGEtMzkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=vmess",
-    "vless://b3629375-0dca-46a3-aab1-8a07ff397332@172.67.190.220:8443",
-    "vless://e5f8a9f6-f164-479b-b3b5-b90f213c7145@162.159.36.20:2053",
-    "vmess://eyJhZGQiOiIyMy44OC4zOS40IiwiYWlkIjoiMCIsImhvc3QiOiIiLCJpZCI6IjZiN2NiYzQxLWZiODAtNDFhOC04ZWI2LWI1YmRiMGU4NjE0NyIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6IjQ0MyIsInBzIjoiQHZwbl80NDMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Imh0dHAiLCJ2IjoiMiJ9"
+    "vless://4d89daf8-83c1-497d-af73-0d0033daadd8@104.21.36.57:443",
+    "vless://18805ff3-b420-45de-af18-93be14024ae8@47.251.25.74:443",
+    "vless://e53d3c58-c143-4d33-824c-4e3f1ef3b655@104.17.147.22:80",
+    "vless://75e1fde7-6bf6-48ef-ba43-400e960e185b@45.15.178.124:80",
+    "vless://51c27910-f70a-4dac-b8f1-88ac6f1cbdf5@ss.mrrnasr.ir:443",
+    "vless://4525c260-df3c-4f62-b8f1-f4f5f305694b@ipbaz.ping-box.com:8443",
+    "vless://83f03646-fb28-44cc-9d2c-8853f6c09285@104.18.4.130:8443",
+    "vless://b7039fbe-0359-4d91-977d-a926203b1936@afrcloud22.mmv.kr:443",
+    "vless://8e62fdd4-006d-4920-aef8-f3c87ed60157@CF10.FASTSPEEDS.IR:8443",
+    "vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.008500.xyz:443"
   ]
 }
