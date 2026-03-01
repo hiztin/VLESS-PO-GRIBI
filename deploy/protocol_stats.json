@@ -1,7 +1,7 @@
 {
-  "total": 2711,
+  "total": 2712,
   "by_protocol": {
-    "vless": 2080,
+    "vless": 2081,
     "vmess": 631
   },
   "filtered_out": [
