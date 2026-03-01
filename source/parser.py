@@ -287,40 +287,49 @@ def save_results(source_results: List[Tuple[int, List[str]]]):
         log(f"  ✅ sub.txt: {len(all_servers)} всего серверов")
 
     return sources_with_data, total_servers
-def force_update_timestamp():
-    """Принудительно обновляет timestamp в README, даже если данные не изменились"""
-    readme_path = "README.md"
-    if not os.path.exists(readme_path):
-        return False
-    
-    with open(readme_path, "r", encoding="utf-8") as f:
-        content = f.read()
-    
-    # Ищем и обновляем дату последнего обновления
+def force_commit_update():
+    """
+    Жёстко создаёт изменения для коммита:
+    1. Обновляет дату в README
+    2. Создаёт файл с timestamp
+    """
     from datetime import datetime
     import zoneinfo
+    import os
     
+    # Текущее время
     zone = zoneinfo.ZoneInfo("Europe/Moscow")
-    current_time = datetime.now(zone)
-    time_str = current_time.strftime("%H:%M")
-    date_str = current_time.strftime("%d.%m.%Y")
+    now = datetime.now(zone)
+    time_str = now.strftime("%H:%M")
+    date_str = now.strftime("%d.%m.%Y")
     
-    # Обновляем дату в статистике
-    import re
-    new_content = re.sub(
-        r'(\*\*Последнее обновление\*\*:).*',
-        f'\\1 {time_str} {date_str}',
-        content
-    )
+    # 1. Обновляем timestamp в отдельном файле
+    with open("deploy/last_update.txt", "w", encoding="utf-8") as f:
+        f.write(f"Последнее обновление: {date_str} {time_str}")
     
-    if new_content != content:
+    # 2. Обновляем README.md принудительно
+    readme_path = "README.md"
+    if os.path.exists(readme_path):
+        with open(readme_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        
+        # Ищем и обновляем дату
+        import re
+        new_content = re.sub(
+            r'(Последнее обновление:|обновлено:|Обновлено:).*',
+            f'\\1 {date_str} {time_str}',
+            content,
+            flags=re.IGNORECASE
+        )
+        
+        # Если не нашли - добавляем в конец
+        if new_content == content:
+            new_content += f"\n\n*Последнее обновление: {date_str} {time_str}*\n"
+        
         with open(readme_path, "w", encoding="utf-8") as f:
             f.write(new_content)
-        return True
     
-    # Если не нашли, добавляем в конец
-    with open(readme_path, "a", encoding="utf-8") as f:
-        f.write(f"\n\n*Последнее обновление: {time_str} {date_str}*\n")
+    print(f"✅ Принудительное обновление: {date_str} {time_str}")
     return True
 # ГЕНЕРАЦИЯ README 
 def generate_readme():
@@ -499,9 +508,10 @@ async def main():
     print(f"📊 Всего серверов: {total_servers}")
     print(f"⏱ Время: {elapsed:.1f}с")
     print("=" * 60)
+force_commit_update()
 
-force_update_timestamp()
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
