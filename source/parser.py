@@ -1,116 +1,97 @@
 import asyncio
-import httpx
+import aiohttp
 import re
 import base64
 import json
 import os
-import ipaddress
 import math
-import time
-import statistics
 from collections import defaultdict
 from urllib.parse import urlparse
 from typing import List, Tuple, Optional
 from datetime import datetime
-
-#НАСТРОЙКИ
-TIMEOUT = 0.5
-CONCURRENT_LIMIT = 50
-SERVERS_PER_FILE = 200
-MAX_PING_MS = 800
-MIN_PING_MS = 10
-PING_SAMPLES = 2
+import time
+from typing import List, Tuple, Optional, Dict, Any
+# НАСТРОЙКИ 
+SERVERS_PER_FILE = 200  # Количество серверов в одном файле
 
 ALLOWED_PROTOCOLS = ['vless', 'vmess', 'ss']
 
-#ИСТОЧНИКИ
-SOURCES = [
-    "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt", #1
-    "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt", #2
-    "https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt", #3
-    "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt", #4
-    "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt", #5
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt", #6
-    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt", #7
-    "https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt", #8
-    "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt", #9
-    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless", #10
-        "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt",
-    "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt",
-    "https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt",
-    "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt",
-    "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",
-    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt",
-    "https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt",
-    "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt", #9
-    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless",
-    "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",
-    "https://github.com/expressalaki/ExpressVPN/blob/main/configs3.txt",
-    "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt",
-    "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes",
-    "https://github.com/miladtahanian/Config-Collector/raw/refs/heads/main/vless_iran.txt",
-    "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub",
-    "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt",
-    "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt",
-    "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix",
-    "https://github.com/Argh94/Proxy-List/raw/refs/heads/main/All_Config.txt",
-    "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt",
-    "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri",
-    "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/vless.txt",
-    "https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE",
-    "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
-    "https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/All_Configs_Sub.txt"
+# ИСТОЧНИКИ 
+URLS = [
+    "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt",  # 1
+    "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt",  # 2
+    "https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt",  # 3
+    "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt",  # 4
+    "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",  # 5
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",  # 6
+    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt",  # 7
+    "https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt",  # 8
+    "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt",
+    # 9
+    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless",  # 10
+    "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",  # 11
+    "https://github.com/expressalaki/ExpressVPN/blob/main/configs3.txt",  # 12
 ]
 
-# ЛОГИРОВАНИЕ
-thistime = datetime.now()
-offset = thistime.strftime("%H:%M | %d.%m.%Y")
+
+LOGS: Dict[int, List[str]] = defaultdict(list)
 
 
-def log(message: str):
-    """Простое логирование в консоль"""
-    print(f"[{offset}] {message}")
+def log(message: str, file_idx: int = 0):
+    """Добавляет сообщение в лог"""
+    timestamp = datetime.now().strftime("%H:%M:%S")
+    LOGS[file_idx].append(f"[{timestamp}] {message}")
+    print(f"[{file_idx}] {message}")
 
 
-# HTTP КЛИЕНТ
+
 class HTTPFetcher:
     def __init__(self):
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
         }
-        self.client = None
+        self.session = None
 
     async def __aenter__(self):
-        self.client = httpx.AsyncClient(
-            verify=False,
-            follow_redirects=True,
+        self.session = aiohttp.ClientSession(
             headers=self.headers,
-            timeout=30.0
+            timeout=aiohttp.ClientTimeout(total=30)
         )
         return self
 
     async def __aexit__(self, *args):
-        if self.client:
-            await self.client.aclose()
+        if self.session:
+            await self.session.close()
 
-    async def fetch(self, url: str) -> Optional[str]:
-        """Асинхронная загрузка"""
+    async def fetch(self, url: str, attempt: int = 1) -> Optional[str]:
+        """Загрузка с retry"""
         try:
-            log(f"🌐 Загрузка {url}")
-            r = await self.client.get(url, timeout=20.0)
-            if r.status_code == 200:
-                log(f"✅ Успешно: {len(r.text)} байт")
-                return r.text
-            else:
-                log(f"⚠️ Статус {r.status_code}")
+            log(f"🌐 Загрузка {url}", 0)
+            async with self.session.get(url, timeout=20, ssl=False) as resp:
+                if resp.status == 200:
+                    text = await resp.text()
+                    log(f"✅ Успешно: {len(text)} байт", 0)
+                    return text
+                else:
+                    log(f"⚠️ Статус {resp.status}", 0)
+                    if attempt < 3:
+                        await asyncio.sleep(1)
+                        return await self.fetch(url, attempt + 1)
         except Exception as e:
-            log(f"❌ Ошибка: {str(e)[:100]}")
+            log(f"❌ Ошибка: {str(e)[:100]}", 0)
+            if attempt < 3:
+                await asyncio.sleep(1)
+                return await self.fetch(url, attempt + 1)
         return None
 
 
-#ПАРСЕР КОНФИГОВ
+
 class ConfigParser:
+    INSECURE_PATTERN = re.compile(
+        r'(?:[?&;]|3%[Bb])(allowinsecure|allow_insecure|insecure)=(?:1|true|yes)(?:[&;#]|$|(?=\s|$))',
+        re.IGNORECASE
+    )
+
     @staticmethod
     def decode_base64(text: str) -> str:
         try:
@@ -124,12 +105,14 @@ class ConfigParser:
 
     @staticmethod
     def extract_keys(text: str) -> List[str]:
+        """Извлекает все конфиги из текста"""
         if not text:
             return []
         patterns = [
             r'(vmess://[a-zA-Z0-9+/=]+)',
             r'(vless://[a-f0-9-]+@[a-zA-Z0-9.-]+:\d+)',
             r'(ss://[a-zA-Z0-9+/=]+[@#])',
+            r'(trojan://[a-zA-Z0-9-]+@[a-zA-Z0-9.-]+:\d+)',
             r'(ss://[a-zA-Z0-9+/=]+)',
         ]
         found = []
@@ -138,153 +121,108 @@ class ConfigParser:
         return list(set(found))
 
     @staticmethod
-    def extract_host_port(config: str) -> Tuple[Optional[str], Optional[int]]:
-        try:
-            if config.startswith('vmess://'):
-                try:
-                    data = config[8:]
-                    decoded = ConfigParser.decode_base64(data)
-                    if decoded and decoded.startswith('{'):
-                        j = json.loads(decoded)
-                        return j.get('add'), int(j.get('port', 0))
-                except:
-                    pass
+    def filter_insecure(data: str) -> Tuple[str, int]:
+        """Фильтрует небезопасные конфиги"""
+        lines = data.splitlines()
+        result = []
+        filtered = 0
 
-            parsed = urlparse(config)
-            if parsed.hostname and parsed.port:
-                return parsed.hostname, parsed.port
+        for line in lines:
+            original = line
+            processed = line.strip()
 
-            parts = config.split('://')[1].split('@')
-            addr = parts[-1].split('/')[0].split('?')[0]
-            if ':' in addr:
-                h, p = addr.split(':')
-                return h, int(p)
-        except:
-            pass
-        return None, None
+            if ConfigParser.INSECURE_PATTERN.search(processed):
+                filtered += 1
+                continue
+
+            result.append(original)
+
+        return "\n".join(result), filtered
 
 
-# ПРОВЕРКА ПИНГ
-async def check_server_ping(config: str, semaphore: asyncio.Semaphore) -> Tuple[Optional[str], Optional[float]]:
-    """Проверяет сервер и возвращает пинг"""
-    host, port = ConfigParser.extract_host_port(config)
-    if not host or not port:
-        return None, None
 
-    async with semaphore:
-        pings = []
-        for sample in range(PING_SAMPLES):
-            try:
-                start = time.time()
+async def download_source(idx: int, url: str, fetcher: HTTPFetcher) -> Optional[str]:
+    """Скачивает один источник и сохраняет в githubmirror/"""
+    try:
+        data = await fetcher.fetch(url)
+        if not data:
+            return None
 
-                # DNS check если нужно
-                try:
-                    ipaddress.ip_address(host)
-                except ValueError:
-                    await asyncio.get_event_loop().getaddrinfo(host, port)
+        # Фильтруем небезопасные
+        data, filtered = ConfigParser.filter_insecure(data)
+        if filtered > 0:
+            log(f"ℹ️ Отфильтровано {filtered} небезопасных", idx + 1)
 
-                # TCP connect
-                conn = asyncio.open_connection(host, port)
-                _, writer = await asyncio.wait_for(conn, timeout=TIMEOUT)
+        # Сохраняем
+        os.makedirs("githubmirror", exist_ok=True)
+        local_path = f"githubmirror/{idx + 1}.txt"
 
-                elapsed = (time.time() - start) * 1000
-                pings.append(elapsed)
+        with open(local_path, 'w', encoding='utf-8') as f:
+            f.write(data)
 
-                writer.close()
-                await writer.wait_closed()
+        log(f"💾 Сохранено в {local_path}", idx + 1)
+        return local_path
 
-                if sample < PING_SAMPLES - 1:
-                    await asyncio.sleep(0.1)
+    except Exception as e:
+        log(f"❌ Ошибка: {str(e)[:100]}", idx + 1)
+        return None
 
-            except:
-                return None, None
 
-        if not pings:
-            return None, None
 
-        final_ping = statistics.median(pings)
-        if final_ping < MIN_PING_MS or final_ping > 2000:
-            return None, None
-
-        return config, final_ping
-
-# ФИЛЬТРАЦИЯ
 def filter_by_protocol(configs: List[str]) -> List[str]:
-    """Оставляет только разрешённые протоколы"""
+    """Оставляет только VLESS, VMess, SS"""
     filtered = []
     for c in configs:
         proto = c.split('://')[0].lower()
         if proto in ALLOWED_PROTOCOLS:
             filtered.append(c)
-    log(f"🔍 После фильтрации протоколов: {len(filtered)} из {len(configs)}")
+    log(f"🔍 После фильтрации протоколов: {len(filtered)} из {len(configs)}", 0)
     return filtered
 
 
-def filter_by_ping(servers_with_ping: List[Tuple[str, float]]) -> List[Tuple[str, float]]:
-    """Умная фильтрация по пингу"""
-    if not servers_with_ping:
-        return []
 
-    pings = [p for _, p in servers_with_ping]
-
-    if len(pings) < 10:
-        return servers_with_ping
-
-    median = statistics.median(pings)
-    threshold = min(median * 2, MAX_PING_MS)
-
-    filtered = [(c, p) for c, p in servers_with_ping if p <= threshold]
-    log(f"📊 Пинг: медиана={median:.1f}ms, порог={threshold:.1f}ms, осталось={len(filtered)}")
-
-    return filtered
-
-
-#СОХРАНЕНИЕ ФАЙЛО
-def save_results(servers_with_ping: List[Tuple[str, float]]):
-    """Сохраняет результаты в файлы"""
-    if not servers_with_ping:
-        log("❌ Нет данных для сохранения")
+def save_results(configs: List[str]):
+    """Сохраняет все конфиги в папку deploy"""
+    if not configs:
+        log("❌ Нет данных для сохранения", 0)
         return
 
-    # Сортируем по пингу
-    sorted_servers = sorted(servers_with_ping, key=lambda x: x[1])
-    sorted_configs = [c for c, _ in sorted_servers]
+    # Дедупликация
+    unique_configs = list(set(configs))
+    log(f"📊 После дедупликации: {len(unique_configs)} уникальных", 0)
 
     # Создаём папку deploy
-    os.makedirs('../deploy', exist_ok=True)
+    os.makedirs('deploy', exist_ok=True)
 
     # 1. Полный список (текст)
-    with open('../deploy/sub.txt', 'w', encoding='utf-8') as f:
-        f.write('\n'.join(sorted_configs))
-    log(f"💾 Сохранён deploy/sub.txt ({len(sorted_configs)} серверов)")
+    with open('deploy/sub.txt', 'w', encoding='utf-8') as f:
+        f.write('\n'.join(unique_configs))
+    log(f"💾 Сохранён deploy/sub.txt ({len(unique_configs)} серверов)", 0)
 
     # 2. Полный список (base64 для V2Ray)
-    with open('../deploy/sub_base64.txt', 'w', encoding='utf-8') as f:
-        b64 = base64.b64encode('\n'.join(sorted_configs).encode()).decode()
+    with open('deploy/sub_base64.txt', 'w', encoding='utf-8') as f:
+        b64 = base64.b64encode('\n'.join(unique_configs).encode()).decode()
         f.write(b64)
-    log(f"💾 Сохранён deploy/sub_base64.txt")
+    log(f"💾 Сохранён deploy/sub_base64.txt", 0)
 
-    # 3. Статистика по пингу
-    pings = [p for _, p in sorted_servers]
+    # 3. Статистика
+    protocols = {}
+    for c in unique_configs[:100]:
+        proto = c.split('://')[0]
+        protocols[proto] = protocols.get(proto, 0) + 1
+
     stats = {
-        'total': len(sorted_servers),
-        'min_ping': round(min(pings), 1),
-        'max_ping': round(max(pings), 1),
-        'avg_ping': round(statistics.mean(pings), 1),
-        'median_ping': round(statistics.median(pings), 1),
-        'fast_servers': len([p for p in pings if p < 200]),
-        'slow_servers': len([p for p in pings if p >= 400]),
-        'updated': offset
+        'total': len(unique_configs),
+        'protocols': protocols,
+        'updated': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     }
 
-    with open('../deploy/ping_stats.json', 'w', encoding='utf-8') as f:
+    with open('deploy/debug.json', 'w', encoding='utf-8') as f:
         json.dump(stats, f, indent=2, ensure_ascii=False)
-    log(f"💾 Сохранён deploy/ping_stats.json")
+    log(f"💾 Сохранён deploy/debug.json", 0)
 
-    # 4. Разбивка на маленькие файлы
-    split_into_files(sorted_configs)
 
-    return sorted_configs
+    split_into_files(unique_configs)
 
 
 def split_into_files(configs: List[str], base_name: str = "sub", per_file: int = SERVERS_PER_FILE):
@@ -292,100 +230,82 @@ def split_into_files(configs: List[str], base_name: str = "sub", per_file: int =
     if not configs:
         return
 
-    subs_dir = os.path.join('../deploy', 'subscriptions')
+    subs_dir = os.path.join('deploy', 'subscriptions')
     os.makedirs(subs_dir, exist_ok=True)
 
     total = len(configs)
     num_files = math.ceil(total / per_file)
+
+    log(f"📁 Разбивка на {num_files} файлов по {per_file} серверов", 0)
 
     for i in range(num_files):
         start = i * per_file
         end = min((i + 1) * per_file, total)
         chunk = configs[start:end]
 
-        # Текстовый файл
+
         txt_path = os.path.join(subs_dir, f"{base_name}_{i + 1:03d}.txt")
         with open(txt_path, 'w', encoding='utf-8') as f:
             f.write('\n'.join(chunk))
 
-        # Base64 файл для V2Ray
+
         b64_path = os.path.join(subs_dir, f"{base_name}_{i + 1:03d}_b64.txt")
         b64 = base64.b64encode('\n'.join(chunk).encode()).decode()
         with open(b64_path, 'w', encoding='utf-8') as f:
             f.write(b64)
 
-    log(f"📁 Создано {num_files} маленьких файлов в {subs_dir}")
+        log(f"  [{i + 1:03d}] {txt_path}: {len(chunk)} серверов", 0)
 
 
-#ОСНОВНАЯ ФУНКЦИЯ
 async def main():
     """Основная функция"""
     start_time = time.time()
 
     try:
         async with HTTPFetcher() as fetcher:
-            log("🚀 Начало работы...")
+            log("🚀 Начало работы...", 0)
 
-            # ШАГ 1: Скачиваем источники
+
+            download_tasks = []
+            for i, url in enumerate(URLS):
+                task = download_source(i, url, fetcher)
+                download_tasks.append(task)
+
+            downloaded = await asyncio.gather(*download_tasks)
+
             all_configs = []
-            for url in SOURCES:
-                data = await fetcher.fetch(url)
-                if data:
-                    configs = ConfigParser.extract_keys(data)
-                    all_configs.extend(configs)
-                    log(f"📥 Получено {len(configs)} конфигов")
+            for i, path in enumerate(downloaded):
+                if path and os.path.exists(path):
+                    with open(path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                        configs = ConfigParser.extract_keys(content)
+                        all_configs.extend(configs)
+                        log(f"📥 Загружено {len(configs)} конфигов из {i + 1}.txt", i + 1)
+
+            log(f"📊 Всего конфигов: {len(all_configs)}", 0)
 
             if not all_configs:
-                log("❌ Нет конфигов для обработки")
+                log("❌ Нет конфигов для обработки", 0)
                 return
 
-            log(f"📊 Всего конфигов: {len(all_configs)}")
 
-            # ШАГ 2: Фильтруем по протоколу
             filtered = filter_by_protocol(all_configs)
 
-            # ШАГ 3: Проверяем пинг (первые 500 для скорости)
-            log("⚡ Проверка пинга...")
-            sem = asyncio.Semaphore(CONCURRENT_LIMIT)
 
-            servers_with_ping = []
-            check_limit = min(len(filtered), 500)
+            if filtered:
+                save_results(filtered)
+                log(f"✅ Сохранено {len(filtered)} серверов", 0)
+            else:
+                log("❌ Нет серверов после фильтрации", 0)
 
-            for i in range(0, check_limit, 50):
-                chunk = filtered[i:i + 50]
-                tasks = [check_server_ping(c, sem) for c in chunk]
-                results = await asyncio.gather(*tasks)
-
-                for config, ping in results:
-                    if config:
-                        servers_with_ping.append((config, ping))
-
-                log(f"⏳ Прогресс: {i + len(chunk)}/{check_limit}")
-
-            log(f"📊 Доступно с пингом: {len(servers_with_ping)}")
-
-            # ШАГ 4: Фильтруем по пингу
-            filtered_with_ping = filter_by_ping(servers_with_ping)
-
-            # ШАГ 5: Сохраняем результаты
-            if filtered_with_ping:
-                save_results(filtered_with_ping)
-
-            # Итог
             elapsed = time.time() - start_time
-            log(f"✅ Готово за {elapsed:.1f}с")
-            print(f"\n📁 Результаты в папке 'deploy'")
+            log(f"✅ Готово за {elapsed:.1f}с", 0)
 
     except KeyboardInterrupt:
-        log("⏸️ Прервано пользователем")
+        log("⏸️ Прервано пользователем", 0)
     except Exception as e:
-        log(f"❌ Ошибка: {str(e)}")
+        log(f"❌ Критическая ошибка: {str(e)}", 0)
 
 
-# ЗАПУСК
 if __name__ == "__main__":
-
     asyncio.run(main())
-
-
-
