@@ -40,6 +40,34 @@
 3. Вставь одну из ссылок ниже:
 b64
 
+| № | Файл | Прямая ссылка для скачивания | Размер |
+|---|------|------------------------------|--------|
+| 1 | `1.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) | ~200 серверов |
+| 2 | `2.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) | ~200 серверов |
+| 3 | `3.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) | ~200 серверов |
+| 4 | `4.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt) | ~200 серверов |
+| 5 | `5.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) | ~200 серверов |
+| 6 | `6.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) | ~200 серверов |
+| 7 | `7.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt) | ~200 серверов |
+| 8 | `8.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) | ~200 серверов |
+| 9 | `9.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) | ~200 серверов |
+| 10 | `10.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt) | ~200 серверов |
+| 11 | `11.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) | ~200 серверов |
+| 12 | `12.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) | ~200 серверов |
+| 13 | `13.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) | ~200 серверов |
+| 14 | `14.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) | ~200 серверов |
+| 15 | `15.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt) | ~200 серверов |
+| 16 | `16.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt) | ~200 серверов |
+| 17 | `17.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) | ~200 серверов |
+| 18 | `18.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt) | ~200 серверов |
+| 19 | `19.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) | ~200 серверов |
+| 20 | `20.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt) | ~200 серверов |
+| 21 | `21.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) | ~200 серверов |
+| 22 | `22.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) | ~200 серверов |
+| 23 | `23.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt) | ~200 серверов |
+| 24 | `24.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) | ~200 серверов |
+| 25 | `25.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) | ~200 серверов |
+
 **[📂 Все файлы Android](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
@@ -52,6 +80,33 @@ b64
 2. Перейди в **"Конфигурации"** → `+` → **"Импортировать V2Ray URL из буфера"**
 3. Вставь одну из ссылок ниже:
 
+| № | Файл | Прямая ссылка для скачивания | Размер |
+|---|------|------------------------------|--------|
+| 1 | `1.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) | ~200 серверов |
+| 2 | `2.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) | ~200 серверов |
+| 3 | `3.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) | ~200 серверов |
+| 4 | `4.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt) | ~200 серверов |
+| 5 | `5.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) | ~200 серверов |
+| 6 | `6.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) | ~200 серверов |
+| 7 | `7.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt) | ~200 серверов |
+| 8 | `8.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) | ~200 серверов |
+| 9 | `9.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) | ~200 серверов |
+| 10 | `10.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt) | ~200 серверов |
+| 11 | `11.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) | ~200 серверов |
+| 12 | `12.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) | ~200 серверов |
+| 13 | `13.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) | ~200 серверов |
+| 14 | `14.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) | ~200 серверов |
+| 15 | `15.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt) | ~200 серверов |
+| 16 | `16.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt) | ~200 серверов |
+| 17 | `17.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) | ~200 серверов |
+| 18 | `18.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt) | ~200 серверов |
+| 19 | `19.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) | ~200 серверов |
+| 20 | `20.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt) | ~200 серверов |
+| 21 | `21.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) | ~200 серверов |
+| 22 | `22.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) | ~200 серверов |
+| 23 | `23.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt) | ~200 серверов |
+| 24 | `24.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) | ~200 серверов |
+| 25 | `25.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) | ~200 серверов |
 Подходят txt
 
 **[📂 Все файлы iOS](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
@@ -66,6 +121,34 @@ b64
 2. Нажми **"Профили"** → **"Добавить профиль из буфера"**
 3. Вставь одну из ссылок ниже:
 
+| № | Файл | Прямая ссылка для скачивания | Размер |
+|---|------|------------------------------|--------|
+| 1 | `1.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) | ~200 серверов |
+| 2 | `2.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) | ~200 серверов |
+| 3 | `3.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) | ~200 серверов |
+| 4 | `4.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt) | ~200 серверов |
+| 5 | `5.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) | ~200 серверов |
+| 6 | `6.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) | ~200 серверов |
+| 7 | `7.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt) | ~200 серверов |
+| 8 | `8.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) | ~200 серверов |
+| 9 | `9.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) | ~200 серверов |
+| 10 | `10.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt) | ~200 серверов |
+| 11 | `11.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) | ~200 серверов |
+| 12 | `12.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) | ~200 серверов |
+| 13 | `13.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) | ~200 серверов |
+| 14 | `14.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) | ~200 серверов |
+| 15 | `15.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt) | ~200 серверов |
+| 16 | `16.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt) | ~200 серверов |
+| 17 | `17.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) | ~200 серверов |
+| 18 | `18.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt) | ~200 серверов |
+| 19 | `19.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) | ~200 серверов |
+| 20 | `20.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt) | ~200 серверов |
+| 21 | `21.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) | ~200 серверов |
+| 22 | `22.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) | ~200 серверов |
+| 23 | `23.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt) | ~200 серверов |
+| 24 | `24.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) | ~200 серверов |
+| 25 | `25.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) | ~200 серверов |
+
 **[📂 Все файлы Windows](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
@@ -77,6 +160,35 @@ b64
 1. Открой NekoRay
 2. Нажми **"Программа"** → **"Добавить подписку"**
 3. Вставь одну из ссылок ниже:
+
+| № | Файл | Прямая ссылка для скачивания | Размер |
+|---|------|------------------------------|--------|
+| 1 | `1.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) | ~200 серверов |
+| 2 | `2.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) | ~200 серверов |
+| 3 | `3.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) | ~200 серверов |
+| 4 | `4.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt) | ~200 серверов |
+| 5 | `5.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) | ~200 серверов |
+| 6 | `6.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) | ~200 серверов |
+| 7 | `7.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt) | ~200 серверов |
+| 8 | `8.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) | ~200 серверов |
+| 9 | `9.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) | ~200 серверов |
+| 10 | `10.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt) | ~200 серверов |
+| 11 | `11.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) | ~200 серверов |
+| 12 | `12.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) | ~200 серверов |
+| 13 | `13.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) | ~200 серверов |
+| 14 | `14.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) | ~200 серверов |
+| 15 | `15.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt) | ~200 серверов |
+| 16 | `16.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt) | ~200 серверов |
+| 17 | `17.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) | ~200 серверов |
+| 18 | `18.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt) | ~200 серверов |
+| 19 | `19.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) | ~200 серверов |
+| 20 | `20.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt) | ~200 серверов |
+| 21 | `21.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) | ~200 серверов |
+| 22 | `22.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) | ~200 серверов |
+| 23 | `23.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt) | ~200 серверов |
+| 24 | `24.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) | ~200 серверов |
+| 25 | `25.txt` | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) | ~200 серверов |
+
 
 **[📂 Все файлы Linux](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
