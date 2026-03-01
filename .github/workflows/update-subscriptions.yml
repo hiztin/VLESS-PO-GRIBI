@@ -1,54 +1,102 @@
-name: 🔄 Автообновление конфигов
+name:  Автообновление конфигов
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
-  workflow_dispatch:
+    - cron: '0 */3 * * *'  # Каждые 3 часа
+  workflow_dispatch:        # Ручной запуск
 
 permissions:
   contents: write
+  actions: read
 
 jobs:
   update:
+    name: Сбор и проверка серверов
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
     steps:
-      - uses: actions/checkout@v4
+      - name: 📥 Клонирование репозитория
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MY_PAT }}  
+          fetch-depth: 0
       
-      - name: 🐍 Python
+      - name: 🐍 Установка Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          
-      - name: 📦 Зависимости
-        run: pip install aiohttp
-          
-      - name: 🚀 Парсер
-        run: python source/parser.py
-        
-      - name: 🔍 Проверка
+          cache: 'pip'
+      
+      - name: 📦 Установка зависимостей
+        run: |
+          pip install --upgrade pip
+          pip install aiohttp
+      
+      - name: 🚀 Запуск парсера
+        working-directory: ./source
+        run: python parser.py
+        continue-on-error: false
+      
+      - name: 🔍 Проверка созданных файлов
         run: |
           echo "📁 Содержимое deploy:"
-          ls -la deploy/
-          echo "📁 Содержимое deploy/subscriptions:"
-          ls -la deploy/subscriptions/ || echo "Нет файлов"
+          ls -la deploy/ || echo "Папка deploy не найдена"
           
-      - name: 📤 Коммит в репозиторий
+          echo "📁 Содержимое deploy/subscriptions:"
+          ls -la deploy/subscriptions/ || echo "Папка subscriptions не найдена"
+          
+          # Подсчёт серверов
+          if [ -f "deploy/sub.txt" ]; then
+            TOTAL=$(wc -l < deploy/sub.txt)
+            echo "📊 Всего серверов: $TOTAL"
+          fi
+          
+          # Статистика по источникам
+          if [ -d "deploy/subscriptions" ]; then
+            FILES=$(ls -1 deploy/subscriptions/*.txt 2>/dev/null | wc -l)
+            echo "📁 Найдено файлов источников: $FILES"
+          fi
+      
+      - name: 📦 Коммит 
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Добавляем всё из deploy
+          # Добавляем все изменения
           git add deploy/
           
-          # Проверяем изменения
+          # Проверяем, есть ли изменения для коммита
           if git diff --staged --quiet; then
-            echo "ℹ️ Нет изменений"
-          else
-            git commit -m "🔄 Автообновление $(date +'%Y-%m-%d %H:%M UTC')"
-            git push
-            echo "✅ Изменения отправлены"
-            
-            # Показываем, что добавилось
-            echo "📄 Новые файлы:"
-            git diff --staged --name-only
+            echo "ℹ️ Нет изменений для коммита"
+            exit 0
           fi
+          
+          # Делаем коммит
+          git commit -m "🔄 Автообновление подписок $(date +'%Y-%m-%d %H:%M UTC')"
+          
+          # Пытаемся запушить
+          echo "📤 Пытаемся запушить..."
+          if ! git push origin main; then
+            echo "⚠️ Конфликт при пуше, стягиваем изменения..."
+            git config pull.rebase true
+            git pull --rebase origin main
+            echo "📤 Пушим после rebase..."
+            git push origin main
+          fi
+          
+          echo "✅ Изменения успешно отправлены"
+          
+          # Показываем, какие файлы добавлены
+          echo "📄 Добавленные файлы:"
+          git diff --staged --name-only
+      
+      - name: 📤 Загрузка артефактов (на случай ошибок)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: subscriptions-${{ github.run_id }}
+          path: deploy/
+          retention-days: 7
+          if-no-files-found: warn
+
