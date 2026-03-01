@@ -4,10 +4,11 @@
   
 ### 🍄‍🟫 Ежедневно обновляемая коллекция рабочих VPN-серверов
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/hiztin/VLESS-PO-GRIBI)](https://github.com/hiztin/VLESS-PO-GRIBI/commits/main)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/hiztin/VLESS-PO-GRIBI/update-subscriptions.yml)](https://github.com/hiztin/VLESS-PO-GRIBI/actions)
-[![License](https://img.shields.io/github/license/hiztin/VLESS-PO-GRIBI)](LICENSE)
-![Серверов](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=alive&label=рабочих&color=green)
+[![GitHub last commit](https://img.shields.io/github/last-commit/hiztin/VLESS-PO-GRIBI?style=for-the-badge&logo=github&color=blueviolet)](https://github.com/hiztin/VLESS-PO-GRIBI/commits/main)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/hiztin/VLESS-PO-GRIBI/update-subscriptions.yml?style=for-the-badge&logo=githubactions&color=blueviolet)](https://github.com/hiztin/VLESS-PO-GRIBI/actions)
+[![License](https://img.shields.io/github/license/hiztin/VLESS-PO-GRIBI?style=for-the-badge&logo=opensourceinitiative&color=blueviolet)](LICENSE)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhiztin%2FVLESS-PO-GRIBI%2Fmain%2Fdeploy%2Fdebug.json&query=%24.alive&style=for-the-badge&logo=v2ray&label=РАБОЧИХ&color=success)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhiztin%2FVLESS-PO-GRIBI%2Fmain%2Fdeploy%2Fdebug.json&query=%24.total&style=for-the-badge&logo=v2ray&label=ВСЕГО&color=informational)
 
 </div>
 
