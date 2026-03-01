@@ -2,8 +2,8 @@ name: 🔄 Автообновление конфигов
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # Каждые 3 часа
-  workflow_dispatch:        # Ручной запуск
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,37 +12,44 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name:  Клонировать репозиторий
-        uses: actions/checkout@v4
-        
-      - name:  Установить Python
+      - uses: actions/checkout@v4
+      
+      - name: 🐍 Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           
-      - name:  Установить зависимости
-        run: |
-          pip install aiohttp
+      - name: 📦 Зависимости
+        run: pip install aiohttp
           
-      - name:  Запустить парсер
+      - name: 🚀 Парсер
         working-directory: ./source
         run: python parser.py
         
-      - name:  Закоммитить изменения
+      - name: 🔍 Проверка
+        run: |
+          echo "📁 Файлы в deploy:"
+          ls -la deploy/
+          echo "📁 Файлы в subscriptions:"
+          ls -la deploy/subscriptions/ || echo "Нет файлов"
+          
+      - name: 📤 Коммит и пуш
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Добавляем только существующие папки
-          [ -d "githubmirror" ] && [ "$(ls -A githubmirror)" ] && git add githubmirror/
-          [ -d "deploy" ] && [ "$(ls -A deploy)" ] && git add deploy/
+          # Добавляем всё из deploy
+          git add deploy/
           
-          # Проверяем, есть ли изменения
+          # Проверяем изменения
           if git diff --staged --quiet; then
-            echo " Нет изменений для коммита"
+            echo "ℹ️ Нет изменений"
           else
-            git commit -m " Автообновление $(date +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "🔄 Обновление $(date +'%Y-%m-%d %H:%M UTC')"
             git push
             echo "✅ Изменения отправлены"
+            
+            # Показываем, что добавилось
+            echo "📄 Новые файлы:"
+            git diff --staged --name-only
           fi
-
