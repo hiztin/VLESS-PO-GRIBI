@@ -1,54 +1,24 @@
-name: 🔄 Автообновление конфигов
+
+name: 🔄 Плановое обновление
 
 on:
   schedule:
     - cron: '0 */3 * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
 
 jobs:
-  changes:
-    runs-on: ubuntu-latest
-    outputs:
-      src: ${{ steps.filter.outputs.source }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: dorny/paths-filter@v3
-        id: filter
-        with:
-          filters: |
-            source:
-              - 'source/**'
-              - '.github/workflows/**'
-
   update:
-    needs: changes
-    if: ${{ needs.changes.outputs.src == 'true' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
-      - name: 🐍 Установить Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-          
-      - name: 📦 Установить зависимости
-        run: pip install httpx
-          
-      - name: 🚀 Запустить парсер
+      - name: 🚀 Запуск парсера
         working-directory: ./source
         run: python parser.py
-        
-      - name: 📤 Закоммитить изменения
+      - name: 📤 Коммит
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add deploy/
-          git diff --staged --quiet || git commit -m "🔄 Автообновление $(date +'%Y-%m-%d %H:%M')"
+          git diff --staged --quiet || git commit -m "🔄 Обновление"
           git push
+
