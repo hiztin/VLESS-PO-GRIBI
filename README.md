@@ -40,7 +40,6 @@
 
 | Формат | Ссылка |
 |--------|--------|
-| Полная подписка (Base64) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt |
 | Часть 1 (серверы 1-150) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt |
 | Часть 2 (серверы 151-300) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt |
 | Часть 3 (серверы 301-450) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt |
@@ -70,7 +69,6 @@
 
 | Формат | Ссылка |
 |--------|--------|
-| Полная подписка (Base64) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt |
 | Часть 1 (серверы 1-150) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt |
 | Часть 2 (серверы 151-300) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt |
 | Часть 3 (серверы 301-450) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt |
