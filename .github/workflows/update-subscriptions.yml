@@ -1,4 +1,4 @@
-name: 🔄 Автообновление конфигов
+name: 🔄 АВТООБНОВЛЕНИЕ
 
 on:
   schedule:
@@ -9,47 +9,42 @@ permissions:
   contents: write
 
 jobs:
-  update:
+  force-commit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: 📥 Клонирование
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.MY_PAT }}
           fetch-depth: 0
       
-      - uses: actions/setup-python@v5
+      - name: 🐍 Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           
-      - run: pip install aiohttp
+      - name: 📦 Зависимости
+        run: pip install aiohttp
       
-      - working-directory: ./source
+      - name: 🚀 Парсер
+        working-directory: ./source
         run: python parser.py
       
-      - name: ПРИНУДИТЕЛЬНОЕ ИЗМЕНЕНИЕ
-        run: |
-          # Создаём уникальный файл с timestamp
-          echo "🕒 Force update $(date -Iseconds)" > deploy/force-update.txt
-          
-          # Меняем README если есть
-          if [ -f "README.md" ]; then
-            echo -e "\n\n*Force update: $(date)*" >> README.md
-          fi
-          
-      - name: 
+      - name: 💥 ГАРАНТИРОВАННЫЙ КОММИТ
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Добавляем всё принудительно
+          # Создаём уникальный файл с миллисекундами
+          echo "COMMIT=$(date +%s%N)" > deploy/commit-timestamp.txt
+          
+          # Добавляем всё
           git add -f deploy/
-          git add -f README.md
           
-          # ВСЕГДА делаем коммит (даже если нет изменений)
-          git commit -m "🔄 Принудительное обновление $(date +'%Y-%m-%d %H:%M:%S')" --allow-empty
+          # Всегда коммитим
+          git commit -m "🔄 $(date +'%Y-%m-%d %H:%M:%S.%3N')"
           
-          # Пушим
-          git pull --rebase origin main || true
-          git push origin main
+          # Жёсткий пуш с force
+          git push --force origin main
           
-          echo "✅ КОММИТ СОЗДАН!"
+          echo "✅ КОММИТ ЗАПУШЕН С FORCE!"
