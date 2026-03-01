@@ -2,56 +2,53 @@ name: 🔄 Автообновление конфигов
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # Каждые 3 часа
-  workflow_dispatch:        # Ручной запуск
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
 
 jobs:
-  update:
-    name: Скачивание и проверка
+  changes:
     runs-on: ubuntu-latest
-    
+    outputs:
+      src: ${{ steps.filter.outputs.source }}
     steps:
-      - name: 📥 Клонировать репозиторий
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+      - uses: dorny/paths-filter@v3
+        id: filter
         with:
-          fetch-depth: 0
-          
+          filters: |
+            source:
+              - 'source/**'
+              - '.github/workflows/**'
+
+  update:
+    needs: changes
+    if: ${{ needs.changes.outputs.src == 'true' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
       - name: 🐍 Установить Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           
       - name: 📦 Установить зависимости
-        run: |
-          pip install httpx
+        run: pip install httpx
           
-      - name: 🚀 Запустить парсер из папки source
-        working-directory: ./source  # <- ВАЖНО: переходим в папку source
+      - name: 🚀 Запустить парсер
+        working-directory: ./source
         run: python parser.py
         
-      - name: 🔍 Проверить результаты
-        run: |
-          echo "Содержимое deploy:"
-          ls -la deploy/ || echo "deploy/ пуст или не существует"
-          echo "Содержимое source:"
-          ls -la source/
-          
       - name: 📤 Закоммитить изменения
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Добавляем всю папку deploy (результаты работы)
           git add deploy/
-          
-          # Проверяем, есть ли изменения
-          if git diff --staged --quiet; then
-            echo "ℹ️ Нет изменений для коммита"
-          else
-            git commit -m "🔄 Автообновление конфигов $(date +'%Y-%m-%d %H:%M UTC')"
-            git push
-            echo "✅ Изменения отправлены"
-          fi
+          git diff --staged --quiet || git commit -m "🔄 Автообновление $(date +'%Y-%m-%d %H:%M')"
+          git push
