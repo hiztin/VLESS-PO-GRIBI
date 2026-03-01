@@ -1,101 +1,57 @@
-name: 🔄 Ежедневное обновление подписок
+name: 🔄 Автообновление конфигов
 
 on:
   schedule:
-    - cron: '0 */3 * * *'   # Каждые 3 часа
-  workflow_dispatch:         # Ручной запуск
-  push:
-    paths:
-      - 'parser.py'
-      - 'requirements.txt'
-      - '.github/workflows/*'
+    - cron: '0 */3 * * *'  # Каждые 3 часа
+  workflow_dispatch:        # Ручной запуск
+
+permissions:
+  contents: write
 
 jobs:
-  update-subscriptions:
-    name: Сбор и проверка серверов
+  update:
+    name: Скачивание и проверка
     runs-on: ubuntu-latest
-    permissions:
-      contents: write      # Права на запись в репозиторий
     
     steps:
-      - name: 📥 Клонирование репозитория
+      - name: 📥 Клонировать репозиторий
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: 🐍 Установка Python
+          
+      - name: 🐍 Установить Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip'
-      
-      - name: 📦 Установка зависимостей
+          
+      - name: 📦 Установить зависимости
         run: |
-          pip install --upgrade pip
-          pip install httpx beautifulsoup4 lxml aiofiles
-      
-      - name: 🚀 Запуск парсера
-        id: parser
+          pip install httpx
+          
+      - name: 🚀 Запустить парсер из папки source
+        working-directory: ./source  # <- ВАЖНО: переходим в папку source
         run: python parser.py
-        continue-on-error: true
-      
-      - name: 📊 Проверка результатов
-        id: check
+        
+      - name: 🔍 Проверить результаты
         run: |
-          if [ -d "deploy" ] && [ "$(ls -A deploy)" ]; then
-            echo "✅ Папка deploy существует"
-            echo "files_exist=true" >> $GITHUB_OUTPUT
-            
-            # Статистика
-            if [ -f "deploy/debug.json" ]; then
-              ALIVE=$(jq -r '.alive' deploy/debug.json 2>/dev/null || echo "0")
-              TOTAL=$(jq -r '.total' deploy/debug.json 2>/dev/null || echo "0")
-              echo "📊 Серверов: $TOTAL, рабочих: $ALIVE"
-            fi
-            
-            # Список файлов
-            echo "📄 Созданные файлы:"
-            find deploy -type f -name "*.txt" | sort
-          else
-            echo "⚠️ Папка deploy пуста"
-            echo "files_exist=false" >> $GITHUB_OUTPUT
-          fi
-      - name: 📦 Коммит и пуш обновлений (с авто-синхронизацией)
-        if: steps.check.outputs.files_exist == 'true'
+          echo "Содержимое deploy:"
+          ls -la deploy/ || echo "deploy/ пуст или не существует"
+          echo "Содержимое source:"
+          ls -la source/
+          
+      - name: 📤 Закоммитить изменения
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Добавляем все изменения
-          git add -f deploy/
+          # Добавляем всю папку deploy (результаты работы)
+          git add deploy/
           
-          # Проверяем, есть ли изменения для коммита
-          if git diff --cached --quiet; then
+          # Проверяем, есть ли изменения
+          if git diff --staged --quiet; then
             echo "ℹ️ Нет изменений для коммита"
-            exit 0
+          else
+            git commit -m "🔄 Автообновление конфигов $(date +'%Y-%m-%d %H:%M UTC')"
+            git push
+            echo "✅ Изменения отправлены"
           fi
-          
-          # Делаем коммит
-          git commit -m "🔄 Автообновление подписок $(date +'%Y-%m-%d %H:%M UTC')"
-          
-          # Пытаемся запушить, если не получается - стягиваем изменения и пушим снова
-          echo "📤 Пытаемся запушить..."
-          if ! git push origin main; then
-            echo "⚠️ Конфликт при пуше"
-            git pull --rebase origin main
-            echo "📤 Пушим после rebase..."
-            git push origin main
-          fi
-          
-          echo "✅ Изменения успешно отправлены"
-      
-      - name: 📤 Загрузка артефактов
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: subscriptions-${{ github.run_id }}
-          path: deploy/
-          retention-days: 7
-          if-no-files-found: warn
-
