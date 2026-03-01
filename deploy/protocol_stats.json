@@ -1,8 +1,8 @@
 {
-  "total": 1140,
+  "total": 1100,
   "by_protocol": {
-    "vmess": 291,
-    "vless": 849
+    "vless": 793,
+    "vmess": 307
   },
   "filtered_out": [
     "trojan"

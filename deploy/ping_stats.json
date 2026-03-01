@@ -1,264 +1,264 @@
 {
-  "total": 1140,
-  "min_ping": 10.1,
-  "max_ping": 201.1,
-  "avg_ping": 89.7,
-  "median_ping": 91.5,
-  "q1_ping": 61.8,
-  "q3_ping": 114.8,
-  "fast_servers": 1136,
-  "medium_servers": 4,
+  "total": 1100,
+  "min_ping": 10.0,
+  "max_ping": 239.8,
+  "avg_ping": 132.8,
+  "median_ping": 152.9,
+  "q1_ping": 88.8,
+  "q3_ping": 170.7,
+  "fast_servers": 1016,
+  "medium_servers": 84,
   "slow_servers": 0,
   "samples_per_server": 2,
   "servers_by_ping": [
+    {
+      "host": "ovhwuxian.pai50288.uk",
+      "ping_ms": 10.0,
+      "quality": "быстрый"
+    },
     {
       "host": "www.speedtest.net",
       "ping_ms": 10.1,
       "quality": "быстрый"
     },
     {
-      "host": "www.speedtest.net",
+      "host": "104.21.224.5",
+      "ping_ms": 10.1,
+      "quality": "быстрый"
+    },
+    {
+      "host": "c27.prodnsspeed10.ir",
       "ping_ms": 10.2,
       "quality": "быстрый"
     },
     {
-      "host": "www.speedtest.net",
+      "host": "ns.cloudflare.com",
       "ping_ms": 10.2,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.2,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.3,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.3,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.3,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.4,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.4,
-      "quality": "быстрый"
-    },
-    {
-      "host": "ip-data.turkserver.ir",
-      "ping_ms": 10.4,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.4,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.4,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.4,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.4,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.5,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.5,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.5,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.5,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.5,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.5,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.6,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.6,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.6,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.6,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.6,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.6,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.7,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.7,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.9,
       "quality": "быстрый"
     },
     {
       "host": "vmess-server",
-      "ping_ms": 10.9,
+      "ping_ms": 10.2,
       "quality": "быстрый"
     },
     {
-      "host": "www.speedtest.net",
-      "ping_ms": 10.9,
+      "host": "speedtest.org",
+      "ping_ms": 10.2,
       "quality": "быстрый"
     },
     {
-      "host": "www.speedtest.net",
-      "ping_ms": 11.0,
+      "host": "c27.prodnsspeed10.ir",
+      "ping_ms": 10.3,
       "quality": "быстрый"
     },
     {
-      "host": "www.speedtest.net",
-      "ping_ms": 11.0,
+      "host": "freedom.gov",
+      "ping_ms": 10.4,
       "quality": "быстрый"
     },
     {
-      "host": "www.speedtest.net",
-      "ping_ms": 11.1,
+      "host": "masterserver1-masterserver1-masterserver1-masterserver1.canope7544.workers.dev",
+      "ping_ms": 10.5,
       "quality": "быстрый"
     },
     {
-      "host": "cosmin.ns.cloudflare.com",
-      "ping_ms": 11.1,
+      "host": "vmess-server",
+      "ping_ms": 10.6,
       "quality": "быстрый"
     },
     {
-      "host": "clyde.ns.cloudflare.com",
-      "ping_ms": 11.2,
+      "host": "vmess-server",
+      "ping_ms": 10.6,
       "quality": "быстрый"
     },
     {
-      "host": "66.228.39.72",
-      "ping_ms": 11.2,
-      "quality": "быстрый"
-    },
-    {
-      "host": "medium.com",
-      "ping_ms": 11.3,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 11.3,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 11.4,
-      "quality": "быстрый"
-    },
-    {
-      "host": "www.speedtest.net",
-      "ping_ms": 11.4,
-      "quality": "быстрый"
-    },
-    {
-      "host": "45.82.251.114",
-      "ping_ms": 11.5,
-      "quality": "быстрый"
-    },
-    {
-      "host": "zeus.ns.cloudflare.com",
-      "ping_ms": 11.6,
-      "quality": "быстрый"
-    },
-    {
-      "host": "45.82.251.116",
-      "ping_ms": 11.7,
-      "quality": "быстрый"
-    },
-    {
-      "host": "jeff.ns.cloudflare.com",
-      "ping_ms": 11.7,
+      "host": "alalucarne.com",
+      "ping_ms": 10.7,
       "quality": "быстрый"
     },
     {
       "host": "brenna.ns.cloudflare.com",
+      "ping_ms": 10.8,
+      "quality": "быстрый"
+    },
+    {
+      "host": "vmess-server",
+      "ping_ms": 10.8,
+      "quality": "быстрый"
+    },
+    {
+      "host": "cf12.fastspeeds.ir",
+      "ping_ms": 10.8,
+      "quality": "быстрый"
+    },
+    {
+      "host": "0n0w5jre3ro-p4vmk-dilf-3hcr9u9fc.talumy147.workers.dev",
+      "ping_ms": 10.8,
+      "quality": "быстрый"
+    },
+    {
+      "host": "z10.prodnsspeed10.ir",
+      "ping_ms": 10.8,
+      "quality": "быстрый"
+    },
+    {
+      "host": "shookhidasti.global.ssl.fastly.net",
+      "ping_ms": 10.9,
+      "quality": "быстрый"
+    },
+    {
+      "host": "z3.prodnsspeed10.ir",
+      "ping_ms": 10.9,
+      "quality": "быстрый"
+    },
+    {
+      "host": "www.fast.hosting-ip.com",
+      "ping_ms": 10.9,
+      "quality": "быстрый"
+    },
+    {
+      "host": "ip-data.turkserver.ir",
+      "ping_ms": 11.0,
+      "quality": "быстрый"
+    },
+    {
+      "host": "masterserver1-masterserver1-masterserver1-masterserver1.yamoja7907.workers.dev",
+      "ping_ms": 11.2,
+      "quality": "быстрый"
+    },
+    {
+      "host": "www.base64encode.org",
+      "ping_ms": 11.2,
+      "quality": "быстрый"
+    },
+    {
+      "host": "z6.prodnsspeed10.ir",
+      "ping_ms": 11.2,
+      "quality": "быстрый"
+    },
+    {
+      "host": "researchgate.net",
+      "ping_ms": 11.2,
+      "quality": "быстрый"
+    },
+    {
+      "host": "store.ubi.com",
+      "ping_ms": 11.3,
+      "quality": "быстрый"
+    },
+    {
+      "host": "nl1.vezze.lat",
+      "ping_ms": 11.3,
+      "quality": "быстрый"
+    },
+    {
+      "host": "g10.prodnsspeed10.ir",
+      "ping_ms": 11.4,
+      "quality": "быстрый"
+    },
+    {
+      "host": "ipbaz.ping-box.com",
+      "ping_ms": 11.6,
+      "quality": "быстрый"
+    },
+    {
+      "host": "vmess-server",
+      "ping_ms": 11.6,
+      "quality": "быстрый"
+    },
+    {
+      "host": "cdnjs.com",
       "ping_ms": 11.7,
       "quality": "быстрый"
     },
     {
-      "host": "norman.ns.cloudflare.com",
-      "ping_ms": 11.7,
+      "host": "v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev",
+      "ping_ms": 11.9,
       "quality": "быстрый"
     },
     {
-      "host": "cloudflare.net",
-      "ping_ms": 11.8,
+      "host": "bouquetberlin.org",
+      "ping_ms": 11.9,
       "quality": "быстрый"
     },
     {
-      "host": "103.113.70.21",
-      "ping_ms": 11.8,
+      "host": "z8.prodnsspeed10.ir",
+      "ping_ms": 12.1,
       "quality": "быстрый"
     },
     {
-      "host": "45.82.251.115",
-      "ping_ms": 11.8,
+      "host": "masterserver1-masterserver1-masterserver1-masterserver1.werone3887.workers.dev",
+      "ping_ms": 12.3,
+      "quality": "быстрый"
+    },
+    {
+      "host": "shahed2.novintecc.org",
+      "ping_ms": 12.3,
+      "quality": "быстрый"
+    },
+    {
+      "host": "vmess-server",
+      "ping_ms": 12.6,
+      "quality": "быстрый"
+    },
+    {
+      "host": "masterserver1-masterserver1-masterserver1-masterserver1.pociyag861.workers.dev",
+      "ping_ms": 12.7,
+      "quality": "быстрый"
+    },
+    {
+      "host": "telegram.vpnazadie.store",
+      "ping_ms": 12.7,
+      "quality": "быстрый"
+    },
+    {
+      "host": "cf10.fastspeeds.ir",
+      "ping_ms": 12.8,
+      "quality": "быстрый"
+    },
+    {
+      "host": "glob.thisiswe.uno",
+      "ping_ms": 12.8,
+      "quality": "быстрый"
+    },
+    {
+      "host": "masterserver1-masterserver1-masterserver1-masterserver1.dhwutv.workers.dev",
+      "ping_ms": 13.1,
+      "quality": "быстрый"
+    },
+    {
+      "host": "silver.api-tel.xyz",
+      "ping_ms": 13.1,
+      "quality": "быстрый"
+    },
+    {
+      "host": "ert-3.v-sub.site",
+      "ping_ms": 13.1,
+      "quality": "быстрый"
+    },
+    {
+      "host": "www.wto.org",
+      "ping_ms": 13.3,
+      "quality": "быстрый"
+    },
+    {
+      "host": "cf9.fastspeeds.ir",
+      "ping_ms": 13.4,
+      "quality": "быстрый"
+    },
+    {
+      "host": "www.tgju.org",
+      "ping_ms": 13.4,
+      "quality": "быстрый"
+    },
+    {
+      "host": "ipbaz.ping-box.com",
+      "ping_ms": 13.6,
+      "quality": "быстрый"
+    },
+    {
+      "host": "cf4.fastspeeds.ir",
+      "ping_ms": 13.9,
       "quality": "быстрый"
     }
   ]

@@ -1,26 +1,26 @@
 {
   "total": 9108,
-  "alive": 1140,
+  "alive": 1100,
   "allowed_protocols": [
     "vless",
     "vmess",
     "ss"
   ],
-  "date": "2026-03-01 07:56:48.283408",
+  "date": "2026-03-01 08:35:26.609286",
   "protocol_stats": {
-    "vmess": 15,
-    "vless": 85
+    "vless": 76,
+    "vmess": 24
   },
   "servers_preview": [
-    "vmess://eyJhZGQiOiI6OmZmZmY6YWM0MDo5YmQxIiwiYWlkIjoiMCIsImFscG4iOiJoMiIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImJlZHJpZC5kZW5pemhvc3RpbmcubWUiLCJpZCI6ImZmZWNlMmE5LTAyOTYtNDZhOS04ZGI4LTc0MmQyOWQyNDBmZiIsImluc2VjdXJlIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6IklTd3BZVlI4U2p4WGNVWkVVelZmTlVSVFVDOGxWMjlEWFNnc0tIMVNOMGcxSlZwREhVMWNXaWdLQUM4UVJsdE1DaTg2QUJ3NEpWMTRIVk1uIiwicG9ydCI6IjQ0MyIsInBzIjoiVGVsZWdyYW0gOiBAVjJ5bnB2Iiwic2N5IjoiYXV0byIsInNuaSI6ImJlZHJpZC5kZW5pemhvc3RpbmcubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==",
-    "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.67.187.251:443",
-    "vless://63f92f3c-447c-4283-80b9-0af8e164cdad@152.53.49.130:22955",
-    "vless://686c62d9-17a7-43c9-a40a-f6747df60a9f@104.18.32.47:2096",
-    "vmess://eyJ2IjogbnVsbCwgImFkZCI6ICIxNzIuNjcuMTkwLjk0IiwgInBvcnQiOiA0NDMsICJpZCI6ICI5ZDI0YjA3Yy03MWY0LTRhYTUtOTVhYy0zMzA3YzY5OTU2MTkiLCAiYWlkIjogIjAiLCAic2N5IjogbnVsbCwgIm5ldCI6ICJ3cyIsICJ0eXBlIjogbnVsbCwgImhvc3QiOiAibW1raTkua2sxLmNjd3UuY2MiLCAiYWxwbiI6IG51bGwsICJwYXRoIjogIi9GbHlkVTc5Um51MGxOaHUxWVpjN3paIiwgInRscyI6ICJ0bHMiLCAic25pIjogbnVsbCwgImZwIjogbnVsbCwgIm5hbWUiOiAiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IFVTIDU4IiwgInBzIjogIkB2MnJheXNfaGEgMTE0NDcifQ",
-    "vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.18.86.237:80",
-    "vless://5ce84688-f535-46ad-a512-37b17becf6ea@152.228.162.19:80",
-    "vless://a506dd7f-1eca-426f-a07a-982490244622@45.130.125.160:2086",
-    "vless://8daf840a-0737-41ef-8fda-eb80cf2edff3@104.17.147.22:8880",
-    "vless://61113265-3e78-4012-8f42-692b5069ddac@104.26.14.21:443"
+    "vless://b30299bb-fd03-4a9c-a28b-62f6922ffbff@shotornet.global.ssl.fastly.net:443",
+    "vmess://eyJhZGQiOiI0OS4xMi4xMDIuMjQwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjZiN2NiYzQxLWZiODAtNDFhOC04ZWI2LWI1YmRiMGU4NjE0NyIsIm5ldCI6InRjcCIsInBhdGgiOiJcLyIsInBvcnQiOiI0NDMiLCJwcyI6IkBWUE5BemFkaU9mZmljaWFsaSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0=",
+    "vless://0261c8f9-413a-455b-942b-3713c6b0084a@172.66.40.99:443",
+    "vless://d8cbb264-318d-4701-b517-f5355ae2923c@chatgpt.com:2053",
+    "vless://a13df940-020c-465f-bc89-ee5279b5cd6a@185.135.9.15:443",
+    "vmess://eyJhZGQiOiI1Ny4xMjkuMjguNjQiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IkpvaW4tLS12MnJheW5nemVuZGVnaW1hbWFkIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiJsaW5rdndzIiwicG9ydCI6IjQ0MyIsInBzIjoiQEF6YWRpb05ldCAg2qnYp9mG2KfZhCDYqtmE2q/Ysdin2YXbjCIsInNjeSI6ImF1dG8iLCJzbmkiOiJzZXJrYXQub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
+    "vmess://eyJhZGQiOiI1Ny4xMjkuMjQuMTI0IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ3cm1lbG13eGxmLmdrdGV2bHJxem53cXFvenkuZmFicGZzNjZnaXptbm9qaGN2cXh3bC5reXRyY2Z6cWxhODdndmd2czZjN2tqbnJ1YnVoLmNjIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IkFsbC1AVjJyYXlBbHBoYS0tMTciLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=vmess",
+    "vless://e1034c59-c944-4a60-bdba-8f9cea0324b1@92.223.124.29:443",
+    "vless://2aa074fb-ca59-448c-b864-a5e82b93c640@172.64.149.99:2095",
+    "vless://401374e6-df77-41fb-f638-dad8184f175b@89.116.180.248:443"
   ]
 }
