@@ -42,36 +42,33 @@ b64
 
 ## 📱 Ссылки для копирования (нажми на ссылку)
 
-| № | Файл | 📲 Нажми чтобы скопировать |
+| № | Файл | 📲 ССЫЛКИ |
 |---|------|---------------------------|
-| 1 | `1.txt` | [`🔗 raw.githubusercontent.com/1.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) |
-| 2 | `2.txt` | [`🔗 raw.githubusercontent.com/2.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) |
-| 3 | `3.txt` | [`🔗 raw.githubusercontent.com/3.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) |
-| 4 | `4.txt` | [`🔗 raw.githubusercontent.com/4.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt) |
-| 5 | `5.txt` | [`🔗 raw.githubusercontent.com/5.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) |
-| 6 | `6.txt` | [`🔗 raw.githubusercontent.com/6.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) |
-| 7 | `7.txt` | [`🔗 raw.githubusercontent.com/7.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt) |
-| 8 | `8.txt` | [`🔗 raw.githubusercontent.com/8.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) |
-| 9 | `9.txt` | [`🔗 raw.githubusercontent.com/9.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) |
-| 10 | `10.txt` | [`🔗 raw.githubusercontent.com/10.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt) |
-| 11 | `11.txt` | [`🔗 raw.githubusercontent.com/11.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) |
-| 12 | `12.txt` | [`🔗 raw.githubusercontent.com/12.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) |
-| 13 | `13.txt` | [`🔗 raw.githubusercontent.com/13.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) |
-| 14 | `14.txt` | [`🔗 raw.githubusercontent.com/14.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) |
-| 15 | `15.txt` | [`🔗 raw.githubusercontent.com/15.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt) |
-| 16 | `16.txt` | [`🔗 raw.githubusercontent.com/16.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt) |
-| 17 | `17.txt` | [`🔗 raw.githubusercontent.com/17.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) |
-| 18 | `18.txt` | [`🔗 raw.githubusercontent.com/18.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt) |
-| 19 | `19.txt` | [`🔗 raw.githubusercontent.com/19.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) |
-| 20 | `20.txt` | [`🔗 raw.githubusercontent.com/20.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt) |
-| 21 | `21.txt` | [`🔗 raw.githubusercontent.com/21.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) |
-| 22 | `22.txt` | [`🔗 raw.githubusercontent.com/22.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) |
-| 23 | `23.txt` | [`🔗 raw.githubusercontent.com/23.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt) |
-| 24 | `24.txt` | [`🔗 raw.githubusercontent.com/24.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) |
-| 25 | `25.txt` | [`🔗 raw.githubusercontent.com/25.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) |
-| 26 | `26.txt` | [`🔗 raw.githubusercontent.com/26.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/26.txt) |
-
----
+| 1 | `1.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt` |
+| 2 | `2.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt` |
+| 3 | `3.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt` |
+| 4 | `4.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt` |
+| 5 | `5.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt` |
+| 6 | `6.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt` |
+| 7 | `7.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt` |
+| 8 | `8.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt` |
+| 9 | `9.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt` |
+| 10 | `10.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt` |
+| 11 | `11.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt` |
+| 12 | `12.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt` |
+| 13 | `13.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt` |
+| 14 | `14.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt` |
+| 15 | `15.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt` |
+| 16 | `16.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt` |
+| 17 | `17.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt` |
+| 18 | `18.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt` |
+| 19 | `19.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt` |
+| 20 | `20.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt` |
+| 21 | `21.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt` |
+| 22 | `22.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt` |
+| 23 | `23.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt` |
+| 24 | `24.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt` |
+| 25 | `25.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt` |
 
 ## 📋 Альтернативный способ (просто ссылки)
 
@@ -91,34 +88,34 @@ b64
 
 ## 📱 Ссылки для копирования (нажми на ссылку)
 
-| № | Файл | 📲 Нажми чтобы скопировать |
+
+| № | Файл | 📲 ССЫЛКИ |
 |---|------|---------------------------|
-| 1 | `1.txt` | [`🔗 raw.githubusercontent.com/1.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) |
-| 2 | `2.txt` | [`🔗 raw.githubusercontent.com/2.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) |
-| 3 | `3.txt` | [`🔗 raw.githubusercontent.com/3.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) |
-| 4 | `4.txt` | [`🔗 raw.githubusercontent.com/4.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt) |
-| 5 | `5.txt` | [`🔗 raw.githubusercontent.com/5.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) |
-| 6 | `6.txt` | [`🔗 raw.githubusercontent.com/6.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) |
-| 7 | `7.txt` | [`🔗 raw.githubusercontent.com/7.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt) |
-| 8 | `8.txt` | [`🔗 raw.githubusercontent.com/8.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) |
-| 9 | `9.txt` | [`🔗 raw.githubusercontent.com/9.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) |
-| 10 | `10.txt` | [`🔗 raw.githubusercontent.com/10.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt) |
-| 11 | `11.txt` | [`🔗 raw.githubusercontent.com/11.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) |
-| 12 | `12.txt` | [`🔗 raw.githubusercontent.com/12.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) |
-| 13 | `13.txt` | [`🔗 raw.githubusercontent.com/13.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) |
-| 14 | `14.txt` | [`🔗 raw.githubusercontent.com/14.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) |
-| 15 | `15.txt` | [`🔗 raw.githubusercontent.com/15.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt) |
-| 16 | `16.txt` | [`🔗 raw.githubusercontent.com/16.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt) |
-| 17 | `17.txt` | [`🔗 raw.githubusercontent.com/17.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) |
-| 18 | `18.txt` | [`🔗 raw.githubusercontent.com/18.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt) |
-| 19 | `19.txt` | [`🔗 raw.githubusercontent.com/19.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) |
-| 20 | `20.txt` | [`🔗 raw.githubusercontent.com/20.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt) |
-| 21 | `21.txt` | [`🔗 raw.githubusercontent.com/21.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) |
-| 22 | `22.txt` | [`🔗 raw.githubusercontent.com/22.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) |
-| 23 | `23.txt` | [`🔗 raw.githubusercontent.com/23.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt) |
-| 24 | `24.txt` | [`🔗 raw.githubusercontent.com/24.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) |
-| 25 | `25.txt` | [`🔗 raw.githubusercontent.com/25.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) |
-| 26 | `26.txt` | [`🔗 raw.githubusercontent.com/26.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/26.txt) |
+| 1 | `1.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt` |
+| 2 | `2.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt` |
+| 3 | `3.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt` |
+| 4 | `4.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt` |
+| 5 | `5.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt` |
+| 6 | `6.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt` |
+| 7 | `7.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt` |
+| 8 | `8.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt` |
+| 9 | `9.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt` |
+| 10 | `10.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt` |
+| 11 | `11.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt` |
+| 12 | `12.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt` |
+| 13 | `13.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt` |
+| 14 | `14.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt` |
+| 15 | `15.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt` |
+| 16 | `16.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt` |
+| 17 | `17.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt` |
+| 18 | `18.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt` |
+| 19 | `19.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt` |
+| 20 | `20.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt` |
+| 21 | `21.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt` |
+| 22 | `22.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt` |
+| 23 | `23.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt` |
+| 24 | `24.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt` |
+| 25 | `25.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt` |
 
 ---
 
@@ -140,36 +137,35 @@ b64
 3. Вставь одну из ссылок ниже:
 ## 📱 Ссылки для копирования (нажми на ссылку)
 
-| № | Файл | 📲 Нажми чтобы скопировать |
+| № | Файл | 📲 ССЫЛКИ |
 |---|------|---------------------------|
-| 1 | `1.txt` | [`🔗 raw.githubusercontent.com/1.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) |
-| 2 | `2.txt` | [`🔗 raw.githubusercontent.com/2.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) |
-| 3 | `3.txt` | [`🔗 raw.githubusercontent.com/3.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) |
-| 4 | `4.txt` | [`🔗 raw.githubusercontent.com/4.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt) |
-| 5 | `5.txt` | [`🔗 raw.githubusercontent.com/5.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) |
-| 6 | `6.txt` | [`🔗 raw.githubusercontent.com/6.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) |
-| 7 | `7.txt` | [`🔗 raw.githubusercontent.com/7.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt) |
-| 8 | `8.txt` | [`🔗 raw.githubusercontent.com/8.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) |
-| 9 | `9.txt` | [`🔗 raw.githubusercontent.com/9.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) |
-| 10 | `10.txt` | [`🔗 raw.githubusercontent.com/10.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt) |
-| 11 | `11.txt` | [`🔗 raw.githubusercontent.com/11.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) |
-| 12 | `12.txt` | [`🔗 raw.githubusercontent.com/12.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) |
-| 13 | `13.txt` | [`🔗 raw.githubusercontent.com/13.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) |
-| 14 | `14.txt` | [`🔗 raw.githubusercontent.com/14.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) |
-| 15 | `15.txt` | [`🔗 raw.githubusercontent.com/15.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt) |
-| 16 | `16.txt` | [`🔗 raw.githubusercontent.com/16.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt) |
-| 17 | `17.txt` | [`🔗 raw.githubusercontent.com/17.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) |
-| 18 | `18.txt` | [`🔗 raw.githubusercontent.com/18.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt) |
-| 19 | `19.txt` | [`🔗 raw.githubusercontent.com/19.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) |
-| 20 | `20.txt` | [`🔗 raw.githubusercontent.com/20.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt) |
-| 21 | `21.txt` | [`🔗 raw.githubusercontent.com/21.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) |
-| 22 | `22.txt` | [`🔗 raw.githubusercontent.com/22.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) |
-| 23 | `23.txt` | [`🔗 raw.githubusercontent.com/23.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt) |
-| 24 | `24.txt` | [`🔗 raw.githubusercontent.com/24.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) |
-| 25 | `25.txt` | [`🔗 raw.githubusercontent.com/25.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) |
-| 26 | `26.txt` | [`🔗 raw.githubusercontent.com/26.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/26.txt) |
+| 1 | `1.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt` |
+| 2 | `2.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt` |
+| 3 | `3.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt` |
+| 4 | `4.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt` |
+| 5 | `5.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt` |
+| 6 | `6.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt` |
+| 7 | `7.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt` |
+| 8 | `8.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt` |
+| 9 | `9.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt` |
+| 10 | `10.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt` |
+| 11 | `11.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt` |
+| 12 | `12.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt` |
+| 13 | `13.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt` |
+| 14 | `14.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt` |
+| 15 | `15.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt` |
+| 16 | `16.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt` |
+| 17 | `17.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt` |
+| 18 | `18.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt` |
+| 19 | `19.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt` |
+| 20 | `20.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt` |
+| 21 | `21.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt` |
+| 22 | `22.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt` |
+| 23 | `23.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt` |
+| 24 | `24.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt` |
+| 25 | `25.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt` |
 
----
+
 
 ## 📋 Альтернативный способ (просто ссылки)
 
@@ -190,36 +186,34 @@ b64
 
 ## 📱 Ссылки для копирования (нажми на ссылку)
 
-| № | Файл | 📲 Нажми чтобы скопировать |
+| № | Файл | 📲 ССЫЛКИ |
 |---|------|---------------------------|
-| 1 | `1.txt` | [`🔗 raw.githubusercontent.com/1.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) |
-| 2 | `2.txt` | [`🔗 raw.githubusercontent.com/2.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) |
-| 3 | `3.txt` | [`🔗 raw.githubusercontent.com/3.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) |
-| 4 | `4.txt` | [`🔗 raw.githubusercontent.com/4.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt) |
-| 5 | `5.txt` | [`🔗 raw.githubusercontent.com/5.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) |
-| 6 | `6.txt` | [`🔗 raw.githubusercontent.com/6.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) |
-| 7 | `7.txt` | [`🔗 raw.githubusercontent.com/7.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt) |
-| 8 | `8.txt` | [`🔗 raw.githubusercontent.com/8.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) |
-| 9 | `9.txt` | [`🔗 raw.githubusercontent.com/9.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) |
-| 10 | `10.txt` | [`🔗 raw.githubusercontent.com/10.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt) |
-| 11 | `11.txt` | [`🔗 raw.githubusercontent.com/11.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) |
-| 12 | `12.txt` | [`🔗 raw.githubusercontent.com/12.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) |
-| 13 | `13.txt` | [`🔗 raw.githubusercontent.com/13.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) |
-| 14 | `14.txt` | [`🔗 raw.githubusercontent.com/14.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) |
-| 15 | `15.txt` | [`🔗 raw.githubusercontent.com/15.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt) |
-| 16 | `16.txt` | [`🔗 raw.githubusercontent.com/16.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt) |
-| 17 | `17.txt` | [`🔗 raw.githubusercontent.com/17.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) |
-| 18 | `18.txt` | [`🔗 raw.githubusercontent.com/18.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt) |
-| 19 | `19.txt` | [`🔗 raw.githubusercontent.com/19.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) |
-| 20 | `20.txt` | [`🔗 raw.githubusercontent.com/20.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt) |
-| 21 | `21.txt` | [`🔗 raw.githubusercontent.com/21.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) |
-| 22 | `22.txt` | [`🔗 raw.githubusercontent.com/22.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) |
-| 23 | `23.txt` | [`🔗 raw.githubusercontent.com/23.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt) |
-| 24 | `24.txt` | [`🔗 raw.githubusercontent.com/24.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) |
-| 25 | `25.txt` | [`🔗 raw.githubusercontent.com/25.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) |
-| 26 | `26.txt` | [`🔗 raw.githubusercontent.com/26.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/26.txt) |
+| 1 | `1.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt` |
+| 2 | `2.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt` |
+| 3 | `3.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt` |
+| 4 | `4.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/4.txt` |
+| 5 | `5.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt` |
+| 6 | `6.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt` |
+| 7 | `7.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/7.txt` |
+| 8 | `8.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt` |
+| 9 | `9.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt` |
+| 10 | `10.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/10.txt` |
+| 11 | `11.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt` |
+| 12 | `12.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt` |
+| 13 | `13.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt` |
+| 14 | `14.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt` |
+| 15 | `15.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/15.txt` |
+| 16 | `16.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/16.txt` |
+| 17 | `17.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt` |
+| 18 | `18.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/18.txt` |
+| 19 | `19.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt` |
+| 20 | `20.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/20.txt` |
+| 21 | `21.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt` |
+| 22 | `22.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt` |
+| 23 | `23.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/23.txt` |
+| 24 | `24.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt` |
+| 25 | `25.txt` | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt` |
 
----
 
 ## 📋 Альтернативный способ (просто ссылки)
 
