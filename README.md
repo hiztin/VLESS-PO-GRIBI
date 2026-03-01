@@ -1,4 +1,4 @@
-# 🌐 VLESS PO GRIBI - Автоматические VPN подписки
+# 🌐 VLESS PO GRIBI - Бесплатные VPN подписки
 
 <div align="center">
 
