@@ -287,7 +287,41 @@ def save_results(source_results: List[Tuple[int, List[str]]]):
         log(f"  ✅ sub.txt: {len(all_servers)} всего серверов")
 
     return sources_with_data, total_servers
-
+def force_update_timestamp():
+    """Принудительно обновляет timestamp в README, даже если данные не изменились"""
+    readme_path = "README.md"
+    if not os.path.exists(readme_path):
+        return False
+    
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    
+    # Ищем и обновляем дату последнего обновления
+    from datetime import datetime
+    import zoneinfo
+    
+    zone = zoneinfo.ZoneInfo("Europe/Moscow")
+    current_time = datetime.now(zone)
+    time_str = current_time.strftime("%H:%M")
+    date_str = current_time.strftime("%d.%m.%Y")
+    
+    # Обновляем дату в статистике
+    import re
+    new_content = re.sub(
+        r'(\*\*Последнее обновление\*\*:).*',
+        f'\\1 {time_str} {date_str}',
+        content
+    )
+    
+    if new_content != content:
+        with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(new_content)
+        return True
+    
+    # Если не нашли, добавляем в конец
+    with open(readme_path, "a", encoding="utf-8") as f:
+        f.write(f"\n\n*Последнее обновление: {time_str} {date_str}*\n")
+    return True
 # ГЕНЕРАЦИЯ README 
 def generate_readme():
     """Генерирует README.md с таблицей статусов и только .txt ссылками"""
@@ -466,6 +500,8 @@ async def main():
     print(f"⏱ Время: {elapsed:.1f}с")
     print("=" * 60)
 
+force_update_timestamp()
 if __name__ == "__main__":
     asyncio.run(main())
+
 
