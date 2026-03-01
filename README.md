@@ -21,7 +21,6 @@
 
 | Формат | Описание | Прямая ссылка для копирования |
 |--------|----------|-------------------------------|
-| **Base64 (для V2Ray/V2Box)** | Полная подписка, все серверы | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt` |
 | **Текстовый формат** | Обычный текст, по одному ключу в строке | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt` |
 | **Статистика** | Данные о количестве серверов | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json` |
 
