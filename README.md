@@ -37,23 +37,7 @@
 1. Открой v2rayNG
 2. Нажми `+` → **"Импорт подписки из буфера"**
 3. Вставь одну из ссылок ниже:
-
-| Формат | Ссылка |
-|--------|--------|
-| Часть 1 (серверы 1-150) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt |
-| Часть 2 (серверы 151-300) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt |
-| Часть 3 (серверы 301-450) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt |
-| Часть 4 (серверы 451-600) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004_b64.txt |
-| Часть 5 (серверы 601-750) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005_b64.txt |
-| Часть 6 (серверы 751-900) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006_b64.txt |
-| Часть 7 (серверы 901-1050) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007_b64.txt |
-| Часть 8 (серверы 1051-1200) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008_b64.txt |
-| Часть 9 (серверы 1201-1350) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009_b64.txt |
-| Часть 10 (серверы 1351-1500) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010_b64.txt |
-| Часть 11 (серверы 1501-1650) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011_b64.txt |
-| Часть 12 (серверы 1651-1800) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012_b64.txt |
-| Часть 13 (серверы 1801-1950) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013_b64.txt |
-| Часть 14 (серверы 1951-2100) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014_b64.txt |
+b64
 
 **[📂 Все файлы Android](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
@@ -67,22 +51,7 @@
 2. Перейди в **"Конфигурации"** → `+` → **"Импортировать V2Ray URL из буфера"**
 3. Вставь одну из ссылок ниже:
 
-| Формат | Ссылка |
-|--------|--------|
-| Часть 1 (серверы 1-150) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt |
-| Часть 2 (серверы 151-300) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt |
-| Часть 3 (серверы 301-450) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt |
-| Часть 4 (серверы 451-600) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004_b64.txt |
-| Часть 5 (серверы 601-750) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005_b64.txt |
-| Часть 6 (серверы 751-900) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006_b64.txt |
-| Часть 7 (серверы 901-1050) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007_b64.txt |
-| Часть 8 (серверы 1051-1200) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008_b64.txt |
-| Часть 9 (серверы 1201-1350) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009_b64.txt |
-| Часть 10 (серверы 1351-1500) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010_b64.txt |
-| Часть 11 (серверы 1501-1650) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011_b64.txt |
-| Часть 12 (серверы 1651-1800) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012_b64.txt |
-| Часть 13 (серверы 1801-1950) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013_b64.txt |
-| Часть 14 (серверы 1951-2100) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014_b64.txt |
+Подходят txt
 
 **[📂 Все файлы iOS](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
@@ -96,24 +65,6 @@
 2. Нажми **"Профили"** → **"Добавить профиль из буфера"**
 3. Вставь одну из ссылок ниже:
 
-| Формат | Ссылка |
-|--------|--------|
-| Полная подписка (текст) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt |
-| Часть 1 (серверы 1-150) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001.txt |
-| Часть 2 (серверы 151-300) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002.txt |
-| Часть 3 (серверы 301-450) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003.txt |
-| Часть 4 (серверы 451-600) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004.txt |
-| Часть 5 (серверы 601-750) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005.txt |
-| Часть 6 (серверы 751-900) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006.txt |
-| Часть 7 (серверы 901-1050) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007.txt |
-| Часть 8 (серверы 1051-1200) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008.txt |
-| Часть 9 (серверы 1201-1350) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009.txt |
-| Часть 10 (серверы 1351-1500) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010.txt |
-| Часть 11 (серверы 1501-1650) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011.txt |
-| Часть 12 (серверы 1651-1800) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012.txt |
-| Часть 13 (серверы 1801-1950) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013.txt |
-| Часть 14 (серверы 1951-2100) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014.txt |
-
 **[📂 Все файлы Windows](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
@@ -125,24 +76,6 @@
 1. Открой NekoRay
 2. Нажми **"Программа"** → **"Добавить подписку"**
 3. Вставь одну из ссылок ниже:
-
-| Формат | Ссылка |
-|--------|--------|
-| Полная подписка (текст) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt |
-| Часть 1 (серверы 1-150) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001.txt |
-| Часть 2 (серверы 151-300) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002.txt |
-| Часть 3 (серверы 301-450) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003.txt |
-| Часть 4 (серверы 451-600) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004.txt |
-| Часть 5 (серверы 601-750) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005.txt |
-| Часть 6 (серверы 751-900) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006.txt |
-| Часть 7 (серверы 901-1050) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007.txt |
-| Часть 8 (серверы 1051-1200) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008.txt |
-| Часть 9 (серверы 1201-1350) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009.txt |
-| Часть 10 (серверы 1351-1500) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010.txt |
-| Часть 11 (серверы 1501-1650) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011.txt |
-| Часть 12 (серверы 1651-1800) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012.txt |
-| Часть 13 (серверы 1801-1950) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013.txt |
-| Часть 14 (серверы 1951-2100) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014.txt |
 
 **[📂 Все файлы Linux](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
