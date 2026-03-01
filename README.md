@@ -27,20 +27,24 @@
 
 ### 📁 Разбивка по файлам (по ~150 серверов в каждом)
 
-| Файл | Диапазон | Ссылка для V2Ray (Base64) |
-|------|----------|---------------------------|
-| Часть 01 | Серверы 1-150 | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt` |
-| Часть 02 | Серверы 151-300 | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt` |
-| Часть 03 | Серверы 301-450 | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt` |
-| Часть 04 | Серверы 451-600 | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004_b64.txt` |
-| Часть 05 | Серверы 601-750 | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005_b64.txt` |
-| Часть 06 | Серверы 751-900 | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006_b64.txt` |
-| Часть 07 | Серверы 901-1050 | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007_b64.txt` |
-| Часть 08 | Серверы 1051-1200 | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008_b64.txt` |
-| Часть 09 | Серверы 1201-1350 | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009_b64.txt` |
-| Часть 10 | Серверы 1351-1500 | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010_b64.txt` |
+| Часть | Диапазон | Статус | Ссылка для V2Ray |
+|-------|----------|--------|------------------|
+| **01** | 1-150 | ✅ Активен | [![sub_001](https://img.shields.io/badge/Скачать-sub_001_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt) |
+| **02** | 151-300 | ✅ Активен | [![sub_002](https://img.shields.io/badge/Скачать-sub_002_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt) |
+| **03** | 301-450 | ✅ Активен | [![sub_003](https://img.shields.io/badge/Скачать-sub_003_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt) |
+| **04** | 451-600 | ✅ Активен | [![sub_004](https://img.shields.io/badge/Скачать-sub_004_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004_b64.txt) |
+| **05** | 601-750 | ✅ Активен | [![sub_005](https://img.shields.io/badge/Скачать-sub_005_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005_b64.txt) |
+| **06** | 751-900 | ✅ Активен | [![sub_006](https://img.shields.io/badge/Скачать-sub_006_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006_b64.txt) |
+| **07** | 901-1050 | ✅ Активен | [![sub_007](https://img.shields.io/badge/Скачать-sub_007_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007_b64.txt) |
+| **08** | 1051-1200 | ✅ Активен | [![sub_008](https://img.shields.io/badge/Скачать-sub_008_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008_b64.txt) |
+| **09** | 1201-1350 | ✅ Активен | [![sub_009](https://img.shields.io/badge/Скачать-sub_009_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009_b64.txt) |
+| **10** | 1351-1500 | ✅ Активен | [![sub_010](https://img.shields.io/badge/Скачать-sub_010_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010_b64.txt) |
+| **11** | 1501-1650 | ✅ Активен | [![sub_011](https://img.shields.io/badge/Скачать-sub_011_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011_b64.txt) |
+| **12** | 1651-1800 | ✅ Активен | [![sub_012](https://img.shields.io/badge/Скачать-sub_012_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012_b64.txt) |
+| **13** | 1801-1950 | ✅ Активен | [![sub_013](https://img.shields.io/badge/Скачать-sub_013_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013_b64.txt) |
+| **14** | 1951-2100 | ✅ Активен | [![sub_014](https://img.shields.io/badge/Скачать-sub_014_b64.txt-green)](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014_b64.txt) |
 
-**[👉 Смотреть все файлы в папке deploy](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy)**
+**[📂 Открыть папку со всеми файлами](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 ## 📱 Как использовать (скопируй ссылку и вставь в приложение)
 
