@@ -1,10 +1,10 @@
 {
-  "total": 242,
-  "min_ping": 12.1,
-  "max_ping": 261.2,
-  "avg_ping": 126.6,
-  "median_ping": 125.0,
-  "fast_servers": 214,
+  "total": 180,
+  "min_ping": 10.1,
+  "max_ping": 225.8,
+  "avg_ping": 108.9,
+  "median_ping": 102.1,
+  "fast_servers": 168,
   "slow_servers": 0,
-  "updated": "08:52 | 01.03.2026"
+  "updated": "08:54 | 01.03.2026"
 }
