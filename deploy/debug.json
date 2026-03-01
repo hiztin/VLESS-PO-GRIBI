@@ -1,26 +1,26 @@
 {
   "total": 9108,
-  "alive": 2709,
+  "alive": 2713,
   "allowed_protocols": [
     "vless",
     "vmess",
     "ss"
   ],
-  "date": "2026-03-01 07:18:09.546289",
+  "date": "2026-03-01 07:27:51.397068",
   "protocol_stats": {
-    "vless": 82,
-    "vmess": 18
+    "vless": 80,
+    "vmess": 20
   },
   "servers_preview": [
-    "vless://4d89daf8-83c1-497d-af73-0d0033daadd8@104.21.36.57:443",
-    "vless://18805ff3-b420-45de-af18-93be14024ae8@47.251.25.74:443",
-    "vless://e53d3c58-c143-4d33-824c-4e3f1ef3b655@104.17.147.22:80",
-    "vless://75e1fde7-6bf6-48ef-ba43-400e960e185b@45.15.178.124:80",
-    "vless://51c27910-f70a-4dac-b8f1-88ac6f1cbdf5@ss.mrrnasr.ir:443",
-    "vless://4525c260-df3c-4f62-b8f1-f4f5f305694b@ipbaz.ping-box.com:8443",
-    "vless://83f03646-fb28-44cc-9d2c-8853f6c09285@104.18.4.130:8443",
-    "vless://b7039fbe-0359-4d91-977d-a926203b1936@afrcloud22.mmv.kr:443",
-    "vless://8e62fdd4-006d-4920-aef8-f3c87ed60157@CF10.FASTSPEEDS.IR:8443",
-    "vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.008500.xyz:443"
+    "vless://acdeb840-7828-4134-a71e-7fd27316e9c6@cxh1.azangooo.ir:2096",
+    "vless://1798b14b-aee0-4008-ba9a-2e53877761b4@104.21.87.19:80",
+    "vless://8daf840a-0737-41ef-8fda-eb80cf2edff3@104.17.147.22:8880",
+    "vmess://eyJhZGQiOiJwcS1odW5nYXJ5MS4wOXZwbi5jb20iLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNzAzZjcyMmEtNGJkZi00ZTlkLTlhZmQtYTY4MWZkZjg3Yzc0IiwiaW5zZWN1cmUiOiIxIiwibmV0Ijoid3MiLCJwYXRoIjoiL3ZtZXNzLyIsInBvcnQiOiI4MCIsInBzIjoiQEF6YWRpb05ldCB2aXAgMjIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
+    "vless://05dc09d5-5c56-454b-a34e-6ef743d91e1a@94.156.154.88:8443",
+    "vless://d85ea913-7dfa-44b0-bd66-33414e897991@104.26.15.21:443",
+    "vless://b95c7b94-487b-416d-bc4e-b5ebac7954d8@65.109.211.33:80",
+    "vless://91a6fd31-8095-4b81-b9e7-89f31e2868ef@cdnjs.com:443",
+    "vless://d0dea598-9047-4567-a934-84c2797c0978@176.120.67.95:8443",
+    "vless://21889ffd-54ee-40f9-e9b0-f1838908579a@3.69.31.126:443"
   ]
 }
