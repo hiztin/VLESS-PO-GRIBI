@@ -2,7 +2,7 @@ name: update
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,15 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MY_PAT }}  # ← ЭТО ВАЖНО!
+          
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
+          
       - run: pip install aiohttp
+      
       - working-directory: ./source
         run: python parser.py
+      
       - run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "update" || exit 0
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add deploy/
+          git commit -m "update $(date +'%Y-%m-%d')" || exit 0
           git push
