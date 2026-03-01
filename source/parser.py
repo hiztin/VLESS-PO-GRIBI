@@ -13,7 +13,7 @@ from typing import List, Tuple, Optional
 from datetime import datetime
 import zoneinfo
 
-# -------------------- НАСТРОЙКИ --------------------
+
 PING_TIMEOUT = 3.0
 MAX_PING_MS = 1000
 CONCURRENT_PINGS = 30
@@ -21,11 +21,11 @@ SERVERS_PER_SOURCE = 200
 
 ALLOWED_PROTOCOLS = ['vless', 'vmess', 'ss']
 
-# -------------------- ПУТИ (ОТНОСИТЕЛЬНО КОРНЯ РЕПО) --------------------
+# ПУТИ (ОТНОСИТЕЛЬНО КОРНЯ РЕПО)
 DEPLOY_PATH = "deploy"
 SUBSCRIPTIONS_PATH = f"{DEPLOY_PATH}/subscriptions"
 
-# -------------------- ИСТОЧНИКИ --------------------
+
 URLS = [
     "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt",
     "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt",
@@ -54,13 +54,13 @@ URLS = [
     "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
 ]
 
-# -------------------- ЛОГИРОВАНИЕ --------------------
+# ЛОГИРОВАНИЕ
 def log(message: str):
     """Добавляет сообщение в лог"""
     timestamp = datetime.now().strftime("%H:%M:%S")
     print(f"[{timestamp}] {message}")
 
-# -------------------- HTTP КЛИЕНТ --------------------
+#  HTTP КЛИЕНТ 
 class HTTPFetcher:
     def __init__(self):
         self.headers = {
@@ -94,7 +94,7 @@ class HTTPFetcher:
                     await asyncio.sleep(1)
         return None
 
-# -------------------- ПАРСЕР КОНФИГОВ --------------------
+#ПАРСЕР КОНФИГОВ
 class ConfigParser:
     INSECURE_PATTERN = re.compile(
         r'(?:[?&;]|3%[Bb])(allowinsecure|allow_insecure|insecure)=(?:1|true|yes)(?:[&;#]|$|(?=\s|$))',
@@ -168,7 +168,7 @@ class ConfigParser:
 
         return "\n".join(result), filtered
 
-# -------------------- ПРОВЕРКА ПИНГА --------------------
+# ПРОВЕРКА ПИНГА
 async def check_server_ping(config: str, semaphore: asyncio.Semaphore) -> Tuple[Optional[str], Optional[float]]:
     host, port = ConfigParser.extract_host_port(config)
     if not host or not port:
@@ -198,7 +198,7 @@ async def check_server_ping(config: str, semaphore: asyncio.Semaphore) -> Tuple[
         except:
             return None, None
 
-# -------------------- ОБРАБОТКА ИСТОЧНИКА --------------------
+#ОБРАБОТКА ИСТОЧНИКА
 async def process_source(idx: int, url: str, fetcher: HTTPFetcher) -> Tuple[int, List[str]]:
     log(f"\n🔍 Источник {idx + 1}")
 
@@ -254,7 +254,7 @@ async def process_source(idx: int, url: str, fetcher: HTTPFetcher) -> Tuple[int,
 
     return idx, best_servers
 
-# -------------------- СОХРАНЕНИЕ В ФАЙЛЫ (ТОЛЬКО .TXT) --------------------
+# СОХРАНЕНИЕ В ФАЙЛЫ (ТОЛЬКО .TXT)
 def save_results(source_results: List[Tuple[int, List[str]]]):
     """Сохраняет только текстовые файлы .txt"""
     os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
@@ -264,7 +264,6 @@ def save_results(source_results: List[Tuple[int, List[str]]]):
     total_servers = 0
     sources_with_data = 0
 
-    # Сохраняем по одному файлу на источник (только .txt)
     for idx, servers in source_results:
         if servers:
             txt_path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx + 1}.txt")
@@ -289,7 +288,7 @@ def save_results(source_results: List[Tuple[int, List[str]]]):
 
     return sources_with_data, total_servers
 
-# -------------------- ГЕНЕРАЦИЯ README (БЕЗ BASE64) --------------------
+# ГЕНЕРАЦИЯ README 
 def generate_readme():
     """Генерирует README.md с таблицей статусов и только .txt ссылками"""
     
@@ -336,7 +335,6 @@ def generate_readme():
             if match:
                 existing_files.add(int(match.group(1)))
     
-    # Таблица статусов
     status_table = ""
     for i, source in enumerate(source_names, 1):
         filename = f"{i}.txt"
@@ -437,7 +435,7 @@ def generate_readme():
     
     print(f"✅ README.md обновлён! ({len(existing_files)} источников, {total_servers} серверов)")
 
-# -------------------- ОСНОВНАЯ ФУНКЦИЯ --------------------
+# ОСНОВНАЯ ФУНКЦИЯ
 async def main():
     start_time = time.time()
 
@@ -470,3 +468,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
