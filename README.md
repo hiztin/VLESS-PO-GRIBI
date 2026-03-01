@@ -25,52 +25,128 @@
 | **Текстовый формат** | Обычный текст, по одному ключу в строке | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt` |
 | **Статистика** | Данные о количестве серверов | `https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json` |
 
-### 🍄 Разбивка по файлам (по ~150 серверов в каждом)
 
-| Часть | Диапазон | Статус | Ссылка для V2Ray |
-|-------|----------|--------|------------------|
-| **01** | 1-150 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt |
-| **02** | 151-300 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt |
-| **03** | 301-450 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt |
-| **04** | 451-600 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004_b64.txt |
-| **05** | 601-750 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005_b64.txt |
-| **06** | 751-900 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006_b64.txt |
-| **07** | 901-1050 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007_b64.txt |
-| **08** | 1051-1200 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008_b64.txt |
-| **09** | 1201-1350 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009_b64.txt |
-| **10** | 1351-1500 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010_b64.txt |
-| **11** | 1501-1650 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011_b64.txt |
-| **12** | 1651-1800 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012_b64.txt |
-| **13** | 1801-1950 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013_b64.txt |
-| **14** | 1951-2100 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014_b64.txt |
+**[🍄 Открыть папку со всеми файлами(СЕРВЕРАМИ)](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
-**[🍄 Открыть папку со всеми файлами](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
-
-## 📱 Как использовать (скопируй ссылку и вставь в приложение)
+## 📱 Как использовать (выбери свою платформу)
 
 <details>
-<summary><b>📱 Android (нажми для раскрытия)</b></summary>
-<br>
+<summary><b>📱 Android — v2rayNG</b></summary>
 
-| Приложение | Ссылка | Инструкция |
-|------------|--------|------------|
-| **v2rayNG** | ![Google Play](https://github.com/2dust/v2rayNG) | 1. Открой приложение<br>2. Нажми на "+" в правом верхнем углу<br>3. Выбери "Импорт подписки из буфера"<br>4. Вставь ссылку на `sub_base64.txt` |
-| **V2Box** | [![Google Play](https://img.shields.io/badge/Google_Play-Скачать-414141?logo=google-play)](https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=ru) | 1. Открой приложение<br>2. Перейди в "Подписки" (нижнее меню)<br>3. Нажми "+" в правом верхнем углу<br>4. Вставь ссылку на любой файл из разбивки |
-| **NekoBox** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) | 1. Открой приложение<br>2. Нажми на меню (три полоски)<br>3. Выбери "Профили" → "Импорт"<br>4. Вставь ссылку на `sub_base64.txt` |
-| **Clash Meta** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) | 1. Открой приложение<br>2. Перейди в "Профили"<br>3. Нажми "+" и выбери "Импорт из буфера"<br>4. Вставь ссылку на `sub_base64.txt` |
+**Как добавить подписку:**
+1. Открой v2rayNG
+2. Нажми `+` → **"Импорт подписки из буфера"**
+3. Вставь одну из ссылок ниже:
+
+| Формат | Ссылка |
+|--------|--------|
+| Полная подписка (Base64) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt |
+| Часть 1 (серверы 1-150) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt |
+| Часть 2 (серверы 151-300) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt |
+| Часть 3 (серверы 301-450) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt |
+| Часть 4 (серверы 451-600) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004_b64.txt |
+| Часть 5 (серверы 601-750) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005_b64.txt |
+| Часть 6 (серверы 751-900) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006_b64.txt |
+| Часть 7 (серверы 901-1050) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007_b64.txt |
+| Часть 8 (серверы 1051-1200) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008_b64.txt |
+| Часть 9 (серверы 1201-1350) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009_b64.txt |
+| Часть 10 (серверы 1351-1500) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010_b64.txt |
+| Часть 11 (серверы 1501-1650) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011_b64.txt |
+| Часть 12 (серверы 1651-1800) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012_b64.txt |
+| Часть 13 (серверы 1801-1950) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013_b64.txt |
+| Часть 14 (серверы 1951-2100) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014_b64.txt |
+
+**[📂 Все файлы Android](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
 
 <details>
-<summary><b>📱 iOS (нажми для раскрытия)</b></summary>
-<br>
+<summary><b>📱 iOS — V2Box</b></summary>
 
-| Приложение | Ссылка | Инструкция |
-|------------|--------|------------|
-| **V2Box** | [![App Store](https://img.shields.io/badge/App_Store-Скачать-0D96F6?logo=apple)](https://apps.apple.com/app/v2box-v2ray-client/id6446018965) | 1. Открой приложение<br>2. Нажми на "Конфигурации" в нижнем меню<br>3. Нажми на плюсик в правом верхнем углу<br>4. Выбери "Импортировать v2ray URL из буфера"<br>5. Вставь ссылку на `sub_base64.txt` |
-| **Shadowrocket** | [![App Store](https://img.shields.io/badge/App_Store-Скачать-0D96F6?logo=apple)](https://apps.apple.com/app/shadowrocket/id932747118) | 1. Открой приложение<br>2. Нажми на "+" в правом верхнем углу<br>3. Выбери "Тип: Подписка"<br>4. Вставь ссылку на `sub_base64.txt`<br>5. Нажми "Готово" |
-| **Quantumult X** | [![App Store](https://img.shields.io/badge/App_Store-Скачать-0D96F6?logo=apple)](https://apps.apple.com/app/quantumult-x/id1443988620) | 1. Открой приложение<br>2. Нажми на вкладку "Ссылки" внизу<br>3. Нажми "+" в правом верхнем углу<br>4. Вставь ссылку на `sub_base64.txt`<br>5. Нажми "Сохранить" |
-| **Stash** | [![App Store](https://img.shields.io/badge/App_Store-Скачать-0D96F6?logo=apple)](https://apps.apple.com/app/stash/id1596063349) | 1. Открой приложение<br>2. Перейди в "Профили"<br>3. Нажми "Импортировать"<br>4. Выбери "Из буфера обмена"<br>5. Вставь ссылку на `sub_base64.txt` |
+**Как добавить подписку:**
+1. Открой V2Box
+2. Перейди в **"Конфигурации"** → `+` → **"Импортировать V2Ray URL из буфера"**
+3. Вставь одну из ссылок ниже:
+
+| Формат | Ссылка |
+|--------|--------|
+| Полная подписка (Base64) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt |
+| Часть 1 (серверы 1-150) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt |
+| Часть 2 (серверы 151-300) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt |
+| Часть 3 (серверы 301-450) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt |
+| Часть 4 (серверы 451-600) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004_b64.txt |
+| Часть 5 (серверы 601-750) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005_b64.txt |
+| Часть 6 (серверы 751-900) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006_b64.txt |
+| Часть 7 (серверы 901-1050) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007_b64.txt |
+| Часть 8 (серверы 1051-1200) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008_b64.txt |
+| Часть 9 (серверы 1201-1350) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009_b64.txt |
+| Часть 10 (серверы 1351-1500) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010_b64.txt |
+| Часть 11 (серверы 1501-1650) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011_b64.txt |
+| Часть 12 (серверы 1651-1800) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012_b64.txt |
+| Часть 13 (серверы 1801-1950) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013_b64.txt |
+| Часть 14 (серверы 1951-2100) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014_b64.txt |
+
+**[📂 Все файлы iOS](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+
+</details>
+
+<details>
+<summary><b>💻 Windows — Throne</b></summary>
+
+**Как добавить подписку:**
+1. Открой Throne
+2. Нажми **"Профили"** → **"Добавить профиль из буфера"**
+3. Вставь одну из ссылок ниже:
+
+| Формат | Ссылка |
+|--------|--------|
+| Полная подписка (текст) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt |
+| Часть 1 (серверы 1-150) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001.txt |
+| Часть 2 (серверы 151-300) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002.txt |
+| Часть 3 (серверы 301-450) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003.txt |
+| Часть 4 (серверы 451-600) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004.txt |
+| Часть 5 (серверы 601-750) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005.txt |
+| Часть 6 (серверы 751-900) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006.txt |
+| Часть 7 (серверы 901-1050) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007.txt |
+| Часть 8 (серверы 1051-1200) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008.txt |
+| Часть 9 (серверы 1201-1350) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009.txt |
+| Часть 10 (серверы 1351-1500) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010.txt |
+| Часть 11 (серверы 1501-1650) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011.txt |
+| Часть 12 (серверы 1651-1800) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012.txt |
+| Часть 13 (серверы 1801-1950) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013.txt |
+| Часть 14 (серверы 1951-2100) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014.txt |
+
+**[📂 Все файлы Windows](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+
+</details>
+
+<details>
+<summary><b>🐧 Linux — NekoRay</b></summary>
+
+**Как добавить подписку:**
+1. Открой NekoRay
+2. Нажми **"Программа"** → **"Добавить подписку"**
+3. Вставь одну из ссылок ниже:
+
+| Формат | Ссылка |
+|--------|--------|
+| Полная подписка (текст) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt |
+| Часть 1 (серверы 1-150) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001.txt |
+| Часть 2 (серверы 151-300) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002.txt |
+| Часть 3 (серверы 301-450) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003.txt |
+| Часть 4 (серверы 451-600) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004.txt |
+| Часть 5 (серверы 601-750) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005.txt |
+| Часть 6 (серверы 751-900) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006.txt |
+| Часть 7 (серверы 901-1050) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007.txt |
+| Часть 8 (серверы 1051-1200) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008.txt |
+| Часть 9 (серверы 1201-1350) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009.txt |
+| Часть 10 (серверы 1351-1500) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010.txt |
+| Часть 11 (серверы 1501-1650) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011.txt |
+| Часть 12 (серверы 1651-1800) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012.txt |
+| Часть 13 (серверы 1801-1950) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013.txt |
+| Часть 14 (серверы 1951-2100) | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014.txt |
+
+**[📂 Все файлы Linux](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
 </details>
 
@@ -78,26 +154,15 @@
 <summary><b>💻 Windows (нажми для раскрытия)</b></summary>
 <br>
 
-| Приложение | Ссылка | Инструкция |
-|------------|--------|------------|
-| **v2rayN** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/2dust/v2rayN/releases) | 1. Открой приложение<br>2. Нажми "Подписки" в верхнем меню<br>3. Выбери "Управление подписками"<br>4. Нажми "Добавить"<br>5. Вставь ссылку на `sub_base64.txt`<br>6. Нажми "Обновить" |
-| **Throne** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/Throne-Moe/Throne/releases) | 1. Открой приложение<br>2. Нажми на "Профили" слева<br>3. Нажми "Добавить профиль из буфера"<br>4. Вставь ссылку на `sub_base64.txt` |
-| **Clash Verge** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/zzzgydi/clash-verge/releases) | 1. Открой приложение<br>2. Перейди в "Подписки"<br>3. Вставь ссылку на `sub_base64.txt`<br>4. Нажми "Импортировать" |
-| **Netch** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/netchx/netch/releases) | 1. Открой приложение<br>2. Нажми "Подписки" → "Управление подписками"<br>3. Нажми "Добавить"<br>4. Вставь ссылку на `sub_base64.txt`<br>5. Нажми "Обновить" |
+| Приложение | Подходящий формат | Почему | Ссылка для копирования |
+|------------|-------------------|--------|------------------------|
+| **v2rayN** | ✅ Base64 (`_b64.txt`) | Отлично импортирует Base64 подписки | [`sub_base64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt) |
+| **Throne** | 📝 Текст (`sub.txt`) | Лучше работает с обычным текстом | [`sub.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt) |
+| **Clash Verge** | ⚠️ Специальный | Нужен YAML формат | [`sub.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt) + конвертер |
+| **Netch** | ✅ Base64 (`_b64.txt`) | Поддерживает Base64 | [`sub_base64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt) |
+| **Qv2ray** | ✅ Base64 (`_b64.txt`) | Работает с Base64 | [`sub_base64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt) |
 
-</details>
-
-<details>
-<summary><b>🐧 Linux (нажми для раскрытия)</b></summary>
-<br>
-
-| Приложение | Ссылка | Инструкция |
-|------------|--------|------------|
-| **Clash Verge** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/zzzgydi/clash-verge/releases) | 1. Открой приложение<br>2. Перейди в "Подписки"<br>3. Вставь ссылку на `sub_base64.txt`<br>4. Нажми "Импортировать" |
-| **Qv2ray** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/Qv2ray/Qv2ray/releases) | 1. Открой приложение<br>2. Перейди в "Настройки" → "Подписки"<br>3. Нажми "Добавить"<br>4. Вставь ссылку на `sub_base64.txt`<br>5. Нажми "Обновить" |
-| **NekoRay** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/MatsuriDayo/nekoray/releases) | 1. Открой приложение<br>2. Нажми "Программа" → "Добавить подписку"<br>3. Вставь ссылку на `sub_base64.txt`<br>4. Нажми "Обновить" |
-
-</details>
+**👉 Для Windows:** если не знаешь что выбрать — бери
 
 ## 📊 Статистика
 
