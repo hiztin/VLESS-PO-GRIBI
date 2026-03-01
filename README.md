@@ -50,8 +50,8 @@
 
 | Приложение | Ссылка | Инструкция |
 |------------|--------|------------|
-| **v2rayNG** | [![Google Play](https://img.shields.io/badge/Google_Play-Скачать-414141?logo=google-play)](https://play.google.com/store/apps/details?id=com.v2ray.ang) | 1. Открой приложение<br>2. Нажми на "+" в правом верхнем углу<br>3. Выбери "Импорт подписки из буфера"<br>4. Вставь ссылку на `sub_base64.txt` |
-| **V2Box** | [![Google Play](https://img.shields.io/badge/Google_Play-Скачать-414141?logo=google-play)](https://play.google.com/store/apps/details?id=com.v2ray.box) | 1. Открой приложение<br>2. Перейди в "Подписки" (нижнее меню)<br>3. Нажми "+" в правом верхнем углу<br>4. Вставь ссылку на любой файл из разбивки |
+| **v2rayNG** | ![Google Play](https://github.com/2dust/v2rayNG) | 1. Открой приложение<br>2. Нажми на "+" в правом верхнем углу<br>3. Выбери "Импорт подписки из буфера"<br>4. Вставь ссылку на `sub_base64.txt` |
+| **V2Box** | [![Google Play](https://img.shields.io/badge/Google_Play-Скачать-414141?logo=google-play)](https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=ru) | 1. Открой приложение<br>2. Перейди в "Подписки" (нижнее меню)<br>3. Нажми "+" в правом верхнем углу<br>4. Вставь ссылку на любой файл из разбивки |
 | **NekoBox** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) | 1. Открой приложение<br>2. Нажми на меню (три полоски)<br>3. Выбери "Профили" → "Импорт"<br>4. Вставь ссылку на `sub_base64.txt` |
 | **Clash Meta** | [![GitHub](https://img.shields.io/badge/GitHub-Скачать-181717?logo=github)](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) | 1. Открой приложение<br>2. Перейди в "Профили"<br>3. Нажми "+" и выбери "Импорт из буфера"<br>4. Вставь ссылку на `sub_base64.txt` |
 
