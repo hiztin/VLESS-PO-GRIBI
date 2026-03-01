@@ -408,7 +408,21 @@ async def main():
             ]
             save_main_files(test_servers, 3)
             split_into_files(test_servers, items_per_file=2)
-
+def generate_readme_table(num_files, base_url="https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions"):
+    """Генерирует таблицу для README на основе количества файлов"""
+    
+    table = "### 📁 Разбивка по файлам (по ~150 серверов в каждом)\n\n"
+    table += "| Часть | Диапазон | Серверов | Ссылка для V2Ray (Base64) |\n"
+    table += "|-------|----------|----------|---------------------------|\n"
+    
+    for i in range(1, num_files + 1):
+        start = (i-1)*150 + 1
+        end = i*150
+        table += f"| **{i:02d}** | {start}-{end} | ~150 | [`sub_{i:03d}_b64.txt`]({base_url}/sub_{i:03d}_b64.txt) |\n"
+    
+    table += f"\n**[📂 Смотреть все {num_files} файлов в папке subscriptions](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**"
+    
+    return table
 
 if __name__ == "__main__":
     asyncio.run(main())
