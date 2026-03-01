@@ -12,30 +12,23 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: 📥 Клонировать репозиторий
+      - name:  Клонировать репозиторий
         uses: actions/checkout@v4
         
-      - name: 🐍 Установить Python
+      - name:  Установить Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           
-      - name: 📦 Установить зависимости
+      - name:  Установить зависимости
         run: |
           pip install aiohttp
           
-      - name: 🚀 Запустить парсер
+      - name:  Запустить парсер
         working-directory: ./source
         run: python parser.py
         
-      - name: 🔍 Проверить созданные файлы
-        run: |
-          echo "📁 Содержимое githubmirror:"
-          ls -la githubmirror/ || echo "Папка не существует"
-          echo "📁 Содержимое deploy:"
-          ls -la deploy/ || echo "Папка не существует"
-          
-      - name: 📤 Закоммитить изменения
+      - name:  Закоммитить изменения
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
@@ -46,9 +39,10 @@ jobs:
           
           # Проверяем, есть ли изменения
           if git diff --staged --quiet; then
-            echo "ℹ️ Нет изменений для коммита"
+            echo " Нет изменений для коммита"
           else
-            git commit -m "🔄 Автообновление $(date +'%Y-%m-%d %H:%M UTC')"
+            git commit -m " Автообновление $(date +'%Y-%m-%d %H:%M UTC')"
             git push
             echo "✅ Изменения отправлены"
           fi
+
