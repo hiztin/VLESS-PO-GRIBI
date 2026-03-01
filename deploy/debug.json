@@ -1,26 +1,26 @@
 {
-  "total": 31396,
-  "alive": 6846,
+  "total": 9108,
+  "alive": 1770,
   "allowed_protocols": [
     "vless",
     "vmess",
     "ss"
   ],
-  "date": "2026-03-01 07:42:34.216047",
+  "date": "2026-03-01 07:47:12.661282",
   "protocol_stats": {
-    "vless": 85,
-    "vmess": 15
+    "vless": 78,
+    "vmess": 22
   },
   "servers_preview": [
-    "vless://60425266-94e9-485f-9339-aa2661db8aab@afrcloud22.mmv.kr:443",
-    "vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@91.193.58.26:8880",
-    "vless://48198295-b7ba-4b5c-8d85-085d55a6c869@216.221.214.50:443",
-    "vless://bcce095a-9f98-4e23-a68c-8bbecb785dcd@104.19.140.106:443",
-    "vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@5.10.214.103:8880",
-    "vless://dd88002a-caef-498c-ac45-9722a8eebf86@172.66.40.99:80",
-    "vless://fc7ed3a4-da90-475f-a751-769eca257af7@172.67.215.65:2053",
-    "vless://9fc94683-42be-4c44-9525-096f675965db@104.16.53.11:80",
-    "vless://2e27f295-cf36-4dea-9300-fc6dbe042871@151.101.194.133:443",
-    "vless://cc6b985d-0362-4129-8763-38564174fb3e@45.153.7.224:443"
+    "vless://344ad1bf-0e81-4a9a-843f-accec016684d@104.16.209.12:443",
+    "vmess://eyJhZGQiOiAiMTA0LjE5LjE3NC42OCIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICJuYXNuZXQtNTcxMjk5NjY3LnJhaGF2YXJkMzY1LmNvIiwgImlkIjogImU4YjE1MDBiLWU5ZTgtNTQ5Mi04MzEyLWY0ZWFkZjdkMDc2NyIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9OQVNORVQvY2RuIiwgInBvcnQiOiAiODA4MCIsICJwcyI6ICJcdWQ4M2NcdWRmMTAgV1MtTm9uZSB8IEBFeHByZXNzX2FsYWtpIHwgc3JjIEBWcG5fTWlkYXMiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiJ9",
+    "vless://00000000-0000-4000-8000-000000000000@8.209.220.50:21273",
+    "vless://6df800b7-d053-5232-9d0d-ac6c80a44e6c@172.67.221.68:8443",
+    "vless://c501c66b-c6c2-456b-b604-80393b83d67f@37.139.35.53:7443",
+    "vless://06e87d4a-314d-4651-af86-d4f55624159a@104.21.50.49:2053",
+    "vless://2dc4a552-50e8-4200-95ee-f79b9a8b40c3@www.gcore.com:80",
+    "vmess://eyJhZGQiOiI4OS4zMS4xMjAuMTkyIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjQ0NTM3NTk1LTljY2MtNGI4My04OTM2LTVmOWFkMzIyOTAxOSIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiI+PkBvbmVjbGlja3ZwbmtleXM6OkFFOjpBRTo6QUU6OkFFOjpBRTo6QUU6OkFFOjpBRTo6QUU6OkFFOjpBRTo6QUU6OkFFOjpBRTo6QUU6OkFFOjpBRTo6QUU6OkFFOjpBRTo6QUU6OkFFOjpBRTo6QUU6OkFFOjpBRTo6QUU6OkFFOjpBRTo6QUU6OkFFOjpBRTo6QUU6OkFFIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9",
+    "vless://6d490cef-0b49-459d-a72c-0bb0210f3dd0@45.9.75.37:443",
+    "vless://89b3cbba-e6ac-485a-9481-976a0415eab9@104.18.59.70:2053"
   ]
 }
