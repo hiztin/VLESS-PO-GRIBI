@@ -148,19 +148,6 @@
 
 </details>
 
-<details>
-<summary><b>💻 Windows </b></summary>
-<br>
-
-| Приложение | Подходящий формат | Почему | Ссылка для копирования |
-|------------|-------------------|--------|------------------------|
-| **v2rayN** | ✅ Base64 (`_b64.txt`) | Отлично импортирует Base64 подписки | [`sub_base64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt) |
-| **Throne** | 📝 Текст (`sub.txt`) | Лучше работает с обычным текстом | [`sub.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt) |
-| **Clash Verge** | ⚠️ Специальный | Нужен YAML формат | [`sub.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub.txt) + конвертер |
-| **Netch** | ✅ Base64 (`_b64.txt`) | Поддерживает Base64 | [`sub_base64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt) |
-| **Qv2ray** | ✅ Base64 (`_b64.txt`) | Работает с Base64 | [`sub_base64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/sub_base64.txt) |
-
-**👉 Для Windows:** если не знаешь что выбрать — бери
 
 ## 📊 Статистика
 
