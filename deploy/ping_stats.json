@@ -1,508 +1,265 @@
 {
-  "total": 1770,
-  "fastest_ping": 1.1,
-  "slowest_ping": 497.5,
-  "average_ping": 56.0,
+  "total": 1140,
+  "min_ping": 10.1,
+  "max_ping": 201.1,
+  "avg_ping": 89.7,
+  "median_ping": 91.5,
+  "q1_ping": 61.8,
+  "q3_ping": 114.8,
+  "fast_servers": 1136,
+  "medium_servers": 4,
+  "slow_servers": 0,
+  "samples_per_server": 2,
   "servers_by_ping": [
     {
-      "host": "151.101.3.8",
-      "ping_ms": 1.1,
-      "config_preview": "vless://62f4a6db-a57a-4b56-9e7d-b00418c4f816@151.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.1,
+      "quality": "быстрый"
     },
     {
-      "host": "151.101.3.8",
-      "ping_ms": 1.1,
-      "config_preview": "vless://1260fbdc-57b6-4e2c-a76f-c6f748d26917@151.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.2,
+      "quality": "быстрый"
     },
     {
-      "host": "151.101.0.10",
-      "ping_ms": 1.2,
-      "config_preview": "vless://957d0930-8730-4923-b58c-6c0d640418bd@151.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.2,
+      "quality": "быстрый"
     },
     {
-      "host": "140.248.158.132",
-      "ping_ms": 1.2,
-      "config_preview": "vless://e250d63d-5125-42de-98ce-0bfa85c38eed@140.2..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.2,
+      "quality": "быстрый"
     },
     {
-      "host": "140.248.128.0",
-      "ping_ms": 1.3,
-      "config_preview": "vless://a730405a-6710-411e-9131-2e330169fa47@140.2..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.3,
+      "quality": "быстрый"
     },
     {
-      "host": "151.101.25.242",
-      "ping_ms": 1.4,
-      "config_preview": "vless://4394eb25-5dfc-4bf1-a363-1ae168e200b9@151.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.3,
+      "quality": "быстрый"
     },
     {
-      "host": "104.17.101.76",
-      "ping_ms": 1.4,
-      "config_preview": "vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.3,
+      "quality": "быстрый"
     },
     {
-      "host": "104.19.53.153",
-      "ping_ms": 1.4,
-      "config_preview": "vless://4ddc5541-4f74-4498-ad6e-7ed173af679c@104.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.4,
+      "quality": "быстрый"
     },
     {
-      "host": "vmess-server",
-      "ping_ms": 1.4,
-      "config_preview": "vmess://eyJhZGQiOiI0NS44NS4xMTguMjQ1IiwiYWlkIjoiMC..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.4,
+      "quality": "быстрый"
     },
     {
-      "host": "194.76.18.25",
-      "ping_ms": 1.4,
-      "config_preview": "vless://e65a5cbc-5663-4f7d-ad7d-800e86ba487d@194.7..."
+      "host": "ip-data.turkserver.ir",
+      "ping_ms": 10.4,
+      "quality": "быстрый"
     },
     {
-      "host": "172.64.32.75",
-      "ping_ms": 1.4,
-      "config_preview": "vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@172.6..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.4,
+      "quality": "быстрый"
     },
     {
-      "host": "104.18.32.47",
-      "ping_ms": 1.4,
-      "config_preview": "vless://643a3034-d3f9-4e03-acde-0e6ab3a238fb@104.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.4,
+      "quality": "быстрый"
     },
     {
-      "host": "104.18.32.47",
-      "ping_ms": 1.4,
-      "config_preview": "vless://a1a91a85-4997-40ca-a32c-269f39d1381c@104.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.4,
+      "quality": "быстрый"
     },
     {
-      "host": "69.84.182.152",
-      "ping_ms": 1.4,
-      "config_preview": "vless://55b0463c-e27f-455b-a25a-70123297b9f4@69.84..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.4,
+      "quality": "быстрый"
     },
     {
-      "host": "172.67.73.14",
-      "ping_ms": 1.4,
-      "config_preview": "vless://4a942a11-2178-4b10-af73-15b1cfee99df@172.6..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.5,
+      "quality": "быстрый"
     },
     {
-      "host": "104.18.32.47",
-      "ping_ms": 1.5,
-      "config_preview": "vless://b2744521-78b7-4c24-86f2-4f751d1cb7bf@104.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.5,
+      "quality": "быстрый"
     },
     {
-      "host": "104.18.38.47",
-      "ping_ms": 1.5,
-      "config_preview": "vless://5e62ddcf-78c9-4b15-803a-436c8c839ddc@104.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.5,
+      "quality": "быстрый"
     },
     {
-      "host": "141.101.121.171",
-      "ping_ms": 1.5,
-      "config_preview": "vless://e5f8a9f6-f164-479b-b3b5-b90f213c7145@141.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.5,
+      "quality": "быстрый"
     },
     {
-      "host": "104.21.11.229",
-      "ping_ms": 1.5,
-      "config_preview": "vless://4e45c1b4-9107-45dd-9995-cdf7cbb44d9d@104.2..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.5,
+      "quality": "быстрый"
     },
     {
-      "host": "vmess-server",
-      "ping_ms": 1.5,
-      "config_preview": "vmess://eyJ2IjogIjIiLCAicHMiOiAiQGNoaWxsZ3V5X3Zwbi..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.5,
+      "quality": "быстрый"
     },
     {
-      "host": "104.21.70.121",
-      "ping_ms": 1.5,
-      "config_preview": "vless://a31c6e82-61c8-4f58-bef2-1d9b2e0a77d3@104.2..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.6,
+      "quality": "быстрый"
     },
     {
-      "host": "172.64.92.243",
-      "ping_ms": 1.5,
-      "config_preview": "vless://590dfbde-f8c8-429b-b947-39bb767ddd9c@172.6..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.6,
+      "quality": "быстрый"
     },
     {
-      "host": "199.232.0.177",
-      "ping_ms": 1.5,
-      "config_preview": "vless://89b3cbba-e6ac-485a-9481-976a0415eab9@199.2..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.6,
+      "quality": "быстрый"
     },
     {
-      "host": "188.114.99.99",
-      "ping_ms": 1.5,
-      "config_preview": "vless://a00e3e46-f0c2-4e54-b747-037d715d32c0@188.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.6,
+      "quality": "быстрый"
     },
     {
-      "host": "172.66.156.81",
-      "ping_ms": 1.5,
-      "config_preview": "vless://2c201338-436f-437b-b983-1f9d72405ff8@172.6..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.6,
+      "quality": "быстрый"
     },
     {
-      "host": "45.130.125.198",
-      "ping_ms": 1.5,
-      "config_preview": "vless://aab1a536-7a2c-4357-a0e0-8cdde41845c6@45.13..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.6,
+      "quality": "быстрый"
     },
     {
-      "host": "vmess-server",
-      "ping_ms": 1.5,
-      "config_preview": "vmess://eyJhZGQiOiIxNzIuNjYuMjEzLjM4IiwiYWlkIjoiMC..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.7,
+      "quality": "быстрый"
     },
     {
-      "host": "104.21.12.150",
-      "ping_ms": 1.5,
-      "config_preview": "vless://a2dadb95-3f15-4e1c-b517-0b54c336a5fd@104.2..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.7,
+      "quality": "быстрый"
     },
     {
-      "host": "45.130.125.160",
-      "ping_ms": 1.5,
-      "config_preview": "vless://3fe29f0d-f264-4ef9-a5d4-4dae2220e1bf@45.13..."
-    },
-    {
-      "host": "172.66.44.174",
-      "ping_ms": 1.5,
-      "config_preview": "vless://80764883-7f6b-4c46-8ecd-887cdf541c07@172.6..."
-    },
-    {
-      "host": "69.84.182.152",
-      "ping_ms": 1.5,
-      "config_preview": "vless://2f466a3b-5093-4556-8759-c87c8511c753@69.84..."
-    },
-    {
-      "host": "212.183.88.238",
-      "ping_ms": 1.5,
-      "config_preview": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@212.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.9,
+      "quality": "быстрый"
     },
     {
       "host": "vmess-server",
-      "ping_ms": 1.5,
-      "config_preview": "vmess://eyJhZGQiOiIxMDQuMTYuMTguMTA4IiwiYWlkIjoiMC..."
+      "ping_ms": 10.9,
+      "quality": "быстрый"
     },
     {
-      "host": "66.235.200.129",
-      "ping_ms": 1.5,
-      "config_preview": "vless://d3ee451d-3877-4c0a-858f-0b4e4a00de99@66.23..."
+      "host": "www.speedtest.net",
+      "ping_ms": 10.9,
+      "quality": "быстрый"
     },
     {
-      "host": "188.244.122.136",
-      "ping_ms": 1.5,
-      "config_preview": "vless://d5657005-94be-4198-80cf-f9a814bad404@188.2..."
+      "host": "www.speedtest.net",
+      "ping_ms": 11.0,
+      "quality": "быстрый"
     },
     {
-      "host": "104.21.62.144",
-      "ping_ms": 1.5,
-      "config_preview": "vless://f98e06c6-6b36-47f1-a0e3-77d7937c3ec7@104.2..."
+      "host": "www.speedtest.net",
+      "ping_ms": 11.0,
+      "quality": "быстрый"
     },
     {
-      "host": "104.19.57.10",
-      "ping_ms": 1.6,
-      "config_preview": "vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@104.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 11.1,
+      "quality": "быстрый"
     },
     {
-      "host": "104.16.250.22",
-      "ping_ms": 1.6,
-      "config_preview": "vless://003ef206-46b6-3701-ab77-b03debe7511f@104.1..."
+      "host": "cosmin.ns.cloudflare.com",
+      "ping_ms": 11.1,
+      "quality": "быстрый"
     },
     {
-      "host": "135.84.73.42",
-      "ping_ms": 1.6,
-      "config_preview": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@135.8..."
+      "host": "clyde.ns.cloudflare.com",
+      "ping_ms": 11.2,
+      "quality": "быстрый"
     },
     {
-      "host": "172.64.152.23",
-      "ping_ms": 1.6,
-      "config_preview": "vless://fc5e2e68-b416-49bb-a689-61032faf7fcf@172.6..."
+      "host": "66.228.39.72",
+      "ping_ms": 11.2,
+      "quality": "быстрый"
     },
     {
-      "host": "151.101.3.8",
-      "ping_ms": 1.6,
-      "config_preview": "vless://dd0cfef0-fda9-47ec-8a65-49d7bc004f82@151.1..."
+      "host": "medium.com",
+      "ping_ms": 11.3,
+      "quality": "быстрый"
     },
     {
-      "host": "104.18.26.90",
-      "ping_ms": 1.6,
-      "config_preview": "vless://dca945d2-6d9b-434f-8754-3626a6a75e21@104.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 11.3,
+      "quality": "быстрый"
     },
     {
-      "host": "104.18.117.159",
-      "ping_ms": 1.6,
-      "config_preview": "vless://82241d60-2bdf-4de7-9a29-2d57ebc09b76@104.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 11.4,
+      "quality": "быстрый"
     },
     {
-      "host": "104.16.209.187",
-      "ping_ms": 1.6,
-      "config_preview": "vless://20cf8a2b-e301-4240-9c03-20883249a287@104.1..."
+      "host": "www.speedtest.net",
+      "ping_ms": 11.4,
+      "quality": "быстрый"
     },
     {
-      "host": "104.19.110.50",
-      "ping_ms": 1.6,
-      "config_preview": "vless://d9eb0df3-3190-4447-86b6-656fe5ff1119@104.1..."
+      "host": "45.82.251.114",
+      "ping_ms": 11.5,
+      "quality": "быстрый"
     },
     {
-      "host": "172.64.35.45",
-      "ping_ms": 1.6,
-      "config_preview": "vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@172.6..."
+      "host": "zeus.ns.cloudflare.com",
+      "ping_ms": 11.6,
+      "quality": "быстрый"
     },
     {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiIxMDQuMjEuNjkuNDQiLCJhaWQiOiIwIi..."
+      "host": "45.82.251.116",
+      "ping_ms": 11.7,
+      "quality": "быстрый"
     },
     {
-      "host": "45.85.119.120",
-      "ping_ms": 1.6,
-      "config_preview": "vless://b36d2e19-d7e6-40e8-c93e-1d7b6bd90241@45.85..."
+      "host": "jeff.ns.cloudflare.com",
+      "ping_ms": 11.7,
+      "quality": "быстрый"
     },
     {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiIxNzIuMjMzLjIyOS45MSIsImFpZCI6Ij..."
+      "host": "brenna.ns.cloudflare.com",
+      "ping_ms": 11.7,
+      "quality": "быстрый"
     },
     {
-      "host": "172.67.75.172",
-      "ping_ms": 1.6,
-      "config_preview": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.6..."
+      "host": "norman.ns.cloudflare.com",
+      "ping_ms": 11.7,
+      "quality": "быстрый"
     },
     {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZjEwIF..."
+      "host": "cloudflare.net",
+      "ping_ms": 11.8,
+      "quality": "быстрый"
     },
     {
-      "host": "172.67.203.235",
-      "ping_ms": 1.6,
-      "config_preview": "vless://5cccb4da-8aee-4b01-be84-2056265e52dc@172.6..."
+      "host": "103.113.70.21",
+      "ping_ms": 11.8,
+      "quality": "быстрый"
     },
     {
-      "host": "185.193.31.138",
-      "ping_ms": 1.6,
-      "config_preview": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.1..."
-    },
-    {
-      "host": "104.16.60.79",
-      "ping_ms": 1.6,
-      "config_preview": "vless://636b1684-b26c-4a9c-bc6e-8e1197a36d74@104.1..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://ewogICAgInYiOiAiMiIsCiAgICAicHMiOiAiQHYycm..."
-    },
-    {
-      "host": "69.84.182.77",
-      "ping_ms": 1.6,
-      "config_preview": "vless://a13df940-020c-465f-bc89-ee5279b5cd6a@69.84..."
-    },
-    {
-      "host": "86.38.214.52",
-      "ping_ms": 1.6,
-      "config_preview": "vless://a98d1e7d-e794-449c-b8a0-34fa6d4478b4@86.38..."
-    },
-    {
-      "host": "185.238.228.46",
-      "ping_ms": 1.6,
-      "config_preview": "vless://a992c7a6-832b-4243-a294-d34783d0294c@185.2..."
-    },
-    {
-      "host": "188.114.98.10",
-      "ping_ms": 1.6,
-      "config_preview": "vless://fef4a93d-eb4f-4657-b56b-32a0dc060045@188.1..."
-    },
-    {
-      "host": "185.158.133.158",
-      "ping_ms": 1.6,
-      "config_preview": "vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@185.1..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+lIiwiYWRkIjoiMT..."
-    },
-    {
-      "host": "188.42.88.238",
-      "ping_ms": 1.6,
-      "config_preview": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@188.4..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiIxNzIuMjMzLjIyOS45MSIsImFpZCI6Ij..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJ2IjogIjIiLCAicHMiOiAiQGNoaWxsZ3V5X3Zwbi..."
-    },
-    {
-      "host": "104.18.32.47",
-      "ping_ms": 1.6,
-      "config_preview": "vless://3ea61064-dae6-4ce5-8e3b-451c7feab49f@104.1..."
-    },
-    {
-      "host": "188.114.96.3",
-      "ping_ms": 1.6,
-      "config_preview": "vless://212b5b6b-9f98-4dc9-841d-b0531df9ef17@188.1..."
-    },
-    {
-      "host": "188.114.96.3",
-      "ping_ms": 1.6,
-      "config_preview": "vless://a44e0875-210f-4941-9062-89b6361a14c6@188.1..."
-    },
-    {
-      "host": "188.114.98.0",
-      "ping_ms": 1.6,
-      "config_preview": "vless://6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20@188.1..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiAiMTA0LjI2LjE0Ljg1IiwgImFpZCI6IC..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiAiMTA0LjI2LjE0Ljg1IiwgImFpZCI6IC..."
-    },
-    {
-      "host": "188.114.97.0",
-      "ping_ms": 1.6,
-      "config_preview": "vless://884f9b2c-f0c5-44dd-a68e-3e39ce93bb39@188.1..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiI0NS44NS4xMTguODgiLCJhaWQiOiIwIi..."
-    },
-    {
-      "host": "104.16.255.121",
-      "ping_ms": 1.6,
-      "config_preview": "vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.1..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiI0NS44NS4xMTguMTIwIiwiYWlkIjoiMC..."
-    },
-    {
-      "host": "104.16.255.71",
-      "ping_ms": 1.6,
-      "config_preview": "vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.1..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiI0NS44NS4xMTguODgiLCJhaWQiOiIwIi..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiAiMTA0LjI2LjE1Ljg1IiwgImFpZCI6IC..."
-    },
-    {
-      "host": "104.129.166.238",
-      "ping_ms": 1.6,
-      "config_preview": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.1..."
-    },
-    {
-      "host": "104.17.147.22",
-      "ping_ms": 1.6,
-      "config_preview": "vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@104.1..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiI0NS44NS4xMTkuNDgiLCJhaWQiOiIwIi..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJ2IjoiMiIsInBzIjoi5pyq55+lNiIsImFkZCI6Ij..."
-    },
-    {
-      "host": "172.67.150.93",
-      "ping_ms": 1.6,
-      "config_preview": "vless://e73d4e2a-ac73-4948-960a-2c2dd57b7ea8@172.6..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiIxMDQuMjYuMTUuODUiLCJhaWQiOiIwIi..."
-    },
-    {
-      "host": "104.16.250.22",
-      "ping_ms": 1.6,
-      "config_preview": "vless://9523a24b-f6bf-339e-9950-32829162ffc2@104.1..."
-    },
-    {
-      "host": "104.21.227.134",
-      "ping_ms": 1.6,
-      "config_preview": "vless://621a845a-48ea-35f0-9b9a-ca499c647ade@104.2..."
-    },
-    {
-      "host": "172.64.152.23",
-      "ping_ms": 1.6,
-      "config_preview": "vless://31b3fa93-788f-43ab-a3bb-ba6e00352fd3@172.6..."
-    },
-    {
-      "host": "108.162.193.91",
-      "ping_ms": 1.6,
-      "config_preview": "vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@108.1..."
-    },
-    {
-      "host": "141.101.114.227",
-      "ping_ms": 1.6,
-      "config_preview": "vless://3eac366f-82a1-40bb-9045-7530e54ac687@141.1..."
-    },
-    {
-      "host": "188.114.96.3",
-      "ping_ms": 1.6,
-      "config_preview": "vless://f34a76ae-0b25-4e2e-9fbe-479009c43c52@188.1..."
-    },
-    {
-      "host": "104.21.62.144",
-      "ping_ms": 1.6,
-      "config_preview": "vless://45948c7b-cd85-4040-92b2-9e634e9ddd52@104.2..."
-    },
-    {
-      "host": "45.85.118.209",
-      "ping_ms": 1.6,
-      "config_preview": "vless://573c787d-d549-4171-b05f-29984bc0266c@45.85..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJ2IjogbnVsbCwgInBzIjogIkBjaGlsbGd1eV92cG..."
-    },
-    {
-      "host": "199.232.208.116",
-      "ping_ms": 1.6,
-      "config_preview": "vless://3d142a41-8e57-47d7-a579-f52c6eae79f7@199.2..."
-    },
-    {
-      "host": "188.114.98.0",
-      "ping_ms": 1.6,
-      "config_preview": "vless://e6137064-d791-4245-b319-dd658a767589@188.1..."
-    },
-    {
-      "host": "vmess-server",
-      "ping_ms": 1.6,
-      "config_preview": "vmess://eyJhZGQiOiI0NS44NS4xMTkuNDgiLCJhaWQiOiIwIi..."
-    },
-    {
-      "host": "160.79.104.238",
-      "ping_ms": 1.6,
-      "config_preview": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@160.7..."
-    },
-    {
-      "host": "172.67.181.144",
-      "ping_ms": 1.7,
-      "config_preview": "vless://5874ce17-1e4a-4cf5-b67e-c88da6194616@172.6..."
-    },
-    {
-      "host": "104.18.89.89",
-      "ping_ms": 1.7,
-      "config_preview": "vless://43158d39-8066-4df4-b74e-2ab29f207e0a@104.1..."
-    },
-    {
-      "host": "104.17.113.208",
-      "ping_ms": 1.7,
-      "config_preview": "vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.1..."
-    },
-    {
-      "host": "167.82.70.143",
-      "ping_ms": 1.7,
-      "config_preview": "vless://89ba5d86-8837-4df1-91fa-d9176faa9225@167.8..."
+      "host": "45.82.251.115",
+      "ping_ms": 11.8,
+      "quality": "быстрый"
     }
   ]
 }
