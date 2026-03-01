@@ -19,28 +19,18 @@ jobs:
       
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.14'
+          python-version: '3.10'
           
       - run: pip install aiohttp
       
       - working-directory: ./source
         run: python parser.py
       
-      - name: ПРИНУДИТЕЛЬНЫЙ КОММИТ
+      - name: Коммит и пуш
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Добавляем всё
           git add -f deploy/
-          git add -f README.md
-          
-          # Создаём пустой файл с timestamp, если нет других изменений
-          if git diff --staged --quiet; then
-            echo "🕒 Принудительное обновление $(date)" > .force-update
-            git add .force-update
-          fi
-          
-          # Всегда делаем коммит
-          git commit -m "🔄 Обновление $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          git commit -m "🔄 Обновление $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
+          git pull --rebase origin main || true
+          git push origin main
