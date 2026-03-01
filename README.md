@@ -27,24 +27,22 @@
 
 ### 📁 Разбивка по файлам (по ~150 серверов в каждом)
 
-### 📁 Разбивка по файлам (по ~150 серверов в каждом)
-
-| Часть | Диапазон | Серверов | Ссылка для V2Ray (Base64) |
-|-------|----------|----------|---------------------------|
-| **01** | 1-150 | ~150 | [`sub_001_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt) |
-| **02** | 151-300 | ~150 | [`sub_002_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt) |
-| **03** | 301-450 | ~150 | [`sub_003_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt) |
-| **04** | 451-600 | ~150 | [`sub_004_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004_b64.txt) |
-| **05** | 601-750 | ~150 | [`sub_005_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005_b64.txt) |
-| **06** | 751-900 | ~150 | [`sub_006_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006_b64.txt) |
-| **07** | 901-1050 | ~150 | [`sub_007_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007_b64.txt) |
-| **08** | 1051-1200 | ~150 | [`sub_008_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008_b64.txt) |
-| **09** | 1201-1350 | ~150 | [`sub_009_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009_b64.txt) |
-| **10** | 1351-1500 | ~150 | [`sub_010_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010_b64.txt) |
-| **11** | 1501-1650 | ~150 | [`sub_011_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011_b64.txt) |
-| **12** | 1651-1800 | ~150 | [`sub_012_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012_b64.txt) |
-| **13** | 1801-1950 | ~150 | [`sub_013_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013_b64.txt) |
-| **14** | 1951-2100 | ~150 | [`sub_014_b64.txt`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014_b64.txt) |
+| Часть | Диапазон | Статус | Ссылка для V2Ray |
+|-------|----------|--------|------------------|
+| **01** | 1-150 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_001_b64.txt |
+| **02** | 151-300 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_002_b64.txt |
+| **03** | 301-450 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_003_b64.txt |
+| **04** | 451-600 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_004_b64.txt |
+| **05** | 601-750 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_005_b64.txt |
+| **06** | 751-900 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_006_b64.txt |
+| **07** | 901-1050 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_007_b64.txt |
+| **08** | 1051-1200 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_008_b64.txt |
+| **09** | 1201-1350 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_009_b64.txt |
+| **10** | 1351-1500 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_010_b64.txt |
+| **11** | 1501-1650 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_011_b64.txt |
+| **12** | 1651-1800 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_012_b64.txt |
+| **13** | 1801-1950 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_013_b64.txt |
+| **14** | 1951-2100 | ✅ Активен | https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/sub_014_b64.txt |
 
 **[📂 Открыть папку со всеми файлами](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
