@@ -1,50 +1,24 @@
-name: 🔄 АВТООБНОВЛЕНИЕ
+name: update
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  force-commit:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: 📥 Клонирование
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.MY_PAT }}
-          fetch-depth: 0
-      
-      - name: 🐍 Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          
-      - name: 📦 Зависимости
-        run: pip install aiohttp
-      
-      - name: 🚀 Парсер
-        working-directory: ./source
+      - run: pip install aiohttp
+      - working-directory: ./source
         run: python parser.py
-      
-      - name: 💥 ГАРАНТИРОВАННЫЙ КОММИТ
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Создаём уникальный файл с миллисекундами
-          echo "COMMIT=$(date +%s%N)" > deploy/commit-timestamp.txt
-          
-          # Добавляем всё
-          git add -f deploy/
-          
-          # Всегда коммитим
-          git commit -m "🔄 $(date +'%Y-%m-%d %H:%M:%S.%3N')"
-          
-          # Жёсткий пуш с force
-          git push --force origin main
-          
-          echo "✅ КОММИТ ЗАПУШЕН С FORCE!"
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "update" || exit 0
+          git push
