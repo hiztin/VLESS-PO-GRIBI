@@ -1,9 +1,9 @@
-name:  Автообновление конфигов
+name: 🔄 Автообновление конфигов
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # Каждые 3 часа
-  workflow_dispatch:        # Ручной запуск
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -19,14 +19,13 @@ jobs:
       - name: 📥 Клонирование репозитория
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.MY_PAT }}  
+          token: ${{ secrets.MY_PAT }}
           fetch-depth: 0
       
       - name: 🐍 Установка Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip'
       
       - name: 📦 Установка зависимостей
         run: |
@@ -51,52 +50,36 @@ jobs:
             TOTAL=$(wc -l < deploy/sub.txt)
             echo "📊 Всего серверов: $TOTAL"
           fi
-          
-          # Статистика по источникам
-          if [ -d "deploy/subscriptions" ]; then
-            FILES=$(ls -1 deploy/subscriptions/*.txt 2>/dev/null | wc -l)
-            echo "📁 Найдено файлов источников: $FILES"
-          fi
       
-      - name: 📦 Коммит 
+      - name: 📦 ПРИНУДИТЕЛЬНЫЙ коммит (даже без изменений)
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Добавляем все изменения
+          # Добавляем всё из deploy
           git add deploy/
           
-          # Проверяем, есть ли изменения для коммита
+          # Добавляем README если он изменился
+          git add README.md
+          
+          # Проверяем, есть ли изменения
           if git diff --staged --quiet; then
-            echo "ℹ️ Нет изменений для коммита"
-            exit 0
+            echo "ℹ️ Нет изменений в файлах, создаём пустой коммит с обновлением даты"
+            
+            # Обновляем timestamp в README через touch
+            echo "# Обновление $(date +'%Y-%m-%d %H:%M UTC')" > .update-timestamp
+            git add .update-timestamp
+            
+            git commit -m "🔄 Принудительное обновление $(date +'%Y-%m-%d %H:%M UTC') [skip ci]"
+          else
+            git commit -m "🔄 Автообновление подписок $(date +'%Y-%m-%d %H:%M UTC')"
           fi
           
-          # Делаем коммит
-          git commit -m "🔄 Автообновление подписок $(date +'%Y-%m-%d %H:%M UTC')"
-          
-          # Пытаемся запушить
-          echo "📤 Пытаемся запушить..."
+          # Пушим с force если нужно
           if ! git push origin main; then
-            echo "⚠️ Конфликт при пуше, стягиваем изменения..."
-            git config pull.rebase true
+            echo "⚠️ Конфликт, делаем rebase..."
             git pull --rebase origin main
-            echo "📤 Пушим после rebase..."
             git push origin main
           fi
           
-          echo "✅ Изменения успешно отправлены"
-          
-          # Показываем, какие файлы добавлены
-          echo "📄 Добавленные файлы:"
-          git diff --staged --name-only
-      
-      - name: 📤 Загрузка артефактов (на случай ошибок)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: subscriptions-${{ github.run_id }}
-          path: deploy/
-          retention-days: 7
-          if-no-files-found: warn
-
+          echo "✅ Коммит создан и отправлен"
