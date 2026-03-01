@@ -23,17 +23,16 @@ jobs:
         run: pip install aiohttp
           
       - name: 🚀 Парсер
-        working-directory: ./source
-        run: python parser.py
+        run: python source/parser.py
         
       - name: 🔍 Проверка
         run: |
-          echo "📁 Файлы в deploy:"
+          echo "📁 Содержимое deploy:"
           ls -la deploy/
-          echo "📁 Файлы в subscriptions:"
+          echo "📁 Содержимое deploy/subscriptions:"
           ls -la deploy/subscriptions/ || echo "Нет файлов"
           
-      - name: 📤 Коммит и пуш
+      - name: 📤 Коммит в репозиторий
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
@@ -45,7 +44,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "ℹ️ Нет изменений"
           else
-            git commit -m "🔄 Обновление $(date +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "🔄 Автообновление $(date +'%Y-%m-%d %H:%M UTC')"
             git push
             echo "✅ Изменения отправлены"
             
