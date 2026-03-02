@@ -7,9 +7,14 @@ from typing import List, Tuple, Optional
 from urllib.parse import urlparse
 from datetime import datetime
 
-# -------------------- НАСТРОЙКИ --------------------
-DEPLOY_PATH = "deploy"
-SUBSCRIPTIONS_PATH = f"{DEPLOY_PATH}/subscriptions"
+# -------------------- ПУТИ (абсолютные от корня) --------------------
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # корень репозитория
+DEPLOY_PATH = os.path.join(BASE_DIR, "deploy")
+SUBSCRIPTIONS_PATH = os.path.join(DEPLOY_PATH, "subscriptions")
+README_PATH = os.path.join(BASE_DIR, "README.md")
+
+print(f"📁 Корень репозитория: {BASE_DIR}")
+print(f"📁 Deploy путь: {DEPLOY_PATH}")
 
 # -------------------- ИСТОЧНИКИ --------------------
 URLS = [
@@ -46,14 +51,14 @@ async def fetch(session: aiohttp.ClientSession, url: str) -> str:
     try:
         async with session.get(url, timeout=15) as resp:
             return await resp.text() if resp.status == 200 else ''
-    except Exception:
+    except Exception as e:
+        print(f"  ❌ Ошибка загрузки: {str(e)[:50]}")
         return ''
 
 def extract_configs(text: str) -> List[str]:
     """Извлекает конфиги из текста"""
     if not text:
         return []
-    # Ищем все vmess, vless, ss конфиги
     pattern = r'(vmess://[^\s]+|vless://[^\s]+|ss://[^\s]+)'
     return re.findall(pattern, text)
 
@@ -69,12 +74,13 @@ async def process_source(session: aiohttp.ClientSession, idx: int, url: str) -> 
     configs = extract_configs(text)
     print(f"  ✅ Найдено: {len(configs)}")
     
-    # Берём первые 200
     return idx, configs[:200]
 
 def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
     """Сохраняет результаты в файлы"""
+    # Создаём папки
     os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
+    print(f"📁 Создана папка: {SUBSCRIPTIONS_PATH}")
     
     total = 0
     sources = 0
@@ -84,11 +90,11 @@ def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
     for idx, servers in results:
         if servers:
             # Сохраняем в отдельный файл
-            path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx + 1}.txt")
-            with open(path, 'w', encoding='utf-8') as f:
+            file_path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx + 1}.txt")
+            with open(file_path, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(servers))
             
-            print(f"  ✅ {idx + 1}.txt: {len(servers)} серверов")
+            print(f"  ✅ {idx + 1}.txt: {len(servers)} серверов -> {file_path}")
             total += len(servers)
             sources += 1
             all_servers.extend(servers)
@@ -96,9 +102,10 @@ def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
     
     # Сохраняем общий файл
     if all_servers:
-        with open(os.path.join(DEPLOY_PATH, "sub.txt"), 'w', encoding='utf-8') as f:
+        sub_path = os.path.join(DEPLOY_PATH, "sub.txt")
+        with open(sub_path, 'w', encoding='utf-8') as f:
             f.write('\n'.join(all_servers))
-        print(f"✅ sub.txt: {len(all_servers)} всего серверов")
+        print(f"✅ sub.txt: {len(all_servers)} серверов -> {sub_path}")
     
     # Сохраняем debug.json
     now = datetime.now()
@@ -110,11 +117,14 @@ def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
         "servers_by_source": sources_data
     }
     
-    with open(os.path.join(DEPLOY_PATH, "debug.json"), "w", encoding="utf-8") as f:
+    debug_path = os.path.join(DEPLOY_PATH, "debug.json")
+    with open(debug_path, "w", encoding="utf-8") as f:
         json.dump(debug_info, f, indent=2, ensure_ascii=False)
+    print(f"✅ debug.json создан")
     
-    # Создаём файл с временной меткой для коммита
-    with open(os.path.join(DEPLOY_PATH, "last_update.txt"), "w", encoding="utf-8") as f:
+    # Создаём файл с временной меткой
+    timestamp_path = os.path.join(DEPLOY_PATH, "last_update.txt")
+    with open(timestamp_path, "w", encoding="utf-8") as f:
         f.write(f"Last update: {now.strftime('%Y-%m-%d %H:%M:%S')}")
     
     return sources, total
@@ -122,20 +132,15 @@ def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
 def update_readme(total_servers: int, sources_count: int):
     """Обновляет README.md в корне репозитория"""
     
-    # README лежит в корне, а не в source
-    readme_path = "../README.md"  # ← ВАЖНО: поднимаемся на уровень выше
+    if not os.path.exists(README_PATH):
+        print(f"❌ README.md не найден по пути: {README_PATH}")
+        return
     
-    # Получаем текущее время
     now = datetime.now()
     date_str = now.strftime("%d.%m.%Y")
     time_str = now.strftime("%H:%M")
     
-    if not os.path.exists(readme_path):
-        print(f"❌ README.md не найден по пути: {readme_path}")
-        print(f"📁 Текущая папка: {os.getcwd()}")
-        return
-    
-    with open(readme_path, "r", encoding="utf-8") as f:
+    with open(README_PATH, "r", encoding="utf-8") as f:
         content = f.read()
     
     import re
@@ -161,33 +166,37 @@ def update_readme(total_servers: int, sources_count: int):
         content
     )
     
-    with open(readme_path, "w", encoding="utf-8") as f:
+    with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)
     
-    print(f"✅ README.md обновлён: {total_servers} серверов, {sources_count} источников")
+    print(f"✅ README.md обновлён: {README_PATH}")
 
 async def main():
     """Основная функция"""
     print("\n" + "="*60)
     print("🚀 ПАРСЕР ЗАПУЩЕН")
     print("="*60)
+    print(f"📁 Корень: {BASE_DIR}")
+    print(f"📁 Deploy: {DEPLOY_PATH}")
     
     # Создаём папки
     os.makedirs(DEPLOY_PATH, exist_ok=True)
     os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
+    print(f"✅ Папки созданы")
     
     async with aiohttp.ClientSession() as session:
-        # Создаём задачи для всех источников
         tasks = [process_source(session, i, url) for i, url in enumerate(URLS)]
         results = await asyncio.gather(*tasks)
     
-    # Сортируем по номеру источника
     results.sort(key=lambda x: x[0])
-    
-    # Сохраняем результаты
     sources, total = save_results(results)
     
-    # Обновляем README
+    # Проверяем созданные файлы
+    print(f"\n📁 Содержимое {DEPLOY_PATH}:")
+    if os.path.exists(DEPLOY_PATH):
+        for f in os.listdir(DEPLOY_PATH):
+            print(f"  - {f}")
+    
     update_readme(total, sources)
     
     print("\n" + "="*60)
@@ -199,4 +208,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
