@@ -1,10 +1,17 @@
 import asyncio
 import aiohttp
 import re
+import json
 import os
+from typing import List, Tuple, Optional
+from urllib.parse import urlparse
 from datetime import datetime
 
-# Твои 25 источников
+# -------------------- НАСТРОЙКИ --------------------
+DEPLOY_PATH = "deploy"
+SUBSCRIPTIONS_PATH = f"{DEPLOY_PATH}/subscriptions"
+
+# -------------------- ИСТОЧНИКИ --------------------
 URLS = [
     "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt",
     "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt",
@@ -32,112 +39,41 @@ URLS = [
     "https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE",
     "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
 ]
-import os
-# Определяем корень репозитория (поднимаемся на один уровень из папки source)
-REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DEPLOY_PATH = os.path.join(REPO_ROOT, 'deploy')
-SUBSCRIPTIONS_PATH = os.path.join(DEPLOY_PATH, 'subscriptions')
-# Разрешённые протоколы
-ALLOWED = ['vmess', 'vless', 'ss']
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-print(f"📁 Текущая папка: {os.getcwd()}")
-async def fetch(session, url):
-    """Скачивание одного источника"""
+
+# -------------------- ПАРСЕР --------------------
+async def fetch(session: aiohttp.ClientSession, url: str) -> str:
+    """Асинхронная загрузка URL"""
     try:
         async with session.get(url, timeout=15) as resp:
             return await resp.text() if resp.status == 200 else ''
-    except:
+    except Exception:
         return ''
 
-def parse_configs(text):
-    """Извлечение конфигов из текста"""
+def extract_configs(text: str) -> List[str]:
+    """Извлекает конфиги из текста"""
     if not text:
         return []
-    
-    # Все возможные протоколы
-    found = []
-    
-    # vmess (base64)
-    found.extend(re.findall(r'vmess://[a-zA-Z0-9+/=]+', text))
-    
-    # vless
-    found.extend(re.findall(r'vless://[a-f0-9-]+@[a-zA-Z0-9.-]+:\d+', text))
-    
-    # ss
-    found.extend(re.findall(r'ss://[a-zA-Z0-9+/=]+', text))
-    
-    # trojan (потом отфильтруем)
-    found.extend(re.findall(r'trojan://[a-zA-Z0-9-]+@[a-zA-Z0-9.-]+:\d+', text))
-    
-    # Убираем дубликаты
-    unique = list(set(found))
-    
-    # Фильтруем по разрешённым протоколам
-    filtered = []
-    for cfg in unique:
-        proto = cfg.split('://')[0].lower()
-        if proto in ALLOWED:
-            filtered.append(cfg)
-    
-    return filtered
+    # Ищем все vmess, vless, ss конфиги
+    pattern = r'(vmess://[^\s]+|vless://[^\s]+|ss://[^\s]+)'
+    return re.findall(pattern, text)
 
-async def main():
-    print("\n" + "="*50)
-    print("🚀 ПАРСЕР ЗАПУЩЕН")
-    print("="*50)
+async def process_source(session: aiohttp.ClientSession, idx: int, url: str) -> Tuple[int, List[str]]:
+    """Обрабатывает один источник"""
+    print(f"🔍 Источник {idx + 1}")
     
-    # Создаём папки
-    os.makedirs('deploy/subscriptions', exist_ok=True)
+    text = await fetch(session, url)
+    if not text:
+        print(f"  ❌ Пусто")
+        return idx, []
     
-    async with aiohttp.ClientSession() as session:
-        # Скачиваем все источники
-        tasks = [fetch(session, url) for url in URLS]
-        results = await asyncio.gather(*tasks)
-        
-        all_configs = []
-        sources_with_data = 0
-        
-        # Обрабатываем каждый источник
-        for i, text in enumerate(results, 1):
-            print(f"\n🔍 Источник {i}")
-            
-            if not text:
-                print(f"  ❌ Пусто")
-                continue
-            
-            # Парсим конфиги
-            configs = parse_configs(text)
-            print(f"  📊 Найдено: {len(configs)}")
-            
-            if configs:
-                # Берём первые 200
-                selected = configs[:200]
-                
-                # Сохраняем в отдельный файл
-                path = f'deploy/subscriptions/{i}.txt'
-                with open(path, 'w', encoding='utf-8') as f:
-                    f.write('\n'.join(selected))
-                
-                print(f"  ✅ Сохранено: {len(selected)} в {i}.txt")
-                
-                all_configs.extend(selected)
-                sources_with_data += 1
-        
-        # Сохраняем общий файл
-        if all_configs:
-            with open('deploy/sub.txt', 'w', encoding='utf-8') as f:
-                f.write('\n'.join(all_configs))
-            
-            print(f"\n📦 Всего серверов: {len(all_configs)}")
-            print(f"📊 Источников с данными: {sources_with_data}/{len(URLS)}")
-        
-        # Файл с датой для гарантии коммита
-        with open('deploy/updated.txt', 'w', encoding='utf-8') as f:
-            f.write(f"Last update: {datetime.now()}")
-        
-        print("\n✅ РАБОТА ЗАВЕРШЕНА")
-        print("="*50)
+    configs = extract_configs(text)
+    print(f"  ✅ Найдено: {len(configs)}")
+    
+    # Берём первые 200
+    return idx, configs[:200]
+
 def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
+    """Сохраняет результаты в файлы"""
     os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
     
     total = 0
@@ -147,23 +83,25 @@ def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
     
     for idx, servers in results:
         if servers:
+            # Сохраняем в отдельный файл
             path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx + 1}.txt")
             with open(path, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(servers))
             
+            print(f"  ✅ {idx + 1}.txt: {len(servers)} серверов")
             total += len(servers)
             sources += 1
             all_servers.extend(servers)
             sources_data[idx + 1] = len(servers)
     
+    # Сохраняем общий файл
     if all_servers:
         with open(os.path.join(DEPLOY_PATH, "sub.txt"), 'w', encoding='utf-8') as f:
             f.write('\n'.join(all_servers))
+        print(f"✅ sub.txt: {len(all_servers)} всего серверов")
     
     # Сохраняем debug.json
-    from datetime import datetime
     now = datetime.now()
-    
     debug_info = {
         "total": total,
         "alive": total,
@@ -175,10 +113,86 @@ def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
     with open(os.path.join(DEPLOY_PATH, "debug.json"), "w", encoding="utf-8") as f:
         json.dump(debug_info, f, indent=2, ensure_ascii=False)
     
+    # Создаём файл с временной меткой для коммита
+    with open(os.path.join(DEPLOY_PATH, "last_update.txt"), "w", encoding="utf-8") as f:
+        f.write(f"Last update: {now.strftime('%Y-%m-%d %H:%M:%S')}")
+    
     return sources, total
-if __name__ == '__main__':
+
+def update_readme(total_servers: int, sources_count: int):
+    """Обновляет README.md с актуальной статистикой"""
+    readme_path = "README.md"
+    
+    # Получаем текущее время
+    now = datetime.now()
+    date_str = now.strftime("%d.%m.%Y")
+    time_str = now.strftime("%H:%M")
+    
+    if not os.path.exists(readme_path):
+        print("❌ README.md не найден")
+        return
+    
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    
+    import re
+    
+    # Обновляем общее количество серверов
+    content = re.sub(
+        r'(!\[Серверов\].*?alive=)(\d+)',
+        f'\\g<1>{total_servers}',
+        content
+    )
+    
+    # Обновляем дату последнего обновления
+    content = re.sub(
+        r'(Последнее обновление:).*',
+        f'\\1 {date_str} {time_str}',
+        content
+    )
+    
+    # Обновляем количество активных источников
+    content = re.sub(
+        r'(\*\*Активных источников\*\*:).*',
+        f'\\1 {sources_count}',
+        content
+    )
+    
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(content)
+    
+    print(f"✅ README.md обновлён: {total_servers} серверов, {sources_count} источников")
+
+async def main():
+    """Основная функция"""
+    print("\n" + "="*60)
+    print("🚀 ПАРСЕР ЗАПУЩЕН")
+    print("="*60)
+    
+    # Создаём папки
+    os.makedirs(DEPLOY_PATH, exist_ok=True)
+    os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
+    
+    async with aiohttp.ClientSession() as session:
+        # Создаём задачи для всех источников
+        tasks = [process_source(session, i, url) for i, url in enumerate(URLS)]
+        results = await asyncio.gather(*tasks)
+    
+    # Сортируем по номеру источника
+    results.sort(key=lambda x: x[0])
+    
+    # Сохраняем результаты
+    sources, total = save_results(results)
+    
+    # Обновляем README
+    update_readme(total, sources)
+    
+    print("\n" + "="*60)
+    print("✅ РАБОТА ЗАВЕРШЕНА")
+    print("="*60)
+    print(f"📊 Источников с данными: {sources}/{len(URLS)}")
+    print(f"📊 Всего серверов: {total}")
+    print("="*60)
+
+if __name__ == "__main__":
     asyncio.run(main())
-
-
-
-
