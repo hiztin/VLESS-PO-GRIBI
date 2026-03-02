@@ -23,11 +23,15 @@ jobs:
       - working-directory: ./source
         run: python parser.py
       
-      - name: КОММИТ
+      - name: Коммит и пуш
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add -f deploy/
-          git commit -m "update $(date +'%Y-%m-%d %H:%M:%S')" || echo "нет изменений"
-          git pull --rebase origin main || true
-          git push origin main
+          if git diff --staged --quiet; then
+            echo "Нет изменений для коммита"
+          else
+            git commit -m "🔄 Автообновление $(date +'%Y-%m-%d %H:%M')"
+            git pull --rebase origin main
+            git push origin main
+          fi
