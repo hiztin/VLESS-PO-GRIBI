@@ -5,26 +5,31 @@ on:
     - cron: '0 */3 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+        with:
+          token: ${{ secrets.MY_PAT }}
+          
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.14'
           
-      - name: Создать папки
-        run: mkdir -p deploy/subscriptions
+      - run: pip install aiohttp
+      
+      - name: Запуск парсера
+        working-directory: ./source
+        run: python parser.py
         
-      - name: Создать тестовый файл
-        run: echo "test $(date)" > deploy/test.txt
-        
-      - name: Коммит
+      - name: Коммит и пуш
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add deploy/
-          git commit -m "test $(date)" || exit 0
+          git diff --staged --quiet || git commit -m "update $(date +'%Y-%m-%d %H:%M')"
           git push
