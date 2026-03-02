@@ -39,7 +39,8 @@ DEPLOY_PATH = os.path.join(REPO_ROOT, 'deploy')
 SUBSCRIPTIONS_PATH = os.path.join(DEPLOY_PATH, 'subscriptions')
 # Разрешённые протоколы
 ALLOWED = ['vmess', 'vless', 'ss']
-
+os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+print(f"📁 Текущая папка: {os.getcwd()}")
 async def fetch(session, url):
     """Скачивание одного источника"""
     try:
@@ -139,4 +140,5 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
 
