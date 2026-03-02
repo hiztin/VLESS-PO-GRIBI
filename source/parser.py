@@ -120,8 +120,10 @@ def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
     return sources, total
 
 def update_readme(total_servers: int, sources_count: int):
-    """Обновляет README.md с актуальной статистикой"""
-    readme_path = "README.md"
+    """Обновляет README.md в корне репозитория"""
+    
+    # README лежит в корне, а не в source
+    readme_path = "../README.md"  # ← ВАЖНО: поднимаемся на уровень выше
     
     # Получаем текущее время
     now = datetime.now()
@@ -129,7 +131,8 @@ def update_readme(total_servers: int, sources_count: int):
     time_str = now.strftime("%H:%M")
     
     if not os.path.exists(readme_path):
-        print("❌ README.md не найден")
+        print(f"❌ README.md не найден по пути: {readme_path}")
+        print(f"📁 Текущая папка: {os.getcwd()}")
         return
     
     with open(readme_path, "r", encoding="utf-8") as f:
@@ -196,3 +199,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
