@@ -32,7 +32,11 @@ URLS = [
     "https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE",
     "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
 ]
-
+import os
+# Определяем корень репозитория (поднимаемся на один уровень из папки source)
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DEPLOY_PATH = os.path.join(REPO_ROOT, 'deploy')
+SUBSCRIPTIONS_PATH = os.path.join(DEPLOY_PATH, 'subscriptions')
 # Разрешённые протоколы
 ALLOWED = ['vmess', 'vless', 'ss']
 
@@ -135,3 +139,4 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
