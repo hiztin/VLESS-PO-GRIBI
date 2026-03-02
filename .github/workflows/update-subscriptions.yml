@@ -20,8 +20,13 @@ jobs:
           
       - run: pip install aiohttp
       
-      - working-directory: ./source
-        run: python parser.py
+      - name: Запуск парсера
+        working-directory: ./source
+        run: |
+          python parser.py
+          # Копируем файлы в корневую папку deploy
+          mkdir -p ../deploy/subscriptions
+          cp -r deploy/* ../deploy/ 2>/dev/null || true
       
       - name: Коммит и пуш
         run: |
@@ -35,3 +40,4 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
+
