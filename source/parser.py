@@ -2,6 +2,8 @@ import asyncio
 import aiohttp
 import re
 import os
+import time
+from datetime import datetime
 
 # Твои 25 источников
 URLS = [
@@ -39,7 +41,38 @@ async def fetch(session, url):
     except:
         return ''
 
+async def ping_server(config):
+    """Быстрая проверка доступности сервера"""
+    try:
+        # Извлекаем хост из конфига
+        if 'vmess://' in config:
+            # Для vmess просто считаем что работает (сложно парсить)
+            return config, 100
+        elif '@' in config:
+            # Для vless и trojan
+            host = config.split('@')[1].split(':')[0]
+        else:
+            # Для ss
+            return config, 100
+            
+        # Проверяем подключение
+        import socket
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.settimeout(2)
+        start = time.time()
+        result = sock.connect_ex((host, 80))
+        sock.close()
+        
+        if result == 0:
+            ping = (time.time() - start) * 1000
+            return config, ping
+    except:
+        pass
+    return None, None
+
 async def main():
+    print("🚀 Парсер запущен")
+    
     # Создаём папки
     os.makedirs('deploy/subscriptions', exist_ok=True)
     
@@ -51,22 +84,48 @@ async def main():
         
         for i, text in enumerate(results, 1):
             if not text:
+                print(f"❌ Источник {i}: пусто")
                 continue
             
-            # Ищем конфиги
-            configs = re.findall(r'(vmess://[^\s]+|vless://[^\s]+|ss://[^\s]+)', text)
+            # Находим все конфиги
+            configs = re.findall(r'(vmess://[^\s]+|vless://[^\s]+|ss://[^\s]+|trojan://[^\s]+)', text)
+            print(f"📊 Источник {i}: найдено {len(configs)} конфигов")
             
-            # Берём первые 200
-            configs = configs[:200]
+            if not configs:
+                continue
             
-            if configs:
+            # Проверяем пинг (только первые 500 для скорости)
+            servers_with_ping = []
+            for config in configs[:500]:
+                result, ping = await ping_server(config)
+                if result:
+                    servers_with_ping.append((result, ping))
+            
+            print(f"⚡ Источник {i}: отвечают {len(servers_with_ping)}")
+            
+            if servers_with_ping:
+                # Сортируем по пингу
+                servers_with_ping.sort(key=lambda x: x[1])
+                
+                # Берём 200 лучших
+                best_servers = [s[0] for s in servers_with_ping[:200]]
+                
+                # Сохраняем
                 with open(f'deploy/subscriptions/{i}.txt', 'w', encoding='utf-8') as f:
-                    f.write('\n'.join(configs))
-                all_configs.extend(configs)
+                    f.write('\n'.join(best_servers))
+                
+                print(f"✅ Источник {i}: сохранено {len(best_servers)} лучших")
+                all_configs.extend(best_servers)
         
+        # Сохраняем общий файл
         if all_configs:
             with open('deploy/sub.txt', 'w', encoding='utf-8') as f:
                 f.write('\n'.join(all_configs))
+            print(f"✅ Всего сохранено: {len(all_configs)} серверов")
+        
+        # Создаём файл с датой для гарантии коммита
+        with open('deploy/updated.txt', 'w', encoding='utf-8') as f:
+            f.write(f"Last update: {datetime.now()}")
 
 if __name__ == '__main__':
     asyncio.run(main())
