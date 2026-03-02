@@ -128,7 +128,6 @@
 24. STR97/STRUGOV 
 25. V2RayRoot/V2RayConfig
 
-✅ **Зелёным** выделены рабочие источники (17 шт.)
 </details>
 
 ---
