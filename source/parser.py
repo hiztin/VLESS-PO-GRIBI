@@ -137,70 +137,48 @@ async def main():
         
         print("\n✅ РАБОТА ЗАВЕРШЕНА")
         print("="*50)
-def generate_readme_stats():
-    """Генерирует статистику для README только с рабочими источниками"""
+def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
+    os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
     
     total = 0
-    working_sources = []
+    sources = 0
+    all_servers = []
+    sources_data = {}
     
-    # Проверяем какие файлы реально есть
-    if os.path.exists('deploy/subscriptions'):
-        for i in range(1, 26):
-            path = f'deploy/subscriptions/{i}.txt'
-            if os.path.exists(path):
-                with open(path, 'r', encoding='utf-8') as f:
-                    count = len(f.readlines())
-                    total += count
-                    working_sources.append({
-                        'num': i,
-                        'count': count
-                    })
+    for idx, servers in results:
+        if servers:
+            path = os.path.join(SUBSCRIPTIONS_PATH, f"{idx + 1}.txt")
+            with open(path, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(servers))
+            
+            total += len(servers)
+            sources += 1
+            all_servers.extend(servers)
+            sources_data[idx + 1] = len(servers)
     
-    # Статистика
-    stats = f"""
-📊 **Актуальная статистика** (обновлено {datetime.now().strftime('%d.%m.%Y %H:%M')})
-
-| Показатель | Значение |
-|------------|----------|
-| 🟢 **Всего рабочих серверов** | {total} |
-| 🔵 **Работающих источников** | {len(working_sources)}/25 |
-| ⚡ **В среднем на источник** | {total//len(working_sources) if working_sources else 0} |
-| 🕒 **Последнее обновление** | {datetime.now().strftime('%H:%M %d.%m.%Y')} |
-
-### ✅ Работающие источники ({len(working_sources)} шт.)
-
-"""
+    if all_servers:
+        with open(os.path.join(DEPLOY_PATH, "sub.txt"), 'w', encoding='utf-8') as f:
+            f.write('\n'.join(all_servers))
     
-    # Список ТОЛЬКО рабочих источников
-    files_list = "| № | Файл | Серверов | Ссылка |\n|---|---|---|---|\n"
-    for src in working_sources:
-        files_list += f"| {src['num']} | `{src['num']}.txt` | {src['count']} | [`⬇️ Скачать`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/{src['num']}.txt) |\n"
+    # Сохраняем debug.json
+    from datetime import datetime
+    now = datetime.now()
     
-    # Если нет рабочих источников
-    if not working_sources:
-        files_list = "❌ **Нет рабочих источников**\n"
+    debug_info = {
+        "total": total,
+        "alive": total,
+        "sources": sources,
+        "last_update": now.strftime("%d.%m.%Y %H:%M"),
+        "servers_by_source": sources_data
+    }
     
-    # Читаем README
-    readme_path = 'README.md'
-    with open(readme_path, 'r', encoding='utf-8') as f:
-        content = f.read()
+    with open(os.path.join(DEPLOY_PATH, "debug.json"), "w", encoding="utf-8") as f:
+        json.dump(debug_info, f, indent=2, ensure_ascii=False)
     
-    # Заменяем секции
-    import re
-    content = re.sub(r'<!-- START_SERVERS_STATS -->.*?<!-- END_SERVERS_STATS -->', 
-                     f'<!-- START_SERVERS_STATS -->\n{stats}\n<!-- END_SERVERS_STATS -->', 
-                     content, flags=re.DOTALL)
-    
-    content = re.sub(r'<!-- START_SERVERS_LIST -->.*?<!-- END_SERVERS_LIST -->', 
-                     f'<!-- START_SERVERS_LIST -->\n{files_list}\n<!-- END_SERVERS_LIST -->', 
-                     content, flags=re.DOTALL)
-    
-    with open(readme_path, 'w', encoding='utf-8') as f:
-        f.write(content)
-    
-    print(f"✅ README обновлён: {len(working_sources)} рабочих источников, {total} серверов")
+    return sources, total
 if __name__ == '__main__':
     asyncio.run(main())
+
 
 
 
