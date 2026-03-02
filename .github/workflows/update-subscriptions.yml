@@ -1,362 +1,115 @@
-name: 🚀 Proxy Parser & Deploy
+name: update
 
 on:
-  # Запуск по расписанию - каждый час
   schedule:
-    - cron: '0 * * * *'          # Каждый час в 00 минут
-  
-  # Ручной запуск из интерфейса GitHub
-  workflow_dispatch:
-    inputs:
-      max_sources:
-        description: 'Максимальное количество источников для обработки (0 = все)'
-        required: false
-        default: '0'
-        type: number
-      test_all:
-        description: 'Тестировать все найденные конфиги (может быть долго)'
-        required: false
-        default: false
-        type: boolean
-      debug_mode:
-        description: 'Режим отладки (подробное логирование)'
-        required: false
-        default: false
-        type: boolean
-  
-  # Запуск при изменениях в коде парсера
+    - cron: '0 */3 * * *'  # Каждые 3 часа
+  workflow_dispatch:  # Ручной запуск
   push:
-    branches:
-      - main
-      - master
-      - develop
     paths:
       - 'source/parser.py'
-      - '.github/workflows/parser.yml'
-      - 'requirements.txt'
-    tags:
-      - 'v*'
-  
-  # Запуск при создании Pull Request (только проверка)
-  pull_request:
-    branches:
-      - main
-      - master
-    paths:
-      - 'source/parser.py'
-    types: [opened, synchronize, reopened]
-
-# Даем права на запись в репозиторий
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-  actions: read
-  checks: write
-  pull-requests: write
-
-# Конкурентность - предотвращаем одновременные запуски
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+      - '.github/workflows/update.yml'
 
 jobs:
-  parse-and-deploy:
-    name: 🔄 Parse & Deploy Proxies
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # Максимальное время выполнения
+    timeout-minutes: 15
     
     steps:
-      # 1. Проверка кода
-      - name: 📥 Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.MY_PAT }}
           fetch-depth: 0
-          lfs: false
       
-      # 2. Настройка Python
-      - name: 🐍 Setup Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.10'
           cache: 'pip'
-          cache-dependency-path: |
-            requirements.txt
-            **/requirements.txt
       
-      # 3. Кэширование зависимостей
-      - name: 💾 Cache pip packages
-        uses: actions/cache@v4
-        id: cache-pip
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-      
-      # 4. Установка зависимостей
-      - name: 📦 Install dependencies
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install --upgrade setuptools wheel
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip list  # Показываем установленные пакеты для отладки
-      
-      # 5. Подготовка окружения
-      - name: 🔧 Prepare environment
-        id: prepare
-        run: |
-          # Создаем директории
-          mkdir -p deploy/subscriptions
-          mkdir -p logs
-          
-          # Устанавливаем переменные окружения
-          echo "RUN_ID=${{ github.run_id }}" >> $GITHUB_ENV
-          echo "RUN_NUMBER=${{ github.run_number }}" >> $GITHUB_ENV
-          echo "RUN_ATTEMPT=${{ github.run_attempt }}" >> $GITHUB_ENV
-          
-          # Переменные для парсера
-          echo "MAX_SOURCES=${{ github.event.inputs.max_sources || '0' }}" >> $GITHUB_ENV
-          echo "TEST_ALL=${{ github.event.inputs.test_all || 'false' }}" >> $GITHUB_ENV
-          echo "DEBUG_MODE=${{ github.event.inputs.debug_mode || 'false' }}" >> $GITHUB_ENV
-          
-          # Текущее время
-          echo "CURRENT_TIME=$(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_ENV
-      
-      # 6. Запуск парсера
-      - name: 🏃 Run parser
-        id: parser
-        run: |
-          echo "⏱️ Starting parser at $(date)"
-          echo "📊 Configuration:"
-          echo "  - Max sources: $MAX_SOURCES"
-          echo "  - Test all: $TEST_ALL"
-          echo "  - Debug mode: $DEBUG_MODE"
-          
-          # Запускаем с таймаутом
-          timeout 25m python source/parser.py 2>&1 | tee logs/parser.log
-          
-          # Проверяем результат
-          if [ ${PIPESTATUS[0]} -eq 0 ]; then
-            echo "✅ Parser completed successfully"
-            echo "status=success" >> $GITHUB_OUTPUT
-          else
-            echo "❌ Parser failed with error"
-            echo "status=failed" >> $GITHUB_OUTPUT
-            exit 1
+          pip install aiohttp
+          # Если есть requirements.txt
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
           fi
+      
+      - name: Create directories
+        run: |
+          mkdir -p deploy/subscriptions
+      
+      - name: Run parser
+        working-directory: ./source
+        run: |
+          echo "🚀 Starting parser at $(date)"
+          python parser.py
         continue-on-error: false
         env:
           PYTHONUNBUFFERED: 1
-          PYTHONIOENCODING: utf-8
       
-      # 7. Проверка результатов
-      - name: 🔍 Check results
+      - name: Check results
         id: check
         run: |
-          # Проверяем общий файл
           if [ -f "deploy/sub.txt" ]; then
-            COUNT=$(wc -l < deploy/sub.txt | tr -d ' ')
-            echo "📊 Found $COUNT proxies in total"
+            COUNT=$(wc -l < deploy/sub.txt)
+            echo "✅ Found $COUNT proxies"
             echo "count=$COUNT" >> $GITHUB_OUTPUT
-            
-            # Показываем первые несколько строк
-            echo "📋 First 5 proxies:"
-            head -5 deploy/sub.txt
             
             # Проверяем минимальное количество
             if [ $COUNT -lt 10 ]; then
-              echo "⚠️ Warning: Only $COUNT proxies found (minimum is 10)"
-              echo "quality=low" >> $GITHUB_OUTPUT
-            elif [ $COUNT -lt 50 ]; then
-              echo "⚠️ Warning: Only $COUNT proxies found (minimum is 50)"
-              echo "quality=medium" >> $GITHUB_OUTPUT
-            else
-              echo "✅ Good quality: $COUNT proxies found"
-              echo "quality=high" >> $GITHUB_OUTPUT
+              echo "⚠️ Warning: Only $COUNT proxies found"
             fi
           else
-            echo "❌ No proxies file created!"
-            echo "count=0" >> $GITHUB_OUTPUT
-            echo "quality=none" >> $GITHUB_OUTPUT
+            echo "❌ No proxies file created"
             exit 1
           fi
-          
-          # Проверяем индивидуальные файлы
-          if [ -d "deploy/subscriptions" ]; then
-            SOURCE_COUNT=$(ls -1 deploy/subscriptions/ | wc -l)
-            echo "📁 Found $SOURCE_COUNT source files"
-            
-            # Размер файлов
-            TOTAL_SIZE=$(du -sh deploy/ | cut -f1)
-            echo "📦 Total size: $TOTAL_SIZE"
-          fi
-          
-          # Проверяем JSON если есть
-          if [ -f "deploy/proxies.json" ]; then
-            echo "📊 JSON details available"
-            echo "json=true" >> $GITHUB_OUTPUT
-            
-            # Парсим статистику если есть jq
-            if command -v jq &> /dev/null; then
-              AVG_LATENCY=$(jq '. | map(.latency) | add / length' deploy/proxies.json)
-              echo "📈 Average latency: ${AVG_LATENCY}ms"
-            fi
-          fi
       
-      # 8. Создание отчета
-      - name: 📝 Generate report
-        id: report
+      - name: Create timestamp file
         run: |
-          cat > deploy/report.md << EOF
-          # Proxy Parser Report
-          
-          **Run Information:**
-          - Workflow: ${{ github.workflow }}
-          - Run ID: ${{ github.run_id }}
-          - Run Number: ${{ github.run_number }}
-          - Event: ${{ github.event_name }}
-          - Branch: ${{ github.ref_name }}
-          - Commit: ${{ github.sha }}
-          
-          **Results:**
-          - Total proxies: ${{ steps.check.outputs.count }}
-          - Quality: ${{ steps.check.outputs.quality }}
-          - Time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
-          
-          **Statistics:**
-          \`\`\`
-          $(if [ -f "deploy/last_update.txt" ]; then cat deploy/last_update.txt; fi)
-          \`\`\`
-          
-          **Sources processed:** $(ls -1 deploy/subscriptions/ 2>/dev/null | wc -l)
-          
-          ---
-          *Generated by GitHub Actions on $(date)*
-          EOF
-          
-          echo "✅ Report generated"
+          echo "Last update: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > deploy/last_update.txt
+          echo "Total proxies: $(wc -l < deploy/sub.txt)" >> deploy/last_update.txt
+          echo "Run ID: ${{ github.run_id }}" >> deploy/last_update.txt
       
-      # 9. Деплой на GitHub Pages
-      - name: 📤 Deploy to GitHub Pages
-        id: deployment
-        if: success() && github.event_name != 'pull_request'
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./deploy
-          publish_branch: gh-pages
-          destination_dir: ./
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: |
-            Deploy proxies - ${{ steps.check.outputs.count }} found
+      - name: Commit and push changes
+        run: |
+          # Настройка git
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Добавляем файлы
+          git add deploy/
+          
+          # Проверяем есть ли изменения
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            # Создаем коммит с количеством прокси
+            git commit -m "update: ${{ steps.check.outputs.count }} proxies [$(date +'%Y-%m-%d %H:%M')]"
             
-            Run #${{ github.run_number }}
-            Quality: ${{ steps.check.outputs.quality }}
-          full_commit_message: ${{ github.event.head_commit.message }}
-          keep_files: false
-          enable_jekyll: true
-          disable_nojekyll: false
+            # Пушим изменения
+            git push
+            echo "✅ Changes pushed successfully"
+          fi
       
-      # 10. Создание Release (только для тегов или по расписанию)
-      - name: 🏷️ Create Release
-        if: success() && steps.check.outputs.count > 0 && (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') || github.event_name == 'schedule')
-        uses: softprops/action-gh-release@v2
-        with:
-          name: Proxy List v${{ github.run_number }}
-          tag_name: v${{ github.run_number }}
-          body_path: deploy/report.md
-          files: |
-            deploy/sub.txt
-            deploy/proxies.json
-            deploy/subscriptions/*.txt
-          generate_release_notes: true
-          prerelease: false
-          draft: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      # 11. Создание Issue если мало прокси
-      - name: ⚠️ Create issue for low quality
-        if: failure() || steps.check.outputs.quality == 'low' || steps.check.outputs.quality == 'none'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const quality = '${{ steps.check.outputs.quality }}';
-            const count = ${{ steps.check.outputs.count }};
-            
-            let title = '';
-            let body = '';
-            
-            if (count === 0) {
-              title = '❌ No proxies found in latest run';
-              body = 'The parser failed to find any proxies. Please check the logs.';
-            } else if (quality === 'low') {
-              title = '⚠️ Low quality proxy list detected';
-              body = `Only ${count} proxies were found, which is below the minimum threshold.`;
-            }
-            
-            if (title) {
-              github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title: title,
-                body: body + '\n\nRun: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
-              });
-            }
-      
-      # 12. Загрузка артефактов
-      - name: 📦 Upload artifacts
+      - name: Upload artifacts (for debugging)
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: proxy-files-${{ github.run_number }}
+          name: proxy-files
           path: |
             deploy/
-            logs/
-          retention-days: 7
-          compression-level: 6
-          if-no-files-found: warn
+            source/*.log
+          retention-days: 3
       
-      # 13. Очистка старых артефактов (опционально)
-      - name: 🧹 Clean up old artifacts
-        if: github.event_name == 'schedule'
-        run: |
-          echo "🧹 Cleaning up old artifacts is handled automatically by GitHub"
-          # GitHub автоматически удаляет артефакты через retention-days
-      
-      # 14. Уведомление о статусе в логах
-      - name: 📊 Final status
+      - name: Final status
         if: always()
         run: |
           echo "═══════════════════════════════════════════"
-          echo "              FINAL STATUS"
+          echo "              UPDATE STATUS"
           echo "═══════════════════════════════════════════"
           echo "Status: ${{ job.status }}"
-          echo "Proxies found: ${{ steps.check.outputs.count }}"
-          echo "Quality: ${{ steps.check.outputs.quality }}"
-          echo "Duration: ${{ github.run_attempt }}"
-          echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          echo "Proxies: ${{ steps.check.outputs.count }}"
+          echo "Time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
           echo "═══════════════════════════════════════════"
-          
-          # Проверяем доступность файлов
-          echo ""
-          echo "📁 Generated files:"
-          if [ -f "deploy/sub.txt" ]; then
-            echo "  ✅ sub.txt - $(wc -l < deploy/sub.txt) lines"
-          fi
-          if [ -f "deploy/proxies.json" ]; then
-            echo "  ✅ proxies.json - $(du -h deploy/proxies.json | cut -f1)"
-          fi
-          if [ -d "deploy/subscriptions" ]; then
-            echo "  ✅ subscriptions/ - $(ls -1 deploy/subscriptions/ | wc -l) files"
-          fi
-          
-          # Итоговое сообщение
-          echo ""
-          if [ "${{ job.status }}" == "success" ]; then
-            echo "🎉 Workflow completed successfully!"
-          else
-            echo "💥 Workflow failed. Check logs for details."
-          fi
