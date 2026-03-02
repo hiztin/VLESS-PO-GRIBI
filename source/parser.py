@@ -2,9 +2,8 @@ import asyncio
 import aiohttp
 import re
 import os
-from urllib.parse import urlparse
 
-# -------------------- ИСТОЧНИКИ --------------------
+# Твои 25 источников
 URLS = [
     "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt",
     "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt",
@@ -33,7 +32,6 @@ URLS = [
     "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
 ]
 
-# -------------------- ПАРСЕР --------------------
 async def fetch(session, url):
     try:
         async with session.get(url, timeout=15) as resp:
@@ -51,32 +49,24 @@ async def main():
         
         all_configs = []
         
-        # Обрабатываем каждый источник
         for i, text in enumerate(results, 1):
             if not text:
                 continue
-                
-            # Ищем все конфиги
+            
+            # Ищем конфиги
             configs = re.findall(r'(vmess://[^\s]+|vless://[^\s]+|ss://[^\s]+)', text)
             
             # Берём первые 200
             configs = configs[:200]
             
             if configs:
-                # Сохраняем в отдельный файл
                 with open(f'deploy/subscriptions/{i}.txt', 'w', encoding='utf-8') as f:
                     f.write('\n'.join(configs))
-                
                 all_configs.extend(configs)
-                print(f'✅ {i}.txt: {len(configs)} серверов')
         
-        # Сохраняем общий файл
         if all_configs:
             with open('deploy/sub.txt', 'w', encoding='utf-8') as f:
                 f.write('\n'.join(all_configs))
-            print(f'✅ sub.txt: {len(all_configs)} всего серверов')
-        
-        print('✅ Парсинг завершён!')
 
 if __name__ == '__main__':
     asyncio.run(main())
