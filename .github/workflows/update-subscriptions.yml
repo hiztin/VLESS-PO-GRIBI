@@ -2,114 +2,29 @@ name: update
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # Каждые 3 часа
-  workflow_dispatch:  # Ручной запуск
-  push:
-    paths:
-      - 'source/parser.py'
-      - '.github/workflows/update.yml'
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.MY_PAT }}
-          fetch-depth: 0
+      - uses: actions/checkout@v4
       
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip'
-      
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install aiohttp
-          # Если есть requirements.txt
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
-      
-      - name: Create directories
-        run: |
-          mkdir -p deploy/subscriptions
-      
-      - name: Run parser
-        working-directory: ./source
-        run: |
-          echo "🚀 Starting parser at $(date)"
-          python parser.py
-        continue-on-error: false
-        env:
-          PYTHONUNBUFFERED: 1
-      
-      - name: Check results
-        id: check
-        run: |
-          if [ -f "deploy/sub.txt" ]; then
-            COUNT=$(wc -l < deploy/sub.txt)
-            echo "✅ Found $COUNT proxies"
-            echo "count=$COUNT" >> $GITHUB_OUTPUT
-            
-            # Проверяем минимальное количество
-            if [ $COUNT -lt 10 ]; then
-              echo "⚠️ Warning: Only $COUNT proxies found"
-            fi
-          else
-            echo "❌ No proxies file created"
-            exit 1
-          fi
-      
-      - name: Create timestamp file
-        run: |
-          echo "Last update: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > deploy/last_update.txt
-          echo "Total proxies: $(wc -l < deploy/sub.txt)" >> deploy/last_update.txt
-          echo "Run ID: ${{ github.run_id }}" >> deploy/last_update.txt
-      
-      - name: Commit and push changes
-        run: |
-          # Настройка git
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Добавляем файлы
+      - name: Создать папки
+        run: mkdir -p deploy/subscriptions
+        
+      - name: Создать тестовый файл
+        run: echo "test $(date)" > deploy/test.txt
+        
+      - name: Коммит
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
           git add deploy/
-          
-          # Проверяем есть ли изменения
-          if git diff --staged --quiet; then
-            echo "ℹ️ No changes to commit"
-          else
-            # Создаем коммит с количеством прокси
-            git commit -m "update: ${{ steps.check.outputs.count }} proxies [$(date +'%Y-%m-%d %H:%M')]"
-            
-            # Пушим изменения
-            git push
-            echo "✅ Changes pushed successfully"
-          fi
-      
-      - name: Upload artifacts (for debugging)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: proxy-files
-          path: |
-            deploy/
-            source/*.log
-          retention-days: 3
-      
-      - name: Final status
-        if: always()
-        run: |
-          echo "═══════════════════════════════════════════"
-          echo "              UPDATE STATUS"
-          echo "═══════════════════════════════════════════"
-          echo "Status: ${{ job.status }}"
-          echo "Proxies: ${{ steps.check.outputs.count }}"
-          echo "Time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-          echo "═══════════════════════════════════════════"
+          git commit -m "test $(date)" || exit 0
+          git push
