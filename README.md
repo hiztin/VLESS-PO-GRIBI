@@ -6,7 +6,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=white&color=6a0dad)](https://www.python.org/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/hiztin/VLESS-PO-GRIBI?style=for-the-badge&logo=github&color=8a2be2)](https://github.com/hiztin/VLESS-PO-GRIBI/commits/main)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/hiztin/VLESS-PO-GRIBI/update.yml?style=for-the-badge&logo=githubactions&logoColor=white&color=9b30ff)](https://github.com/hiztin/VLESS-PO-GRIBI/actions)
 [![License](https://img.shields.io/github/license/hiztin/VLESS-PO-GRIBI?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=b452cd)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/hiztin/VLESS-PO-GRIBI?style=for-the-badge&logo=github&color=ff1493)](https://github.com/hiztin/VLESS-PO-GRIBI/issues)
 
