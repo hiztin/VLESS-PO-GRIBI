@@ -137,8 +137,70 @@ async def main():
         
         print("\n✅ РАБОТА ЗАВЕРШЕНА")
         print("="*50)
+def generate_readme_stats():
+    """Генерирует статистику для README только с рабочими источниками"""
+    
+    total = 0
+    working_sources = []
+    
+    # Проверяем какие файлы реально есть
+    if os.path.exists('deploy/subscriptions'):
+        for i in range(1, 26):
+            path = f'deploy/subscriptions/{i}.txt'
+            if os.path.exists(path):
+                with open(path, 'r', encoding='utf-8') as f:
+                    count = len(f.readlines())
+                    total += count
+                    working_sources.append({
+                        'num': i,
+                        'count': count
+                    })
+    
+    # Статистика
+    stats = f"""
+📊 **Актуальная статистика** (обновлено {datetime.now().strftime('%d.%m.%Y %H:%M')})
 
+| Показатель | Значение |
+|------------|----------|
+| 🟢 **Всего рабочих серверов** | {total} |
+| 🔵 **Работающих источников** | {len(working_sources)}/25 |
+| ⚡ **В среднем на источник** | {total//len(working_sources) if working_sources else 0} |
+| 🕒 **Последнее обновление** | {datetime.now().strftime('%H:%M %d.%m.%Y')} |
+
+### ✅ Работающие источники ({len(working_sources)} шт.)
+
+"""
+    
+    # Список ТОЛЬКО рабочих источников
+    files_list = "| № | Файл | Серверов | Ссылка |\n|---|---|---|---|\n"
+    for src in working_sources:
+        files_list += f"| {src['num']} | `{src['num']}.txt` | {src['count']} | [`⬇️ Скачать`](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/{src['num']}.txt) |\n"
+    
+    # Если нет рабочих источников
+    if not working_sources:
+        files_list = "❌ **Нет рабочих источников**\n"
+    
+    # Читаем README
+    readme_path = 'README.md'
+    with open(readme_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # Заменяем секции
+    import re
+    content = re.sub(r'<!-- START_SERVERS_STATS -->.*?<!-- END_SERVERS_STATS -->', 
+                     f'<!-- START_SERVERS_STATS -->\n{stats}\n<!-- END_SERVERS_STATS -->', 
+                     content, flags=re.DOTALL)
+    
+    content = re.sub(r'<!-- START_SERVERS_LIST -->.*?<!-- END_SERVERS_LIST -->', 
+                     f'<!-- START_SERVERS_LIST -->\n{files_list}\n<!-- END_SERVERS_LIST -->', 
+                     content, flags=re.DOTALL)
+    
+    with open(readme_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+    
+    print(f"✅ README обновлён: {len(working_sources)} рабочих источников, {total} серверов")
 if __name__ == '__main__':
     asyncio.run(main())
+
 
 
