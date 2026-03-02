@@ -10,21 +10,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.MY_PAT }}  # ← ЭТО ВАЖНО!
-          
+      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           
       - run: pip install aiohttp
       
-      - working-directory: ./source
+      - name: Запуск парсера
+        working-directory: ./source
         run: python parser.py
-      
-      - run: |
+        
+      - name: Коммит
+        run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add deploy/
-          git commit -m "update $(date +'%Y-%m-%d')" || exit 0
+          git diff --staged --quiet || git commit -m "update"
           git push
