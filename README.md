@@ -29,23 +29,23 @@
 
 | № | Файл | Кол-во | Прямая ссылка |
 |---|------|--------|---------------|
-| 1 | `1.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) |
-| 2 | `2.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) |
-| 3 | `3.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) |
-| 5 | `5.txt` | 127 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) |
-| 6 | `6.txt` | 192 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) |
-| 8 | `8.txt` | 122 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) |
-| 9 | `9.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) |
-| 11 | `11.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) |
-| 12 | `12.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) |
-| 13 | `13.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) |
-| 14 | `14.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) |
-| 17 | `17.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) |
-| 19 | `19.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) |
-| 21 | `21.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) |
-| 22 | `22.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) |
-| 24 | `24.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) |
-| 25 | `25.txt` | 200 | [⬇️ Скачать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) |
+| 1 | `1.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) |
+| 2 | `2.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) |
+| 3 | `3.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) |
+| 5 | `5.txt` | 127 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) |
+| 6 | `6.txt` | 192 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) |
+| 8 | `8.txt` | 122 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) |
+| 9 | `9.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) |
+| 11 | `11.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) |
+| 12 | `12.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) |
+| 13 | `13.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) |
+| 14 | `14.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) |
+| 17 | `17.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) |
+| 19 | `19.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) |
+| 21 | `21.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) |
+| 22 | `22.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) |
+| 24 | `24.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) |
+| 25 | `25.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) |
 
 **[📂 Открыть папку со всеми файлами](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
