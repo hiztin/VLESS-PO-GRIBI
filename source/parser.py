@@ -7,7 +7,7 @@ from typing import List, Tuple, Optional
 from urllib.parse import urlparse
 from datetime import datetime
 
-# -------------------- ПУТИ (абсолютные от корня) --------------------
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # корень репозитория
 DEPLOY_PATH = os.path.join(BASE_DIR, "deploy")
 SUBSCRIPTIONS_PATH = os.path.join(DEPLOY_PATH, "subscriptions")
@@ -16,7 +16,7 @@ README_PATH = os.path.join(BASE_DIR, "README.md")
 print(f"📁 Корень репозитория: {BASE_DIR}")
 print(f"📁 Deploy путь: {DEPLOY_PATH}")
 
-# -------------------- ИСТОЧНИКИ --------------------
+#  ИСТОЧНИКИ 
 URLS = [
     "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt",
     "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt",
@@ -45,7 +45,7 @@ URLS = [
     "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
 ]
 
-# -------------------- ПАРСЕР --------------------
+#  ПАРСЕР 
 async def fetch(session: aiohttp.ClientSession, url: str) -> str:
     """Асинхронная загрузка URL"""
     try:
@@ -172,9 +172,8 @@ def update_readme(total_servers: int, sources_count: int):
     print(f"✅ README.md обновлён: {README_PATH}")
 
 async def main():
-    """Основная функция"""
     print("\n" + "="*60)
-    print("🚀 ПАРСЕР ЗАПУЩЕН")
+    print(" ПАРСЕР ЗАПУЩЕН")
     print("="*60)
     print(f"📁 Корень: {BASE_DIR}")
     print(f"📁 Deploy: {DEPLOY_PATH}")
@@ -190,8 +189,7 @@ async def main():
     
     results.sort(key=lambda x: x[0])
     sources, total = save_results(results)
-    
-    # Проверяем созданные файлы
+
     print(f"\n📁 Содержимое {DEPLOY_PATH}:")
     if os.path.exists(DEPLOY_PATH):
         for f in os.listdir(DEPLOY_PATH):
@@ -200,7 +198,7 @@ async def main():
     update_readme(total, sources)
     
     print("\n" + "="*60)
-    print("✅ РАБОТА ЗАВЕРШЕНА")
+    print(" РАБОТА ЗАВЕРШЕНА")
     print("="*60)
     print(f"📊 Источников с данными: {sources}/{len(URLS)}")
     print(f"📊 Всего серверов: {total}")
@@ -208,3 +206,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
