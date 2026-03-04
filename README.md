@@ -9,6 +9,10 @@
 [![License](https://img.shields.io/github/license/hiztin/VLESS-PO-GRIBI?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=b452cd)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/hiztin/VLESS-PO-GRIBI?style=for-the-badge&logo=github&color=ff1493)](https://github.com/hiztin/VLESS-PO-GRIBI/issues)
 
+![Всего серверов](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=total&label=всего&color=blue)
+![Рабочих](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=alive&label=рабочих&color=green)
+![Источников](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=sources&label=источников&color=purple)
+![Обновлено](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=last_update&label=обновлено&color=orange)
 </div>
 
 ## 🍄‍🟫 О проекте
@@ -25,27 +29,37 @@
 
 ---
 
-## 📁 ТОЛЬКО РАБОЧИЕ ИСТОЧНИКИ (17 шт.)
 
-| № | Файл | Кол-во | Прямая ссылка |
-|---|------|--------|---------------|
-| 1 | `1.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/1.txt) |
-| 2 | `2.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/2.txt) |
-| 3 | `3.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/3.txt) |
-| 5 | `5.txt` | 127 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/5.txt) |
-| 6 | `6.txt` | 192 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/6.txt) |
-| 8 | `8.txt` | 122 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/8.txt) |
-| 9 | `9.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/9.txt) |
-| 11 | `11.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/11.txt) |
-| 12 | `12.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/12.txt) |
-| 13 | `13.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/13.txt) |
-| 14 | `14.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/14.txt) |
-| 17 | `17.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/17.txt) |
-| 19 | `19.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/19.txt) |
-| 21 | `21.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/21.txt) |
-| 22 | `22.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/22.txt) |
-| 24 | `24.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/24.txt) |
-| 25 | `25.txt` | 200 | [⬇️ Скопировать](https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/subscriptions/25.txt) |
+## 📊 Статистика по источникам
+
+| № | Файл | Количество серверов |
+|---|------|---------------------|
+| 1 | `1.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.1&label=серверов&color=green) |
+| 2 | `2.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.2&label=серверов&color=green) |
+| 3 | `3.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.3&label=серверов&color=green) |
+| 4 | `4.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.4&label=серверов&color=green) |
+| 5 | `5.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.5&label=серверов&color=green) |
+| 6 | `6.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.6&label=серверов&color=green) |
+| 7 | `7.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.7&label=серверов&color=green) |
+| 8 | `8.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.8&label=серверов&color=green) |
+| 9 | `9.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.9&label=серверов&color=green) |
+| 10 | `10.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.10&label=серверов&color=green) |
+| 11 | `11.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.11&label=серверов&color=green) |
+| 12 | `12.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.12&label=серверов&color=green) |
+| 13 | `13.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.13&label=серверов&color=green) |
+| 14 | `14.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.14&label=серверов&color=green) |
+| 15 | `15.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.15&label=серверов&color=green) |
+| 16 | `16.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.16&label=серверов&color=green) |
+| 17 | `17.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.17&label=серверов&color=green) |
+| 18 | `18.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.18&label=серверов&color=green) |
+| 19 | `19.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.19&label=серверов&color=green) |
+| 20 | `20.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.20&label=серверов&color=green) |
+| 21 | `21.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.21&label=серверов&color=green) |
+| 22 | `22.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.22&label=серверов&color=green) |
+| 23 | `23.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.23&label=серверов&color=green) |
+| 24 | `24.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.24&label=серверов&color=green) |
+| 25 | `25.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.25&label=серверов&color=green) |
+
 
 **[📂 Открыть папку со всеми файлами](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
 
