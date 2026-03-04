@@ -27,9 +27,7 @@
 ---
 
 
----
-
-
+<div align="center">
 ## 📊 Статистика по источникам
 
 | № | Файл | Количество серверов |
@@ -59,9 +57,10 @@
 | 23 | `23.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.23&label=серверов&color=green) |
 | 24 | `24.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.24&label=серверов&color=green) |
 | 25 | `25.txt` | ![Dynamic JSON](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=servers_by_source.25&label=серверов&color=green) |
-
+</div>
 
 **[📂 Открыть папку со всеми файлами](https://github.com/hiztin/VLESS-PO-GRIBI/tree/main/deploy/subscriptions)**
+
 
 ---
 
