@@ -16,7 +16,7 @@ README_PATH = os.path.join(BASE_DIR, "README.md")
 print(f"📁 Корень репозитория: {BASE_DIR}")
 print(f"📁 Deploy путь: {DEPLOY_PATH}")
 
-#  ИСТОЧНИКИ 
+#  ИСТОЧНИКИ есть в README
 URLS = [
     "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt",
     "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt",
@@ -45,7 +45,7 @@ URLS = [
     "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",
 ]
 
-#  ПАРСЕР 
+# Мейн парсер 
 async def fetch(session: aiohttp.ClientSession, url: str) -> str:
     """Асинхронная загрузка URL"""
     try:
@@ -206,4 +206,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
