@@ -168,7 +168,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/hiztin/VLESS-PO-GRIBI?style=social)](https://github.com/hiztin/VLESS-PO-GRIBI/stargazers)
 
-*Последнее обновление: 06.03.2026 21:29
+*Последнее обновление: 07.03.2026 01:58
 
 </div>
 
