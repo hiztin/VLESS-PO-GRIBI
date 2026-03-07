@@ -66,6 +66,7 @@ vless://62da658c-9641-4615-8180-14db65694cc5@nl1.vnet500.xyz:26082?security=&amp
 vless://537e107f-dde5-41d4-b629-bcefa9f3cabd@h43.gettips.ir:56304?security=none&amp;encryption=none&amp;host=speedtest.net&amp;headerType=http&amp;type=tcp#@Capoit
 vless://40b7b531-1399-4700-bc7e-d38269ea7238@185.136.135.172:41001?security=none&amp;encryption=none&amp;host=fast.com&amp;headerType=http&amp;type=tcp#@Capoit
 vless://f5630288-5254-42b5-b098-d7d5737e831a@185.136.135.172:41002?encryption=none&amp;type=tcp&amp;headerType=http&amp;host=fast.com&amp;path=/&amp;security=none#@Capoit
+vless://20e1938c-d198-4584-b62c-3b740c9a11ff@fn11.finuxmaster.shop:2095?security=none&amp;encryption=none&amp;host=soft98.ir&amp;headerType=http&amp;type=tcp#@Capoit
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ@admin.c2.havij.co:443#@CloudCityy
 vless://9ecfba25-f382-41c2-ac80-429f8689da9a@185.126.7.182:12486?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#@CloudCityy
 vmess://eyJhZGQiOiIxOTIuMjAwLjE2MC4xNiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5YjRjMmVkYS0zNDFlLTQ4OGYtYTNiMi0xZGM3MTZiOWYzNmEiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IkBDbG91ZENpdHl5Iiwic2N5IjoiYXV0byIsInNuaSI6InN0ZWFtLmF2YWFhYWwuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
@@ -197,4 +198,3 @@ vless://6da8b872-302f-462a-8730-568073f128f1@unl.sanflow.ir:520?security=&amp;en
 vless://1864aa1e-03ec-4f54-9bce-28fdd1047dd8@pm5.vhuma.com:443?security=&amp;encryption=none&amp;host=bama.ir&amp;headerType=http&amp;type=tcp#بیا
 vless://b9c5f438-a69a-4aad-ea2b-b98d0bc48cbd@94.183.241.26:33553?security=&amp;encryption=none&amp;headerType=http&amp;type=tcp#بیا
 vless://6da8b872-302f-462a-8730-568073f128f1@Si.sanflow.ir:921?security=&amp;encryption=none&amp;host=pro30afzar.com&amp;headerType=http&amp;type=tcp#بیا
-vless://c19fb567-74a9-454f-9757-e612fc4be371@85.114.138.39:8443?security=reality&amp;encryption=none&amp;pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=dropbox.com#بیا
