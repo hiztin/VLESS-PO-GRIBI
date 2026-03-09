@@ -19,30 +19,30 @@ print(f"📁 Deploy путь: {DEPLOY_PATH}")
 #  ИСТОЧНИКИ есть в README
 URLS = [
     "https://github.com/sakha1370/OpenRay/raw/refs/heads/main/output/all_valid_proxies.txt", #1
-    "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt",#2
-    "https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt",#3
+    "https://raw.githubusercontent.com/sevcator/5ubscrpt10n/main/protocols/vl.txt", #2
+    "https://raw.githubusercontent.com/yitong2333/proxy-minging/refs/heads/main/v2ray.txt", #3
     "https://raw.githubusercontent.com/acymz/AutoVPN/refs/heads/main/data/V2.txt", #4
-    "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt",#5
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",#6
-    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt",#7
-    "https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt",#8
-    "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt",#9
-    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless",#10
+    "https://raw.githubusercontent.com/miladtahanian/V2RayCFGDumper/refs/heads/main/sub.txt", #5
+    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt", #6
+    "https://github.com/Epodonios/v2ray-configs/raw/main/Splitted-By-Protocol/trojan.txt", #7
+    "https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt", #8
+    "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt", #9
+    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vless", #10
     "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt", #11
-    "https://github.com/expressalaki/ExpressVPN/blob/main/configs3.txt",#12
-    "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt",#13
-    "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes",#!4
-    "https://github.com/miladtahanian/Config-Collector/raw/refs/heads/main/vless_iran.txt",#15
-    "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub",#16
-    "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt",#17
-    "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt",#18
-    "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix",#19
-    "https://github.com/Argh94/Proxy-List/raw/refs/heads/main/All_Config.txt",#20
-    "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt",#21
-    "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri",#22
-    "https://raw.githubusercontent.com/Delta-Kronecker/V2ray-Config/refs/heads/main/config/protocols/vless.txt",#23
-    "https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE",#24
-    "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt",#25
+    "https://raw.githubusercontent.com/expressalaki/ExpressVPN/refs/heads/main/configs3.txt", #12
+    "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt", #13
+    "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes", #14
+    "https://github.com/miladtahanian/Config-Collector/raw/refs/heads/main/vless_iran.txt", #15
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub", #16
+    "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt", #17
+    "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt", #18
+    "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix", #19
+    "https://github.com/Argh94/Proxy-List/raw/refs/heads/main/All_Config.txt", #20
+    "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt", #21
+    "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri", #22
+    "https://raw.githubusercontent.com/zipvpn/FreeVPNNodes/refs/heads/main/free_v2ray_xray_nodes.txt", #23
+    "https://raw.githubusercontent.com/STR97/STRUGOV/refs/heads/main/STR.BYPASS#STR.BYPASS%F0%9F%91%BE", #24
+    "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt", #25
 ]
 
 # Мейн парсер 
@@ -206,6 +206,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
