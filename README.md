@@ -126,26 +126,26 @@
 1. sakha1370/OpenRay
 2. sevcator/5ubscrpt10n 
 3. yitong2333/proxy-minging 
-4. acymz/AutoVPN 	
+4.Hidashimora/free-vpn-anti-rkn	
 5. miladtahanian/V2RayCFGDumper 
 6. roosterkid/openproxylist 
-7. Epodonios/v2ray-configs 	
+7. Hidashimora/free-vpn-anti-rkn 	
 8. CidVpn/cid-vpn-config 
 9. mohamadfg-dev/telegram-v2ray-configs-collector
-10. mheidari98/.proxy 	
+10. nikita29a/FreeProxyList 	
 11. youfoundamin/V2rayCollector 
 12. expressalaki/ExpressVPN 
 13. MahsaNetConfigTopic/config 	
 14. LalatinaHub/Mineral 
-15. miladtahanian/Config-Collector 	
-16. Pawdroid/Free-servers 
+15. gfpcom/free-proxy-list 	
+16. gfpcom/free-proxy-list 
 17. MhdiTaheri/V2rayCollector_Py 
-18. free18/v2ray 	
+18. zipvpn/FreeVPNNodes	
 19. MhdiTaheri/V2rayCollector 
-20. Argh94/Proxy-List 	
+20. gfpcom/free-proxy-list	
 21. shabane/kamaji 
 22. wuqb2i4f/xray-config-toolkit 
-23. Delta-Kronecker/V2ray-Config 	
+23. nikita29a/FreeProxyList 	
 24. STR97/STRUGOV 
 25. V2RayRoot/V2RayConfig
 
