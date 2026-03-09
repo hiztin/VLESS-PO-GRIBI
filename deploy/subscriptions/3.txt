@@ -67,6 +67,7 @@ vless://9f5c3eb5-de7a-44ab-912e-3b4f64a4bfbd@turkey.dehnavy.ir:36135?security=no
 vless://5cc82fdd-847a-4b11-9f91-3d8f35ff9e09@farzandeiran.iransalar.top:21531?security=none&amp;encryption=none&amp;headerType=http&amp;type=tcp#@Capoit
 vless://0195d3b8-8bfa-4c6e-9988-56396952a50a@finland.dehnavy.ir:39461?path=/&amp;security=none&amp;encryption=none&amp;type=ws#@Capoit
 vless://f75305e2-de53-4add-acc8-f9308394f5a4@emg3.saipasamandemg3.sbs:2003?security=none&amp;allowInsecure=0&amp;encryption=none&amp;type=tcp&amp;host=anten.ir&amp;path=/&amp;headerType=http#@Capoit
+vless://a4f7ac23-8146-464b-a932-9753f97303aa@sr-d-2.sedarchahar.top:9102?security=&amp;encryption=none&amp;host=api.live98.ir&amp;headerType=http&amp;type=tcp#@Capoit
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ@admin.c2.havij.co:443#@CloudCityy
 vless://9ecfba25-f382-41c2-ac80-429f8689da9a@185.126.7.182:12486?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#@CloudCityy
 vmess://eyJhZGQiOiIxOTIuMjAwLjE2MC4xNiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5YjRjMmVkYS0zNDFlLTQ4OGYtYTNiMi0xZGM3MTZiOWYzNmEiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IkBDbG91ZENpdHl5Iiwic2N5IjoiYXV0byIsInNuaSI6InN0ZWFtLmF2YWFhYWwuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
@@ -197,4 +198,3 @@ vless://d9d163e3-793c-4fd4-8026-690d422bf8ea@s2.fastsnap.info:21113?security=&am
 vless://253817a2-f6ed-4701-919d-89ec5caa8d63@link.mizbanertebatfarda.site:3010?path=/ws?ed=2048&amp;security=&amp;encryption=none&amp;host=myket.ir&amp;type=ws&amp;sni=myket.ir#بیا
 vless://32aaaf36-9f97-4730-a5d5-248159f46022@emergency3.layer-ziro.ir:2003?security=&amp;encryption=none&amp;host=anten.ir&amp;headerType=http&amp;type=tcp#بیا
 vless://ec9ad2c4-0a26-4233-be07-b1d2176386ae@s1.fastsnap.info:29253?security=&amp;encryption=none&amp;host=/?BIA_TEL&amp;headerType=none&amp;type=tcp#بیا
-vless://958f6b9f-1628-4816-b3b6-7cdf4dc8cf03@6kdksjskskwkwodk.lskwposkrjgso.ncniwlqnxbdje.wizardxray.ir:705?security=&amp;encryption=none&amp;host=rubika.ir,igap.net,splus.ir,skyroom.online&amp;headerType=http&amp;type=tcp#بیا
