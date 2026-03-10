@@ -3,7 +3,7 @@
 # 🍄 VLESS ПО ГРИБЫ - Бесплатные VPN подписки 
 
 # [САЙТ](https://hiztin.github.io/VLESS-PO-GRIBI-SITE/)
-# [ТГК автора](https://t.me/h1zzich)
+# [TG](https://t.me/h1zzich)
 
 </div>
 
