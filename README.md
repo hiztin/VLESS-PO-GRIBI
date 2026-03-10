@@ -124,31 +124,51 @@
 <details>
 <summary><b>🔗 Все 25 источников (нажми для раскрытия)</b></summary>
 
-1. sakha1370/OpenRay
-2. sevcator/5ubscrpt10n 
-3. yitong2333/proxy-minging 
-4.Hidashimora/free-vpn-anti-rkn	
-5. miladtahanian/V2RayCFGDumper 
-6. roosterkid/openproxylist 
-7. Hidashimora/free-vpn-anti-rkn 	
-8. CidVpn/cid-vpn-config 
-9. mohamadfg-dev/telegram-v2ray-configs-collector
-10. nikita29a/FreeProxyList 	
-11. youfoundamin/V2rayCollector 
-12. expressalaki/ExpressVPN 
-13. MahsaNetConfigTopic/config 	
-14. LalatinaHub/Mineral 
-15. gfpcom/free-proxy-list 	
-16. gfpcom/free-proxy-list 
-17. MhdiTaheri/V2rayCollector_Py 
-18. zipvpn/FreeVPNNodes	
-19. MhdiTaheri/V2rayCollector 
-20. gfpcom/free-proxy-list	
-21. shabane/kamaji 
-22. wuqb2i4f/xray-config-toolkit 
-23. nikita29a/FreeProxyList 	
-24. STR97/STRUGOV 
-25. V2RayRoot/V2RayConfig
+sakha1370
+
+sevcator
+
+yitong2333
+
+Hidashimora
+
+miladtahanian
+
+roosterkid
+
+Hidashimora
+
+CidVpn
+
+mohamadfg-dev
+
+Epodonios
+
+youfoundamin
+
+expressalaki
+
+MahsaNetConfigTopic
+
+Mineral
+
+kort0881
+
+MhdiTaheri
+
+terik21
+
+gfpcom
+
+shabane
+
+wuqb2i4f
+
+nikita29a
+
+STR97
+
+V2RayRoot
 
 </details>
 
