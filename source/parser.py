@@ -27,15 +27,15 @@ URLS = [
     "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/1.txt", #7
     "https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt", #8
     "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt", #9
-    "https://raw.githubusercontent.com/nikita29a/FreeProxyList/refs/heads/main/mirror/15.txt", #10
+    "https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt", #10
     "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt", #11
     "https://raw.githubusercontent.com/expressalaki/ExpressVPN/refs/heads/main/configs3.txt", #12
     "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt", #13
     "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes", #14
-    "https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/configs/v2ray.txt", #15
-    "https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/configs/v2ray.txt", #16
+    "https://raw.githubusercontent.com/kort0881/vpn-vless-configs-russia/refs/heads/main/subscriptions/all.part1.txt", #15
+    "https://raw.githubusercontent.com/kort0881/vpn-vless-configs-russia/refs/heads/main/subscriptions/all.txt", #16
     "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt", #17
-    "https://raw.githubusercontent.com/zipvpn/FreeVPNNodes/refs/heads/main/free_v2ray_xray_nodes.txt", #18
+    "https://raw.githubusercontent.com/terik21/HiddifySubs-VlessKeys/refs/heads/main/1Mond", #18
     "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix", #19
     "https://raw.githubusercontent.com/gfpcom/free-proxy-list/refs/heads/main/configs/v2ray.txt", #20
     "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt", #21
@@ -206,6 +206,7 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
 
