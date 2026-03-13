@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🍄 VLESS ПО ГРИБЫ - Бесплатные VPN подписки 
+# 🍄 VLESS ПО ГРИБЫ - Бесплатные VPN сервера 
 
 # [САЙТ](https://hiztin.github.io/VLESS-PO-GRIBI-SITE/)
 # [TG](https://t.me/h1zzich)
