@@ -199,7 +199,7 @@ V2RayRoot
 
 [![GitHub stars](https://img.shields.io/github/stars/hiztin/VLESS-PO-GRIBI?style=social)](https://github.com/hiztin/VLESS-PO-GRIBI/stargazers)
 
-*Последнее обновление: 14.03.2026 18:39
+*Последнее обновление: 14.03.2026 21:27
 
 </div>
 
