@@ -57,7 +57,6 @@ vless://37d20522-5b35-45e8-8742-ace55751c318@144.126.230.48:18080?type=tcp&amp;s
 vless://22f3cbcc-55b5-4d71-a3ca-9d6f3287aace@144.126.234.182:51697?type=tcp&amp;security=reality&amp;pbk=3KmWh8OPrAr-gBXyVdyS4IaB8DKUTtdIpbv5qvN15RY&amp;fp=firefox&amp;sni=*.sourceforge.net&amp;sid=c2abcb19&amp;spx=/#@Capital_NET
 vless://d8e1cfdc-7899-4c71-8d11-058933210c55@143.110.169.61:52189?type=tcp&amp;security=reality&amp;pbk=3mC2lH0qsBuTTzNSC3GtzcJlli2959J4yqZl08G4FCg&amp;fp=firefox&amp;sni=*.sourceforge.net&amp;sid=593f3efe&amp;spx=/#@Capital_NET
 vless://c34a9f73-3c11-4614-90ff-196add3fa4aa@157.230.28.73:23353?type=tcp&amp;security=reality&amp;pbk=OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU&amp;fp=firefox&amp;sni=*.sourceforge.net&amp;sid=a98a22e2&amp;spx=/#@Capital_NET
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206Z2hWUUk0bjlpMURWODI1b1dkd2JUZz09OmdoVlFJNG45aTFEVjgyNW9XZHdiVGc9PQ@23.95.113.104:8388#@Capoit
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206T01KSklTOUY1aXZydDdzNXNiNU5xZz09Ok9NSkpJUzlGNWl2cnQ3czVzYjVOcWc9PQ==@107.175.134.127:8388#@Capoit
 vless://20d983ca-d7fa-4fc6-a3db-c6f7e56c4629@188.114.98.0:2087?path=/&amp;security=tls&amp;alpn=h2,http/1.1&amp;encryption=none&amp;insecure=1&amp;host=a4.maxriser.ir&amp;fp=chrome&amp;type=ws&amp;allowInsecure=1&amp;sni=a4.maxriser.ir#@Capoit
 vless://ede52d9c-2ce3-45d8-9f1a-f84ee2857155@hamrahiran.sorenashoping.xyz:44941?security=none&amp;allowInsecure=0&amp;encryption=none&amp;type=tcp&amp;host=fast.com&amp;path=/&amp;headerType=http#@Capoit
@@ -198,3 +197,4 @@ vless://ec9ad2c4-0a26-4233-be07-b1d2176386ae@s1.fastsnap.info:29253?security=&am
 vless://958f6b9f-1628-4816-b3b6-7cdf4dc8cf03@6kdksjskskwkwodk.lskwposkrjgso.ncniwlqnxbdje.wizardxray.ir:705?security=&amp;encryption=none&amp;host=rubika.ir,igap.net,splus.ir,skyroom.online&amp;headerType=http&amp;type=tcp#بیا
 vless://81b73edd-d42d-ff2f-051d-6600595e406d@turbo.unlimiteds.site:550?security=&amp;encryption=none&amp;host=fast.com&amp;headerType=http&amp;type=tcp&amp;sni=turbo.unlimiteds.site#بیا
 vless://a0d7cdab-5821-4477-b0c2-33c0060baf62@vip-meli3.nightgemshop.com:443?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#بیا
+vless://f6f63745-ec4a-4fa7-bac4-04aa571a4ae0@emergency2.layer-ziro.ir:2002?security=&amp;encryption=none&amp;host=anten.ir&amp;headerType=http&amp;type=tcp#بیا
