@@ -22,7 +22,10 @@
 ![Обновлено](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=last_update&label=обновлено&color=orange)
 </div>
 
+# Из-за блокировки VLESS+Reality может работать не корректно
+
 ## 🍄‍🟫 О проекте
+
 
 Этот проект автоматически собирает и проверяет **бесплатные VPN-серверы** из открытых источников. Обновление происходит **каждые 3 часа** через GitHub Actions, поэтому подписки всегда актуальны.
 
