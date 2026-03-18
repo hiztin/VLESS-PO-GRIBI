@@ -119,7 +119,7 @@
 
 - **Всего серверов**: ~4400+
 - **Рабочих источников**: 25 из 25
-- **Протоколы**: VMess, VLESS, Shadowsocks (Trojan отфильтрован)
+- **Протоколы**: VMess, VLESS, Shadowsocks
 - **Обновление**: каждые 3 часа UTC
 
 ---
@@ -170,8 +170,6 @@ shabane
 wuqb2i4f
 
 nikita29a
-
-STR97
 
 V2RayRoot
 
