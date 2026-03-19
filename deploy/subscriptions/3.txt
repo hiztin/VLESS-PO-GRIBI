@@ -54,7 +54,6 @@ vless://37d20522-5b35-45e8-8742-ace55751c318@144.126.230.48:18080?type=tcp&amp;s
 vless://22f3cbcc-55b5-4d71-a3ca-9d6f3287aace@144.126.234.182:51697?type=tcp&amp;security=reality&amp;pbk=3KmWh8OPrAr-gBXyVdyS4IaB8DKUTtdIpbv5qvN15RY&amp;fp=firefox&amp;sni=*.sourceforge.net&amp;sid=c2abcb19&amp;spx=/#@Capital_NET
 vless://d8e1cfdc-7899-4c71-8d11-058933210c55@143.110.169.61:52189?type=tcp&amp;security=reality&amp;pbk=3mC2lH0qsBuTTzNSC3GtzcJlli2959J4yqZl08G4FCg&amp;fp=firefox&amp;sni=*.sourceforge.net&amp;sid=593f3efe&amp;spx=/#@Capital_NET
 vless://c34a9f73-3c11-4614-90ff-196add3fa4aa@157.230.28.73:23353?type=tcp&amp;security=reality&amp;pbk=OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU&amp;fp=firefox&amp;sni=*.sourceforge.net&amp;sid=a98a22e2&amp;spx=/#@Capital_NET
-vless://6addc0d6-94f8-b513-3d2d-dc86f174f2ab@meli2.ertebatgoostar.ir:2087?security=none&amp;encryption=none&amp;host=tv3.ir&amp;headerType=http&amp;type=tcp#@Capoit
 vless://682f13ec-421f-4a71-b116-60c45d6dc1ed@trailers.sv1.cdn.yoozmovie.com:16771?encryption=none&amp;type=tcp&amp;headerType=http&amp;host=google.com&amp;path=/&amp;security=none#@Capoit
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ@admin.c2.havij.co:443#@CloudCityy
 vless://9ecfba25-f382-41c2-ac80-429f8689da9a@185.126.7.182:12486?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#@CloudCityy
@@ -198,3 +197,4 @@ vless://c723ad72-c8b5-4d7b-aea5-2aa7c007fee3@vfbh5h398f.hy7gqx14x0vb75ry2ac1.rea
 vless://c723ad72-c8b5-4d7b-aea5-2aa7c007fee3@6t8q56c58d.0g97vcf0bhjg6sa4n1xx.realytag.com:882?security=&amp;encryption=none&amp;host=skyroom.online,gharar.ir,igap.net&amp;headerType=http&amp;type=tcp#بیا
 vless://62da658c-9641-4615-8180-14db65694cc5@nl1.vnet500.xyz:26082?security=&amp;encryption=none&amp;host=soft98.ir&amp;headerType=http&amp;type=tcp#بیا
 vless://a7be5b32-3741-4b1b-9f17-c1e537de1a25@tlg333bc65.furp558d9vuid4durqxe.realytag.com:887?security=&amp;encryption=none&amp;host=skyroom.online,gharar.ir,igap.net&amp;headerType=http&amp;type=tcp#بیا
+vmess://eyJhZGQiOiIxODUuMTI2LjUuMTMwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjczNTM4ZGU1LTEyNjAtNDc2OS05ZTdlLTYzYjcyZmYxODc4NiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzAwMyIsInBzIjoi2KjbjNinINin24zZhtis2KcgQ29uZmlnVjJSYXlOR0AiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
