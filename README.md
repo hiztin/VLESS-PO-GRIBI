@@ -22,7 +22,7 @@
 ![Обновлено](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=last_update&label=обновлено&color=orange)
 </div>
 
-# Из-за блокировки VLESS+Reality может работать не корректно
+# Из-за блокировки VLESS+Reality может работать некорректно
 # [ПОДПИШИТЕСЬ НА ТГ ЧТО БЫ ВСЁ ЗНАТЬ!](https://t.me/h1zzich)
 
 
