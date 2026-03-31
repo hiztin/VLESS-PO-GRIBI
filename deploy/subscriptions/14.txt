@@ -1,4 +1,5 @@
-vmess://eyJhZGQiOiJmb3JleC5pcmFudHJhZGUub25saW5lIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJ0ZWxld2ViaW9uLmlyIiwiaWQiOiI2MzU3Y2EwNC1lMTljLTQwNzAtOWY5ZS1jOGM4OTY1Y2VlNzciLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDIxOSIsInBzIjoiZmlsZW1iYWQtMzU0Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoiaHR0cCIsInYiOiIyIn0
+vmess://eyJhZGQiOiJtZWwudXNkdGJhbWEuY29tIiwiYWlkIjoiMCIsImhvc3QiOiIiLCJpZCI6ImUxZDI0OTA2LTA4MDMtNGVjOC1hYjk0LWUzZGE1YmE5OTQxNyIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0Ijo4NDQzLCJwcyI6ImZpbGVtYmFkLTQ0MiIsInNjeSI6ImF1dG8iLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
+vless://0b2fe47a-f51c-4e00-85ba-eeae70addc80@217.25.56.173:443?security=none&encryption=none&headerType=none&type=tcp#freenet_vt
 vless://0b2fe47a-f51c-4e00-85ba-eeae70addc80@217.25.56.173:443?security=&encryption=none&headerType=none&type=tcp#https://t.me/ConfigX2ray
 vless://bc019623-ecae-4ee0-8826-6e96f6942263@lithuania1.labburo.su:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=&pbk=Md6aue1Va7LhOd3dfKwSV4GnRCJYKyzf1JmGlD-7IH8&sid=3c7dbf0e7bd3d03c&sni=lithuania1.labburo.su&path=&host=#outline_ir
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpad2V1WGF2am92dWh6dDFBRjBkNnF4@46.246.97.140:53908#outline_ir
@@ -197,4 +198,3 @@ vless://14818654-7689-453a-9a1f-4c72f89782d5@spb-node.genadata.online:2040/?type
 vless://213325c6-ef4b-4cdb-850b-24a06f2865c8@158.62.198.132:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.hp.com&fp=chrome&security=reality&pbk=BaTi5Wrua_Oo_CMJ-uQ6UWtDId9z9IhzoOvRe2qvBhQ&sid=63d80d5199a2bc#%F0%9F%87%BA%F0%9F%87%B8%20TCP-Reality%20%F0%9F%93%81%20%40FreakConfig
 vless://27b6068a-e1e6-4675-ab14-87143c690390@144.217.133.97:30238/?type=tcp&encryption=none#%F0%9F%87%A8%F0%9F%87%A6%20TCP-None%20%F0%9F%93%81%20%40FreakConfig
 vless://20adc847-4159-4f39-b79f-d563b660945f@simurgh.adslimit.info:2345/?type=tcp&encryption=none#%F0%9F%87%AC%F0%9F%87%A7%20TCP-None%20%F0%9F%93%81%20%40v2nodes
-vless://d9a83363-40a6-4a21-9dbe-cb2b7d287048@104.26.15.21:443/?type=ws&encryption=none&host=afrcloud22.mmv.kr&path=%2F107.174.121.122%3D443&security=tls&sni=afrcloud22.mmv.kr#%F0%9F%8C%90%20WS-TLS%20%F0%9F%93%81%20%40V2RAYROZ
