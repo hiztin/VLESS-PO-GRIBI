@@ -84,6 +84,7 @@ vless://18c57018-7052-4258-bb3f-4904bc147239@vix.idcenter.top:80?security=none&e
 vless://194aa277-d81b-4caa-9255-b894243b43f6@188.121.120.31:23105?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://19666df6-009d-4426-8f05-7e19b7dc9da9@snapp.ir:443?path=%2F&security=tls&encryption=none&host=my.simin123.shop&fp=chrome&type=ws&sni=my.simin123.shop#🇮🇷
 vless://1a25d6c7-1729-4cda-955c-ddbe944c8e62@mellliiiii.dfgghhtrryuoknvc467ugdddfghjjgssfjhspeeeeeeedtest.net:16846?encryption=none&security=none&type=ws&path=%2F#🇮🇷
+vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@172.64.144.133:2096?security=tls&type=ws&path=%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2&host=sni.111000.cc.cd&sni=sni.111000.cc.cd&fp=chrome&encryption=none#🏳️
 vless://1aba85db-9f6e-40a7-a757-eddbdc4d7186@185.143.233.120:443?path=%2F%3Fed%3D443&security=tls&encryption=none&insecure=0&host=alef.ir.oadeflantrogm.realirshop.com&fp=randomized&type=ws&allowInsecure=0&sni=alef.ir.oadeflantrogm.realirshop.com#🇮🇷
 vless://1ad2695a-4bd9-4c88-8b19-ed60ff3c2192@94.182.145.78:60001?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://1b1073b2-de44-463e-ab17-56e74f053ad9@t11.iranwiki.mom:55011?type=tcp&security=reality&fp=chrome&pbk=vxdmULi_cO7dha2aQnsjSViARO15hvI9HWyo0pVPlkQ&sni=www.numberland.ir&sid=c385#🇮🇷
@@ -129,6 +130,7 @@ vless://34724344-1f34-4b52-ba46-1f0b642f4060@n1.linkinfo.cloud:8080?path=%2F&sec
 vless://36d3972b-e695-4dda-b0e3-68c1b71d31ff@45.90.74.172:443?type=tcp&encryption=none&security=reality&pbk=hfWtgRA0ylK1Yh2lt5EnM7AAt1konMNBeTEv3LqecBQ&fp=chrome&sni=aparat.com&sid=b0e32dad&spx=%2F#🇮🇷
 vless://36d8da73-dc4d-4c75-80dc-b765e863fd2f@185.231.180.217:80?encryption=none&type=tcp&headerType=none#🇮🇷
 vless://388a6c57-87e7-420b-afe2-b3eb670fd7da@104.17.152.254:80?path=%2F&security=none&encryption=none&host=vip.yaml7.ggff.net&type=ws#🏳️
+vless://3cbad916-d882-4773-8dfb-15564f2d29fe@zone.ca.f2zone.ir:17759?security=none&encryption=none&headerType=http&type=tcp#🇮🇷
 vless://3cbad916-d882-4773-8dfb-15564f2d29fe@zone.ca.f2zone.ir:17759?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷
 vless://3cbad916-d882-4773-8dfb-15564f2d29fe@zone.ca.f2zone.ir:17759?security=none&encryt=telewebion.com&headerType=http&type=tcp#🇮🇷
 vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@173.245.59.217:2096?security=none&encryption=none&headerType=none&type=tcp#🏳️
@@ -196,5 +198,3 @@ vless://789db5da-ddf5-4922-b55a-8e91ea34b6a6@193.151.130.62:15011?security=none&
 vless://7ad68c71-ce41-1086-e4ed-7104eba8bfe4@po.jijibiji.online:1010?security=none&encryption=none&host=tv3.ir&headerType=http&type=tcp&sni=57.128.255.3#🇮🇷
 vless://7b85b51d-4b64-4931-854c-5130389297ab@snapp.ir:80?path=%2F&security=none&encryption=none&host=dl2.avenflow.ir&type=ws#🇮🇷
 vless://7c0b371a-93fa-405a-83da-9a9f61aa573b@tobi2-c8040d1d55-edare.apps.ir-central1.arvancaas.ir:80?path=%2F&security=none&encryption=none&host=tobi2-c8040d1d55-edare.apps.ir-central1.arvancaas.ir&type=ws#🇮🇷
-vless://7c4890be-57ec-4900-9bab-50dfd927021a@2.188.227.168:36729?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
-vless://7ce11b59-805a-4400-8e7b-1070fc5df5ba@45.90.72.152:443?type=tcp&encryption=none&security=reality&pbk=Xf8f2AfdgoYtBFu8-zctmId8gGdVFB7-ao6o_-nnXjE&fp=chrome&sni=aparat.com&sid=3dbf48439afb1f&spx=%2F#🇮🇷
