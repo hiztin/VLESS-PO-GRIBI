@@ -1,8 +1,4 @@
 ss://bm9uZTpmOGY3YUN6Y1BLYnNGOHAz@lil:360#%F0%9F%91%91
-vless://1d56dee0-4c2c-4d1b-a6b8-6fea50aa43e5@w3star.meepo1.com:8080?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&headerType=http&fp=chrome&type=tcp#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40filembad
-vless://420349f3-6024-4457-bde6-b3d11183d728@31.216.62.198:20391?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
-vless://0275db2c-f518-43bd-ac3b-1f89bc4fbbd8@213.177.176.182:8081?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
-vless://jLfvxOCifeczbZzXzG9rpeJfob0UfQVRQakTW9FKBaMK2oa6riGPVL+J7XR/MiX4lX/ihiK5XDCNXVwSuzsgal15CFONfJbVuAE+ASW4Yuzvl1PoyGVJfRLhiN3tyJQbYiWUwcgviWN1KxO0XJnbSVm/h6dySE3xth4eGaha0HEyOOVA/sCdeibSHhWMOBkGuvebLwhWw/3cw1I1Cq4lOw==#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://bdb35d7c-41e6-4a4d-b595-7dce6c84ad05@mlh.mynethub99.top:443?type=tcp&encryption=none&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=mlh.mynethub99.top#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40filembad
 vless://dffedc7d-cb1d-4584-8d45-85f0a6b983a4@sv1.vhuma.com:4043?security=&encryption=none&host=bama.ir&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://dffedc7d-cb1d-4584-8d45-85f0a6b983a4@sv1.vhuma.com:4043?security=none&encryption=none&host=bama.ir&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
@@ -198,3 +194,7 @@ vless://0d6b5af6-17df-4bb1-af76-e524f00602a5@172.232.248.242:2321?encryption=non
 vless://ea8d14d4-ca12-4cd1-bcad-f0fa72f6eadc@us.vpnhi.ru:443?allowInsecure=1&encryption=none&host=us.vpnhi.ru&path=%2Fvpnws&security=tls&sni=us.vpnhi.ru&type=ws#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://1027b850-de79-4a94-b337-eccdac28e141@144.24.126.26:443?allowInsecure=1&encryption=none&host=g.sandesh.qzz.io&path=%2Fvless&security=tls&sni=g.sandesh.qzz.io&type=ws#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vmess://4b80aa86#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://e033ef6e-ab4b-47d4-a523-ff568d2c8dbb@45.149.114.75:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=TH8C9sgNuMRVR3o5QehXPgYw8PWjoHrH2rVQF4JWwGI&security=reality&sni=tradingview.com&type=tcp#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
+vless://d40f5823-1ebd-11f1-8cae-c3845d39d2de@144.172.111.207:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc&security=reality&sid=cafe01234567&sni=www.apple.com&type=tcp#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
+vless://57ba2ab1-a283-42eb-82ee-dc3561a805b8@104.21.3.219:8443?allowInsecure=1&encryption=none&host=ovhwuxian.pai50288.uk&path=%2F57ba2ab1&security=tls&sni=ovhwuxian.pai50288.uk&type=ws#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.39.70.196:22224?path=%2Ftelegram-channel-vlessconfig&security=tls&encryption=none&type=ws&sni=trojan.burgerip.co.uk#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
