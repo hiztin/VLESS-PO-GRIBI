@@ -1,11 +1,4 @@
 ss://bm9uZTpmOGY3YUN6Y1BLYnNGOHAz@lil:360#%F0%9F%91%91
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg0011499tl.cybervena.com:50099#%F0%9F%87%B9%F0%9F%87%BC%20TCP-None%20%7C%20%40v2nodes
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NmZkMjkxMC04ZjJkLTRmMGYtODgzYS04ZGEyMjZmNTIwMDA@n8mrcg00602689c.cybervena.com:50099#%F0%9F%87%B9%F0%9F%87%BC%20TCP-None%20%7C%20%40v2nodes
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg007134n4g.cybervena.com:50099#%F0%9F%87%B9%F0%9F%87%BC%20TCP-None%20%7C%20%40v2nodes
-vless://f5a4f498-69cf-4d26-9482-54fccd7ae885@space.zenvault.ir:48565?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
-vless://3811e832-817b-48b8-cd1f-b650439ce79b@sites.mtanaco.top:443?security=none&encryption=none&host=s1.mediaad.org&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
-vless://a718c589-8b7c-4986-a3bb-874b12db37bc@snapp.ir:80?type=ws&encryption=none&path=%2F&host=bote.wpemdad.com&security=none#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
-vless://ab1ddafb-9514-40ab-9e4b-a3878f70931d@144.31.1.59:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=_KTsOFhGnC0W28ZqO8_FApozMp7tJ9cVBTLKLAA_OR0&security=reality&sid=ae64c9b46bff174a&sni=pl.sky-vault.top&type=tcp#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://a47fb050-8477-4d86-9332-5f687f572d94@194.156.103.213:1888?type=tcp&security=reality&sni=www.kernel.org&fp=chrome&flow=xtls-rprx-vision&pbk=GaVpyGU5Xqyd5SYmchrCIajjTiXF69bmCnUdftmrwTM&sid=6b#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Trick_mobil
 vless://90c9c25c-df6c-4438-83d3-ef97166a9184@194.31.173.158:443?type=tcp&security=reality&sni=5post-gate.x5.ru&fp=chrome&flow=xtls-rprx-vision&pbk=A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Trick_mobil
@@ -198,3 +191,10 @@ vless://0510d86e-1e8a-4b46-86cd-9c46c2c5591a@45.82.137.42:443?security=none&encr
 vless://394f6981-a782-4779-9a85-e6cf22935d93@152.233.28.198:8443?security=tls&encryption=none&headerType=none&type=tcp&sni=uk1.fromblancwithlove.com#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40filembad
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@172.64.154.211:80?path=%2F&security=none&encryption=none&host=tt.andishehparenting.com&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
 vless://223e5111-34b2-4a3b-8daa-36ae6e84d1f5@user11.ionosio.ir:2052?path=%2F&security=none&encryption=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.008500.xyz:443?path=%2F&security=tls&encryption=none&host=powered-by-surena.configfarsi6982dd6e0355e.workers.dev&type=ws&sni=powered-by-surena.configfarsi6982dd6e0355e.workers.dev#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
+vless://5774ae61-7402-41db-9388-1db9c43c11c3@84.200.33.52:8080?security=none&encryption=none&host=testspeed-foreign.tci.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://6053689d-39d6-4005-b1bd-c0dce854f429@84.21.189.25:443?security=tls&encryption=none&alpn=h2&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=de-fast.chunkyvpn.shop#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40filembad
+vless://8d2aeab8-ce98-47a6-84ec-d5b45d060b66@72.57.78.146:8443?path=%2Flives&security=tls&encryption=none&host=edt2.btxst.eu.cc&type=ws&sni=edt2.btxst.eu.cc#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
+vless://e033ef6e-ab4b-47d4-a523-ff568d2c8dbb@85.208.108.63:8443?security=reality&encryption=none&pbk=TH8C9sgNuMRVR3o5QehXPgYw8PWjoHrH2rVQF4JWwGI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
+vless://cb213db5-803d-49dd-a7e2-46d938af0751@104.18.2.11:2082?path=%2F&security=none&encryption=none&host=amiroo-l43dac88-v2.amiroo-d8b.workers.dev&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://27b1a8d5-6169-43fd-a009-c5fd344bcb2c@95.129.234.165:8443?security=reality&encryption=none&pbk=f_rci2fprjjzSiFAfiF7GXPSDHCmf6oetM38e8AvQBg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
