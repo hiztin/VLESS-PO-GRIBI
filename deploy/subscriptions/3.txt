@@ -53,6 +53,7 @@ vless://d8e1cfdc-7899-4c71-8d11-058933210c55@143.110.169.61:52189?type=tcp&amp;s
 vless://c34a9f73-3c11-4614-90ff-196add3fa4aa@157.230.28.73:23353?type=tcp&amp;security=reality&amp;pbk=OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU&amp;fp=firefox&amp;sni=*.sourceforge.net&amp;sid=a98a22e2&amp;spx=/#@Capital_NET
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PUAxNDcuNzguMS4yMzA6OTkw#@Capoit
 vless://e911c552-3a98-41e0-b5fb-0dd3879887b7@78.158.166.180:2096?path=/api/v1/irc&amp;security=tls&amp;alpn=h2&amp;encryption=none&amp;insecure=0&amp;host=vod.ensf.top&amp;type=ws&amp;allowInsecure=0&amp;sni=vod.ensf.top#@Capoit
+vless://f88fc142-cd33-47bc-a2cb-bf657a9922b4@final.digitalldns.com:8443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#@Capoit
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ@admin.c2.havij.co:443#@CloudCityy
 vless://9ecfba25-f382-41c2-ac80-429f8689da9a@185.126.7.182:12486?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#@CloudCityy
 vmess://eyJhZGQiOiIxOTIuMjAwLjE2MC4xNiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5YjRjMmVkYS0zNDFlLTQ4OGYtYTNiMi0xZGM3MTZiOWYzNmEiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IkBDbG91ZENpdHl5Iiwic2N5IjoiYXV0byIsInNuaSI6InN0ZWFtLmF2YWFhYWwuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
@@ -197,4 +198,3 @@ vless://62da658c-9641-4615-8180-14db65694cc5@nl1.vnet500.xyz:26082?security=&amp
 vless://a7be5b32-3741-4b1b-9f17-c1e537de1a25@tlg333bc65.furp558d9vuid4durqxe.realytag.com:887?security=&amp;encryption=none&amp;host=skyroom.online,gharar.ir,igap.net&amp;headerType=http&amp;type=tcp#بیا
 vmess://eyJhZGQiOiIxODUuMTI2LjUuMTMwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjczNTM4ZGU1LTEyNjAtNDc2OS05ZTdlLTYzYjcyZmYxODc4NiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzAwMyIsInBzIjoi2KjbjNinINin24zZhtis2KcgQ29uZmlnVjJSYXlOR0AiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiIxODUuMTI2LjUuMTMwIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjczNTM4ZGU1LTEyNjAtNDc2OS05ZTdlLTYzYjcyZmYxODc4NiIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMzA5MiIsInBzIjoi2KjbjNinINin24zZhtis2KcgQ29uZmlnVjJSYXlOR0AiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
-vless://8f31ac58-b70f-4c56-8b24-93b56ee5df2d@gb1.vnet500.xyz:32044?security=&amp;encryption=none&amp;host=soft98.ir&amp;headerType=http&amp;type=tcp#بیا
