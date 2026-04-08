@@ -13,6 +13,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYNmJ0YlJ2SkNvM3VUUS0teWFhVDhNdmgwQ2dxaFlUTA@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTjZYZjBacXdEZUZydDM5VFFyYWVu@45.80.231.75:31019#🇸🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@38.135.24.131:443#🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.101:8080#🇬🇬
@@ -119,6 +120,7 @@ vless://1c7fcc38-e6be-43c5-875f-b8de2516b9f2@5.182.38.91:17267?encryption=none&s
 vless://1ce14778-3c70-46d2-df1b-29647fb2c0ee@discord.com:2096?mode=gun&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&type=grpc&serviceName=%40VPNCUSTOMIZE&sni=g2.iranislamic.top#🏳️
 vless://1e7cc0f2-f9af-4d0e-b422-5d6c71fbeb97@dash.programming-coding.ir:26228?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://1ef9605f-1fe3-40a9-95bb-e900bf1c38dc@185.81.96.227:443?type=tcp&encryption=none&security=reality&pbk=qJwfY5cu0oh_U6aF186SaiRrtuhI_K1Vx_ZwT7X0YQU&fp=chrome&sni=www.uptvs.com&sid=64d1fd614b&spx=%2F#🇮🇷
+vless://20adc847-4159-4f39-b79f-d563b660945f@simurgh.adslimit.info:2345?security=none&encryption=none&headerType=none&type=tcp#🇬🇬
 vless://219541d7-17c5-403d-8491-72fdc37ff4e9@155.103.71.59:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=&pbk=jSx3_X_tBAcNgp7SrKSfZnr5WN0cTN2ShEJv4rHceQU&sid=&sni=www.microsoft.com&path=&host=#🇹🇷
 vless://219541d7-17c5-403d-8491-72fdc37ff4e9@185.234.66.44:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=&pbk=jSx3_X_tBAcNgp7SrKSfZnr5WN0cTN2ShEJv4rHceQU&sid=&sni=www.microsoft.com&path=&host=#🇲🇩
 vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@a.pabloping.cloud:2052?mode=auto&path=pabloping%2F%3FTELEGRAM-irmeliy&security=&encryption=none&host=atus.pabloping.pro&type=xhttp#🏳️
@@ -196,5 +198,3 @@ vless://4918eff9-1166-47e8-a19d-fd31491b1346@saty.thenetabinvip.top:28?security=
 vless://4ab1088a-9f8a-4fcc-8805-8353a8b3cf44@152.53.200.42:7443?security=reality&encryption=none&headerType=&type=tcp#🇦🇹
 vless://4b3086ce-cf5c-4f14-8f3d-4d5f074cd84e@193.151.158.147:443?encryption=none&type=ws&host=api.meibourse.com&path=/no?ed%3D443&security=tls&fp=chrome&sni=api.meibourse.com#🇮🇷
 vless://4bac43df-264d-4706-97fe-51c69c0da053@185.143.234.235:80?type=ws&host=vix.idcenter.top#🇮🇷
-vless://4c1fda18-577f-48fe-ae29-840e82a4dbed@snapp.ir:80?path=%2F&security=none&encryption=none&host=ar.liarashop.ir&type=ws#🇮🇷
-vless://4c1fda18-577f-48fe-ae29-840e82a4dbed@snapp.ir:80?path=%2F&security=none&encryption=none&host=arc.liarashop.ir&type=ws#🇮🇷
