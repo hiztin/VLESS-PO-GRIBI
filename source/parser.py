@@ -13,8 +13,8 @@ DEPLOY_PATH = os.path.join(BASE_DIR, "deploy")
 SUBSCRIPTIONS_PATH = os.path.join(DEPLOY_PATH, "subscriptions")
 README_PATH = os.path.join(BASE_DIR, "README.md")
 
-print(f"📁 Корень репозитория: {BASE_DIR}")
-print(f"📁 Deploy путь: {DEPLOY_PATH}")
+print(f" Корень репозитория: {BASE_DIR}")
+print(f" Deploy путь: {DEPLOY_PATH}")
 
 #  ИСТОЧНИКИ есть в README
 URLS = [
