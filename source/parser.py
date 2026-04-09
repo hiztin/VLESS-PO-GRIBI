@@ -35,14 +35,14 @@ URLS = [
     "https://raw.githubusercontent.com/kort0881/vpn-vless-configs-russia/refs/heads/main/subscriptions/all.part1.txt", #15
     "https://raw.githubusercontent.com/kort0881/vpn-vless-configs-russia/refs/heads/main/subscriptions/all.txt", #16
     "https://github.com/MhdiTaheri/V2rayCollector_Py/raw/refs/heads/main/sub/Mix/mix.txt", #17
-    "https://raw.githubusercontent.com/terik21/HiddifySubs-VlessKeys/refs/heads/main/1Mond", #18
+    "https://raw.githubusercontent.com/FSystem88/vless-keys/refs/heads/main/keys.txt", #18
     "https://github.com/MhdiTaheri/V2rayCollector/raw/refs/heads/main/sub/mix", #19
     "https://raw.githubusercontent.com/nikita29a/FreeProxyList/refs/heads/main/mirror/26.txt", #20
     "https://raw.githubusercontent.com/shabane/kamaji/master/hub/merged.txt", #21
     "https://raw.githubusercontent.com/wuqb2i4f/xray-config-toolkit/main/output/base64/mix-uri", #22
     "https://raw.githubusercontent.com/nikita29a/FreeProxyList/refs/heads/main/mirror/23.txt", #23
     "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt", #24
-    "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_SS%2BAll_RUS.txt", #25
+    , "https://raw.githubusercontent.com/V2RayRoot/V2RayConfig/refs/heads/main/Config/vless.txt" #25
 ]
 
 # Мейн парсер 
