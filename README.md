@@ -3,7 +3,6 @@
 # 🍄 VLESS ПО ГРИБЫ - Бесплатные VPN сервера 
 
 # [САЙТ](https://hiztin.github.io/VLESS-PO-GRIBI-SITE/)
-# [TG](https://t.me/h1zzich)
 
 </div>
 
@@ -23,7 +22,7 @@
 </div>
 
 
-# [ПОДПИШИТЕСЬ НА ТГ ЧТО БЫ СЛЕДИТЬ ЗА АПДЕЙТАМИ!](https://t.me/h1zzich)
+# [ПОДПИШИТЕСЬ НА ТГК ЧТО БЫ СЛЕДИТЬ ЗА АПДЕЙТАМИ!](https://t.me/h1zzich)
 
 
 ## 🍄‍🟫 О проекте
