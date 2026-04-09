@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 from datetime import datetime
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # корень репозитория
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEPLOY_PATH = os.path.join(BASE_DIR, "deploy")
 SUBSCRIPTIONS_PATH = os.path.join(DEPLOY_PATH, "subscriptions")
 README_PATH = os.path.join(BASE_DIR, "README.md")
@@ -47,16 +47,14 @@ URLS = [
 
 # Мейн парсер 
 async def fetch(session: aiohttp.ClientSession, url: str) -> str:
-    """Асинхронная загрузка URL"""
     try:
         async with session.get(url, timeout=15) as resp:
             return await resp.text() if resp.status == 200 else ''
     except Exception as e:
-        print(f"  ❌ Ошибка загрузки: {str(e)[:50]}")
+        print(f" Ошибка загрузки: {str(e)[:50]}")
         return ''
 
 def extract_configs(text: str) -> List[str]:
-    """Извлекает конфиги из текста"""
     if not text:
         return []
     pattern = r'(vmess://[^\s]+|vless://[^\s]+|ss://[^\s]+)'
@@ -72,15 +70,14 @@ async def process_source(session: aiohttp.ClientSession, idx: int, url: str) -> 
         return idx, []
     
     configs = extract_configs(text)
-    print(f"  ✅ Найдено: {len(configs)}")
+    print(f"  Найдено: {len(configs)}")
     
     return idx, configs[:200]
 
 def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
     """Сохраняет результаты в файлы"""
-    # Создаём папки
     os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
-    print(f"📁 Создана папка: {SUBSCRIPTIONS_PATH}")
+    print(f" Создана папка: {SUBSCRIPTIONS_PATH}")
     
     total = 0
     sources = 0
@@ -94,20 +91,18 @@ def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(servers))
             
-            print(f"  ✅ {idx + 1}.txt: {len(servers)} серверов -> {file_path}")
+            print(f"   {idx + 1}.txt: {len(servers)} серверов -> {file_path}")
             total += len(servers)
             sources += 1
             all_servers.extend(servers)
             sources_data[idx + 1] = len(servers)
     
-    # Сохраняем общий файл
     if all_servers:
         sub_path = os.path.join(DEPLOY_PATH, "sub.txt")
         with open(sub_path, 'w', encoding='utf-8') as f:
             f.write('\n'.join(all_servers))
         print(f"✅ sub.txt: {len(all_servers)} серверов -> {sub_path}")
     
-    # Сохраняем debug.json
     now = datetime.now()
     debug_info = {
         "total": total,
@@ -130,7 +125,6 @@ def save_results(results: List[Tuple[int, List[str]]]) -> Tuple[int, int]:
     return sources, total
 
 def update_readme(total_servers: int, sources_count: int):
-    """Обновляет README.md в корне репозитория"""
     
     if not os.path.exists(README_PATH):
         print(f"❌ README.md не найден по пути: {README_PATH}")
@@ -145,21 +139,20 @@ def update_readme(total_servers: int, sources_count: int):
     
     import re
     
-    # Обновляем общее количество серверов
     content = re.sub(
         r'(!\[Серверов\].*?alive=)(\d+)',
         f'\\g<1>{total_servers}',
         content
     )
     
-    # Обновляем дату последнего обновления
+
     content = re.sub(
         r'(Последнее обновление:).*',
         f'\\1 {date_str} {time_str}',
         content
     )
     
-    # Обновляем количество активных источников
+
     content = re.sub(
         r'(\*\*Активных источников\*\*:).*',
         f'\\1 {sources_count}',
@@ -169,19 +162,19 @@ def update_readme(total_servers: int, sources_count: int):
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)
     
-    print(f"✅ README.md обновлён: {README_PATH}")
+    print(f" README.md обновлён: {README_PATH}")
 
 async def main():
     print("\n" + "="*60)
     print(" ПАРСЕР ЗАПУЩЕН")
     print("="*60)
-    print(f"📁 Корень: {BASE_DIR}")
-    print(f"📁 Deploy: {DEPLOY_PATH}")
+    print(f" Корень: {BASE_DIR}")
+    print(f" Deploy: {DEPLOY_PATH}")
     
     # Создаём папки
     os.makedirs(DEPLOY_PATH, exist_ok=True)
     os.makedirs(SUBSCRIPTIONS_PATH, exist_ok=True)
-    print(f"✅ Папки созданы")
+    print(f" Папки созданы")
     
     async with aiohttp.ClientSession() as session:
         tasks = [process_source(session, i, url) for i, url in enumerate(URLS)]
@@ -190,7 +183,7 @@ async def main():
     results.sort(key=lambda x: x[0])
     sources, total = save_results(results)
 
-    print(f"\n📁 Содержимое {DEPLOY_PATH}:")
+    print(f"\n Содержимое {DEPLOY_PATH}:")
     if os.path.exists(DEPLOY_PATH):
         for f in os.listdir(DEPLOY_PATH):
             print(f"  - {f}")
@@ -200,8 +193,8 @@ async def main():
     print("\n" + "="*60)
     print(" РАБОТА ЗАВЕРШЕНА")
     print("="*60)
-    print(f"📊 Источников с данными: {sources}/{len(URLS)}")
-    print(f"📊 Всего серверов: {total}")
+    print(f"Источников с данными: {sources}/{len(URLS)}")
+    print(f"Всего серверов: {total}")
     print("="*60)
 
 if __name__ == "__main__":
