@@ -8,7 +8,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvait
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.54.4.87:990#🇰🇭
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@38.60.250.107:990#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWRUZGVUdaa050YlRHQUdkZTR2VVFqcW5HU1QtYmdUUA@89.125.95.110:8388#🇦🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYNmJ0YlJ2SkNvM3VUUS0teWFhVDhNdmgwQ2dxaFlUTA@147.45.67.99:8388#🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTjZYZjBacXdEZUZydDM5VFFyYWVu@45.80.231.75:31019#🇸🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@38.135.24.131:443#🇺🇸
@@ -198,3 +197,4 @@ vless://468aff0b-e717-4201-adbf-8a124b7f3139@irna.ir:2082?path=%2F&security=&enc
 vless://471640c1-8d5c-4c31-8aba-4a0c5148cd3f@omranpanl.pointspeed.ir:80?path=%2F&security=none&encryption=none&host=omran.pointspeed.ir&type=httpupgrade#🇮🇷
 vless://478cc26d-16b3-4fdd-be64-60d5a58c1622@162.159.36.5:80?type=ws&host=tt.andishehparenting.com&path=%2F&fp=chrome#🏳️
 vless://48ddd7e3-5d31-46ab-9153-16c0e4d92adc@139.59.3.70:24725/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=dash.cloudflare.com&fp=chrome&security=reality&pbk=PAAYOscWvc6-DIWjJ8cHWpgX-xkMUVmu8Nz24itmo34&sid=#🇮🇳
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.87:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#🇳🇱
