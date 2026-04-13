@@ -118,6 +118,7 @@ vless://17a7bf97-fef5-4101-a5c5-7c730fabeeee@www.speedtest.net:443?path=TELEGRAM
 vless://17c4e377-ea15-07d0-98b2-3e348c9ff5d9@46.235.189.157:443?path=%2F%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=lk-cdn.deploy-assure.ru&fp=chrome&type=ws&sni=lk-cdn.deploy-assure.ru#🇷🇺
 vless://17f9bbca-3dd1-4515-bcbc-0427447fd2fe@v2.pcjxq.digital:13351?type=tcp&encryption=none&security=none#🇮🇷
 vless://18d0bbd9-b1d5-4e71-bb2c-14eb3fe517f9@back.avenprime.ir:80?path=%2F%3Fed%3D2048&security=&encryption=none&type=ws#🇮🇷
+vless://18e6431b-161f-49cc-945a-fd2737341d2c@tr-581.star-kurd.net:2096?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp&sni=sni-tr.star-kurd.net#🏳️
 vless://1953a6e9-d21a-46d7-bd80-eee54f27b155@vp.irajapan.store:20202?type=tcp&encryption=none&security=none#🇮🇷
 vless://19773cc6-89a3-47c6-bc10-885460cd2b7b@89.167.17.75:443?security=none&encryption=none&host=speedtest.net&headerType=http&type=tcp#🇫🇮
 vless://19add5da-ec4f-4f46-9d8f-eb51bcc90351@185.143.234.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
@@ -133,6 +134,7 @@ vless://1eeb8f02-49c7-4ec9-b857-d0733fec117f@link2x10225.temp.veraspeed.ir:80?se
 vless://1eeb8f02-49c7-4ec9-b857-d0733fec117f@link2x10225.temp.veraspeed.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&host=byebye.22.avenflow.ir&path=/filimo-video/177430809054030600/1774365690/cb857b0770767a2b38b3ebc9d4c44d7fc5630fdd/196328x264new1-1080p.mp4/s-20-v1-a1.ts#🇮🇷
 vless://1f39feb4-3dc2-bb55-3db2-bfe2363c0ab0@85.133.214.67:443?security=none&encryption=none&host=myket.ir&headerType=http&type=tcp#🇮🇷
 vless://1f54efed-b621-4782-b113-7ca6a10f5cad@185.143.233.200:80?mode=auto&path=%2F%3Fed%3D2080&security=none&encryption=none&host=zenaiskajxnsdkjas5sffjlaskdasaxxfaasdd54asdcwxdaseccawcaww.darvingolds.ir&type=xhttp#🇮🇷
+vless://1fa77a0c-8f37-41c6-b9ca-2c8340bd2cd1@ar.speed1vipsarbaziclick.site:41371?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://205b6442-d9fa-4971-f90b-cfd124a669a3@melllkshe.lpoco.site:2096?security=none&type=tcp#🇮🇷
 vless://20adc847-4159-4f39-b79f-d563b660945f@simurgh.adslimit.info:2345?security=none&encryption=none&headerType=none&type=tcp#🇬🇬
 vless://2101adeb-fe06-4aa2-8323-cc2178b60f6a@snapp.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&host=ar.liarashop.ir&path=/#🇮🇷
@@ -143,6 +145,7 @@ vless://2661938c-104f-456f-8282-4f874bd4de12@snapp.ir:80?encryption=none&securit
 vless://269b660c-1ec6-4780-b728-cae65897bfa3@link2x05342_1.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=byebye.22.avenflow.ir&type=ws#🇮🇷
 vless://27564235-8d5c-42c2-ae6e-733179666188@188.121.125.121:3000?security=&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://2a611a99-4c9e-41ca-b99f-276375105be6@ww.parspas.ir:8880?path=%2F&security=none&encryption=none&type=ws#🇮🇷
+vless://2a6db688-8d52-4505-8478-ee4a2f67b3e0@grdtgrreser.norozhost.com:443?type=ws&encryption=none&path=%2Fksushs&host=telewebion.ir&security=none#🇮🇷
 vless://2ac0ee37-fdc4-4afa-8141-f960c49ece60@188.121.120.140:56557?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#🇮🇷
 vless://2aeee9d9-9f7b-49e2-b212-0d06941c066e@po.masterdadeh.ir:80?path=%2F&security=&encryption=none&type=ws#🇮🇷
 vless://2b2efede-141b-4d29-91db-403c785d1da9@snapp.ir:80?type=ws&encryption=none&path=%2F&host=n1.abantrust.ir&security=none#🇮🇷
@@ -168,16 +171,16 @@ vless://33342145-fde9-4096-9199-da0c57e9fefa@omranpanl.pointspeed.ir:80?path=%2F
 vless://33342145-fde9-4096-9199-da0c57e9fefa@omranpanl.pointspeed.ir:80?security=none&allowInsecure=0&encryption=none&type=httpupgrade#🇮🇷
 vless://33342145-fde9-4096-9199-da0c57e9fefa@omranpanl.pointspeed.ir:80?type=httpupgrade&encryption=none&path=%2F&host=omran.pointspeed.ir&security=none#🇮🇷
 vless://33386446-d998-437b-a04f-df3dcac3df63@185.143.233.5:443?path=%2F%3Fed%3D443&security=tls&encryption=none&insecure=0&host=alef.ir.oadeflantrogm.abrirmahan.com&fp=randomized&type=ws&allowInsecure=0&sni=alef.ir.oadeflantrogm.abrirmahan.com#🇮🇷
-vless://338450ad-928a-4abc-b149-ac458365e19c@clinka.satarv.ir:80?path=%2F&security=none&encryption=none&type=ws#🇮🇷
-vless://338450ad-928a-4abc-b149-ac458365e19c@clinka.satarv.ir:80?type=ws&encryption=none&path=%2F&host=&security=none#🇮🇷
 vless://33898eee-eea1-41a6-adce-f41c963174a0@snapp.ir:80?encryption=none&security=none&type=ws&host=c.hshonar.ir&path=%2F#🇮🇷
 vless://34704650-eb3b-4294-978b-9c70d6df5f55@v2.pcjxq.digital:20666/?type=tcp&encryption=none&security=none#🇮🇷
 vless://3471c14b-b5da-47b8-90e7-64efef875739@Mgod-24.2.globalmymusic2.com:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=best.3.iran.avenflow.ir&type=ws#🇮🇷
 vless://349044ee-9997-4b0e-90dc-62e26e63d34d@iran.halawar.com:51976?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
+vless://35d6daea-d17b-4355-9464-2ce4ca3af68b@v2.pcjxq.digital:20666/?type=tcp&encryption=none&security=none#🇮🇷
 vless://36e12441-e443-4b77-b8d9-aa84a77f2b3e@y01.dl5movis.ir:443?security=none&encryption=none&host=www.aparat.com&headerType=http&type=tcp#🇮🇷
 vless://37095ec5-ad30-49be-a33b-3f93ed8efe16@37.152.189.74:4431?path=%2Fek%2Firinn%2Flive%2F1080p%2F&security=none&encryption=none&host=live-azd1102.telewebion.ir&type=ws#🇮🇷
 vless://37324b44-7e88-47a7-8a15-419bd79721dc@snapp.ir:80?encryption=none&security=none&type=ws&host=c.hshonar.ir&path=%2F#🇮🇷
 vless://3757a383-ca03-4d85-a4f0-5c9602a8949a@webb.gdsrguydsrghj.ir:1010?security=&encryption=none&headerType=http&type=tcp#🇮🇷
+vless://37815f4c-84eb-4463-b745-9ebeb902d9d5@snapp.ir:2095?type=ws&encryption=none&path=%2F&host=str9.xfastvip.ir&security=none#🇮🇷
 vless://3789d9fd-8549-46d6-ba19-4a8b13f60218@NullNetwork.vianabeauty.ir:46054?type=tcp&security=none#🇮🇷
 vless://37b67fa2-1dbb-4833-b5df-646b323e573c@snapp.ir:8080?encryption=none&host=cm.programming-coding.ir&path=%2F&security=none&type=ws#🇮🇷
 vless://37bd59ad-2606-4f67-9d8d-cca22120a0fe@turki.esrtz.onl:8080?security=none&allowInsecure=0&encryption=none&type=tcp&host=fast.com&path=/&headerType=http#🇮🇷
@@ -195,6 +198,3 @@ vless://3bdda63d-ae92-41a2-8c57-2eab44231dc0@rus.lampcomputervz.ir:6657?security
 vless://3c30a885-20ee-425e-a6c2-dfb3311643b9@fastlite.mygoldiran.com:44446?security=none&encryption=none&host=igap.net&headerType=http&type=tcp#🇮🇷
 vless://3c7123c9-ec43-4261-80ea-5b7f80d5634e@link2x05376_2.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=byebye.22.avenflow.ir&type=ws#🇮🇷
 vless://3cbad916-d882-4773-8dfb-15564f2d29fe@zone.ca.f2zone.ir:17759?security=none&encryption=none&host=telewebion.com&headerType=http&type=tcp#🇮🇷
-vless://3e0de027-87b0-427a-bc98-f80998f5de2b@2.144.20.212:25724?path=%2F&security=none&encryption=none&type=ws#🇮🇷
-vless://3e136bc6-b3b9-421f-8bfc-522779b0cb27@v.pvnetwork.ir:8443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
-vless://3ef7131a-224f-4f28-9b9b-3517b75f28b3@vip.gxnetshop.ir:6000?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
