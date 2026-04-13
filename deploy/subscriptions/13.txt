@@ -9,11 +9,13 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5QXN3WGx4cXJPRXVOb2JUb05yOUVaU2k@37.27.200.5
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4RmhtaGpQejFBYTlhbmF5Wk82UjV3by1acE5mUEl6Rg@1.1.1.1:1080#🏳️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@145.14.131.37:990#🇨🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@46.183.217.204:990#🇱🇻
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@185.167.116.241:801#🇦🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@217.197.161.136:801#🇸🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVZ05EZXZNV1dvSVVhQW5hcHd4ZVNSN3dnZGx4V0xRaA@vip2.myspacex.shop:20900#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@admin.c1.webramz.co:443#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.202:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.122:8080#🇬🇬
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182:443#🇬🇬
 ss://YWVzLTI1Ni1jZmI6TnZTOE40VmY4cUFHUFNDTA@217.30.10.70:9046#🇵🇱
@@ -21,6 +23,7 @@ ss://YWVzLTI1Ni1nY206NW1DSDQ2MjRRZmxPMWNGUg@185.111.156.33:80#🇺🇸
 vless://003341e5-42cd-4415-be0b-5af368b2558a@snapp.ir:80?encryption=none&security=none&type=ws&host=c.hshonar.ir&path=%2F#🇮🇷
 vless://0057757c-0380-4e19-8fa4-fc7a921816ca@packetnet.vianabeauty.ir:46054?type=tcp&security=none#🇮🇷
 vless://00a67355-135d-4dad-a8cd-6c5dfd6513e6@packetnet.vianabeauty.ir:46054?type=tcp&security=none#🇮🇷
+vless://0113dbe3-7b54-455f-b412-00c8e3b3c65c@185.143.233.200:80?path=%2F&security=&encryption=none&host=a1.supreme-xfast.ir&type=ws#🇮🇷
 vless://0141b66d-14f7-445d-870f-2f9a7111ac1e@snapp.ir:2082?path=%2F&security=&encryption=none&host=vip1a.deltamarket8.ir&type=ws#🇮🇷
 vless://014dc545-69e8-41bb-bea7-c6a35bd3fd40@abr.superip.ir:2082?path=%2FAPI%2Fsuperip&security=none&encryption=none&host=brand.bi6x.ir&type=ws#🇮🇷
 vless://01522162-e272-45ad-841d-110a23282949@orixcraft.ir:8080?path=%2F&security=none&encryption=none&type=ws#🇮🇷
@@ -49,6 +52,7 @@ vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.47.115.113:22224?type=ws&securit
 vless://059c147e-e293-4ab4-ab9e-9acc52c8cb5b@NullNetwork.vianabeauty.ir:44100?type=tcp&security=none#🇮🇷
 vless://05a17ccb-a231-4e8c-af1a-810691c27d88@VIP2.xQFire.iR:811?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://05b4b2a2-d9f1-46f1-848b-79f61585cf27@94.183.175.172:1313?security=&encryption=none&headerType=none&type=tcp#🇦🇪
+vless://06360cd6-fe3e-4bac-86f1-e001b9e4fef2@185.143.233.5:80?path=%2Fchat%3Fed%3D128&security=&encryption=mlkem768x25519plus.native.0rtt.B3yumevIV5pZNDLYo-1JNNJNypPNBSm2uvEU_SOJVGE&host=d.8lack.ir&type=ws#🇮🇷
 vless://06792207-b128-447b-b257-a0df0f5c899b@1kdksjskskwkwodk.lskwposkrjgso.ncniwlqnxbdje.wizardxray.ir:700?security=&encryption=none&host=rubika.ir%2C%2Bigap.net%2C%2Bsplus.ir%2C%2Bskyroom.online&headerType=http&type=tcp#🇦🇪
 vless://06d28dc0-6b63-489b-b56b-1537c0b3dc1b@v2plus02960.temp.veraspeed.ir:80?mode=stream-one&path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=mlkem768x25519plus.native.0rtt.0oApr9cw-SWX56oDiCnJDTuHHCGSswtvx6Fz5ClR8WsLnCTG89VWLVnEzjwe1uwu1wAsNJI8WVKZnwN0w2HOEVB8Jkxd9rM5crBsfZGOdkmjyCqM0xRX8_czw5Cy8Pm5w8pedEwn5dBcDvZvpUGZOVyzIUQOUGkRoVZYmKdqLCYGYJG6FPE1FeRQ_gxe1VwxbFEGKcFKE-XCSRSAU8HN6lcABCh9bTOJAlcaOxjN5JkIRxgSany3AIWW9owZ-OCKYUwBhAmcwQsnPoiAJYV74ZqgCmrA_YdLp5BiRLlf4-gc8ECNWRe65GIZIBrGzECVz5qD8jatFmhfqQuJRFit2EYikQtleTtnXpuAILGi4UOfMEWXTzALVrSPzmtu0YunLDN0idYu8Ew75uWcf4WHDzWbxbon1vmWqWQQavsgbeJBWSLCgjkHjXxka4OAjNsZ74hgnxDPcpmdW0mZWfZee-lH4riOzHKogmdN82pEwdVpJLyYSzBmgXReBzg9VVa2GQFDI4ZGfPh-NJkWNgkVeHF0JYgrdpTOLJy-hwwqilFtyGB7gdAmjPXLZHt26Cw5KZbDpsSETJFT9Eed0aKvBekf7xc5UpkkeaFbscobPJZubohHu-aJWZqiZoaZcfNsRjqlf4hZiUtLv9C5mNIfE_tfxkch1QIAOnwAjrsam-APPHWax5Fg-fQHtyeNpUbBAoJeQPc3eFm8xKVvjPYZr_RV_6KphCs5bvVS3Dh2n3LKFAwbbth7jHNSQps4uldBdLCXc8RZg5OeeeRo1ja7RVQYYEcF4WdGtBZxBhtiSItjbisDfTmHKyWHo1Y36DTCtjmG3da3G-iVWwPLIXumgnFt1okroVgeAkAGf-hA5icEnHobSIMc7_K7uqynA8aKishXKwGdQgmG6ktRHnIxSsR5TnYYITGaVbtSZGeooiGU78W2BcBBpVB3whZJI0Q1pjlDA7u1zOgTWOW0vambwcKpj4ksMPU90BUllJpow9JDuHgHp7YoSGrFe0OEPjcIo6MBd0k0SMQGuXPIGohxIlB7vdgTJwau-Yl-mROpRzwpzhMYQusLC7A0_OKbyiTEkWzJKHVwDAW8iGiaaOuMdORaIhskLEVq0GN3usp_zci1Y8c1LmQhKwhhk_Zm8Cuh_6O4bnpnrlWnpFWomOWOGElx7iCbzPg0pjeQJ3k4QYwI51DJsfcRnEpbFslzTZReOaHGzviF6sG_w7Ijz5oIa0c9BkUbt8lwJ5rHUNcW-IYqe-mLcpmwg2eUPyNgukF03ORbFjhumTqJw1hSL4ZwinYvByc4CwO8_quFu5CnGyYmBOOInTJZiGJ4zQqi0EG2rFlAcmaPIKSLgty7v9obAMOruLOCHGDAipYe6mcgW4iPCgO2faNTYamXXolhJ3cVnQs30XBC0jkhjpoYfRlaimt5uCoYinu8pWYZMjzL_qkrqSCXzepDWHkKuVdiE4J49NJRUlk8nVKaVlEDpAmpxKcnyTl10QVm04yecYQ_DCOq1eBWWpsNFPlfC2Sk6xcng5b1lvsmqEf42ECTWZl5u0qxQuUQ6mSXFBjr_o_V5-o&host=alijon.11.avenflow.ir&type=xhttp#🇮🇷
 vless://06e27e58-997a-499e-9a19-71d4980aaabf@snapp.ir:8080?path=%2F&security=&encryption=none&host=download2erfan.sudoserver.ir&type=ws#🇮🇷
@@ -60,6 +64,7 @@ vless://080c3754-5cde-4320-ba78-8b86c804c0b4@snapp.ir:8080?path=%2F&security=non
 vless://081efe27-f6b8-4f60-aedb-3c9effe9c67d@poe.com:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=1&host=80bab3a2.gon-7ye.pages.dev&type=ws&allowInsecure=1&sni=80bab3a2.gon-7ye.pages.dev#🏳️
 vless://098fd515-29de-4d74-b77d-d8ab878a7e2c@104.18.12.149:443?path=%2Fresgdws&security=tls&encryption=none&insecure=1&host=rivvers.info&type=ws&allowInsecure=1&sni=rivvers.info#🏳️
 vless://09932107-63d7-4649-ace6-da42ca4e1a1c@185.143.233.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
+vless://0a368f75-8101-4053-83d6-ef45d064f16c@snapp.ir:80?security=&encryption=none&headerType=&type=tcp#🇮🇷
 vless://0a4c5a85-7089-446d-a817-26212ff67ed6@vix.nsa03.com:9000?security=none&encryption=none&headerType=none&type=tcp#🏳️
 vless://0b277abf-e0d6-44d8-85c6-f6c7afc0aec5@176.97.73.155:443?encryption=none&security=reality&sni=navi.bankrate.com&fp=chrome&pbk=UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc&sid=2da72ce6&type=tcp&headerType=none#🇯🇵
 vless://0b5df3ea-c7d6-49e3-a2f9-9e550d11cc8a@snapp.ir:2052?path=%2F%3Fed%3D2560&security=&encryption=none&host=arvv.teamlifez.ir&type=ws#🇮🇷
@@ -70,8 +75,6 @@ vless://0bf3ab52-e1b1-49e2-bfa5-389d9a251710@mim.md-teach.com:8443?path=%2F&secu
 vless://0c68e20d-f385-4384-911c-a4cf8b6b0b5e@openx00216.temp.veraspeed.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&host=byebye.22.avenflow.ir&path=/filimo-video/177430809054030600/1774365690/cb857b0770767a2b38b3ebc9d4c44d7fc5630fdd/196328x264new1-1080p.mp4/s-20-v1-a1.ts#🇮🇷
 vless://0c74a134-003a-4ced-b4e4-87630e0224db@de23.fastplus7.site:80/?type=ws&encryption=none&flow=&host=de23.fastplus11.ir&path=%2F#🇮🇷
 vless://0c74a134-003a-4ced-b4e4-87630e0224db@de23.fastplus7.site:80?encryption=none&type=ws&path=/#🇮🇷
-vless://0c74a134-003a-4ced-b4e4-87630e0224db@de23.fastplus7.site:80?path=%2F&security=&encryption=none&host=de23.fastplus11.ir&type=ws#🇮🇷
-vless://0c74a134-003a-4ced-b4e4-87630e0224db@de23.fastplus7.site:80?path=%2F&security=none&encryption=none&host=de23.fastplus11.ir&type=ws#🇮🇷
 vless://0c90175d-41df-4a62-c663-67b8652371c4@www.speedtest.net:2096?path=%2F%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN--%40LOCKEY_VPN&security=tls&alpn=http%2F1.1&encryption=none&host=Locke.check-speedtest-internet-dns-ping-ip.ir&fp=chrome&type=ws&sni=Locke.check-speedtest-internet-dns-ping-ip.ir#🏳️
 vless://0cc7b453-ef68-4703-8af0-5458d4c2f3e8@packetnet.vianabeauty.ir:44100?type=tcp&security=none#🇮🇷
 vless://0d087301-4f99-a21e-5a37-f886a7577486@promax.vpsino.com:20493?security=none&type=tcp&headerType=none&path=%2F#🇮🇷
@@ -103,6 +106,7 @@ vless://12742b91-569b-460d-9c26-6450a809a700@xrp.mohamadrz.xyz:46929?security=&e
 vless://12f57c59-b8dc-4c9d-b27f-ddef563ab680@aparatrat1.info:2083?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://13504d6e-f991-4de8-b5f1-aaf2b4b07a9f@ww.boldtest.ir:8880?path=%2F&security=none&encryption=none&type=ws#🇮🇷
 vless://137a9fef-629a-4197-abe9-9114a314a77c.ir:80?path=%2F&security=none&encryption=none&host=arv.liarashop.ir&type=ws#🏳️
+vless://137a9fef-629a-4197-abe9-9114a314a77c@snapp.ir:80?path=%2F&security=&encryption=none&host=arv.liarashop.ir&type=ws#🇮🇷
 vless://137a9fef-629a-4197-abe9-9114a314a77c@snapp.ir:80?path=%2F&security=none&encryption=none&host=arv.liarashop.ir&type=ws#🇮🇷
 vless://145fca93-5d56-4fd6-bb35-89cf84779387@37.152.189.74:4431?path=%2Fek%2Firinn%2Flive%2F1080p%2F&security=&encryption=none&host=live-azd1102.telewebion.ir&type=ws#🇮🇷
 vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?security=reality&encryption=none&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com#🇺🇸
@@ -118,6 +122,7 @@ vless://17a0ce68-6a4b-44b9-9ff2-1ff325cb7377@link.mizbanertebatfarda.site:6013?p
 vless://17a7bf97-fef5-4101-a5c5-7c730fabeeee@www.speedtest.net:443?path=TELEGRAM-MARAMBASHI%2F%3Fed%3D2048&security=tls&encryption=none&host=bpb-worker-panel-h5f.pages.dev&fp=firefox&type=ws&sni=bpb-worker-panel-h5f.pages.dev#🏳️
 vless://17c4e377-ea15-07d0-98b2-3e348c9ff5d9@46.235.189.157:443?path=%2F%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=lk-cdn.deploy-assure.ru&fp=chrome&type=ws&sni=lk-cdn.deploy-assure.ru#🇷🇺
 vless://17f9bbca-3dd1-4515-bcbc-0427447fd2fe@v2.pcjxq.digital:13351?type=tcp&encryption=none&security=none#🇮🇷
+vless://18b9167c-c25f-453d-a48d-036d0d1eb770@packetnet.vianabeauty.ir:45359?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://18d0bbd9-b1d5-4e71-bb2c-14eb3fe517f9@back.avenprime.ir:80?path=%2F%3Fed%3D2048&security=&encryption=none&type=ws#🇮🇷
 vless://18e6431b-161f-49cc-945a-fd2737341d2c@tr-581.star-kurd.net:2096?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp&sni=sni-tr.star-kurd.net#🏳️
 vless://1953a6e9-d21a-46d7-bd80-eee54f27b155@vp.irajapan.store:20202?type=tcp&encryption=none&security=none#🇮🇷
@@ -183,7 +188,6 @@ vless://33386446-d998-437b-a04f-df3dcac3df63@185.143.233.5:443?path=%2F%3Fed%3D4
 vless://33898eee-eea1-41a6-adce-f41c963174a0@snapp.ir:80?encryption=none&security=none&type=ws&host=c.hshonar.ir&path=%2F#🇮🇷
 vless://34704650-eb3b-4294-978b-9c70d6df5f55@v2.pcjxq.digital:20666/?type=tcp&encryption=none&security=none#🇮🇷
 vless://3471c14b-b5da-47b8-90e7-64efef875739@Mgod-24.2.globalmymusic2.com:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=best.3.iran.avenflow.ir&type=ws#🇮🇷
-vless://349044ee-9997-4b0e-90dc-62e26e63d34d@iran.halawar.com:51976?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://35d6daea-d17b-4355-9464-2ce4ca3af68b@v2.pcjxq.digital:20666/?type=tcp&encryption=none&security=none#🇮🇷
 vless://36dedacc-0b7a-4674-8331-6d9c37dc14b9@NullNetwork.vianabeauty.ir:44100?type=tcp&security=none#🇮🇷
 vless://36e12441-e443-4b77-b8d9-aa84a77f2b3e@y01.dl5movis.ir:443?security=none&encryption=none&host=www.aparat.com&headerType=http&type=tcp#🇮🇷
@@ -194,7 +198,3 @@ vless://37815f4c-84eb-4463-b745-9ebeb902d9d5@snapp.ir:2095?type=ws&encryption=no
 vless://3789d9fd-8549-46d6-ba19-4a8b13f60218@NullNetwork.vianabeauty.ir:46054?type=tcp&security=none#🇮🇷
 vless://37b67fa2-1dbb-4833-b5df-646b323e573c@snapp.ir:8080?encryption=none&host=cm.programming-coding.ir&path=%2F&security=none&type=ws#🇮🇷
 vless://37bd59ad-2606-4f67-9d8d-cca22120a0fe@turki.esrtz.onl:8080?security=none&allowInsecure=0&encryption=none&type=tcp&host=fast.com&path=/&headerType=http#🇮🇷
-vless://37bd59ad-2606-4f67-9d8d-cca22120a0fe@turki.esrtz.onl:8080?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#🇮🇷
-vless://3816f0b2-692f-4ced-bbfe-e903d3946d9c@f1.springpaatogh8.store:2053?path=%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=chess.sorza.ir&type=ws&allowInsecure=0&sni=digikala.sorza.ir#🏳️
-vless://3826b3d4-5a69-48c1-80ba-9f4f8282bf13@ww.boldtest.ir:8880?encryption=none&type=ws&path=/&security=none#🇮🇷
-vless://3834a069-a71f-410d-b8f5-0bc68652eb37@vip.masterdadeh.ir:80?path=%2F&security=none&encryption=none&type=ws#🇮🇷
