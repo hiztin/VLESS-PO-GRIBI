@@ -15,7 +15,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@217.197.161.136:801#🇸�
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVZ05EZXZNV1dvSVVhQW5hcHd4ZVNSN3dnZGx4V0xRaA@vip2.myspacex.shop:20900#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@admin.c1.webramz.co:443#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#🇿🇦
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.202:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.122:8080#🇬🇬
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182:443#🇬🇬
@@ -174,7 +173,6 @@ vless://1f54efed-b621-4782-b113-7ca6a10f5cad@185.143.233.200:80?mode=auto&path=%
 vless://1fa77a0c-8f37-41c6-b9ca-2c8340bd2cd1@ar.speed1vipsarbaziclick.site:41371?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://1fa8fa78-af1a-4314-9de9-84efa47e9726@packetnet.vianabeauty.ir:44100?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://205b6442-d9fa-4971-f90b-cfd124a669a3@melllkshe.lpoco.site:2096?security=none&type=tcp#🇮🇷
-vless://20adc847-4159-4f39-b79f-d563b660945f@simurgh.adslimit.info:2345?security=none&encryption=none&headerType=none&type=tcp#🇬🇬
 vless://20bc570b-0d2e-4514-832b-f588d416bdf2@185.143.234.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
 vless://20ed1b6d-c84a-468a-b42d-67332ec56096@ir.ir.xy-v4ray.lat:8443?encryption=none&security=tls&sni=files22.xy-v4ray.lat&alpn=h2&fp=chrome&type=xhttp&host=files22.xy-v4ray.lat&path=%2F&mode=auto&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D#🏳️
 vless://2101adeb-fe06-4aa2-8323-cc2178b60f6a@snapp.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&host=ar.liarashop.ir&path=/#🇮🇷
@@ -198,3 +196,5 @@ vless://2cd53a7b-050d-4120-941d-c1c4bfa9406d@104.18.32.47:8443?path=%2FTelegram%
 vless://2cd53a7b-050d-4120-941d-c1c4bfa9406d@162.159.152.4:8443?path=%2FTelegram%40SoonTeam%2CTelegram%40SoonTeam%2CTelegram%40SoonTeam%2CTelegram%40SoonTeam%2CTelegram%40SoonTeam&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=soonteam.imsoon.io&fp=chrome&type=ws&allowInsecure=0&sni=soonteam.imsoon.io#🏳️
 vless://2cd53a7b-050d-4120-941d-c1c4bfa9406d@188.114.99.0:8443?path=%2FTelegram%40SoonTeam%2CTelegram%40SoonTeam%2CTelegram%40SoonTeam%2CTelegram%40SoonTeam%2CTelegram%40SoonTeam&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=soonteam.imsoon.io&fp=chrome&type=ws&allowInsecure=0&sni=soonteam.imsoon.io#🏳️
 vless://2cd53a7b-050d-4120-941d-c1c4bfa9406d@194.50.216.61:8443?path=%2FTelegram%40SoonTeam%2CTelegram%40SoonTeam%2CTelegram%40SoonTeam%2CTelegram%40SoonTeam%2CTelegram%40SoonTeam&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=soonteam.imsoon.io&fp=chrome&type=ws&allowInsecure=0&sni=soonteam.imsoon.io#🇮🇷
+vless://2d267fcf-24b3-4d26-86d8-1a1e121358eb@vip2-nightgemshop.sap-tanbol.ir:8080?path=%2F&security=none&encryption=none&host=vip2-nightgemshop.sap-tanbol.ir&type=ws#🇮🇷
+vless://2dc93929-242f-455f-83e4-a85a6a59546a@81.12.46.173:443?security=&encryption=none&headerType=none&type=tcp#🇮🇷
