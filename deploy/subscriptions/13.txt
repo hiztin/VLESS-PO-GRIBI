@@ -50,7 +50,6 @@ vless://04c98c9e-e1ab-4bea-bf90-1f75e35c14e1@vp.irajapan.store:20202?type=tcp&en
 vless://052fd12c-16a2-4442-9708-b6d37d2c3293@dl.fastbash.org:40615?security=&encryption=none&headerType=&type=tcp#🇩🇪
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.126.233.247:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#🇩🇪
 vless://059c147e-e293-4ab4-ab9e-9acc52c8cb5b@NullNetwork.vianabeauty.ir:44100?type=tcp&security=none#🇮🇷
-vless://05a17ccb-a231-4e8c-af1a-810691c27d88@VIP2.xQFire.iR:811?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://05b4b2a2-d9f1-46f1-848b-79f61585cf27@94.183.175.172:1313?security=&encryption=none&headerType=none&type=tcp#🇦🇪
 vless://05c6409d-2018-4a09-bfd7-c4c05aad6d0e@NullNetwork.vianabeauty.ir:45359?security=&encryption=none&headerType=&type=tcp#🇮🇷
 vless://0624d1f8-d3ef-4650-b1da-46140bf72b81@104.18.12.149:8443?path=%2F%3Fed%3D2048&security=tls&alpn=h2&encryption=none&insecure=1&host=EdGe.teChnOishoP.coM&fp=chrome&type=ws&allowInsecure=1&sni=EdGe.teChnOishoP.coM#🏳️
@@ -131,7 +130,6 @@ vless://11a6d832-cac8-4ce4-a2f9-f0e87c4b6e35@shopcenter.lumavision.ir:8080?secur
 vless://11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf@104.21.75.235:443?allowInsecure=1&encryption=none&host=ancient-heart-60c5.dpccgizieb.workers.dev&path=%2FeyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D&security=tls&sni=ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV&type=ws#🏳️
 vless://12742b91-569b-460d-9c26-6450a809a700@xrp.mohamadrz.xyz:46929?security=&encryption=none&headerType=http&type=tcp#🇮🇷
 vless://12d75b7d-8fdf-4785-8d62-d836854e7e63@104.18.4.130:2052/?type=ws&encryption=none&flow=&host=parking-nfchbwa1-v2.parking-1ab.workers.dev&path=%2F%20%40ProxyVPN11#🏳️
-vless://12f57c59-b8dc-4c9d-b27f-ddef563ab680@aparatrat1.info:2083?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://137a9fef-629a-4197-abe9-9114a314a77c.ir:80?path=%2F&security=none&encryption=none&host=arv.liarashop.ir&type=ws#🏳️
 vless://137a9fef-629a-4197-abe9-9114a314a77c@snapp.ir:80?path=%2F&security=&encryption=none&host=arv.liarashop.ir&type=ws#🇮🇷
 vless://137a9fef-629a-4197-abe9-9114a314a77c@snapp.ir:80?path=%2F&security=none&encryption=none&host=arv.liarashop.ir&type=ws#🇮🇷
@@ -149,8 +147,6 @@ vless://16c91836-34a1-42fd-9ecd-66ce78f2745b@abr.superip.ir:2082?security=none&t
 vless://16c91836-34a1-42fd-9ecd-66ce78f2745b@abr.superip.ir:2086?security=none&type=ws&headerType=&path=%2FAPI%2Fsuperip&host=cd2.phill-up.ir#🇮🇷
 vless://16c91836-34a1-42fd-9ecd-66ce78f2745b@abr.superip.ir:2086?security=none&type=ws&headerType=&path=%2FAPI%2Fsuperip&host=tu.bi6x.ir#🇮🇷
 vless://16c91836-34a1-42fd-9ecd-66ce78f2745b@abr.superip.ir:8080?security=none&type=ws&headerType=&path=%2FAPI%2Fsuperip&host=ne.landing-sours.ir#🇮🇷
-vless://1707f998-6f09-44b1-b725-d3fe27df3e9e@tob1-c8040d1d55-edare.apps.ir-central1.arvancaas.ir:80?path=%2F&security=none&encryption=none&host=tob1-c8040d1d55-edare.apps.ir-central1.arvancaas.ir&type=ws#🇮🇷
-vless://17c4e377-ea15-07d0-98b2-3e348c9ff5d9@46.235.189.157:443?path=%2F%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=lk-cdn.deploy-assure.ru&fp=chrome&type=ws&sni=lk-cdn.deploy-assure.ru#🇷🇺
 vless://18805ff3-b420-45de-af18-93be14024ae8@47.251.25.74:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.amazon.com&fp=chrome&security=reality&pbk=H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8&sid=#🇺🇸
 vless://18805ff3-b420-45de-af18-93be14024ae8@47.251.25.74:443?security=reality&encryption=none&pbk=H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com#🇺🇸
 vless://189962be-bd64-4b3d-945a-e3d1982b4112@37.32.27.85:80?encryption=none&type=ws&host=a1.supreme-xfast.ir&path=/&security=none#🇮🇷
@@ -187,7 +183,7 @@ vless://1fa8fa78-af1a-4314-9de9-84efa47e9726@packetnet.vianabeauty.ir:44100?secu
 vless://205b6442-d9fa-4971-f90b-cfd124a669a3@melllkshe.lpoco.site:2096?security=none&type=tcp#🇮🇷
 vless://20bc570b-0d2e-4514-832b-f588d416bdf2@185.143.234.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
 vless://20ed1b6d-c84a-468a-b42d-67332ec56096@ir.ir.xy-v4ray.lat:8443?encryption=none&security=tls&sni=files22.xy-v4ray.lat&alpn=h2&fp=chrome&type=xhttp&host=files22.xy-v4ray.lat&path=%2F&mode=auto&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22scMaxConcurrentPosts%22%3A100%2C%22scMinPostsIntervalMs%22%3A30%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22noGRPCHeader%22%3Afalse%7D#🏳️
-vless://2101adeb-fe06-4aa2-8323-cc2178b60f6a@snapp.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&host=ar.liarashop.ir&path=/#🇮🇷
+vless://21e496f2-3950-47e7-bbd4-b9989ab52dd1@verso.nahidapp.com:443?path=%2Fvl%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=verso.nahidapp.com&type=ws&allowInsecure=0&sni=verso.nahidapp.com#🇮🇷
 vless://2204306a-76c2-478e-90fe-dcdfe4a1bc8a@185.143.233.235:80?security=&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
 vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@188.114.98.0:2052?mode=auto&path=pabloping&security=&encryption=none&host=nlbv2.pabloping.pro&type=xhttp#🏳️
 vless://22d1fc2b-f396-4c42-8bf9-c1a37d02d4a6@37.32.27.85:80?type=ws&encryption=none&path=%2F&host=a1.supreme-xfast.ir&security=none#🇮🇷
@@ -198,3 +194,7 @@ vless://2601740f-12a1-4e61-ba12-4e84915f5ed8@185.143.234.235:80?security=none&al
 vless://2601740f-12a1-4e61-ba12-4e84915f5ed8@185.143.234.235:80?security=none&encryption=none&host=vixon.portab.org%40Config0plus&type=ws#🇮🇷
 vless://2601740f-12a1-4e61-ba12-4e84915f5ed8@185.143.234.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
 vless://2651b19d-66d2-4339-a04d-3e6025b95b46@94.131.112.26:443?security=reality&encryption=none&echfq=none&pbk=2cdGHEGP5A3WdXhrCSZEdNtMe80thM6o2mhzre3sMhY&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=samsung.com&sid=5d8bd36d#🇲🇩
+vless://26524cce-d514-4014-#🏳️
+vless://26524cce-d514-4014-a426-365fb266a14d@8.6.112.6:443?path=%2Fdanfeng&security=tls&encryption=none&insecure=1&host=snippet.danfeng.rr.kg&type=ws&allowInsecure=1&sni=snippet.danfeng.rr.kg#🏳️
+vless://2661938c-104f-456f-8282-4f874bd4de12@snapp.ir:80?encryption=none&security=none&type=ws&host=c.hshonar.ir&path=%2F#🇮🇷
+vless://2928d9a9-691f-4b74-8ae0-30eb4cab5101@FBI.Mj-NetPlus.com:21171?security=none&encryption=none&headerType=none&fp=chrome&type=tcp#🇮🇷
