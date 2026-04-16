@@ -139,6 +139,7 @@ vless://15235ce9-4cd2-4483-b6b6-7fc4a3f44735@104.19.44.107:443?&security=tls&fp=
 vless://15235ce9-4cd2-4483-b6b6-7fc4a3f44735@172.64.144.22:443?&security=tls&fp=random&sni=snip.ere.de5.net&type=ws&headerType=none&host=snip.ere.de5.net&path=%2F%3Fed%3D2560#🏳️
 vless://15235ce9-4cd2-4483-b6b6-7fc4a3f44735@198.41.223.110:443?&security=tls&fp=random&sni=snip.ere.de5.net&type=ws&headerType=none&host=snip.ere.de5.net&path=%2F%3Fed%3D2560#🏳️
 vless://15235ce9-4cd2-4483-b6b6-7fc4a3f44735@registry.cyou:443?&security=tls&fp=random&sni=snip.ere.de5.net&type=ws&headerType=none&host=snip.ere.de5.net&path=%2F%3Fed%3D2560#🏳️
+vless://1552905d-4674-4471-801a-92222ef1a69f@37.152.189.74:4431?path=%2Fek%2Firinn%2Flive%2F1080p%2F&security=none&encryption=none&host=live-azd1102.telewebion.ir&type=ws#🇮🇷
 vless://1570f47c-e2b2-4608-86df-9c52d4f9a9e0@softgozar.navar14.ir:443?encryption=none&type=ws&host=varzesh3.com&path=/&security=none#🇮🇷
 vless://157cb924-2adc-4f4e-9d54-ba105b6dff30@www.speedtest.net:443?type=ws&amp%3Bpath=/&amp%3Bhost=vip.hackers855.sbs&amp%3Bsecurity=tls&amp%3Bfp=chrome&amp%3Bsni=vip.hackers855.sbs#🏳️
 vless://1685f24d-ca3b-428a-9087-0a060d6e4f1b@185.143.234.122:80?encryption=none&type=ws&host=ir1de.lowping4.ir&path=/&security=none#🇮🇷
@@ -197,4 +198,3 @@ vless://2651b19d-66d2-4339-a04d-3e6025b95b46@94.131.112.26:443?security=reality&
 vless://26524cce-d514-4014-#🏳️
 vless://26524cce-d514-4014-a426-365fb266a14d@8.6.112.6:443?path=%2Fdanfeng&security=tls&encryption=none&insecure=1&host=snippet.danfeng.rr.kg&type=ws&allowInsecure=1&sni=snippet.danfeng.rr.kg#🏳️
 vless://2661938c-104f-456f-8282-4f874bd4de12@snapp.ir:80?encryption=none&security=none&type=ws&host=c.hshonar.ir&path=%2F#🇮🇷
-vless://2928d9a9-691f-4b74-8ae0-30eb4cab5101@FBI.Mj-NetPlus.com:21171?security=none&encryption=none&headerType=none&fp=chrome&type=tcp#🇮🇷
