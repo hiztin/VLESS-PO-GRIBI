@@ -1,3 +1,4 @@
+vless://5785444d-596b-425c-8b1c-727a539508d9@2.144.20.130:443/?type=tcp&encryption=none&flow=#freenet_vt%20
 vless://68de97d5-db78-4d9d-a90a-01a5ee3c1b0d@n1.linkinfo.cloud:8080?path=/&security=&encryption=none&type=ws#https://t.me/ConfigX2ray
 vless://03896a37-db8f-44ed-8ce1-45a1577f6da6@172.67.216.218:443?allowInsecure=1&encryption=none&host=stipulations.gelatin.workers.dev&path=%2FeyJqdW5rIjoiZzIxRUF6V2JFOW5IRyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D&security=tls&sni=stipulations.gelatin.workers.dev&type=ws#APPXA
 vless://054b9fdb-4ca8-4b2e-9855-c1515c4937c5@188.114.98.0:443?allowInsecure=1&encryption=none&host=ekhtelal120.mobailfarid4.ir&path=%2F&security=tls&sni=ekhtelal120.mobailfarid4.ir&type=ws#APPXA
@@ -197,4 +198,3 @@ vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@139.84.232.188:443?security=tls&typ
 vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@104.238.24.225:443?security=tls&type=ws&host=2-ayr.pages.dev&fp=chrome&sni=2-ayr.pages.dev&path=%2F&encryption=none#APPXA
 vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@104.238.24.247:443?security=tls&type=ws&host=2-7fc.pages.dev&fp=chrome&sni=2-7fc.pages.dev&path=%2F&encryption=none#APPXA
 vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@104.239.87.213:2053?security=tls&type=ws&host=2-eox.pages.dev&fp=chrome&sni=2-eox.pages.dev&path=%2F&encryption=none#APPXA
-vless://ce069292-c8bf-40dd-a6b1-87818a1e64e9@104.239.87.213:8443?security=tls&type=ws&host=3-2h8.pages.dev&fp=chrome&sni=3-2h8.pages.dev&path=%2F&encryption=none#APPXA
