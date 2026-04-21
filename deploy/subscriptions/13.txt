@@ -62,8 +62,10 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiWjg3YW1QcGRHN0t1V002MmJLdG0xS0hvb3d1VmpuVjh
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjk1NWM4NTMwMzIwMTIw@38.54.29.57:11201#🇬🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYWZhZDk2ODI2Yzc5ZGRk@163.171.137.76:47394#🇺🇦
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplbFR1bzczRnNRd085MEViTG85NlZl@45.55.40.127:49726#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNTRjZGVlMTBmOGIyNWNl@57.129.95.38:11201#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppQ3FiTElyRXJsSG1XbnVRcDNpR0pB@109.69.23.18:8388#🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.190:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.202:8080#🇬🇬
@@ -117,6 +119,7 @@ vless://038ffa0b-325f-4813-9609-a49fb44614a3@snapp.ir:80?path=%2FFIRELINK&securi
 vless://03ab6794-0c03-4c6c-adc5-2767a5ac9dc5@plesk.iranwiki.mom:55002?path=%2F&security=&encryption=none&host=igap.net&type=ws#🇮🇷
 vless://03ea7b53-29a9-4f5f-9dad-065b57665735@snapp.ir:80?type=ws&encryption=none&security=none&sni=cdngraph.newmew.site&alpn=http%2F1.1&fp=chrome&path=%2Fgraphql%3Fed%3D2560&host=cdngraph.newmew.site#🇮🇷
 vless://04c66e44-f54f-4c39-8b7c-a99daa70273d@www.arvancloud.ir:8880?encryption=none&type=ws&path=%2FMehd&host=vs4bazi-newoverserv.itbazi.ir#🇮🇷
+vless://04c66e44-f54f-4c39-8b7c-a99daa70273d@www.arvancloud.ir:8880?path=%2FMehd&security=none&encryption=none&host=vs4bazi-newoverserv.itbazi.ir&type=ws#🇮🇷
 vless://053c003d-6233-4fd5-b1b7-8bd1d34fe519@185.143.234.235:80?path=%2F&security=none&encryption=none&host=koko.axyno.ir&type=ws#🇮🇷
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.184.163.171:22224?path=%2Ftelegram-channel-vlessconfig&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=trojan.burgerip.co.uk#🇩🇪
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.126.233.247:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#🇩🇪
@@ -195,6 +198,3 @@ vless://15a8a868-ddd3-4a8c-bf7a-bb81671bf157@f1.springpaatogh8.store:8443?path=%
 vless://16c95a58-0aef-47b3-bee8-cc90c3a91a51@packetnet.vianabeauty.ir:44100?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://16dfea20-9892-40eb-9130-20664ab11eaa@185.143.233.235:80?encryption=none&type=ws&path=%2F&host=vixon.portab.org#🇮🇷
 vless://16dfea20-9892-40eb-9130-20664ab11eaa@185.143.233.235:80?encryption=none&type=ws&path=%2F&host=vixon.portab.org&allowInsecure=1#🇮🇷
-vless://17c3a2f2-38a8-4d39-84c2-a6af16eefcaf@snapp.ir:8880?encryption=none&type=ws&path=%2F&host=dl-io.shomalnojm.ir#🇮🇷
-vless://18535741-e8b3-4b43-9348-785b55936751@ov-germany1.09vpn.com:80?encryption=none&path=/vless/&security=none&type=ws#🇩🇪
-vless://18805ff3-b420-45de-af18-93be14024ae8@47.251.25.74:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.amazon.com&fp=chrome&security=reality&pbk=H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8&sid=#🇺🇸
