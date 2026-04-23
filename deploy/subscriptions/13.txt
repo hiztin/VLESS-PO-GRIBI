@@ -69,6 +69,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.179:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplbFR1bzczRnNRd085MEViTG85NlZl@45.55.40.127:49726#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNTRjZGVlMTBmOGIyNWNl@57.129.95.38:11201#🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnQzdhUXY5RHNFTmFWZkt6VFBES1lW@212.192.14.226:41968#🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppQ3FiTElyRXJsSG1XbnVRcDNpR0pB@109.69.23.18:8388#🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.179:8080#🇬🇬
@@ -79,7 +80,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg@3.1.195.148:8316#🇸🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptWnhLcjZWaFpKWGZLYlh2dWM2T3E3@103.205.140.115:443#🇮🇳
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuWEhWWVg2TDVFb2ZWb0ppN1pkQ0F4SmZWTVhIZGoxMmRRUkVrUkNGUU1QY3NyRlhYV3FIeDNXUlVhellaVkM4dlo0N1h0SDVzRGtHbzFyTlpyaTZTV3hobnJ4NUNmVno@185.5.38.111:55988#🇬🇬
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.151:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.235:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.251:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.101:8080#🇬🇬
@@ -100,6 +100,8 @@ ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.241:443#🇯🇵
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.169:443#🇺🇸
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#🇺🇸
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6:443#🇺🇸
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236:443#🇺🇸
+ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.40:38388#🇻🇳
 ss://YWVzLTI1Ni1nY206N2FlNGU2OGNmNzdmNjA4OQ@185.22.155.49:60129#🇷🇺
 ss://YWVzLTI1Ni1nY206N2FlNGU2OGNmNzdmNjA4OQ@195.133.5.36:60129#🇷🇺
 ss://YWVzLTI1Ni1nY206N2UxZGQ0YzU1YmY4NWRhNQ@212.192.15.209:19081#🇭🇰
@@ -164,7 +166,6 @@ vless://090f7ec2-4b69-4d35-9fc4-4aa35ac29e48@vip.gxnetshop.ir:1000?security=&enc
 vless://098fd515-29de-4d74-b77d-d8ab878a7e2c@104.18.12.149:443?path=%2Fresgdws&security=tls&encryption=none&insecure=1&host=rivvers.info&type=ws&allowInsecure=1&sni=rivvers.info#🏳️
 vless://09a3e75a-b11e-4d18-bd91-d2ebce13f26b@me.nakhlmob.com:3530?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://09d12e6b-c25b-4c78-bc5d-99941c52177e@snapp.ir:80?path=%2F&security=none&encryption=none&host=ar.liarashop.ir&type=ws#🇮🇷
-vless://0a05cb13-1d81-4aac-ac2b-cd6b29ac873c@37.152.189.74:4431?path=%2Fek%2Firinn%2Flive%2F1080p%2F&security=none&encryption=none&host=live-azd1102.telewebion.ir&type=ws#🇮🇷
 vless://0a5ab719-2407-4398-b507-8437ef365023@104.21.31.4:8880?encryption=none&host=underthegun.cfd.&path=%2FFCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY&security=none&type=ws#🏳️
 vless://0ac27853-46c8-4157-a0c5-d3671f348171@x.hypersonic.pw:55036?type=tcp&encryption=none&security=none#🇮🇷
 vless://0ad4455c-cad7-46a9-9365-fc2abfaa0983@snapp.ir:8080?path=%2F&security=none&encryption=none&host=cm.programming-coding.ir&type=ws#🇮🇷
@@ -180,6 +181,7 @@ vless://0ecb2769-9d3c-4ed3-9ffd-88a96f90f30a@abr.superip.ir:2086?path=%2FAPI%2Fs
 vless://0ee3d73f-635e-48a1-a920-275706d49e2a@abr.superip.ir:2086?encryption=none&type=ws&path=%2FAPI%2Fsuperip&host=tu.bi6x.ir#🇮🇷
 vless://109f3cfa-8fc5-4a44-8a46-5ae3c8c262ff@ahmad-ir.3patify.com:37214?security=&encryption=none&host=google.com&headerType=http&type=tcp#🇮🇷
 vless://10d15584-fe06-4c78-b106-7a96439e731b@185.143.233.235:80?security=&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
+vless://10d15584-fe06-4c78-b106-7a96439e731b@185.143.233.235:80?security=none&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
 vless://11348c0f-b646-446a-bad7-b2b39c6de767@138.124.9.190:16558?security=reality&encryption=none&pbk=vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gpuopen.com&sid=0a856e071790b1#🇨🇭
 vless://119e6e4d-bd43-4cf3-956e-29df88adb4f1@vr.vppsn.top:34827?type=tcp&security=none#🇮🇷
 vless://11f11960-5e5b-4641-b690-68d7c1088a5c@abr.superip.ir:2052?path=%2FAPI%2Fsuperip&security=&encryption=none&host=library.phill-up.ir&type=ws#🇮🇷
@@ -196,5 +198,3 @@ vless://151461ca-be51-4dc9-bd56-4f865083ab90@185.143.234.122:80?path=%2F&securit
 vless://15235ce9-4cd2-4483-b6b6-7fc4a3f44735@108.162.198.31:443?&security=tls&fp=random&sni=snip.ere.de5.net&type=ws&headerType=none&host=snip.ere.de5.net&path=%2F%3Fed%3D2560#🏳️
 vless://15235ce9-4cd2-4483-b6b6-7fc4a3f44735@173.245.59.209:443?&security=tls&fp=random&sni=snip.ere.de5.net&type=ws&headerType=none&host=snip.ere.de5.net&path=%2F%3Fed%3D2560#🏳️
 vless://15235ce9-4cd2-4483-b6b6-7fc4a3f44735@staticdelivery.nexusmods.com:443?&security=tls&fp=random&sni=snip.ere.de5.net&type=ws&headerType=none&host=snip.ere.de5.net&path=%2F%3Fed%3D2560#🏳️
-vless://1575ff65-75c5-4ca9-8d73-35a9d0d72671@net.ulteracrypto.site:14971?type=tcp&encryption=none&security=none#🇮🇷
-vless://15a8a868-ddd3-4a8c-bf7a-bb81671bf157@f1.springpaatogh8.store:2053?path=%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=chess.sorza.ir&type=ws&allowInsecure=0&sni=digikala.sorza.ir#🏳️
