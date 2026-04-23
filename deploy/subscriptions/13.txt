@@ -62,6 +62,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@154.46.31.106:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRVG1MVmlVNFZFbXV3Yk94VXc0SVhk@107.172.250.161:59556#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.242:62685#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@admin.c1.webramz.co:443#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXQzBHYmlDazY3SzhuSERhREhtWUlY@159.223.236.36:19582#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiWjg3YW1QcGRHN0t1V002MmJLdG0xS0hvb3d1VmpuVjhDS3RxNjUzeW1IY2cyZFBZY1BKZm5hUTYxc3R1QWpyMlppTERhcUg1Nlhwa3hFWXV3RHp6UnJNV2llZWJXR3Q@185.5.38.111:55988#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYjk1NWM4NTMwMzIwMTIw@38.54.29.57:11201#🇬🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157:8080#🇳🇱
@@ -106,6 +107,7 @@ ss://YWVzLTI1Ni1nY206OTkzOTRjZmViZTZjMDkwNg@185.141.219.158:30312#🇯🇵
 ss://YWVzLTI1Ni1nY206OWNhMjgwM2MxNmRlNzJjZA@46.17.40.29:10986#🇷🇺
 ss://YWVzLTI1Ni1nY206OWYzZDFhNmQzMTQ2ODU5OQ@195.58.49.100:10990#🇷🇺
 ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#🇪🇪
+ss://YWVzLTI1Ni1nY206SEdsenNLVXFhVGlDMFBTTEhuNmpUODNPWnZHaUxucEk@185.39.204.196:7918#🇹🇷
 ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#🇰🇷
 ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.161.123:8119#🇨🇭
 ss://YWVzLTI1Ni1nY206ZGFkYTEyMDM@15.135.165.225:80#🇦🇺
@@ -174,6 +176,7 @@ vless://0ee3d73f-635e-48a1-a920-275706d49e2a@abr.superip.ir:2086?encryption=none
 vless://0f631721-c6e7-4660-8f9a-44f88fa871c5@104.19.229.21:80?type=ws&encryption=none&path=%2F&host=rylig.nybaz.space&security=none#🏳️
 vless://0f631721-c6e7-4660-8f9a-44f88fa871c5@8.6.112.71:80?path=%2F&security=none&encryption=none&host=rylig.nybaz.space&type=ws#🏳️
 vless://109f3cfa-8fc5-4a44-8a46-5ae3c8c262ff@ahmad-ir.3patify.com:37214?security=&encryption=none&host=google.com&headerType=http&type=tcp#🇮🇷
+vless://11348c0f-b646-446a-bad7-b2b39c6de767@138.124.9.190:16558?security=reality&encryption=none&pbk=vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gpuopen.com&sid=0a856e071790b1#🇨🇭
 vless://119e6e4d-bd43-4cf3-956e-29df88adb4f1@vr.vppsn.top:34827?type=tcp&security=none#🇮🇷
 vless://11f11960-5e5b-4641-b690-68d7c1088a5c@abr.superip.ir:2052?path=%2FAPI%2Fsuperip&security=&encryption=none&host=library.phill-up.ir&type=ws#🇮🇷
 vless://132f65bf-6bbb-4b76-9ffd-6111dcc76483@arvancloud.ir:80?encryption=none&type=ws&path=%40TunizoNET&host=enzo.amirenzohost.ir&allowInsecure=1#🇮🇷
@@ -195,6 +198,3 @@ vless://1552905d-4674-4471-801a-92222ef1a69f@37.152.189.74:4431?path=%2Fek%2Firi
 vless://1575ff65-75c5-4ca9-8d73-35a9d0d72671@net.ulteracrypto.site:14971?type=tcp&encryption=none&security=none#🇮🇷
 vless://15a8a868-ddd3-4a8c-bf7a-bb81671bf157@f1.springpaatogh8.store:2053?path=%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=chess.sorza.ir&type=ws&allowInsecure=0&sni=digikala.sorza.ir#🏳️
 vless://15a8a868-ddd3-4a8c-bf7a-bb81671bf157@f1.springpaatogh8.store:8443?path=%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=takken.sorza.ir&type=ws&allowInsecure=0&sni=digikala.sorza.ir#🏳️
-vless://16c95a58-0aef-47b3-bee8-cc90c3a91a51@packetnet.vianabeauty.ir:44100?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
-vless://16dfea20-9892-40eb-9130-20664ab11eaa@185.143.233.235:80?encryption=none&type=ws&path=%2F&host=vixon.portab.org#🇮🇷
-vless://16dfea20-9892-40eb-9130-20664ab11eaa@185.143.233.235:80?encryption=none&type=ws&path=%2F&host=vixon.portab.org&allowInsecure=1#🇮🇷
