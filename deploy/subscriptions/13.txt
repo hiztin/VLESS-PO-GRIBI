@@ -147,7 +147,6 @@ vless://05b4b2a2-d9f1-46f1-848b-79f61585cf27@94.183.175.172:1313?security=none&e
 vless://05dbec5c-01d0-496f-878e-3d8daf22180e@snapp.ir:8080?path=%2F&security=none&encryption=none&host=darxhinvip.bravo-six.ir&type=ws#🇮🇷
 vless://061da3a1-0b8a-4abe-a739-8b33ae5519c4@abr.superip.ir:2052?path=%2FAPI%2Fsuperip&security=none&encryption=none&host=library.phill-up.ir&type=ws#🇮🇷
 vless://063cde99-502a-4182-8cca-d7aa67305e62@de.tehranionliine.ir:80?type=ws&path=%2F&security=none#🇮🇷
-vless://0642ef1b-734a-4e64-95d7-a9dbe92035d8@185.143.235.253:2082?encryption=none&type=ws&path=%2F&host=co2.iramnew2.ir#🇮🇷
 vless://06c7a413-6c2d-e356-d0df-d4ac594a24f1@meli2.ertebatgoostar.ir:2087?security=&encryption=none&host=tv3.ir&headerType=http&type=tcp&sni=54.38.242.158#🇮🇷
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.17.72.206:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=2026.hhhhh.eu.org&path=/222.167.202.31:7443&sni=2026.hhhhh.eu.org&fp=chrome#🏳️
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@222.167.202.21:7443?allowInsecure=1&encryption=none&host=2026.hhhhh.eu.org&path=/222.167.202.21:7443&security=tls&sni=2026.hhhhh.eu.org&type=ws#🇭🇰
@@ -174,11 +173,13 @@ vless://0c0c25a1-d01c-47d6-9526-75b05e47736e@arvancloud.ir:80?type=ws&encryption
 vless://0ccbac2a-7645-4ea2-89bf-efb8bf58f96b@81.12.54.14:8080?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#🇮🇷
 vless://0ccbac2a-7645-4ea2-89bf-efb8bf58f96b@81.12.54.14:8080?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://0dac1eb4-ec6b-4572-99c4-5df68a4bcc02@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=dn.8lack.ir&fp=firefox&type=ws&sni=dn.8lack.ir#🇮🇷
+vless://0e2dfbdb-94a2-4c1f-8e93-e027912a8d38@185.143.234.235:80?path=%2F&security=none&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
 vless://0e3aad48-b46c-4899-9026-5913f222a3d0@myrt7rt8e5w5gfdfEerh8.maral-pc.site:442?ty#🇮🇷
 vless://0ecb2769-9d3c-4ed3-9ffd-88a96f90f30a@abr.superip.ir:2086?encryption=none&host=cd2.phill-up.ir&path=%2FAPI%2Fsuperip&security=none&type=ws#🇮🇷
 vless://0ecb2769-9d3c-4ed3-9ffd-88a96f90f30a@abr.superip.ir:2086?path=%2FAPI%2Fsuperip&security=none&encryption=none&host=cd2.phill-up.ir&type=ws#🇮🇷
 vless://0ee3d73f-635e-48a1-a920-275706d49e2a@abr.superip.ir:2086?encryption=none&type=ws&path=%2FAPI%2Fsuperip&host=tu.bi6x.ir#🇮🇷
 vless://109f3cfa-8fc5-4a44-8a46-5ae3c8c262ff@ahmad-ir.3patify.com:37214?security=&encryption=none&host=google.com&headerType=http&type=tcp#🇮🇷
+vless://10d15584-fe06-4c78-b106-7a96439e731b@185.143.233.235:80?security=&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
 vless://11348c0f-b646-446a-bad7-b2b39c6de767@138.124.9.190:16558?security=reality&encryption=none&pbk=vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=gpuopen.com&sid=0a856e071790b1#🇨🇭
 vless://119e6e4d-bd43-4cf3-956e-29df88adb4f1@vr.vppsn.top:34827?type=tcp&security=none#🇮🇷
 vless://11f11960-5e5b-4641-b690-68d7c1088a5c@abr.superip.ir:2052?path=%2FAPI%2Fsuperip&security=&encryption=none&host=library.phill-up.ir&type=ws#🇮🇷
@@ -197,4 +198,3 @@ vless://15235ce9-4cd2-4483-b6b6-7fc4a3f44735@173.245.59.209:443?&security=tls&fp
 vless://15235ce9-4cd2-4483-b6b6-7fc4a3f44735@staticdelivery.nexusmods.com:443?&security=tls&fp=random&sni=snip.ere.de5.net&type=ws&headerType=none&host=snip.ere.de5.net&path=%2F%3Fed%3D2560#🏳️
 vless://1575ff65-75c5-4ca9-8d73-35a9d0d72671@net.ulteracrypto.site:14971?type=tcp&encryption=none&security=none#🇮🇷
 vless://15a8a868-ddd3-4a8c-bf7a-bb81671bf157@f1.springpaatogh8.store:2053?path=%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=chess.sorza.ir&type=ws&allowInsecure=0&sni=digikala.sorza.ir#🏳️
-vless://15a8a868-ddd3-4a8c-bf7a-bb81671bf157@f1.springpaatogh8.store:8443?path=%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=takken.sorza.ir&type=ws&allowInsecure=0&sni=digikala.sorza.ir#🏳️
