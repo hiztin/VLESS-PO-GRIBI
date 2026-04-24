@@ -56,7 +56,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHNXA2d3c0bzY3SEI@108.181.0.177:8388#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKQ09WdDhwY3YzS0Q2T3FGNHhJWEpy@150.95.85.12:22867#🇯🇵
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNaG9sU3R5SEw3RGhyZXdLYnBRYTIw@185.176.221.72:24637#🇱🇻
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQV3BqUG8zdHFoUE40eVJa@8.209.74.72:20001#🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRN2NqaVZEMG9LTkUybzlzVW5aS1Fn@46.101.196.138:23243#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@154.46.31.106:443#🇷🇴
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRVG1MVmlVNFZFbXV3Yk94VXc0SVhk@107.172.250.161:59556#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.242:62685#🇳🇱
@@ -99,8 +98,6 @@ ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6:443#🇺🇸
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236:443#🇺🇸
 ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.155.40:38388#🇻🇳
 ss://YWVzLTI1Ni1nY206N2FlNGU2OGNmNzdmNjA4OQ@185.22.155.49:60129#🇷🇺
-ss://YWVzLTI1Ni1nY206N2FlNGU2OGNmNzdmNjA4OQ@195.133.5.36:60129#🇷🇺
-ss://YWVzLTI1Ni1nY206N2UxZGQ0YzU1YmY4NWRhNQ@212.192.15.209:19081#🇭🇰
 ss://YWVzLTI1Ni1nY206OTkzOTRjZmViZTZjMDkwNg@185.141.219.158:30312#🇯🇵
 ss://YWVzLTI1Ni1nY206OTkzOTRjZmViZTZjMDkwNg@185.141.219.56:30312#🇯🇵
 ss://YWVzLTI1Ni1nY206OWYzZDFhNmQzMTQ2ODU5OQ@195.58.49.100:10990#🇷🇺
@@ -157,7 +154,6 @@ vless://09a3e75a-b11e-4d18-bd91-d2ebce13f26b@me.nakhlmob.com:3530?security=none&
 vless://0ac27853-46c8-4157-a0c5-d3671f348171@x.hypersonic.pw:55036?type=tcp&encryption=none&security=none#🇮🇷
 vless://0ad4455c-cad7-46a9-9365-fc2abfaa0983@snapp.ir:8080?path=%2F&security=none&encryption=none&host=cm.programming-coding.ir&type=ws#🇮🇷
 vless://0b67dcdf-8a09-4429-b422-efac8038d31f@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=dn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=dn.8lack.ir#🇮🇷
-vless://0c0c25a1-d01c-47d6-9526-75b05e47736e@arvancloud.ir:80?type=ws&encryption=none&path=%40TunizoNET&host=dom.amirenzohost.ir&security=none#🇮🇷
 vless://0ccbac2a-7645-4ea2-89bf-efb8bf58f96b@81.12.54.14:8080?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#🇮🇷
 vless://0ccbac2a-7645-4ea2-89bf-efb8bf58f96b@81.12.54.14:8080?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://0ce883e3-5199-4cbd-95a3-c36f657ba9ab@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=bn.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=bn.8lack.ir#🇮🇷
@@ -165,11 +161,13 @@ vless://0d7d4da8-e6cd-494e-9bc5-05f0a332a214@185.143.233.235:80?type=ws&host=d.n
 vless://0dac1eb4-ec6b-4572-99c4-5df68a4bcc02@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=dn.8lack.ir&fp=firefox&type=ws&sni=dn.8lack.ir#🇮🇷
 vless://0dc7da28-69ca-467d-9d7b-f5d83e834403@khan10.tarfandgallery.sbs:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=khan10.tarfandgallery.sbs#🇮🇷
 vless://0dde9bc0-02ae-46dd-b05e-a7bdea90b127@trex.nahidapp.com:443?path=%2Fvless-ws&security=tls&encryption=none&insecure=1&host=trex.nahidapp.com&fp=chrome&type=ws&allowInsecure=1&sni=trex.nahidapp.com#🇮🇷
+vless://0e22f876-1022-4805-b7c8-4c3d9b8eba05@arvancloud.ir:80?encryption=none&security=none&type=ws&host=po.bede-baqbon-bilbezane.store&path=%2F#🇮🇷
 vless://0e2dfbdb-94a2-4c1f-8e93-e027912a8d38@185.143.234.235:80?path=%2F&security=none&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
 vless://0e3aad48-b46c-4899-9026-5913f222a3d0@myrt7rt8e5w5gfdfEerh8.maral-pc.site:442?ty#🇮🇷
 vless://0ecb2769-9d3c-4ed3-9ffd-88a96f90f30a@abr.superip.ir:2086?encryption=none&host=cd2.phill-up.ir&path=%2FAPI%2Fsuperip&security=none&type=ws#🇮🇷
 vless://0ecb2769-9d3c-4ed3-9ffd-88a96f90f30a@abr.superip.ir:2086?path=%2FAPI%2Fsuperip&security=none&encryption=none&host=cd2.phill-up.ir&type=ws#🇮🇷
 vless://0ee3d73f-635e-48a1-a920-275706d49e2a@abr.superip.ir:2086?encryption=none&type=ws&path=%2FAPI%2Fsuperip&host=tu.bi6x.ir#🇮🇷
+vless://0f79accd-a664-42d1-a7f2-decedc097ee8@p.ar-panelar.com:443?mode=auto&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&fp=chrome&type=xhttp&allowInsecure=1&sni=p.ar-panelar.com#🇮🇷
 vless://10904a2c-d7e6-473c-b33b-7fb4dcfe0bad@trex.nahidapp.com:443?path=%2Fvless-ws&security=tls&encryption=none&insecure=0&host=trex.nahidapp.com&fp=chrome&type=ws&allowInsecure=0&sni=trex.nahidapp.com#🇮🇷
 vless://109f3cfa-8fc5-4a44-8a46-5ae3c8c262ff@ahmad-ir.3patify.com:37214?security=&encryption=none&host=google.com&headerType=http&type=tcp#🇮🇷
 vless://10d15584-fe06-4c78-b106-7a96439e731b@185.143.233.235:80?security=&encryption=none&host=vixon.portab.org&type=ws#🇮🇷
@@ -195,6 +193,8 @@ vless://15a8a868-ddd3-4a8c-bf7a-bb81671bf157@f1.springpaatogh8.store:2053?path=%
 vless://16c95a58-0aef-47b3-bee8-cc90c3a91a51@packetnet.vianabeauty.ir:44100?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://183c709e-060c-4c3c-9982-b4412393702b@yas.masterdadeh.ir:80?type=ws&security=none&path=%2F#🇮🇷
 vless://18535741-e8b3-4b43-9348-785b55936751@ov-germany1.09vpn.com:80?encryption=none&path=/vless/&security=none&type=ws#🇩🇪
-vless://18905bbd-7e1d-4587-8789-7067e9a77532@185.143.234.235:80?encryption=none&type=ws&path=%2F&host=vixon.portab.org#🇮🇷
 vless://18be0473-4c68-4746-b7b3-381b92a2a6ad@185.143.233.5:443?encryption=none&security=tls&sni=fn.8lack.ir&alpn=h2%2Chttp%2F1.1&fp=firefox&allowInsecure=1&type=ws&host=fn.8lack.ir&path=%2Fchat%3Fed%3D128#🇮🇷
 vless://19122b01-725c-4d8f-bc25-8cb05cc8197c@c.cjclub.ir:20575?path=%2F&security=none&encryption=none&type=ws#🇮🇷
+vless://1955433c-a18a-4f0c-8837-390226193372@45.66.163.95:5443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=yvkNZISxbowAMxh-4NDS6GNcOeL0ziCmfkJ8PgZSTUY&security=reality&sid=30f8&sni=google.com&type=tcp#🇳🇱
+vless://19a191f7-94a6-2867-4c2e-bfad15087072@meli.masterdadeh.ir:80?path=%2F&security=none&encryption=none&type=ws&sni=185.226.94.198#🇮🇷
+vless://19f4de42-700d-4886-b7d5-2689faeeb279@plse4.gishevip.xyz:80?encryption=none&type=ws&path=%2Fxray&host=bot.vipiranian.de&allowInsecure=1#🇮🇷
