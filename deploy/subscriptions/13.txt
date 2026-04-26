@@ -2,7 +2,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MWQ2NjU1ZDM2MjVmZDE0@185.244.208.150:11201#
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MmQyYjQ3MTgxYTMyZGU3@154.26.132.38:16922#🇸🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MjY3MTY0N2FmMGNmZmEw@38.242.222.183:11201#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2YzgxNWJiODRjNzgxZGE1@51.75.168.50:13030#🇫🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZmYxNDIzZjYxZmZlNjcz@38.54.59.16:11201#🇪🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@111.248.106.149:50099#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@111.248.66.243:50099#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@111.248.87.208:50099#🇹🇼
@@ -114,6 +113,7 @@ vless://038ffa0b-325f-4813-9609-a49fb44614a3@snapp.ir:80?path=%2FFIRELINK&securi
 vless://03ab6794-0c03-4c6c-adc5-2767a5ac9dc5@plesk.iranwiki.mom:55002?path=%2F&security=&encryption=none&host=igap.net&type=ws#🇮🇷
 vless://03ab6794-0c03-4c6c-adc5-2767a5ac9dc5@plesk.iranwiki.mom:55002?path=%2F&security=none&encryption=none&host=igap.net&type=ws#🇮🇷
 vless://03ea7b53-29a9-4f5f-9dad-065b57665735@snapp.ir:80?type=ws&encryption=none&security=none&sni=cdngraph.newmew.site&alpn=http%2F1.1&fp=chrome&path=%2Fgraphql%3Fed%3D2560&host=cdngraph.newmew.site#🇮🇷
+vless://04072283-f96c-480c-9f61-21a03bfdef17@snapp.ir:2082?encryption=none&host=sub1.pavps.ir&path=%2Fe&security=none&type=ws#🇮🇷
 vless://04c66e44-f54f-4c39-8b7c-a99daa70273d@www.arvancloud.ir:8880?encryption=none&type=ws&path=%2FMehd&host=vs4bazi-newoverserv.itbazi.ir#🇮🇷
 vless://04c66e44-f54f-4c39-8b7c-a99daa70273d@www.arvancloud.ir:8880?path=%2FMehd&security=none&encryption=none&host=vs4bazi-newoverserv.itbazi.ir&type=ws#🇮🇷
 vless://04fa65ad-5178-49c0-b679-a5442e3bfe78@185.143.234.235:80?security=none&encryption=none&host=d.nsa03.com&type=ws#🇮🇷
@@ -180,7 +180,7 @@ vless://183c709e-060c-4c3c-9982-b4412393702b@yas.masterdadeh.ir:80?type=ws&secur
 vless://18535741-e8b3-4b43-9348-785b55936751@ov-germany1.09vpn.com:80?encryption=none&path=/vless/&security=none&type=ws#🇩🇪
 vless://18be0473-4c68-4746-b7b3-381b92a2a6ad@185.143.233.5:443?encryption=none&security=tls&sni=fn.8lack.ir&alpn=h2%2Chttp%2F1.1&fp=firefox&allowInsecure=1&type=ws&host=fn.8lack.ir&path=%2Fchat%3Fed%3D128#🇮🇷
 vless://19122b01-725c-4d8f-bc25-8cb05cc8197c@c.cjclub.ir:20575?path=%2F&security=none&encryption=none&type=ws#🇮🇷
-vless://1955433c-a18a-4f0c-8837-390226193372@45.66.163.95:5443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=yvkNZISxbowAMxh-4NDS6GNcOeL0ziCmfkJ8PgZSTUY&security=reality&sid=30f8&sni=google.com&type=tcp#🇳🇱
+vless://19332e70-14a4-4814-9a07-5c9e64085c2f@alihapps3.aghanami.ir:80?path=%2F&security=none&encryption=none&type=ws#🇮🇷
 vless://19a191f7-94a6-2867-4c2e-bfad15087072@meli.masterdadeh.ir:80?path=%2F&security=none&encryption=none&type=ws&sni=185.226.94.198#🇮🇷
 vless://1a18244c-7ef5-4e39-9e97-d5fe6212486c@185.143.233.235:443?encryption=none&security=tls&sni=nobitex.ir.cdnlx11u.shahramcloud.com&insecure=0&allowInsecure=0&type=ws&host=nobitex.ir.cdnlx11u.shahramcloud.com&path=%2F#🇮🇷
 vless://1b359b22-5304-4b39-8a27-41b360f09365@pg.nexorainnovationhub.ir:80?path=%2F&security=none&encryption=none&host=a31.restaurantnetwork.ir&type=ws#🇮🇷
