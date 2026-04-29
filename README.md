@@ -179,7 +179,7 @@ igarec
 ## 🍄 Контакты и поддержка
 
 - **Discord**: `h1zz`
-- **Telegram**: [@h1zzich](https://t.me/h1zzich)
+- **Telegram**: [@histeenn](https://t.me/histeenn)
 - **GitHub Issues**: [Создать issue](https://github.com/hiztin/VLESS-PO-GRIBI/issues)
 
 ---
