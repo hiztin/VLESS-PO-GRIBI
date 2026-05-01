@@ -60,7 +60,6 @@ vless://0d4ee180-aefd-4770-87bc-ae0784f5f973@snapp.ir:80?path=%2Fgraphql%3Fed%3D
 vless://0d4ee180-aefd-4770-87bc-ae0784f5f973@snapp.ir:80?type=ws&encryption=none&security=none&sni=cdngraph.newmew.site&alpn=http%2F1.1&fp=chrome&path=%2Fgraphql%3Fed%3D2560&host=cdngraph.newmew.site#🇮🇷
 vless://0d7d4da8-e6cd-494e-9bc5-05f0a332a214@185.143.233.235:80?type=ws&host=d.nsa03.com#🇮🇷
 vless://0dc7da28-69ca-467d-9d7b-f5d83e834403@khan10.tarfandgallery.sbs:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=khan10.tarfandgallery.sbs#🇮🇷
-vless://0dde9bc0-02ae-46dd-b05e-a7bdea90b127@trex.nahidapp.com:443?path=%2Fvless-ws&security=tls&encryption=none&insecure=1&host=trex.nahidapp.com&fp=chrome&type=ws&allowInsecure=1&sni=trex.nahidapp.com#🇮🇷
 vless://0df8066b-f4cc-41c3-b32f-0c6e4bed29f4@Cia.parsincharm.ir:80?path=%2F&security=none&encryption=none&host=be.storyhost.ir&type=ws#🇮🇷
 vless://0e0bf4d1-65f7-4dbd-8384-b96154f43a22@5.253.24.123:30332?encryption=none&type=tcp&headerType=none#🇮🇷
 vless://0e0bf4d1-65f7-4dbd-8384-b96154f43a22@5.253.24.123:30332?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
@@ -84,6 +83,7 @@ vless://108cbc7a-56bc-4495-a3a8-b46341ffaff4@snapp.ir:2082?path=%2F&security=non
 vless://10904a2c-d7e6-473c-b33b-7fb4dcfe0bad@trex.nahidapp.com:443?path=%2Fvless-ws&security=tls&encryption=none&insecure=0&host=trex.nahidapp.com&fp=chrome&type=ws&allowInsecure=0&sni=trex.nahidapp.com#🇮🇷
 vless://10f46bd5-16fa-4206-9bee-0f71505d11c8@45.90.75.77:51364?encryption=none&type=ws&path=%2F#🇮🇷
 vless://114e6dec-6b74-40ce-a3f1-1165dd1afae6@snapp.ir:2086?path=%2F&security=none&encryption=none&host=connect.pardisvps.ir&type=ws#🇮🇷
+vless://116980b3-d4dc-49cc-acae-30c08766b060@85.133.197.114:2083?security=&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://11a6d832-cac8-4ce4-a2f9-f0e87c4b6e35@shopcenter.lumavision.ir:8080?path=%2Fgraphql%3Fed%3D8080&security=none&encryption=none&host=shopcenter.lumavision.ir&type=ws#🇮🇷
 vless://11a6d832-cac8-4ce4-a2f9-f0e87c4b6e35@shopcenter.lumavision.ir:8080?security=none&type=ws&headerType=&path=%2Fgraphql%3Fed%3D8080&host=shopcenter.lumavision.ir#🇮🇷
 vless://11b0600a-6e96-434e-adec-84208c5a764c@185.143.233.235:80?encryption=none&host=Ld.artarona.ir&path=%2F&security=none&type=ws#🇮🇷
@@ -135,7 +135,6 @@ vless://1c8eb478-5829-41c1-8b6c-ef74bb72edf8@helm.sh:443?mode=auto&path=%2Fmambo
 vless://1cd8af3d-3101-bb48-d551-63526225f83d@meli2.masterdadeh.ir:80?path=%2F&security=none&encryption=none&type=ws&sni=185.226.94.205#🇮🇷
 vless://1d509c22-4e43-4067-9185-873ec5bb49da@de1.b762plus.shop:2013?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#🇮🇷
 vless://1d509c22-4e43-4067-9185-873ec5bb49da@de2.b762plus.shop:2015?security=&encryption=none&host=zula.ir&headerType=none&type=tcp#🇮🇷
-vless://1d509c22-4e43-4067-9185-873ec5bb49da@uk1.b762plus.shop:2087?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#🇮🇷
 vless://1dda37fa-d668-4a8e-8e02-b47cde6c951e@varzesh3.com:80?type=ws&encryption=none&path=%2Fws&host=nobody.fasterspeed.ir&security=none#🇮🇷
 vless://1e188537-c09b-44e2-b898-af7012346554@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=gn.8lack.ir&fp=firefox&type=ws&allowInsecure=1&sni=gn.8lack.ir#🇮🇷
 vless://1f140cfe-96d1-6d74-a954-e3af0ba70113@snapp.ir:2052?path=%2F%3Fed&security=none&encryption=none&host=bot.zahedimobile.ir&type=ws#🇮🇷
@@ -198,3 +197,4 @@ vless://26524cce-d514-4014-a426-365fb266a14d@104.20.6.134:443?path=%2Fdanfeng&se
 vless://270aa06e-efb1-54b9-da00-275a5a7d23eb@meli3.masterdadeh.ir:80?type=ws&host=&security=none&sni=185.226.94.200&alpn=&path=/&headerType=http#🇮🇷
 vless://270bb251-06a8-4066-8a92-f0d1bd06150a@185.143.233.235:2095?path=%2F&security=&encryption=none&host=Ml.artarona.ir&type=ws#🇮🇷
 vless://270bb251-06a8-4066-8a92-f0d1bd06150a@185.143.233.235:2095?path=%2F&security=none&encryption=none&host=Ml.artarona.ir&type=ws#🇮🇷
+vless://271b5c85-4c15-45d2-acd5-fbba9a6939d4@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=an.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=an.8lack.ir#🇮🇷
