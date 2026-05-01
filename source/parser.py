@@ -29,7 +29,7 @@ URLS = [
     # 9
     "https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt",  # 10
     "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",  # 11
-    "https://raw.githubusercontent.com/expressalaki/ExpressVPN/refs/heads/main/configs3.txt",  # 12
+    "https://raw.githubusercontent.com/nikita29a/FreeProxyList/refs/heads/main/mirror/26.txt",  # 12
     "https://raw.githubusercontent.com/R3ZARAHIMI/tg-v2ray-configs-every2h/refs/heads/main/conf-week.txt",  # 13
     "https://github.com/LalatinaHub/Mineral/raw/refs/heads/master/result/nodes",  # 14
     "https://raw.githubusercontent.com/kort0881/vpn-vless-configs-russia/refs/heads/main/subscriptions/all.part1.txt",
