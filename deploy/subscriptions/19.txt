@@ -118,6 +118,7 @@ vless://eb4a7de9-2395-4bf7-8c45-a3b8a0eae72a@abr.superip.ir:2052?path=%2FAPI%2Fs
 vless://78e1c47b-d2d2-4908-ad59-687d4e638ad0@13.35.196.67:443?path=%2Fzaou8XGhXp3dJkOw9QJ1mxpndqC&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;insecure=0&amp;host=atoll.pashmparty.fun&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=atoll.pashmparty.fun#%40FreeLand8%20%E2%AD%903
 vless://98babeec-7828-42a4-b516-661dd30057ee@kiekiedarr1.skiv.me:2087?path=%2Fapi30%3Fed%3D2048&amp;security=tls&amp;encryption=none&amp;insecure=1&amp;fp=firefox&amp;type=ws&amp;allowInsecure=1#%40FreeLand8%20%E2%AD%904
 vless://1f5358e8-f57c-44b8-9864-9c236672fbc8@185.143.233.235:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=d.nsa03.com&amp;type=ws#%40FreeLand8%20%F0%9F%8D%91
+vless://60404e8a-a1d0-4374-9b4c-6aeb32dcf51b@185.143.233.235:8080?path=%2F&amp;security=none&amp;encryption=none&amp;host=Test.bosbedetoto.site&amp;type=ws#Tarkibi2%20%40FreeLand8
 vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@172.64.35.45:2096?path=%2F45.76.183.217%3D49292&amp;security=tls&amp;encryption=none&amp;host=hetz.x-smm.com&amp;type=ws&amp;sni=hetz.x-smm.com#%F0%9F%9B%A1%20V%2051%20%40Outline_Vpn
 vless://d1b421cc-ebaf-48cf-bf12-e7947af11c53@www.tgju.org:2087?path=%2Fhttpupgrade26070&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;host=rahgozar.italiantourism.net&amp;type=httpupgrade&amp;sni=rahgozar.italiantourism.net.#%F0%9F%9B%A1%20V%2052%20%40Outline_Vpn
 vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@108.162.194.176:2096?path=%2F45.76.183.217%3D49292&amp;security=tls&amp;encryption=none&amp;host=hetz.x-smm.com&amp;type=ws&amp;sni=hetz.x-smm.com#%F0%9F%9B%A1%20V%2053%20%40Outline_Vpn
@@ -197,4 +198,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.144.28.5:8880?mode=gun&amp;secur
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@86.104.74.155:8880?mode=gun&amp;security=&amp;encryption=none&amp;type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@88.218.93.159:8880?mode=gun&amp;security=&amp;encryption=none&amp;type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.14.200:8880?mode=gun&amp;security=&amp;encryption=none&amp;type=grpc#@V2rayNG3
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.13.164:8880?mode=gun&amp;security=&amp;encryption=none&amp;type=grpc#@V2rayNG3
