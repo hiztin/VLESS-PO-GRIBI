@@ -198,7 +198,7 @@ igarec
 
 [![GitHub stars](https://img.shields.io/github/stars/hiztin/VLESS-PO-GRIBI?style=social)](https://github.com/hiztin/VLESS-PO-GRIBI/stargazers)
 
-*Последнее обновление: 03.05.2026 21:41
+*Последнее обновление: 04.05.2026 02:52
 
 </div>
 
