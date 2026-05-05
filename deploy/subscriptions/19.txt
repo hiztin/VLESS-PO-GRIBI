@@ -87,7 +87,6 @@ vless://4c3a2f39-dc52-4322-ac66-83010d12bfc0@85.239.33.76:4354?security=reality&
 vless://e384913f-8863-47b4-8858-a84b68abb4a6@4.cdnconn.com:23335?security=reality&amp;encryption=none&amp;pbk=7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=icloud.com&amp;sid=67b1e94e4dd1ef90#%F0%9F%87%BA%F0%9F%87%A6%40FreakConfig
 vless://1c4aceb6-bff7-4737-8c5d-43afb3dc350b@us01-gmn-vlr03.tcp-reset-club.net:22443?security=reality&amp;encryption=none&amp;pbk=mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg&amp;headerType=none&amp;fp=chrome&amp;spx=%2F&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=hls-svod.itunes.apple.com&amp;sid=8453e5fd9af927#%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig
 vless://eb071647-72a6-46be-8e89-ff3d228d52f6@jp.cdn.stun.su:443?security=reality&amp;encryption=none&amp;pbk=2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks&amp;headerType=none&amp;fp=chrome&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=jp.cdn.stun.su&amp;sid=f189d91760bb6663#%F0%9F%87%AF%F0%9F%87%B5%40FreakConfig
-vless://c1a8ad07-e6c2-4cac-af07-4af873d256d6@tik.var.hi-phonee.ir:50216?path=%2F&amp;security=&amp;encryption=none&amp;type=ws#prx11
 vless://c09816d1-9b53-4e0d-85a8-9def477121ab@snappfood.ir:80?path=%2Fws&amp;security=&amp;encryption=none&amp;host=cdnisfucka.drnimaamini.ir&amp;type=ws#8316429710-%2C%2C%2C
 vless://af8f4239-a62d-4e64-8971-9fff51e518ba@snapp.ir:80?path=%2FFIRELINKKVPN&amp;security=none&amp;encryption=none&amp;host=firelinkk.arian-go-internet.ir&amp;type=ws#%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C%20%D9%85%D8%AA%D8%B5%D9%84
 vless://af8f4239-a62d-4e64-8971-9fff51e518ba@snapp.ir:80?path=%2FFIRELINKKVPN&amp;security=none&amp;encryption=none&amp;host=firelinkk.arian-go-internet.ir&amp;type=ws#%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C%20%D9%85%D8%AA%D8%B5%D9%84
@@ -95,6 +94,8 @@ vless://1903b9c4-7cea-4beb-be2a-845ae73e29cc@zeusgg.isfahangaming.com:80?path=%2
 vless://9b6038df-33fb-47df-8b78-9bb8fdec4ca0@s3.vahshat.xyz:80?path=%2Fws&amp;security=none&amp;encryption=none&amp;host=v2.greentab.ir&amp;type=ws#%40proxystore11
 vless://716a36ce-dc52-4524-a7a5-8e0d2376a06f@185.143.233.235:8080?path=%2F&amp;security=none&amp;encryption=none&amp;host=R.artarona.ir&amp;type=ws#%40proxystore11
 vless://d52959f7-3c88-41b3-80db-90c3efe146cb@red.nahidapp.com:443?path=%2Fred%2F&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=red.nahidapp.com&amp;type=ws&amp;allowInsecure=0&amp;sni=red.nahidapp.com#%40proxystore11
+vless://66e438fc-699a-4ac2-85a9-3d9d7e2c6f3a@snapp.ir:2095?path=%2Ffilmirani%3Fed%3D2048&amp;security=none&amp;encryption=none&amp;host=vip.magicping.ir&amp;type=ws#Free-
+vless://6a54d481-27ee-4f24-b185-5ea44cb23073@snapp.ir:2095?path=%2F&amp;security=none&amp;encryption=none&amp;host=fb.bazisazy.ir&amp;type=ws#%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%20%20%7C%20%40proxystore11
 vless://934943ff-bc93-4715-ed3c-c7b33cdedb40@65.109.241.111:443?type=tcp&amp;path=%2F&amp;host=zula.ir&amp;headerType=http#https%3A%2F%2Ft.me%2Fcustom_14.-%DA%A9%D8%A7%D9%86%D9%81%DB%8C%D9%86%DA%AF%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%DA%86%D9%86%D9%84%20%D9%85%D8%A7https%3A%2F%2Ft.me%2Fcustom_14
 vless://990f5f4d-5568-4e0a-96bf-2d86270d8fbf@65.109.241.111:443?type=tcp&amp;path=%2F&amp;host=zula.ir&amp;headerType=http#https%3A%2F%2Ft.me%2Fcustom_14.-%DA%86%D9%86%D9%84%20%D9%85%D8%A7https%3A%2F%2Ft.me%2Fcustom_14
 vless://6378d738-1ed3-4678-89ab-27c7f19b5272@51.89.119.171:59494?security=none&amp;encryption=none&amp;host=varzesh3.com&amp;headerType=http&amp;type=tcp#%40v2rayng_org
@@ -197,4 +198,3 @@ vless://df0680ca-e43c-498d-ed86-8e196eedd012@88.218.93.159:8880?mode=gun&amp;sec
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.14.200:8880?mode=gun&amp;security=&amp;encryption=none&amp;type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@94.131.13.164:8880?mode=gun&amp;security=&amp;encryption=none&amp;type=grpc#@V2rayNG3
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@95.164.6.149:8880?mode=gun&amp;security=&amp;encryption=none&amp;type=grpc#@V2rayNG3
-vless://df0680ca-e43c-498d-ed86-8e196eedd012@185.234.66.97:8880?mode=gun&amp;security=&amp;encryption=none&amp;type=grpc#@V2rayNG3
