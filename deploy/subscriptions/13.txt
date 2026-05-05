@@ -191,10 +191,10 @@ vless://2b792699-cc3d-40b9-8019-34f375c8a8ee@snapp.ir:80?encryption=none&host=ba
 vless://2b907f5f-87ef-46bb-838c-9f18c1fd2c2f@arvancloud.ir:80?encryption=none&type=ws&path=%2Fed%3D44&host=blog.s7r.ir#🇮🇷
 vless://2b907f5f-87ef-46bb-838c-9f18c1fd2c2f@arvancloud.ir:80?path=%2Fed%3D44&security=none&encryption=none&host=blog.s7r.ir&type=ws#🇮🇷
 vless://2b94f5e8-8f5f-4888-9f95-5e31c79ce3c2@185.143.233.5:443?path=%2Fchat%3Fed%3D128&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=en.8lack.ir&fp=firefox&type=ws&allowInsecure=0&sni=en.8lack.ir#🇮🇷
+vless://2bd868f5-4b88-4e06-ab06-60f3915dc8b7@snapp.ir:8880?path=%2Felctro&security=none&encryption=none&host=clud.extra-tm.ir&type=ws#🇮🇷
 vless://2c58bb8d-9e30-4dbc-b5e1-b358efd939eb@185.143.233.235:2052?path=%2F&security=none&encryption=none&host=dev.artarona.ir&type=ws#🇮🇷
 vless://2c58bb8d-9e30-4dbc-b5e1-b358efd939eb@185.143.233.235:2082?security=none&type=ws&headerType=&path=%2F&host=Ml.artarona.ir#🇮🇷
 vless://2c8eb9c5-72ab-4ca1-b381-9fc4cdf7170e@snapp.ir:8080?encryption=none&type=ws&path=%2F&host=wt.programming-coding.ir#🇮🇷
 vless://2c9b5ccc-c915-46be-9e3e-e3edcacc1925@arvancloud.ir:80?path=%2F&security=none&encryption=none&host=gh2.ghostantaniehh.ir&type=ws#🇮🇷
 vless://2d9dd3d9-305c-438d-8021-e4ca8109fe33@188.121.103.250:443?security=&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://2ed70b33-c96c-49bd-a07c-adb8a9b5cfc6@snapp.ir:2086?path=%2F&security=none&encryption=none&host=connect.pardisvps.ir&type=ws#🇮🇷
-vless://2ee79b8d-7bc7-b497-96aa-260f0200c4d9@pari.masterdadeh.ir:80?path=%2F&security=none&encryption=none&type=ws&sni=185.226.94.204#🇮🇷
