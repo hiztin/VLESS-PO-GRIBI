@@ -12,7 +12,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=white&color=6a0dad)](https://www.python.org/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/hiztin/VLESS-PO-GRIBI?style=for-the-badge&logo=github&color=8a2be2)](https://github.com/hiztin/VLESS-PO-GRIBI/commits/main)
-[![License](https://img.shields.io/github/license/hiztin/VLESS-PO-GRIBI?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=b452cd)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/hiztin/VLESS-PO-GRIBI?style=for-the-badge&logo=github&color=ff1493)](https://github.com/hiztin/VLESS-PO-GRIBI/issues)
 
 ![Всего серверов](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hiztin/VLESS-PO-GRIBI/main/deploy/debug.json&query=total&label=всего&color=blue)
