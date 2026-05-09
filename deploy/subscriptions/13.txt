@@ -79,6 +79,7 @@ vless://0c415535-7e18-49c2-b796-4338c5e0e766@s3.tehranionliine.ir:80?path=%2F&se
 vless://0c439609-0bb7-4fd0-8a44-0cbe6cfc521e@vip.masterdadeh.ir:80?type=ws&path=%2F&security=none#🇮🇷
 vless://0c7494af-000b-4fee-abac-24599418c6ee@ir10.cdnk1.cfd:443?security=tls&encryption=none&host=ir10.cdnk1.cfd&headerType=none&type=tcp#🇮🇷
 vless://0c9353bd-2377-4124-86df-c1a51f777954@trex.nahidapp.com:443?path=%2Fvless-ws&security=tls&encryption=none&insecure=0&host=trex.nahidapp.com&fp=chrome&type=ws&allowInsecure=0&sni=trex.nahidapp.com#🇮🇷
+vless://0d29b6f5-d8da-4b5d-8e92-0f06e06aa322@VARZESH3.COM:2096?path=%2F&security=tls&encryption=none&insecure=0&host=AR3.artarona.ir&type=ws&allowInsecure=0&sni=AR3.artarona.ir#🇮🇷
 vless://0d43a8e5-7f20-4f09-b646-6e70bacb5b88@185.143.233.5:443?encryption=none&type=ws&host=alaedin7.8lack.ir&path=/@alaedin?ed%3D128&security=tls&fp=firefox&sni=alaedin7.8lack.ir&alpn=h2,http/1.1#🇮🇷
 vless://0d49ac00-b9f8-4855-9d62-35dbeb8df4f7@javid.purples.ir:80?encryption=none&type=ws&path=%2F&host=javid.tracketshop.ir#🇮🇷
 vless://0d7ca29c-ce7d-4d24-962c-1302801674e7@sr.novatechsapr.ir:8080/?type=ws&encryption=none&path=%2F&host=sr.novatechsapr.ir&security=none#🇮🇷
@@ -197,4 +198,3 @@ vless://2898f99f-337b-406a-b5d3-09d03e9ee4b5@anten.ir:2052?path=%2F&security=non
 vless://2985be49-76e4-4a93-b7d5-85c59609fdec@snapp.ir:80?type=ws&path=%2F&host=simorgh.darerio.ir&security=none#🇮🇷
 vless://29b18dda-9dcb-401f-9ab3-bac62ee330b8@ppp.dbk4.ir:24483?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://29d58e0f-aca1-4505-a38b-b4be5fa9939e@snapp.ir:80?encryption=none&host=cztestcdn.czkycnet.ir&path=%2F&security=none&type=ws#🇮🇷
-vless://2a0a8d4d-d8f1-44ca-be76-fef616927c94@telbot.divar1.panelpars.ir:80?path=%2F&security=none&encryption=none&type=ws#🇮🇷
