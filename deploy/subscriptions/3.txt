@@ -68,8 +68,6 @@ vless://00f4ebcf-6bae-4eb2-9064-2a272e4d4875@cdn.melodyshopone2.ir:8080?path=/&a
 vless://40b7d140-2ae6-4ef5-a1bd-46c430bf89ab@cdn.melodyshopone2.ir:8080?path=/&amp;security=none&amp;encryption=none&amp;host=cdn.melodyshopone2.ir&amp;type=ws#@configforVPN
 vmess://eyJhZGQiOiJqb2luLm1lbG9keWZyZWVuZXQyLnNob3AiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiIiwiaWQiOiI1MGVmMGIyMy1mMTRiLTQ1OWYtOTdhYS1kMGYzNDYxODlkMmEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbWFpbC8iLCJwb3J0IjoiNDQzIiwicHMiOiJAY29uZmlnZm9yVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IkpvaW4uTWVsb2R5RmVlbkV0Mi5zaG9QLiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiJzaGFoaW5uZXQtZnJlZW5ldGNkbi5tZWxvZHlzaG9wb25lMi5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoic29nLnNoYWhpbm5ldC5zaG9wIiwiaWQiOiI5NjU4ODkxMi0zYmNiLTQ5MWMtOGNlMy03YTk2NWJiZWMwN2YiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwODAiLCJwcyI6IkBDb25maWdmb3JWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
-vless://1d509c22-4e43-4067-9185-873ec5bb49da@de2.b762plus.shop:2015?security=&amp;encryption=none&amp;host=zula.ir&amp;headerType=none&amp;type=tcp#[
-vless://d5869eba-cacd-454d-aa84-05ef822a6329@nobitex.ir:8080?path=/&amp;security=&amp;encryption=none&amp;host=sayanstoree.tel.goleij.ir&amp;type=ws#[
 vless://df862b4c-2150-4b36-81ac-405036cf9ff6@172.64.144.106:2087?sni=kalami-eew.pages.dev&amp;type=ws&amp;host=kalami-eew.pages.dev&amp;path=/fp=chrome&amp;security=tls#[
 vless://84695bb3-58a4-4af6-b964-82d2c56fa23f@ips.cf.mobileemdad.top:443?security=tls&amp;allowInsecure=0&amp;encryption=none&amp;type=xhttp&amp;path=/cloudapi&amp;sni=dl.mobileemdad.top&amp;fp=chrome&amp;mode=auto&amp;alpn=h2#[
 vless://6be235df-17db-4345-95b7-cdaf89ca9f0f@nobitex.ir:8080?path=/&amp;security=&amp;encryption=none&amp;host=sayanstoree.tel.goleij.ir&amp;type=ws#[
@@ -198,3 +196,5 @@ vless://20adc847-4159-4f39-b79f-d563b660945f@simurgh.adslimit.info:2345?security
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ@admin.c2.havij.co:443#🇬🇧@FreakConfig
 vless://nasnet@162.19.10.94:443?security=tls&amp;encryption=none&amp;insecure=0&amp;headerType=none&amp;type=tcp&amp;allowInsecure=0&amp;flow=xtls-rprx-vision&amp;sni=nasnet-162191094-direct.sharghdaily.co#🇫🇷
 vless://425ef0c5-4e79-4aa5-bf9e-b847a0f73601@chatgpt.com:443?path=/vless-tls&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=vpnazadie.store&amp;type=ws&amp;allowInsecure=0&amp;sni=telegram.vpnazadie.store#🇵🇱@FreakConfig
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFMTJ5WkJQQzd5OFNubWtTWWpmMFds@62.133.63.167:61377#🇹🇷@FreakConfig
+vless://7007111a-c28b-4ab1-8d28-bc7b42681028@wolf2.adslimit.info:2345?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#🇬🇧@FreakConfig
