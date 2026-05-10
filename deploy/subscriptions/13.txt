@@ -20,6 +20,7 @@ ss://YWVzLTI1Ni1nY206MzU1NjJhNzctYjllMi1kZjcwLWNjOTAtODNhODYzZjJiMzE0@3472962111
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@dkstatics-public.digikala.com:443#🇮🇷
 ss://eyJhZGQiOiIxODUuMjM2LjM4LjQ0IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImM5ZTQyNTM3LTg2NTItNGE0Yy04NWQzLTBkMzZhYmYzOGY4OCIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTk5NDYiLCJwcyI6IkB2YXNsX2Jhc2hpbSIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0@iran.mamad-imnix.ir:3946#🇮🇷
 ss://eyJhZGQiOiIxODUuMjM2LjM4LjQ0IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImM5ZTQyNTM3LTg2NTItNGE0Yy04NWQzLTBkMzZhYmYzOGY4OCIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiMTk5NDYiLCJwcyI6IkBWMl9NT0RfU0hPUCjYqtmE2q_Ysdin2YUpIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ@45.94.213.213:443#🇮🇷
+vless://%40Matinam844@185.143.234.122:80?type=ws&encryption=none&path=%2F&host=h.nagambarat.ir&security=none#🇮🇷
 vless://00038be9-b440-44cf-a231-c4c090717547@185.143.233.122:80?path=%2F&security=&encryption=none&host=img.zilzo.ir&type=ws#🇮🇷
 vless://0053c51b-b1f6-4d11-a087-ad795f65bec1@185.143.233.43:8880?path=%2F&security=none&encryption=none&host=motabarim3.service-panelbaz.ir&type=ws#🇮🇷
 vless://007305fb-97c5-465b-9701-2780a5418d30@snapp.ir:8080?path=%2F&security=none&encryption=none&host=simorgh.darerio.ir&type=ws#🇮🇷
@@ -197,4 +198,3 @@ vless://2a6ea2ea-f82d-4199-92ef-85f92c0a6016@vitallife.gg:443?security=tls&alpn=
 vless://2a81f2b7-bc6a-4f60-92a7-cd31a7eea851@s1.elmovipservice.ir:80?encryption=none&host=ss1.elmovipservice.ir&path=%2F&security=none&type=ws#🇮🇷
 vless://2a81f2b7-bc6a-4f60-92a7-cd31a7eea851@ss1.elmovipservice.ir:80?encryption=none&host=ss1.elmovipservice.ir&path=%2F&security=none&type=ws#🇮🇷
 vless://2af66992-991d-471d-a215-72190303be54@snapp.ir:80?path=%2FFIRELINKKVPN&security=&encryption=none&host=firelinkk.arian-go-internet.ir&type=ws#🇮🇷
-vless://2b576f31-dfc9-4df5-8528-405c4fa271f1@snapp.ir:8880?path=%2F&security=none&encryption=none&host=avaco.barbambizi.ir&type=httpupgrade#🇮🇷
