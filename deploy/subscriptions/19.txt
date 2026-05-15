@@ -44,6 +44,7 @@ vless://ffffffff-17ad-45e7-aaa1-f2baaa08e930@141.101.113.89:443?path=%2F%3Fed%3D
 vless://CONFIG-WANCLOUDFA@49.12.64.220:443?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
 vless://52e194ba-cdf5-4a7d-d146-d8b06f8a698b@51.75.91.144:23300?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
 vless://50ec2631-7599-48a1-9971-fca270b823d8@varzesh3.com:80?path=%2F&amp;security=none&amp;encryption=none&amp;host=proto.helexm.ir&amp;type=ws#Tarkibi14%20%7C%20%40FreeLand8
+vless://bbc68258-173b-4f0f-b126-f7aac6bb2db3@adler-1g.adelshoop.net:80?path=%2F&amp;security=none&amp;encryption=none&amp;type=ws#Tarkibi15%20%7C%20%40FreeLand8
 vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@172.64.35.45:2096?path=%2F45.76.183.217%3D49292&amp;security=tls&amp;encryption=none&amp;host=hetz.x-smm.com&amp;type=ws&amp;sni=hetz.x-smm.com#%F0%9F%9B%A1%20V%2051%20%40Outline_Vpn
 vless://d1b421cc-ebaf-48cf-bf12-e7947af11c53@www.tgju.org:2087?path=%2Fhttpupgrade26070&amp;security=tls&amp;alpn=http%2F1.1&amp;encryption=none&amp;host=rahgozar.italiantourism.net&amp;type=httpupgrade&amp;sni=rahgozar.italiantourism.net.#%F0%9F%9B%A1%20V%2052%20%40Outline_Vpn
 vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@108.162.194.176:2096?path=%2F45.76.183.217%3D49292&amp;security=tls&amp;encryption=none&amp;host=hetz.x-smm.com&amp;type=ws&amp;sni=hetz.x-smm.com#%F0%9F%9B%A1%20V%2053%20%40Outline_Vpn
@@ -197,4 +198,3 @@ vless://58715b6d-83c2-4695-b536-e5de12913eb6@t1.arshiaspeed.shop:2086?path=%2F&a
 vless://0b6705dc-157e-46a1-8872-2fa6923e8d83@185.143.233.200:80?path=%2F%3Fed%3D2080&amp;security=none&amp;encryption=none&amp;host=final.idbedam.ir&amp;type=ws#V2rayNG3
 vless://5f117758-a07f-4b20-82bf-25b7665ee514@185.143.233.5:2052?path=%2F&amp;security=none&amp;encryption=none&amp;host=cd2.sesrsa.com&amp;type=ws#@V2rayNG3
 vless://982ae5d2-12a6-45a8-b0a2-19302336ea21@185.143.233.5:2052?path=%2F&amp;security=none&amp;encryption=none&amp;host=cd2.sesrsa.com&amp;type=ws#@V2rayNG3
-vless://0053c51b-b1f6-4d11-a087-ad795f65bec1@185.143.233.43:8880?path=%2F&amp;security=none&amp;encryption=none&amp;host=motabarim3.service-panelbaz.ir&amp;type=ws#@V2rayNG3
