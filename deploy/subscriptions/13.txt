@@ -44,7 +44,6 @@ vless://075bdce0-822a-474f-b30d-21726f26eb1a@varzesh3.com:80?encryption=none&sec
 vless://0773112d-c3fc-4a9f-aea0-d9be521452ce@85.133.227.13:35812?security=reality&sni=learn.microsoft.com&type=tcp&fp=chrome&pbk=LOS87LofEJA0paPzrS2mIFhmTaqkOZC-AUFgNvE1UEs&sid=82cada35130f1ef2#🇮🇷
 vless://07e9d728-622c-43b2-bd75-58a16b4b2699@cdn2.sensishop.com.tr:2082?security=none&allowInsecure=0&encryption=none&type=ws&path=/#🇮🇷
 vless://07ec393b-987d-12fd-004d-02ade3c94017@snapp.ir:2087?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=i-love-iran2.amlakayuni.ir#🇮🇷
-vless://07f7b197-7617-4718-8bfe-dcaedb9f3c8e@185.143.233.5:2096?path=%2F&security=tls&encryption=none&insecure=0&host=p1.sesrsa.com&fp=firefox&type=ws&allowInsecure=0&sni=sub.sesrsa.com#🇮🇷
 vless://080eeb84-ff00-418e-b7b5-f5f257c61342@185.143.234.235:2052?path=%2F&security=none&encryption=none&host=rizzgod.familynetlame.ir&type=ws#🇮🇷
 vless://081d8b40-744b-49b2-982e-81ea27d06e37@www.varzesh3.com:2082?type=ws&encryption=none&path=&host=dl.heynewdays.ir&security=none#🇮🇷
 vless://083399de-c587-47b3-aa4b-7ae55e40d68f@193.151.134.39:1000?type=tcp#🇮🇷
@@ -195,6 +194,7 @@ vless://2edbc503-a413-48e8-820f-e8cdc5bda42f@snapp.ir:80?path=%2Fgraphql%3Fed%3D
 vless://2f1ac68e-06d4-4222-98c9-876fb47d1b0d@85.9.105.148:80?security=none&type=ws&host=dl2.penguin-easyconnet.ir&path=/games/battlefied4#🇮🇷
 vless://2f337f9f-7e68-42e1-af93-b2280faedcb2@188.121.123.73:443?security=tls&type=ws&headerType=&path=%2Fws%3Fed%3D500&host=&sni=plus.sabavision.com&fp=chrome&pcs=7af8aa0f3d118b625908fcd58693bd64226b8693e47cdde374e6214480decd2e&allowInsecure=1#🇮🇷
 vless://2f7636c8-87d8-4bd8-ad1e-125ce1e6277e@37.32.7.217:8085?security=none&type=ws&host=snap.ir&path=/file#🇮🇷
-vless://2f82be77-de52-4a8c-8e62-cddd07c0af15@aarv1.digi98.top:10783/?type=tcp&path=%2F&headerType=http&security=none#🇮🇷
 vless://2fef981c-ccf2-4b6c-be4a-ff2cba1d3ca9@185.143.233.5:8443?encryption=none&type=ws&security=tls&path=%2F&host=p1.sesrsa.com&sni=sub.sesrsa.com&fp=firefox&allowInsecure=1#🇮🇷
 vless://30373138-6530-4566-a361-353463393466@185.143.233.130:80?path=%2Fl%2Fw%2FaXD2QyDdS6vRQpxs%3Fed%3D2047&security=none&encryption=none&host=dl.tgmovie.bond&type=ws#🇮🇷
+vless://3037d3f5-6ad2-4681-a388-66b0799a1b79@81.12.24.237:27533?security=none&type=tcp#🇮🇷
+vless://30396636-3937-4337-b332-613765373237@185.143.233.70:80?path=%2Fl%2Fw%2FaXD2QyDdS6vRQpxs%3Fed%3D2047&security=none&encryption=none&host=dl.tgmovie.bond&type=ws#🇮🇷
