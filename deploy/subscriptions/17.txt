@@ -30,13 +30,11 @@ vless://df590a29-a64d-465c-99ce-c48c88275a21@104.16.6.70:443?alpn=h2%2Chttp%2F1.
 vless://df590a29-a64d-465c-99ce-c48c88275a21@104.16.6.70:443?alpn=h2%2Chttp%2F1.1&encryption=none&fp=chrome&host=misterj.xpersian.com&path=%2F104.16.6.70%3A443&security=tls&sni=misterj.xpersian.com&type=ws#@FreakConfig
 vless://df590a29-a64d-465c-99ce-c48c88275a21@104.16.6.70:443?alpn=h2%2Chttp%2F1.1&encryption=none&fp=chrome&host=misterj.xpersian.com&path=%2F104.16.6.70%3A443&security=tls&sni=misterj.xpersian.com&type=ws#@FreakConfig@FreakConfig
 vless://df590a29-a64d-465c-99ce-c48c88275a21@104.16.6.70:443?alpn=h2%2Chttp%2F1.1&encryption=none&fp=chrome&host=misterj.xpersian.com&path=%2F104.16.6.70%3A443&security=tls&sni=misterj.xpersian.com&type=ws#@FreakConfig
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.58.115:443?security=tls&encryption=none&host=sni.latonyamadeline.ndjp.net&type=ws&sni=sni.latonyamadeline.ndjp.net#%40SERVERNETT
 vless://61bf6a18-727e-4492-ab5f-01dea4aa2df9@216.57.108.24:443?security=reality&encryption=none&pbk=6NCa8hdmqu3ZpYSQkODtsExGL1M0wR0GI4XZbb3Kdxo&headerType=none&type=tcp&sni=yahoo.com&sid=ce1b#%40SERVERNETT
 vless://8711e97a-63cc-47f5-b1ab-b9280b82ac2e@85.234.65.21:443?security=reality&encryption=none&pbk=JVvNP8J16POftTcKdIPtpeX6mHLqq44jFisU1ftAuEo&headerType=http&fp=chrome&spx=%2F&type=tcp&sni=www.sony.com&sid=2c#SERVERNETT-WIFIفقط
 vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.16.7.70:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&fp=chrome&type=xhttp&sni=de.xn--q9jyb4c.online#%40SERVERNETT🐸🐸
 vless://8711e97a-63cc-47f5-b1ab-b9280b82ac2e@85.234.65.21:443?security=reality&encryption=none&pbk=JVvNP8J16POftTcKdIPtpeX6mHLqq44jFisU1ftAuEo&headerType=http&fp=chrome&spx=%2F&type=tcp&sni=www.sony.com&sid=2c#SERVERNETT-WIFI
 vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.16.7.70:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&fp=chrome&type=xhttp&sni=de.xn--q9jyb4c.online#%40SERVERNETT
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.58.115:443?security=tls&encryption=none&host=sni.latonyamadeline.ndjp.net&type=ws&sni=sni.latonyamadeline.ndjp.net#%40SERVERNETT
 vless://61bf6a18-727e-4492-ab5f-01dea4aa2df9@216.57.108.24:443?security=reality&encryption=none&pbk=6NCa8hdmqu3ZpYSQkODtsExGL1M0wR0GI4XZbb3Kdxo&headerType=none&type=tcp&sni=yahoo.com&sid=ce1b#%40SERVERNETT
 vless://8711e97a-63cc-47f5-b1ab-b9280b82ac2e@85.234.65.21:443?security=reality&encryption=none&pbk=JVvNP8J16POftTcKdIPtpeX6mHLqq44jFisU1ftAuEo&headerType=http&fp=chrome&spx=%2F&type=tcp&sni=www.sony.com&sid=2c#SERVERNETT-WIFIفقط
 vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.16.7.70:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&fp=chrome&type=xhttp&sni=de.xn--q9jyb4c.online#%40SERVERNETT🐸🐸
@@ -198,3 +196,5 @@ vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.16.7.70:443?mode=stream-one&pat
 vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.16.7.70:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&insecure=0&host=de.xn--q9jyb4c.online&fp=chrome&type=xhttp&allowInsecure=0&sni=de.xn--q9jyb4c.online#@v2rayng3
 vless://bcc39590-45d5-4e21-95d9-184c188dea3e@158.160.186.6:443?security=reality&encryption=none&pbk=oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=c31f9a0e7d4b52#@v2rayng3
 vless://ae0dd58e-e222-40bf-84ae-365a97532737@104.17.150.224:443?path=%2Falbum%2Fbt&security=tls&encryption=none&insecure=0&host=pagescm.freen15.cc.cd&type=ws&allowInsecure=0&sni=pagescm.freen15.cc.cd#@v2rayng3
+vless://ae0dd58e-e222-40bf-84ae-365a97532737@8.35.211.241:443?path=%2Ffriend&security=tls&encryption=none&insecure=1&host=pagescm.freen11.cc.cd&fp=chrome&type=ws&allowInsecure=1&sni=pagescm.freen11.cc.cd#@v2ray_ng
+vless://a00d89f6-ab7e-4e30-a5e5-54c701d62c93@178.236.16.98:35728?security=reality&encryption=none&pbk=vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng&headerType=none&type=tcp&sni=yahoo.com&sid=69a2#@v2rayng3
