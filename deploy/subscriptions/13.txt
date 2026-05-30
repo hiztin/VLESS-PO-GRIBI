@@ -38,7 +38,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKcmVuV3B6VkpZZFE4c2JnaVdyd2NaMlA3a0JOdktiRnZ
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLTldUZUoxRWpaVTN6N0VR@20.87.107.99:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMMW1kWEZRcTN1NjExWklC@20.87.107.99:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMbDZjWWZYTTVEelFiZHRNTWI3MkFfanFWbk5salUzeXFl@149.104.109.74:21273#🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNZXdqM0hiak1KODloUFFy@20.164.221.1:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNbFp2eU9KS1ZJTlNvcEtCNkk2c1Rn@198.105.115.100:1080#🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOcDhOeko2OHU4RFhwSVZm@20.164.221.1:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQSDU0Tlh0aTR0THVYU2JG@4.168.201.246:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRN2NqaVZEMG9LTkUybzlzVW5aS1Fn@46.101.196.138:23243#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRVG1MVmlVNFZFbXV3Yk94VXc0SVhk@107.172.250.161:59556#🇺🇸
@@ -105,6 +107,7 @@ ss://YWVzLTI1Ni1nY206NTA0Y2IwYmUtYjI4NS00ZWM1LTk1NjEtYmMyODlhZWEwZDQ2@bgroup.nod
 ss://YWVzLTI1Ni1nY206NTA0Y2IwYmUtYjI4NS00ZWM1LTk1NjEtYmMyODlhZWEwZDQ2@bgroup.node4.s2.nodelist-airport.com:28932#🇭🇰
 ss://YWVzLTI1Ni1nY206NTA0Y2IwYmUtYjI4NS00ZWM1LTk1NjEtYmMyODlhZWEwZDQ2@bgroup.node5.s.nodelist-airport.com:59167#🇺🇸
 ss://YWVzLTI1Ni1nY206NTA0Y2IwYmUtYjI4NS00ZWM1LTk1NjEtYmMyODlhZWEwZDQ2@bgroup.node5.s2.nodelist-airport.com:23122#🇺🇸
+ss://YWVzLTI1Ni1nY206RmpHM0lQYm55KzBaWVU0L3AxdlVMUDg0R2NLcEdvWnBXS0FheTE2VmhJdz0@51.254.128.106:2083#🇫🇷
 ss://YWVzLTI1Ni1nY206TVRrd056WXpNVFl3TUdaa05HRmxPVGd3WmpBNVlqSmpORGhsTWpZdw@ir.npvnot.com:10116#🇮🇷
 ss://YWVzLTI1Ni1nY206TXpabVpEUmlObVk0WmpVNE9EZzJaV1V5TlRsaE5Ua3pOalF5T1RObQ@37.32.13.159:10122#🇮🇷
 ss://YWVzLTI1Ni1nY206TldNek1XVTRPR1ZsWlRsa1pUWmtORE0xTTJNNVpURXlOR05tTldJeQ@37.32.13.159:10110#🇮🇷
@@ -187,14 +190,11 @@ vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.122.92.172:22224?type=ws&security
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.78.211.9:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#🇩🇪
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@63.179.214.248:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#🇩🇪
 vless://0568a2f1-1b02-436d-9def-0d38339dcc24@snapp.ir:8080?path=%2FEmbestpro1&security=none&encryption=none&host=Cyrus.zomavo.ir&type=ws#🇮🇷
+vless://057a1ad7-2c87-4dbc-8916-15324545c54b@95.179.166.190:16669?security=reality&encryption=none&pbk=OI-MNhYklHPVDs8tCqetJrBayAmYZTSuDDzmY_Qk51U&headerType=none&fp=chrome&spx=%2FCM8LJlq4mDOpOEt&type=tcp&sni=www.amd.com&sid=35e8947cf015ac#🇩🇪
+vless://057a1ad7-2c87-4dbc-8916-15324545c54b@95.179.166.190:58132?security=none&encryption=mlkem768x25519plus.native.0rtt.C3fL0oSkGeuYI-qyKstsDKBwPCaYuUeTBbB2AtjAATE&headerType=none&type=tcp#🇩🇪
 vless://05ba138e-b12d-4c15-b17c-5ca34e3612fd@snapp.ir:80?path=%2F&security=none&encryption=none&host=derakhshan.molvliafor.ir&type=ws#🇮🇷
 vless://05ba138e-b12d-4c15-b17c-5ca34e3612fd@snapp.ir:80?type=ws&security=none&path=%2F&host=derakhshan.molvliafor.ir#🇮🇷
 vless://05e09c8a-a3a9-4bd5-acf9-2c3c87bab827@145.239.173.163:443?security=&encryption=none&headerType=none&type=tcp#🇫🇷
 vless://06503959-0237-475e-a838-4068a97d5714@46.101.188.66:23450?security=none&encryption=none&headerType=none&type=tcp#🇩🇪
 vless://067140d7-5665-4131-844b-45d2b509a5e5@payload.xyz-my.eu.org:80?type=ws&host=payload.xyz-my.eu.org&path=/vless#🇸🇬
 vless://06ac27ac-ffbc-4fe1-839d-01ea3fbd308e@snapp.ir:443?encryption=none&type=ws&host=iran.nimhubnetwork.ir&path=/?ed%3D80&security=tls&fp=chrome&sni=iran.nimhubnetwork.ir&alpn=h2,http/1.1#🇮🇷
-vless://06b65903-406d-4a41-8463-6fd5c0ee7798@129.6.29.253:443?path=%2F&security=tls&encryption=none&host=sn1.skylee5.cloudns.ch&type=ws&sni=sn1.skylee5.cloudns.ch#🇺🇸
-vless://06b65903-406d-4a41-8463-6fd5c0ee7798@154.9.239.44:443?type=ws&security=tls&sni=sni.skylee4.cloudns.ch#🇺🇸
-vless://06b65903-406d-4a41-8463-6fd5c0ee7798@3.1.116.161:8443?path=%2Fproxyip%3DProxyIP.CMLiussss.net&security=tls&encryption=none&insecure=1&host=sni.skylee4.cloudns.ch&type=ws&allowInsecure=1&sni=sni.skylee4.cloudns.ch#🇸🇬
-vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?encryption=none&security=tls&sni=sni.skylee4.cloudns.ch&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=sni.skylee4.cloudns.ch&path=%2Fproxyip#🇸🇬
-vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?encryption=none&type=ws&security=tls&path=%2F&host=sni.skylee4.cloudns.ch&sni=sni.skylee4.cloudns.ch&fp=chrome&allowInsecure=0#🇸🇬
