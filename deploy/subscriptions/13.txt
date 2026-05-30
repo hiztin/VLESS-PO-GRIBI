@@ -39,6 +39,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLTldUZUoxRWpaVTN6N0VR@20.87.107.99:443#🇿�
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMMW1kWEZRcTN1NjExWklC@20.87.107.99:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMbDZjWWZYTTVEelFiZHRNTWI3MkFfanFWbk5salUzeXFl@149.104.109.74:21273#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNbFp2eU9KS1ZJTlNvcEtCNkk2c1Rn@198.105.115.100:1080#🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQSDU0Tlh0aTR0THVYU2JG@4.168.201.246:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRN2NqaVZEMG9LTkUybzlzVW5aS1Fn@46.101.196.138:23243#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRVG1MVmlVNFZFbXV3Yk94VXc0SVhk@107.172.250.161:59556#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVdm9UNnljb25Rb1Q3Z2dBUW40dU9M@185.26.48.195:443#🇫🇮
@@ -58,6 +59,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpha01LTzlLWG93eEZjeDVB@20.87.107.99:443#🇿�
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMTY2ZWUwZmZlNTdhMjNmZTgyNjRiMGQyMTUxM2UzZTZlZDhhZDY0ZjQ2MThjYjc@185.165.119.161:4050#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNjczOWZlMGI5NzM3MTg1NjFkMWIyMGU2ZjcyOTI0YWZhNzUyMzg4ZWM5ODA1Nzk@185.165.119.161:4050#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpidkdhMDU0TWF1eUNPbWFlWXRXdU9K@195.93.253.240:14130#🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkaFVmYzBub1NRRFRMT0FS@20.164.221.1:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRFpYaWFPS0pTTzdjTW52MjV3N2ZB@lite.forredeye.com:2600#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRFpYaWFPS0pTTzdjTW52MjV3N2ZB@lite2.forredeye.com:2620#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRFpYaWFPS0pTTzdjTW52MjV3N2ZB@lite3.forredeye.com:2630#🇮🇷
@@ -196,5 +198,3 @@ vless://06b65903-406d-4a41-8463-6fd5c0ee7798@3.1.116.161:8443?path=%2Fproxyip%3D
 vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?encryption=none&security=tls&sni=sni.skylee4.cloudns.ch&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=sni.skylee4.cloudns.ch&path=%2Fproxyip#🇸🇬
 vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?encryption=none&type=ws&security=tls&path=%2F&host=sni.skylee4.cloudns.ch&sni=sni.skylee4.cloudns.ch&fp=chrome&allowInsecure=0#🇸🇬
 vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?path=%2F&security=tls&encryption=none&host=sni.skylee4.cloudns.ch&fp=chrome&type=ws&sni=sni.skylee4.cloudns.ch#🇸🇬
-vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?path=%2F&security=tls&encryption=none&insecure=0&host=sni.skylee4.cloudns.ch&fp=chrome&type=ws&allowInsecure=0&sni=sni.skylee4.cloudns.ch#🇸🇬
-vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?path=%2Fproxyip&security=tls&encryption=none&insecure=0&host=sni.skylee4.cloudns.ch&fp=chrome&type=ws&allowInsecure=0&sni=sni.skylee4.cloudns.ch#🇸🇬
