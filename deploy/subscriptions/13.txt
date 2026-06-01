@@ -21,7 +21,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotLVU2aXRPLUNYUTZ3amQ4Sk1RZm9n@45.93.201.73:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotamQ0M2F5bjFteHpRNHQ2ZEVJN09R@45.91.171.108:158#🇸🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyRW1XUlMxVGtTM1RreEtBcG5yaWhiM2FIakRTWFJ2VDFUMUs5VTJCcnV4cm5wNUE4em1wVHh3d1ROamU2QmtWcW1uOUJnUkY2cHE4cW9SSENmWmRjYWg3QkxianJwVDE@185.5.38.111:55988#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozN3FSTXNUZlVSU3E4QXVMZU1QNGNVNS1VQ0NxRGFobA@sura-nl.healingfluence.com:2020#🇮🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozd1pRd2x3QmFzZm1PcXZoV29wUnJCeVFnRmhwTExkbw@95.38.179.35:4050#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1Uk91RXFzTDhJVU1NVmI0d0R3bkdV@57.129.121.230:10443#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MkxJZXdaek5Vc0lycU9EcjIyRlZj@195.133.2.2:34898#🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2Z0hUNEFGMjUzWUxiY0doOFdHMWpNUlg0U0ZzZ1l4c3p3cG9jZGJlYUNVb2FCRHdOb0M4U3h0YWlTSGgxTW01MWNGaGhyTXBmcmd5eUZqNzFrYkU0NFZuUlBjZ3hQQWc@185.5.38.111:55988#🇬🇬
@@ -198,3 +197,4 @@ vless://0468a043-e12c-466e-881c-7d685c1b3950@roz1r.skystreamgame.com:8443?encryp
 vless://04ac1574-583b-408b-a18f-259b62410ee3@199.232.57.91:80?path=%2F&security=none&encryption=none&host=FIjjI.gloBal.sSl.faStly.NeT.&type=ws#🏳️
 vless://04ae1b04-86a0-4bbf-bfb7-2132d10a6b8e@downlod.musicribvar.com:2010?security=&encryption=none&type=grpc#🇫🇮
 vless://04b82b7c-77ab-41e9-89a2-5e605453ce5b@198.105.115.100:81?mode=gun&security=none&encryption=none&type=grpc&serviceName=gprc#🇩🇪
+vless://04f77322-6f66-4ea8-b4d1-3fabd9499c50@91.107.243.16:2314?encryption=none&security=none&type=tcp&headerType=none#🇩🇪
