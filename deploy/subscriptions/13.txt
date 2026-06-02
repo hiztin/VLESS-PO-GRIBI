@@ -20,6 +20,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4bUwvT0kyWGRCVmJNVFM1S1NmOVBLN29PU094RmpXaDh
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotLVU2aXRPLUNYUTZ3amQ4Sk1RZm9n@45.93.201.73:8388#🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotamQ0M2F5bjFteHpRNHQ2ZEVJN09R@45.91.171.108:158#🇸🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyRW1XUlMxVGtTM1RreEtBcG5yaWhiM2FIakRTWFJ2VDFUMUs5VTJCcnV4cm5wNUE4em1wVHh3d1ROamU2QmtWcW1uOUJnUkY2cHE4cW9SSENmWmRjYWg3QkxianJwVDE@185.5.38.111:55988#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToySmJ3WmtvY0FTNF9qTFRPcWZ3TWRB@slx.somayecloud.ir:5000#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozN3FSTXNUZlVSU3E4QXVMZU1QNGNVNS1VQ0NxRGFobA@sura-nl.healingfluence.com:2020#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1Uk91RXFzTDhJVU1NVmI0d0R3bkdV@57.129.121.230:10443#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MkxJZXdaek5Vc0lycU9EcjIyRlZj@195.133.2.2:34898#🇫🇮
@@ -69,6 +70,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphVTd6SDRDTmduaU1kS1RDRDVCdlVFSzJwOTRzZW9FTmd
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpha01LTzlLWG93eEZjeDVB@20.87.107.99:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpidkdhMDU0TWF1eUNPbWFlWXRXdU9K@195.93.253.240:14130#🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjQ3JNV0RXS2J6OWNCaEhFbDZBN3J3QlhwYUtreTkxNUZUUnUxcQ@170.130.40.123:41352#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkUlpOWlQ3YXRGSVRIaGFxSFhIQ1ZR@sub-ir.dadnets.ir:6666#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkaFVmYzBub1NRRFRMT0FS@20.164.221.1:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRFpYaWFPS0pTTzdjTW52MjV3N2ZB@lite.forredeye.com:2600#🇮🇷
@@ -109,6 +111,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwTEdDUG5qMldnenhYMUllZFc4eWQ3dHJ3UmxYcWpMYQ@
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#🇺🇸
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@15.157.68.13:443#🇨🇦
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@16.52.154.170:443#🇨🇦
+ss://YWVzLTI1Ni1nY206MWZiMjBkNDEtMmVlMC00YmY0LThkNTMtODc4ZTE0MDBkNDU4@84.200.91.158:443#🇩🇪
 ss://YWVzLTI1Ni1nY206MzRmSXR5Wnl6Njl1SXJ4a0orY0xSMXBkY2x2RzYyOHB2OCtmelVOVElDMD0@57.131.28.246:2083#🇮🇹
 ss://YWVzLTI1Ni1nY206MzRmSXR5Wnl6Njl1SXJ4a0orY0xSMXBkY2x2RzYyOHB2OCtmelVOVElDMD0@it5.taskflowhub.org:2083#🇮🇹
 ss://YWVzLTI1Ni1nY206N051QjBZNW0zYU56a0tNS2xGb013a2lhanN1NkYzNmM5b2s0VktFWm5CND0@de5.taskflowhub.org:2083#🇫🇷
@@ -132,6 +135,8 @@ ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@94.156.250.148:7001#🇬🇬
 ss://YWVzLTI1Ni1nY206WTJJeE1tRXlObU5qWVRsaU16RmxPVGM0Tm1Jek16azFZalppTTJZdw@ir.npvnot.com:10098#🇮🇷
 ss://YWVzLTI1Ni1nY206YTc0MmJkODUtMGY5Ny00MmJkLTg5MWYtYWEwMGRiZDFhNDYx@84.200.91.158:443#🇩🇪
 ss://YWVzLTI1Ni1nY206YW1hem9uc2tyMDU@3.67.67.95:443#🇩🇪
+ss://YWVzLTI1Ni1nY206YjgwOTdmOTQtNGZiYS00OWM4LTg4ZTgtMmZjYzIwYmQ4YTcw@84.200.91.158:443#🇩🇪
+ss://YWVzLTI1Ni1nY206Yzk1Y2ZjYjQtNWI4OC00YzgzLTk1MjEtMjhlYTU4ZDU5NWY2@84.200.91.158:443#🇩🇪
 ss://YWVzLTI1Ni1nY206ZjRlN2NjM2ItMWZkZS00ODYxLTlhN2UtMjk0NzI4ZDhhMTZh@51.195.235.71:2083#🇫🇷
 ss://YWVzLTI1Ni1nY206ZjRlN2NjM2ItMWZkZS00ODYxLTlhN2UtMjk0NzI4ZDhhMTZh@uk1.connectsuite.org:2083#🇫🇷
 ss://YWVzLTI1Ni1nY206cXcyQndlcXdlM1A2OTdHMmVy@185.60.137.65:16541#🇮🇷
@@ -193,8 +198,3 @@ vless://038a0cfe-d210-4b67-baa6-e3ba15046693@germany3.samanidempire.org:443?encr
 vless://038a0cfe-d210-4b67-baa6-e3ba15046693@germany3.samanidempire.org:443?path=%2FSDFDSerTeddgwete&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=germany3.samanidempire.org&fp=chrome&type=ws&allowInsecure=1#🇩🇪
 vless://042c1f4d-1599-4816-b925-760cdabd5e9a@104.18.32.47:2096?mode=gun&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=snn.ir.kayhan.ir.entekhab.ir.yjc.ir.alalamtv.net.irandaily.ir.presstv.ir&allowInsecure=0&sni=magICAl-oRder668mk9ktrM.WindLEr.Co.Uk#🏳️
 vless://042c1f4d-1599-4816-b925-760cdabd5e9a@104.18.32.47:2096?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=snn.ir.kayhan.ir.entekhab.ir.yjc.ir.alalamtv.net.irandaily.ir.presstv.ir&allowInsecure=0&sni=magICAl-oRder668mk9ktrM.WindLEr.Co.Uk#🏳️
-vless://0468a043-e12c-466e-881c-7d685c1b3950@roz1r.skystreamgame.com:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0&security=reality&sid=4326&sni=roz1r.skystreamgame.com&type=tcp#🇩🇪
-vless://04ac1574-583b-408b-a18f-259b62410ee3@199.232.57.91:80?path=%2F&security=none&encryption=none&host=FIjjI.gloBal.sSl.faStly.NeT.&type=ws#🏳️
-vless://04ae1b04-86a0-4bbf-bfb7-2132d10a6b8e@downlod.musicribvar.com:2010?security=&encryption=none&type=grpc#🇫🇮
-vless://04b82b7c-77ab-41e9-89a2-5e605453ce5b@198.105.115.100:81?mode=gun&security=none&encryption=none&type=grpc&serviceName=gprc#🇩🇪
-vless://04f77322-6f66-4ea8-b4d1-3fabd9499c50@91.107.243.16:2314?encryption=none&security=none&type=tcp&headerType=none#🇩🇪
