@@ -1,3 +1,4 @@
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.66.185.190:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.236.251.60:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.237.22.206:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.73.163.13:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
@@ -12,6 +13,9 @@ vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.57.204.185:22224?type=ws&securit
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.29.147.115:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.236.220.28:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.224.86.154:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@63.176.37.226:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.181.89.207:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.237.235.31:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://946073ed-fb43-4637-9e8b-4375469a0df2@www.speedtest.net:443?encryption=none&type=xhttp&mode=auto&host=free1005.daftarche.cloud&path=/hotel&security=tls&fp=firefox&sni=free1005.daftarche.cloud#V2pediaکانفیگ
 vless://946073ed-fb43-4637-9e8b-4375469a0df2@www.speedtest.net:443?encryption=none&type=xhttp&mode=auto&host=free1005.daftarche.cloud&path=/hotel&security=tls&fp=firefox&sni=free1005.daftarche.cloud#V2pedia
 vless://946073ed-fb43-4637-9e8b-4375469a0df2@www.speedtest.net:443?encryption=none&type=xhttp&mode=auto&host=free1005.daftarche.cloud&path=/hotel&security=tls&fp=firefox&sni=free1005.daftarche.cloud#V2pediaکانفیگ
@@ -194,7 +198,3 @@ vless://aaaaaabb-4ddd-4eee-9fff-ffffffffffff@216.24.57.6:443?path=%2F168.138.171
 vless://InternetAzadRobot@151.101.1.57:80?mode=auto&path=%2Flogin&security=none&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=shangulin.global.ssl.fastly.net&type=xhttp#@v2rayng3
 vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@45.130.125.160:443?mode=stream-one&path=%2Fde&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=de.lezzatzone.ir#@v2rayng3
 vless://99c8e30f-b39f-4917-b8cb-33265bf2976a@45.130.125.76:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=1&host=7d3.sisshark.win&fp=chrome&type=ws&allowInsecure=1&sni=7d3.sisshark.win#@v2rayng3
-vless://e258977b-e413-4718-a3af-02d75492c349@45.130.125.69:2096?path=%2F&security=tls&encryption=none&host=jp.aniua.qzz.io&type=ws&sni=jp.aniua.qzz.io#%40v2rayng3
-vless://04ac1574-583b-408b-a18f-259b62410ee3@199.232.57.91:80?path=%2F&security=none&encryption=none&host=FIjjI.gloBal.sSl.faStly.NeT.&type=ws#%40v2rayng3
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkaFVmYzBub1NRRFRMT0FS@20.164.221.1:443#@v2rayng3
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkaFVmYzBub1NRRFRMT0FS@20.164.221.1:443#@v2rayng3
