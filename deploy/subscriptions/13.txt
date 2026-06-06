@@ -44,7 +44,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWRUZGVUdaa050YlRHQUdkZTR2VVFqcW5HU1QtYmdUUA@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWbDZzNXdQUVh6VzJ6QUxI@20.164.211.148:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXdlpiREFKQ1N1OGNrSk5SNHVHNzBQTkNaN2wydHUxRg@3.123.171.249:443#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZcEdaelk4aE5kRk81R1hj@20.164.211.148:443#🇿🇦
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZdVJ0NkFYOVA0Tml1dFR3b0RNdkRUcnhJam9fbHNHcg@vip9.myspacex.shop:443#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMDQ5U3EtLXc1NGRCeDNRZkJaQ2t3@51.20.184.97:1003#🇸🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjQ3JNV0RXS2J6OWNCaEhFbDZBN3J3QlhwYUtreTkxNUZUUnUxcQ@170.130.40.123:41352#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.179:8080#🇳🇱
@@ -97,6 +96,7 @@ ss://YWVzLTI1Ni1nY206YTc0MmJkODUtMGY5Ny00MmJkLTg5MWYtYWEwMGRiZDFhNDYx@84.200.91.
 ss://YWVzLTI1Ni1nY206YjgwOTdmOTQtNGZiYS00OWM4LTg4ZTgtMmZjYzIwYmQ4YTcw@84.200.91.158:443#🇩🇪
 ss://YWVzLTI1Ni1nY206Yzk1Y2ZjYjQtNWI4OC00YzgzLTk1MjEtMjhlYTU4ZDU5NWY2@84.200.91.158:443#🇩🇪
 ss://YWVzLTI1Ni1nY206ZjRlN2NjM2ItMWZkZS00ODYxLTlhN2UtMjk0NzI4ZDhhMTZh@51.195.235.71:2083#🇫🇷
+ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@185.123.101.64:2376#🇹🇷
 ss://YWVzLTI1Ni1nY206c3NfMTc4MDUxMjkxNA@85.193.90.142:2050#🇷🇺
 ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@142.202.48.52:443#🇺🇸
 ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@172.99.188.71:443#🇳🇱
@@ -107,6 +107,11 @@ ss://bnVsbDpudWxs@82.38.31.208:8080#🇬🇬
 ss://bnVsbDpudWxs@one.yek-lahze.ir:2053#🏳️
 ss://eyJhZGQiOiIxMDQuMTguMzIuNDciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6Im5vdGF0aGluZy5kYWRjbG91ZC5pciIsImlkIjoiZDY1YTI0M2YtYTZhMy00NDliLWE3MmMtMzQyNmEyOTEwMDY5IiwibmV0Ijoid3MiLCJwYXRoIjoiIiwicG9ydCI6IjIwOTYiLCJwcyI6IkBhcHBzb29uZXIg2qnYp9mG2KfZhCDYqtmE2q_Ysdin2YUg8J-Viu-4jyIsInNjeSI6ImF1dG8iLCJzbmkiOiJub3RhdGhpbmcuZGFkY2xvdWQuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ@c8811f70481d6448c8811f70481d6448.dadnode.ir:33699#🇩🇪
 vless://%40JynMarket@104.16.75.127:443?mode=packet-up&path=%2FJynMarket&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=a.pedramdns.shop&fp=chrome&type=xhttp&allowInsecure=0&sni=a.pedramdns.shop#🏳️
+vless://%40free_conf_iran@104.16.75.127:2095?path=%2Fed%3D2560&security=&encryption=none&host=fr.mamish.ir&type=ws#🏳️
+vless://%40free_conf_iran@51.83.22.65:20021?security=reality&encryption=none&pbk=CsbATIwH_TIGR_U0eTjxv4aLhCTTuq-Roh2Bgu75QTY&host=@v2rayNplus@v2rayNplus@v2rayNplus&headerType=none&fp=random&spx=%2FppJiKOhhrr4BQMo&type=tcp&sni=play.google.com&sid=4b1771#🇫🇷
+vless://%40free_conf_iran@51.83.22.65:52196?security=none&encryption=none&host=@v2rayNplus@v2rayNplus@v2rayNplus&headerType=none&type=tcp#🇫🇷
+vless://%40free_conf_iran@f.mamish.ir:2084?security=reality&encryption=none&pbk=vi6dWyt51BPg3qMoMewV1YKyHVHwWNHCpdAIF4tb3Vk&host=@v2rayNplus@v2rayNplus@v2rayNplus&headerType=none&fp=firefox&spx=%2F3L4F3AlvnjLI1Yf&type=tcp&sni=use.fontawesome.com&sid=65d694#🏳️
+vless://%40free_conf_iran@f.mamish.ir:7018?mode=gun&security=reality&encryption=none&pbk=VFLtoNzHBUkrPoY1-uXpx2_IvxrLcT3YAo656Nj4Cgk&fp=firefox&spx=/@v2rayNplus@v2rayNplus@v2rayNplus&type=grpc&serviceName=2096vless&sni=use.fontawesome.com&sid=e0c129#🏳️
 vless://0013d3a3-6b4b-4161-a051-592490392c6a@104.17.121.71:2096?encryption=none&type=grpc&security=tls&serviceName=iribnews.ir.eghtesadonline.com.mizanonline.com.tabnak.ir.rajanews.com.tabnak.ir.fararu.com&sni=fLamboyanT-PeRsoNAp6F0m17Id.WinDLEr.CO.uK&alpn=h2%2Chttp%2F1.1&fp=chrome&allowInsecure=0#🏳️
 vless://0057983b-1342-40ce-a570-ad08046977e5@static.iirose.cn:443?path=%2F15284%2Fcoffee&security=tls&encryption=none&host=xh.mmadcoffee.info&fp=chrome&type=ws&sni=sni.mmadcoffee.info#🇸🇬
 vless://0057983b-1342-40ce-a570-ad08046977e5@www.ujintan.com:443?path=%2F15284%2Fcoffee&security=tls&encryption=none&insecure=0&host=xh.mmadcoffee.info&fp=chrome&type=ws&allowInsecure=0&sni=sni.mmadcoffee.info#🇸🇬
@@ -115,8 +120,6 @@ vless://007d994d-bd2d-4940-8ee6-58a3f18b1e64@87.121.89.166:443?security=&encrypt
 vless://00bbd34a-6fd0-4222-a582-1a1df9a934e2@porkstream.com:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=ios&sni=&pbk=mk-fkkWvUHz2ubIOkr8kfDeglXowdCI3Z4OssjWIIwg&sid=2b145d99dc39e2cc#🇷🇺
 vless://00fb15cb-4411-07d0-92f6-8b315fbe4bd8@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1#🇷🇺
 vless://01204ab3-b16f-4377-a5fe-ee12bfa685b3@141.11.250.208:443?alpn=h2%2Chttp%2F1.1&encryption=none&fp=chrome&security=tls&sni=141.11.250.208&type=tcp#🇳🇱
-vless://017c7d11-2cd0-49bd-bbe8-177790ac1d0f@104.238.189.15:50386?security=none&encryption=mlkem768x25519plus.native.0rtt.Z88rrRf42dsSJbdfORI98M9bYplDAI6HoMHhdW2qPRI&headerType=none&type=tcp#🇫🇷
-vless://017c7d11-2cd0-49bd-bbe8-177790ac1d0f@104.238.189.15:51422?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#🇫🇷
 vless://01d91d51-f3f6-4384-be48-779cb29e04e9@104.17.121.71:443?path=%2Frandom&security=tls&encryption=none&insecure=0&host=support.zoom.us.cyylr.eu.cc&type=ws&allowInsecure=0&sni=support.zoom.us.cyylr.eu.cc#🏳️
 vless://01ef96b4-e7ec-4218-8ffe-a59e1cdfd836@65.109.216.90:45029?encryption=none&type=tcp&headerType=none#🇫🇮
 vless://024aeb5c-f209-4a4c-aa3c-2e2db2a712e1@beta.kamiplaye.ir:80?path=%2Fmr-config&security=none&encryption=none&host=beta.kamiplaye.ir&type=ws#🇮🇷
@@ -195,6 +198,3 @@ vless://0a335b4d-7a02-4989-a16d-424d265a6420@3.65.207.158:443?security=none&encr
 vless://0a4eabad-a6b8-4f4a-b610-4540b9c8f49a@188.114.97.6:443?encryption=none&security=tls&sni=ava.game.naver.com.cyylr.eu.cc&type=ws&host=ava.game.naver.com.cyylr.eu.cc&path=%2Fsg-orcl#🏳️
 vless://0a4eabad-a6b8-4f4a-b610-4540b9c8f49a@188.114.97.6:443?path=%2Fsg-orcl&security=tls&encryption=none&insecure=0&host=ava.game.naver.com.cyylr.eu.cc&type=ws&allowInsecure=0&sni=ava.game.naver.com.cyylr.eu.cc#🏳️
 vless://0a5e70ed-7ac9-4e42-b449-0a67c400547a@iran-turkey.turbooserver.net.tr:20020?security=reality&encryption=none&pbk=-g0bzNFN2Of9vbBXL5ZWXQ5GIrwS1uZlFPcmphN0PiI&headerType=none&fp=random&type=tcp&sni=play.google.com&sid=bbcdcac5#🇹🇷
-vless://0ad929f5-20e3-489b-b4bb-f4052eb85c76@tun0.wolfofroozegar.ir:80?path=%2F&security=none&encryption=none&type=ws#🇮🇷
-vless://0b1ad92f-59e5-4003-b4d3-731fa73939ab@5.253.59.220:449?path=%2Fapi&security=none&encryption=none&type=ws#🇳🇱
-vless://0b847262-48f9-4aae-a2d9-bc399501ee37@188.213.198.238:7080?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#🇮🇷
