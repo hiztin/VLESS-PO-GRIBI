@@ -1,4 +1,3 @@
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.236.220.28:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.224.86.154:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@63.176.37.226:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.181.89.207:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
@@ -14,11 +13,10 @@ vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.181.79.217:22224?type=ws&securit
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.69.202.177:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@63.181.210.240:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.47.107.29:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.194.236.38:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#@VlessConfig
 vless://946073ed-fb43-4637-9e8b-4375469a0df2@www.speedtest.net:443?encryption=none&type=xhttp&mode=auto&host=free1005.daftarche.cloud&path=/hotel&security=tls&fp=firefox&sni=free1005.daftarche.cloud#V2pediaکانفیگ
 vless://946073ed-fb43-4637-9e8b-4375469a0df2@www.speedtest.net:443?encryption=none&type=xhttp&mode=auto&host=free1005.daftarche.cloud&path=/hotel&security=tls&fp=firefox&sni=free1005.daftarche.cloud#V2pedia
 vless://946073ed-fb43-4637-9e8b-4375469a0df2@www.speedtest.net:443?encryption=none&type=xhttp&mode=auto&host=free1005.daftarche.cloud&path=/hotel&security=tls&fp=firefox&sni=free1005.daftarche.cloud#V2pediaکانفیگ
-vless://bbab81f3-87a0-4e63-8b3b-010c645d8da7@ipw.ygdfw.com:443?mode=stream-one&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22uplinkHTTPMethod%22%3A%22PUT%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=HeTz3-B8uNlOxA.cB1300sErVeR.iR&fp=chrome&type=xhttp&allowInsecure=0&sni=HeTz3-B8uNlOxA.cB1300sErVeR.iR#https%3A%2F%2Ft.me%2Fv2rayNG_Matsuri
-vless://bbab81f3-87a0-4e63-8b3b-010c645d8da7@ipw.ygdfw.com:443?mode=stream-one&path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22uplinkHTTPMethod%22%3A%22PUT%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=HeTz2-1DzO6oQ0.cB1300sErVeR.iR&fp=chrome&type=xhttp&allowInsecure=0&sni=HeTz2-1DzO6oQ0.cB1300sErVeR.iR#https%3A%2F%2Ft.me%2Fv2rayNG_Matsuri
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.208:8080?type=tcp#SS%20%7C%20https%3A%2F%2Ft.me%2Fproxystore11پر
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.208:8080?type=tcp#SS%20%7C%20https%3A%2F%2Ft.me%2Fproxystore11
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.208:8080?type=tcp#SS%20%7C%20https%3A%2F%2Ft.me%2Fproxystore11پر
@@ -56,6 +54,10 @@ vless://376b9861-2fc6-4647-959c-18185cd9c95a@104.31.16.36:443?path=%2Ffflsws&sec
 vless://ffffffff-17ad-45e7-aaa1-f2baaa08e930@141.101.113.89:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=watashi.free.hkpublic.moh539.link&type=ws&sni=watashi.free.hkpublic.moh539.link#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
 vless://CONFIG-WANCLOUDFA@49.12.64.220:443?security=none&encryption=none&headerType=none&type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
 vless://52e194ba-cdf5-4a7d-d146-d8b06f8a698b@51.75.91.144:23300?security=none&encryption=none&headerType=none&type=tcp#%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%3A+%40V2rayNGvpni
+vless://e5fe3a99-8fb5-4475-a45c-4966575088e2@ip1.hsrdnr.ir:8880?encryption=none&security=none&type=httpupgrade&host=shad.hsrdnr.ir&path=%2F%3Fed%3D2080#%D9%85%D9%88%D9%82%D8%AA
+vless://6a8d7e9c-cc55-4816-80aa-e7cdfebc96b9@31.43.179.0:8880?type=httpupgrade&path=%2F%3Fed%3D2080&host=shad.hsrdnr.ir&security=none#%D9%85%D9%88%D9%82%D8%AA2
+vless://e5fe3a99-8fb5-4475-a45c-4966575088e2@ip1.hsrdnr.ir:8880?encryption=none&security=none&type=httpupgrade&host=shad.hsrdnr.ir&path=%2F%3Fed%3D2080#%D9%85%D9%88%D9%82%D8%AA
+vless://6a8d7e9c-cc55-4816-80aa-e7cdfebc96b9@31.43.179.0:8880?type=httpupgrade&path=%2F%3Fed%3D2080&host=shad.hsrdnr.ir&security=none#%D9%85%D9%88%D9%82%D8%AA2
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZHlMK0txWDhoSU1uK1V5QUR3U0pPUG03MkEwQTgzVHNET0ZYQm42STJtQT0@49.13.3.249:23997#%40FreeLand8%20%F0%9F%91%80%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
 vless://b0e1b204-31b5-40df-b800-169ada16fdb9@sibilgg.opik.net:8080?security=none&encryption=none&headerType=none&type=tcp#%40FreeLand8%20%F0%9F%91%80%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca31.myfymain.com:8880?mode=gun&security=none&encryption=none&type=grpc#%40FreeLand8%20%F0%9F%91%80%20%D8%B3%D8%B1%D9%88%D8%B1%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1
@@ -196,5 +198,3 @@ vless://bcc39590-45d5-4e21-95d9-184c188dea3e@158.160.186.6:443?security=reality&
 vless://ae0dd58e-e222-40bf-84ae-365a97532737@104.17.150.224:443?path=%2Falbum%2Fbt&security=tls&encryption=none&insecure=0&host=pagescm.freen15.cc.cd&type=ws&allowInsecure=0&sni=pagescm.freen15.cc.cd#@v2rayng3
 vless://ae0dd58e-e222-40bf-84ae-365a97532737@8.35.211.241:443?path=%2Ffriend&security=tls&encryption=none&insecure=1&host=pagescm.freen11.cc.cd&fp=chrome&type=ws&allowInsecure=1&sni=pagescm.freen11.cc.cd#@v2ray_ng
 vless://a00d89f6-ab7e-4e30-a5e5-54c701d62c93@178.236.16.98:35728?security=reality&encryption=none&pbk=vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng&headerType=none&type=tcp&sni=yahoo.com&sid=69a2#@v2rayng3
-vless://edbb68ac-dd14-4ce0-bf1e-11caff0a2c81@172.64.229.81:443?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=users.akdra.ir&fp=chrome&type=ws&allowInsecure=0&sni=Users.Akdra.ir#@v2rayng3
-vless://406d8436-0eb9-4eb2-84fb-960e076ffba6@104.17.121.71:443?mode=stream-one&path=%2Fde&security=tls&encryption=none&insecure=0&host=de.lezzatzone.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=de.lezzatzone.ir#@v2rayng3
