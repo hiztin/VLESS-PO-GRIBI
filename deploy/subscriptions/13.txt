@@ -54,7 +54,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpfVHVzdUU1aTBFenl2V3NRdVRpS01Ncl9qX3NkdXUyRQ@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNTExNTg0NS1jYzIzLTQwODItOTA1ZS04NjlmZTIxMmRmZWY@account-center.zzdy25.com:38777#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWEwZDA5Mi02ZjBlLTQ3MDEtODFlZS00NTQ2NDNkNmQ1MDY@namrcg001640lrm.cybervena.com:50099#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#🇿🇦
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphbmRrcWVyZE1WMUpDLWkzSkJKcmNYWm94Nmg3dmQ3WA@vip.zarins.ir:20700#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiUVpsN0hEeFNhYnIxRnVyVFlRSEZV@216.105.168.18:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjQXFiQllCQjBmOUNBbXBVX21jXzdGeXZ2TENjd3p0MA@45.95.233.82:8388#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.189:8080#🇳🇱
@@ -66,6 +65,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkSk9WdUJXcXlDN19nUFpGemhTTFFn@shadow.lezzatt
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkSk9WdUJXcXlDN19nUFpGemhTTFFn@support.lezzattimel.ir:1222#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@38.135.24.131:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoZnpqb2NsaXVpcHIycDYz@45.38.23.38:15096#🇫🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqUHhGbjNKN2t1SmpCNzJjSXdweXBB@213.156.152.223:2095#🇹🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.181:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.182:8080#🇬🇬
@@ -79,7 +79,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.205:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.208:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.214:8080#🇬🇬
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuWkJzRjFUQ1pVMk9NTHVq@20.166.48.64:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpub2Rlcy0zNzQxMWMzZQ@77.90.60.136:990#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.151:8080#🇳🇱
@@ -138,6 +137,8 @@ ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRvNU16TXhZbVU0WXkwNFlXRmlMVFE
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRvd016UTFORE0xWkMwMlpHVmtMVFJoTmpJdFlqWmxZeTB4T1dFNU16QXdNRFpoT0dR@free.2weradf.xyz:36341#🇨🇳
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRveVpqUTNZMlkzT1Mxa1lqVTNMVFF5TWpjdFlqSmpZUzA0TURGa05qQTFPV1UwWXpJ@free.2weradf.xyz:36145#🇨🇳
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRveVpqUTNZMlkzT1Mxa1lqVTNMVFF5TWpjdFlqSmpZUzA0TURGa05qQTFPV1UwWXpJ@free.2weradf.xyz:36241#🇨🇳
+ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwak1qUTROelpoTWkweE4yWXdMVFE1WVdFdE9XWTROeTAzWkRkbFpqTTNZbUZpTURR@free.2weradf.xyz:36441#🇨🇳
+ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwak1qUTROelpoTWkweE4yWXdMVFE1WVdFdE9XWTROeTAzWkRkbFpqTTNZbUZpTURR@free.2weradf.xyz:36721#🇨🇳
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwbE5UQXhOV00zTnkwMk1EZzNMVFJsT0RRdE9UVm1ZUzFpTldZMk5UTTBORGs1WkRr@free.2weradf.xyz:36441#🇨🇳
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwbE5UQXhOV00zTnkwMk1EZzNMVFJsT0RRdE9UVm1ZUzFpTldZMk5UTTBORGs1WkRr@free.2weradf.xyz:36611#🇨🇳
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwbVkyWTBZVGhpT0MwMU5XWXhMVFJqTW1VdE9XWTBNaTA1TUdFNE1qbGxOMk5qWTJV@free.2apzhfa.xyz:31371#🇨🇳
@@ -146,7 +147,6 @@ ss://c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2WVcxaGVtOXVjMnR5TURV@3.112.149.87:443#🇯🇵
 vless://%40free_conf_iran@51.83.22.65:52196?security=&encryption=none&host=%40v2rayNplus%40v2rayNplus%40v2rayNplus&headerType=none&type=tcp#🇫🇷
 vless://%40free_conf_iran@f.mamish.ir:7018?mode=gun&security=reality&encryption=none&pbk=VFLtoNzHBUkrPoY1-uXpx2_IvxrLcT3YAo656Nj4Cgk&fp=firefox&spx=%2F05kSkCYVRD8FxtJ&type=grpc&serviceName=2096vless&sni=use.fontawesome.com&sid=e0c129#🏳️
 vless://00000000-0000-4000-8000-000000000000@121.181.37.129:10728?encryption=none&type=ws&path=%2F%40Marisa_kristi&host=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&security=tls&sni=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&fp=chrome#🇰🇷
-vless://00000000-0000-4000-8000-000000000000@142.248.151.249:17512?allowInsecure=0&sni=qi4rysu2u-e8j2zzhk.bsld.de5.net&type=ws&host=qi4rysu2u-e8j2zzhk.bsld.de5.net&path=/@Marisa_kristifp=chrome&security=tls#🇯🇵
 vless://00000000-0000-4000-8000-000000000000@146.70.20.102:20205?encryption=none&type=ws&path=%2F%40Marisa_kristi&host=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&security=tls&sni=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&fp=chrome#🇩🇪
 vless://00000000-0000-4000-8000-000000000000@175.197.227.99:10928?encryption=none&type=ws&path=%2F%40Marisa_kristi&host=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&security=tls&sni=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&fp=chrome#🇰🇷
 vless://00000000-0000-4000-8000-000000000000@193.233.134.90:40086?encryption=none&type=ws&path=%2F%40Marisa_kristi&host=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&security=tls&sni=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&fp=chrome#🇷🇺
