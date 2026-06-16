@@ -1,3 +1,5 @@
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206K2xnUnA4eHZaSTZKZmtYdUpMMVlkUT09OkhxVEtSRVJaekI2bkZSMm8xMXkybXc9PQ@coco3.farajet.net:2095#🇮🇷
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206YnBMMC9YeGkwWUsvNVdBZDNraUcwQT09OkhxVEtSRVJaekI2bkZSMm8xMXkybXc9PQ@coco1.farajet.net:2096#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.157:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.206:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.217:8080#🇳🇱
@@ -14,6 +16,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@193.29.139.143:443#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxa1ZyMEtBVElKSTdtd09G@admin.c1.havij.co:443#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxaGhycXJva2ozYWc@209.46.102.22:8388#🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxbVhXY21UczZjM2g1SzhxYnEzZ0pJ@195.93.253.240:14130#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQ3BJZEF1MW9sd2NPZEdPTXJHNjM3bnNRdWRtRFhRV01MQ24wbw@66.70.190.236:41344#🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0bmRDUDJEZjktUFR4X0owc1plb0htVGR2a2cwdzRLdg@85.192.49.149:51523#🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1STRwenhTR055MFljeG1K@20.164.220.65:443#🇿🇦
@@ -21,7 +24,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1Uk91RXFzTDhJVU1NVmI0d0R3bkdV@57.129.121.230
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3b1hEcHNPeEw4S0V3cmhqd29iQ3BsY0hkdzNDaWNLckVFRld3NkFOd292Q3NsNXhQOE9QdzRMQ2tjT2F3NW5EdVZ3PQ@85.133.215.4:42152#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4RjY5UG5HdWpraTRpOG1k@20.123.1.42:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5T0RMWFZMejJGV05URmVTU25nM0Zt@136.244.100.113:443#🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5dTJYblNQV2htUWp4bjgzaUpBM0RB@148.253.208.76:3478#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5dTJYblNQV2htUWp4bjgzaUpBM0RB@91.208.75.251:3478#🇷🇴
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6ZlJ3ZHJlTGFCT0d3VXpDYVdtdklO@195.93.253.240:14130#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@37.143.129.98:990#🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@157.175.132.200:443#🇧🇭
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDR2thSlRiOEhWMGpNQTQzZkE5RmMz@195.133.2.2:34898#🇫🇮
@@ -45,11 +50,11 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@20.50.123.173:443#🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@51.105.29.64:443#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@admin.c1.webramz.co:443#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a2.samanehha.co:443#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTjZYZjBacXdEZUZydDM5VFFyYWVu@45.80.231.75:31019#🇸🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYUlV3cGtTb3VXNUhDVFVGVXhFcmZuTDVBbWFob2ZyanpuVnJBdTJpTkZNRkdVQ3JDaHpuQVVMaHVIR0FRZEM0NjNtemNnbzJqVjU0NlV0NUhLaGszcHo5NTZjSFlZeWM@188.212.132.20:52952#🇯🇵
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZNUVKWm9qVk1FTnZrRFZGWWxpRXFF@62.133.63.169:37096#🇹🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaMnNrU1ZHTVh6aHRQNHdDb2w4TXp3@Germany.mobolive.fun:1080#🏳️
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWEwZDA5Mi02ZjBlLTQ3MDEtODFlZS00NTQ2NDNkNmQ1MDY@namrcg001640lrm.cybervena.com:50099#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiUVpsN0hEeFNhYnIxRnVyVFlRSEZV@216.105.168.18:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiWjg3YW1QcGRHN0t1V002MmJLdG0xS0hvb3d1VmpuVjhDS3RxNjUzeW1IY2cyZFBZY1BKZm5hUTYxc3R1QWpyMlppTERhcUg1Nlhwa3hFWXV3RHp6UnJNV2llZWJXR3Q@185.5.38.111:55988#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157:8080#🇳🇱
@@ -116,11 +121,11 @@ ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@144.217.164.29:12000#🇨�
 ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@15.204.254.187:12000#🇺🇸
 ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@139.64.165.101:7306#🇺🇸
 ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@38.180.216.114:7307#🇪🇪
+ss://YWVzLTI1Ni1nY206RmpHM0lQYm55KzBaWVU0L3AxdlVMUDg0R2NLcEdvWnBXS0FheTE2VmhJdz0@51.254.128.106:2083#🇫🇷
 ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@167.88.62.62:8080#🇺🇸
 ss://YWVzLTI1Ni1nY206T0RRM1pUQm1aak0wTlRkak0yRmtOelZrWVdVd1pHVXpPRE5tTmpKaw@37.32.27.199:10127#🇮🇷
 ss://YWVzLTI1Ni1nY206T0dNNU1EQXpOamsxWVRoak5qY3pOekl3WmpFeE1qTXhaR1F5T0Rjdw@37.32.15.249:10129#🇮🇷
 ss://YWVzLTI1Ni1nY206T2xlUFRhQ3ljSFQ3azY2YW9UNm9oZFVPVlNQcmNJeGFiNUUrTGJsaThaMD0@89.44.112.248:44453#🇮🇷
-ss://YWVzLTI1Ni1nY206TGlmZW5ldCA@janfada.bardiadev.site:1122#🇮🇷
 ss://YWVzLTI1Ni1nY206TVRJMVlUWXdNMkpsWkdNMU5EZGxNekUxTmpRM00yTXpaV1l5TXpGaA@95.38.177.1:10132#🇮🇷
 ss://YWVzLTI1Ni1nY206TWpFM05EWm1aR1l4TW1ZeE9XTmhPRGRqTVRoallXTXlZV0l3T1RJdw@95.38.186.24:10129#🇮🇷
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7001#🇰🇷
@@ -171,6 +176,7 @@ ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwbVpqUmlOVFZoTlMwMk5qbGhMVFJ
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwbVpqUmlOVFZoTlMwMk5qbGhMVFJoWWpjdE9HTm1ZUzB5TkdNd056ZGlNell4TXpV@free.2apzhfa.xyz:31243#🇨🇳
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwbVpqUmlOVFZoTlMwMk5qbGhMVFJoWWpjdE9HTm1ZUzB5TkdNd056ZGlNell4TXpV@free.2apzhfa.xyz:31313#🇨🇳
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwbVpqUmlOVFZoTlMwMk5qbGhMVFJoWWpjdE9HTm1ZUzB5TkdNd056ZGlNell4TXpV@free.2apzhfa.xyz:31721#🇨🇳
+vless://%40Net2ray@47.250.195.219:23063?security=none&encryption=none&headerType=none&type=tcp#🇲🇾
 vless://00000000-0000-4000-8000-000000000000@121.181.37.129:10728?encryption=none&type=ws&path=%2F%40Marisa_kristi&host=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&security=tls&sni=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&fp=chrome#🇰🇷
 vless://00000000-0000-4000-8000-000000000000@146.70.20.102:20205?encryption=none&type=ws&path=%2F%40Marisa_kristi&host=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&security=tls&sni=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&fp=chrome#🇩🇪
 vless://00000000-0000-4000-8000-000000000000@175.197.227.99:10928?encryption=none&type=ws&path=%2F%40Marisa_kristi&host=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&security=tls&sni=7b685z8k-h8u0.ye6aldcatac7obgd52pdfzw3hh2fe5v8roas.workers.dev&fp=chrome#🇰🇷
@@ -192,9 +198,3 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?path=%2F&security=&e
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?security=none&type=ws&headerType=&path=%2F&host=max-gb1.global.ssl.fastly.net#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.109.223:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.130.219:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.130.219:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.194.219:80?encryption=none&type=ws&path=%2F&host=max-gb1.global.ssl.fastly.net#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.194.219:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws&sni=max-gb1.global.ssl.fastly.net#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.2.219:80?encryption=none&host=max-gb1.global.ssl.fastly.net&path=%2F&security=none&type=ws#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.2.219:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
