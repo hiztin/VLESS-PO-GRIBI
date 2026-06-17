@@ -58,7 +58,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiWjg3YW1QcGRHN0t1V002MmJLdG0xS0hvb3d1VmpuVjh
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.179:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.189:8080#🇳🇱
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.199:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkSk9WdUJXcXlDN19nUFpGemhTTFFn@checklist.lezzattimel.ir:1121#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkSk9WdUJXcXlDN19nUFpGemhTTFFn@shadow.lezzattimel.ir:1333#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkSk9WdUJXcXlDN19nUFpGemhTTFFn@shadow.lezzattimel.ir:1444#🇮🇷
@@ -70,6 +69,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnYlh4VklHcGpDczVoUHFQ@74.234.78.179:443#🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@38.135.24.131:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoZnpqb2NsaXVpcHIycDYz@45.38.23.38:15096#🇫🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoa2FzYjVjVnJzNGpFMThqQ0VKeEI0R3I1NWhWR1cyNHkzNWdVOUdJSWV5VDMxRnc@213.226.68.8:31348#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppTndRUVE0NXZnQUw2ejQwRFpad3lH@45.95.233.55:443#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqUHhGbjNKN2t1SmpCNzJjSXdweXBB@213.156.152.223:2095#🇹🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.182:8080#🇬🇬
@@ -127,6 +127,7 @@ ss://YWVzLTI1Ni1nY206T2xlUFRhQ3ljSFQ3azY2YW9UNm9oZFVPVlNQcmNJeGFiNUUrTGJsaThaMD0
 ss://YWVzLTI1Ni1nY206TVRJMVlUWXdNMkpsWkdNMU5EZGxNekUxTmpRM00yTXpaV1l5TXpGaA@95.38.177.1:10132#🇮🇷
 ss://YWVzLTI1Ni1nY206TWpFM05EWm1aR1l4TW1ZeE9XTmhPRGRqTVRoallXTXlZV0l3T1RJdw@95.38.186.24:10129#🇮🇷
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7001#🇰🇷
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@141.164.45.187:6679#🇰🇷
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@139.64.165.149:5600#🇺🇸
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@139.64.165.63:5001#🇺🇸
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@15.204.87.222:3389#🇺🇸
@@ -188,13 +189,12 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?path=%2F&security=&e
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?security=none&type=ws&headerType=&path=%2F&host=max-gb1.global.ssl.fastly.net#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.109.223:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.130.219:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.130.219:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.194.219:80?encryption=none&type=ws&path=%2F&host=max-gb1.global.ssl.fastly.net#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.194.219:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws&sni=max-gb1.global.ssl.fastly.net#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.2.219:80?encryption=none&host=max-gb1.global.ssl.fastly.net&path=%2F&security=none&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@167.82.0.1:80?encryption=none&type=ws&path=%2F&host=max-gb1.global.ssl.fastly.net#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@167.82.0.1:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@167.82.0.1:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@172.67.164.242:8080?path=%2F&security=&encryption=none&host=tr-cd.sublink-vip2.com&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@199.232.197.131:80?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
+vless://0058c215-ab1e-400c-a403-b5b2fda7e846@fast-domain-gb.dhbhvfbhfbvhfbvhfbhv.shop:2095?security=reality&type=tcp&headerType=&path=&host=&sni=refersion.com&fp=random&pbk=9nvQaypTgq2UZ_9wSUctYxStDRWNJqe3o9evmKc5UBE&sid=bc348c28dbc7b9f5&spx=%2F#🇩🇪
