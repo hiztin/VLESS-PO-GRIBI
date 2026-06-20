@@ -82,6 +82,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.2:808
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.61:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNnIySkJVMWpxNXJGUFZYcXNlODRB@3.68.214.199:1003#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwNzhuYUNmMkVmT2xSU0xUWDB3RlZ4@71.19.148.143:443#🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxYjhOTjkyeUtrWDFrS1FE@20.107.208.165:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyQ2dtcTY1OHZjMmVqM1NF@20.223.176.12:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzOExiSkNnVWlHWGVDS1ZjNjN0SEpQ@94.198.220.183:64674#🇰🇿
 ss://YWVzLTEyOC1nY206QFYyUmF5eU5HdnBu@93.114.98.239:2087#🇹🇷
@@ -155,7 +156,6 @@ vless://024c5ef7-e927-41a9-abdf-e628a3359411@185.204.168.149:2083?security=reali
 vless://0251d827-a6c8-41cf-ae3d-4a3540d96ad5@sedfxyz.s16.viptelbot.top:80?path=%2Fwatson.php&security=none&encryption=none&type=ws#🇳🇱
 vless://02c10b0d-7d5e-4df6-b8ad-18f0f6cc7422@gr1.avenpulse.ir:2087?encryption=none&type=tcp&headerType=http&host=play.google.com#🇩🇪
 vless://031c220e-0a75-4884-1b87-369d05d93ede@snapp.ir:2087?path=%2FBetForward&security=tls&alpn=h2%2Chttp%2F1.1%2Ch3&encryption=none&insecure=0&host=cdn.xelira.ir&fp=chrome&type=ws&allowInsecure=0&sni=cdn.xelira.ir#🇮🇷
-vless://03289d40-f73d-4dfc-cecb-83d26f0a1ade@snapp.ir:2087?path=%2FBetForward&security=tls&encryption=none&insecure=0&host=dns.xelivo.ir&fp=chrome&type=ws&allowInsecure=0&sni=dns.xelivo.ir#🇮🇷
 vless://03575b20-67c2-4512-b15c-72e5440f0c44@ez-421a72.mohamadfarajian09144538950.workers.dev:443?path=%2F&security=tls&encryption=none&insecure=0&host=ez-421a72.mohamadfarajian09144538950.workers.dev&fp=ios&type=ws&allowInsecure=0&sni=ez-421a72.mohamadfarajian09144538950.workers.dev#🏳️
 vless://03575b20-67c2-4512-b15c-72e5440f0c44@ez-421a72.mohamadfarajian09144538950.workers.dev:80?path=%2F&security=none&encryption=none&insecure=0&host=ez-421a72.mohamadfarajian09144538950.workers.dev&fp=ios&type=ws&allowInsecure=0&sni=ez-421a72.mohamadfarajian09144538950.workers.dev#🏳️
 vless://03680b48-3c02-4ade-9dda-8e71676c94cf@ez-52ddb3.ezaccess149a053.workers.dev:2053?path=%2F&security=tls&encryption=none&insecure=0&host=ez-52ddb3.ezaccess149a053.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=ez-52ddb3.ezaccess149a053.workers.dev#🏳️
