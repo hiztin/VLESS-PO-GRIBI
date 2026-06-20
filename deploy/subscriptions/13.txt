@@ -9,6 +9,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg001286ek2.cybervena.com:50099#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg00129437x.cybervena.com:50099#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4VzVySlpVOWwycUExZE9H@20.166.122.87:443#🇮🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4aVcyR0VsT0xXbDladGpq@4.168.196.7:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@193.29.139.143:443#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@193.29.139.164:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxa1ZyMEtBVElKSTdtd09G@admin.c1.havij.co:443#🇬🇬
@@ -62,11 +63,13 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplenllSDIyaUdTMVVEZWV3NXp6YlRpbXFlY3JHQktTUzF
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYngxRnc3bUVOQ2Q3dlpNdm9yUVo1@193.29.139.227:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnYlh4VklHcGpDczVoUHFQ@74.234.78.179:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#🇺🇸
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoZnpqb2NsaXVpcHIycDYz@45.38.23.38:15096#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoa2FzYjVjVnJzNGpFMThqQ0VKeEI0R3I1NWhWR1cyNHkzNWdVOUdJSWV5VDMxRnc@213.226.68.8:31348#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppTndRUVE0NXZnQUw2ejQwRFpad3lH@45.95.233.55:443#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqUHhGbjNKN2t1SmpCNzJjSXdweXBB@213.156.152.223:2095#🇹🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.182:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.192:8080#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.208:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.214:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8080#🇬🇬
@@ -115,7 +118,6 @@ ss://YWVzLTI1Ni1nY206WVdRM1lUWTRZVFEwWVRZeFpXVTJZalF5TlRGa01qWmpabU0yT0dFMw@95.3
 ss://YWVzLTI1Ni1nY206WkRkbE16aGpNbU01T0RnMk1qQTRZVEJoT1RjMVlUSTBNR1l5TVRsaw@95.38.176.237:10131#🇮🇷
 ss://YWVzLTI1Ni1nY206WlRVeFpXRXpOak5oTkRnelpETmtOamMzTW1WaFlUZ3pOREV4WXpBMQ@95.38.177.37:10131#🇮🇷
 ss://YWVzLTI1Ni1nY206WmpFM05tUmlPRFV3TmpneE9UWm1NRGMxTWprek5qUXlZVEprWkdJMQ@95.38.177.37:10131#🇮🇷
-ss://YWVzLTI1Ni1nY206ZGFkYTEyMDM@3.8.48.222:80#🇬🇬
 ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@23.154.136.132:8881#🇺🇸
 ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@23.157.40.95:8881#🇺🇸
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRvMFlXUmlZakV6TUMwMU1qY3pMVFExWVRrdE9UZzFaaTA1Wm1Nek0yRTBZekk1TkdF@free.2weradf.xyz:36271#🇨🇳
@@ -171,6 +173,7 @@ vless://039a1658-e86e-475f-a3a4-67cc249acada@nl4.panel11.ru:443?security=reality
 vless://03c0436a-5dfa-488e-a1be-a9718d48a85e@pan.alissd.sbs:2020?security=reality&encryption=none&pbk=U96KUHJef8BbCGpCH-nk9_XyinKJN67obbJ39jOa4Sg&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=www.aparat.com&sid=77#🇮🇷
 vless://042568ad-65b3-4ef8-866f-8e8fcb07678c@23.227.60.180:2087?path=%2F&security=tls&encryption=none&insecure=0&host=tiny-hill-d757.ali2221.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=tiny-hill-d757.ali2221.workers.dev#🏳️
 vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?path=%2Fvless%2F&security=&encryption=none&type=ws#🇮🇹
+vless://04e28e6c-7a6c-4ec7-bed2-3da8f7c9edce@45.130.125.126:2053?path=%2FeyJqdW5rIjoiTG1BbkpIVHV2S21jNjRNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTQ2LjEwMy4xMTMuMTU4Il19%3Fed&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=bpb-expo--10rayly4zy.expo.app&fp=chrome&type=ws&allowInsecure=0&sni=BpB-expO--10RaYly4zY.EXPO.App#🏳️
 vless://04e28e6c-7a6c-4ec7-bed2-3da8f7c9edce@www.speedtest.net:2053?path=%2FeyJqdW5rIjoiTG1BbkpIVHV2S21jNjRNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTQ2LjEwMy4xMTMuMTU4Il19&security=tls&alpn=http%2F1.1&encryption=none&host=bpb-expo--10rayly4zy.expo.app&type=ws&sni=BpB-expO--10RaYly4zY.EXPO.App#🏳️
 vless://04e28e6c-7a6c-4ec7-bed2-3da8f7c9edce@www.speedtest.net:443?path=%2FeyJqdW5rIjoiVUllM0x5bkQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=bpb-expo--10rayly4zy.expo.app&fp=chrome&type=ws&allowInsecure=0&sni=BPb-exPo--10RAyly4zy.expo.aPP#🏳️
 vless://050af581-d35f-495e-e28b-2d562764d01c@snapp.ir:2087?path=%2FBetForward&security=tls&encryption=none&insecure=0&host=cdn.daraflo.ir&fp=chrome&type=ws&allowInsecure=0&sni=cdn.daraflo.ir#🇮🇷
@@ -192,9 +195,6 @@ vless://05dde938-bb2d-41c3-b176-2a9d370489b4@151.101.109.223:443?encryption=none
 vless://05e3b601-cc07-46dd-9766-d90f7adaa655@65.21.109.91:443?encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&host=speedtest.com&mode=auto&path=%2Fbin&pbk=v0vhjyFJPMzOUrM5l1PgoQCr83mHd1rNAIK2hi8ID1s&security=reality&sid=0e3f3a&sni=www.samsung.com&spx=%2F0hdCYzwZBnQy1tk&type=xhttp&x_padding_bytes=100-1000#🇫🇮
 vless://05e3b601-cc07-46dd-9766-d90f7adaa655@65.21.109.91:443?mode=auto&path=%2Fbin&security=reality&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=v0vhjyFJPMzOUrM5l1PgoQCr83mHd1rNAIK2hi8ID1s&host=speedtest.com&fp=chrome&spx=%2F0hdCYzwZBnQy1tk&type=xhttp&sni=www.samsung.com&sid=0e3f3a#🇫🇮
 vless://05e3b601-cc07-46dd-9766-d90f7adaa655@65.21.109.91:80?encryption=none&host=speedtest.com&path=%2Fnotbin&security=none&type=ws#🇫🇮
+vless://05e3b601-cc07-46dd-9766-d90f7adaa655@65.21.109.91:80?path=%2Fnotbin&security=&encryption=none&host=speedtest.com&type=ws#🇫🇮
 vless://05fbf82f-701b-4d46-8b53-6d7325d24eca@forallpanel.srtongston.ir:2052?path=%2F&security=none&encryption=none&host=abolfazl.srtongston.ir&type=httpupgrade#🏳️
 vless://0650e3f2-ab16-44af-bc91-e8d30cda2d70@euro.connectingissues.ir:80?mode=auto&path=%2F%3Fed%3D2048&security=&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=shirin-kose.de&type=xhttp#🏳️
-vless://0650e3f2-ab16-44af-bc91-e8d30cda2d70@global.connectingissues.ir:80?mode=auto&path=%2F%3Fed%3D2048&security=&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=shirin-kose.de&type=xhttp#🏳️
-vless://0650e3f2-ab16-44af-bc91-e8d30cda2d70@local.connectingissues.ir:80?mode=auto&path=%2F%3Fed%3D2048&security=&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=shirin-kose.de&type=xhttp#🏳️
-vless://0650e3f2-ab16-44af-bc91-e8d30cda2d70@mci.connectingissues.ir:80?mode=auto&path=%2F%3Fed%3D2048&security=&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=shirin-kose.de&type=xhttp#🏳️
-vless://06795288-3b02-0c10-9b72-f26b7bdcd82e@66.33.23.63:443?encryption=none&security=tls&sni=tmesubgift.up.railway.app&fp=chrome&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=tmesubgift.up.railway.app&path=%2Fws%2F06795288-3b02-0c10-9b72-f26b7bdcd82e#🇺🇸

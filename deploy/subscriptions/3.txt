@@ -104,6 +104,7 @@ vless://dd47f0f6-e503-44d5-8243-0f48c1c20c28@132.243.65.121:443?encryption=none&
 vless://8224aa92-4a38-4756-a7d9-a9e7cde12a31@103.166.127.195:448?encryption=none&amp;security=reality&amp;sni=www.samsung.com&amp;fp=chrome&amp;pbk=nE2H52_rX3dHXENKxpHFDfZPKP40AjGoHyJv9olrr20&amp;sid=124107a81dcd5199&amp;type=tcp&amp;headerType=none#@Capoit
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.142.120.40:8880?encryption=none&amp;security=none&amp;type=ws&amp;host=vms.lifetime08.workers.dev&amp;path=/#@Capoit
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.176.26.50:8880?encryption=none&amp;security=none&amp;type=ws&amp;host=vms.lifetime06.workers.dev&amp;path=/?ed=2560#@Capoit
+vless://SoonTeam@104.27.194.143:8080?mode=auto&amp;path=/@SoonTeam&amp;security=&amp;encryption=none&amp;extra={"xPaddingBytes":"100-1000"}&amp;host=new.new.new.ab841.com&amp;type=xhttp#@Capoit
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ@admin.c2.havij.co:443#@CloudCityy
 vless://9ecfba25-f382-41c2-ac80-429f8689da9a@185.126.7.182:12486?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#@CloudCityy
 vmess://eyJhZGQiOiIxOTIuMjAwLjE2MC4xNiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5YjRjMmVkYS0zNDFlLTQ4OGYtYTNiMi0xZGM3MTZiOWYzNmEiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IkBDbG91ZENpdHl5Iiwic2N5IjoiYXV0byIsInNuaSI6InN0ZWFtLmF2YWFhYWwuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
@@ -197,4 +198,3 @@ vless://ca89921a-c01d-4a96-961e-fdeb52ed6513@root.configforvpn.fun:443?path=/cdn
 vmess://eyJhZGQiOiJpcHMuY29uZmlnZm9ydnBuLmZ1biIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoicm9vdC5jb25maWdmb3J2cG4uZnVuIiwiaWQiOiJkYTI4Yzg1ZS1lNzFiLTQ1NTQtYTlmYy0xNjJiYzk0YzdjYjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg4ODAiLCJwcyI6IkBDb25maWdmb3JWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
 vless://ca89921a-c01d-4a96-961e-fdeb52ed6513@root.configforvpn.fun:443?path=/cdn&amp;security=tls&amp;encryption=none&amp;alpn=h2,http/1.1&amp;host=root.configforvpn.fun&amp;fp=chrome&amp;type=ws&amp;sni=root.conf…
 vless://40b7d140-2ae6-4ef5-a1bd-46c430bf89ab@cdn.melodyshopone2.ir:8080?path=/&amp;security=none&amp;encryption=none&amp;host=cdn.melodyshopone2.ir&amp;type=ws#@configforVPN
-vless://00f4ebcf-6bae-4eb2-9064-2a272e4d4875@cdn.melodyshopone2.ir:8080?path=/&amp;security=none&amp;encryption=none&amp;host=cdn.melodyshopone2.ir&amp;type=ws#@configforVPN
