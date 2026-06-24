@@ -92,6 +92,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.199:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.200:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.204:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.205:8080#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.207:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.208:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.214:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.216:8080#🇬🇬
@@ -115,6 +116,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzc0xUbGR5RjNDVXJRdndQ@20.87.210.108:443#🇿
 ss://YWVzLTEyOC1nY206SlZTdXVpYjR5ZHZZOG03dTZqRWxUWWJlUk84eWdKNEhpOElxNzMzQnFBa0Y@168.138.175.92:9888#🇸🇬
 ss://YWVzLTEyOC1nY206bGlveGo2cXg1d2o3aHo0bTlwb20@174.138.187.118:10875#🇺🇸
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.178:443#🇬🇬
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.179:443#🇬🇬
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.181:443#🇬🇬
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182:443#🇬🇬
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.95.183:443#🇨🇦
@@ -144,6 +146,7 @@ ss://YWVzLTI1Ni1nY206cmpSVHBMY3prRU1pL1NtQlpFazBBalkvdXFSOFgweVlyZ1NxLzF6TkEvdz0
 ss://YWVzLTI1Ni1nY206d2MvZXFSUHJZam54ZkFKMkpLbmlvN2NHMktvOUs5RGlNd3pvblJqVTNMST0@103.130.147.40:1122#🇮🇷
 vless://%40Net2ray@62.60.184.168:6666?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://%40Net2ray@89.144.145.247:6666?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
+vless://00000000-0000-4000-8000-000000000000@89.22.238.213:46209?path=%2F%40Marisa_kristi&security=tls&encryption=none&insecure=0&host=g1ixej-urdn-dlqnu1ol.gespz5p7nm04ej96ia7qc9tvsktgtx.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=g1ixej-urdn-dlqnu1ol.gespz5p7nm04ej96ia7qc9tvsktgtx.workers.dev#🇸🇪
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
@@ -152,6 +155,7 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.60:80?path=%2F&security=n
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.1.151:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.109.223:80?encryption=none&host=max-gb1.global.ssl.fastly.net&path=%2F&security=none&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.118.151:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
+vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.130.219:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.194.219:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.194.219:80?encryption=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=/&security=none#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.194.219:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
@@ -160,6 +164,7 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.2.219:80?encryption=none&ho
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.2.219:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.2.219:80?path=%2F%3FTELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy%3Fed%3D512&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.2.219:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
+vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.205.151:80?path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.215.151:80?path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.24.151:80?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=max-gb1.global.ssl.fastly.net&path=%2F&security=none&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.24.151:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
@@ -185,6 +190,7 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@167.233.104.128:2096?encryption=non
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@167.233.99.71:2096?encryption=none&security=none&serviceName=fast-domain-gb.dhbhvfbhfbvhfbvhfbhv.shop&type=grpc#🇩🇪
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@167.82.0.1:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@167.82.0.1:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
+vless://0058c215-ab1e-400c-a403-b5b2fda7e846@167.82.0.1:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@172.67.69.236:8080?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=tr-cd.sublink-vip2.com&path=%2F&security=none&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@172.67.69.236:8080?encryption=none&security=none&type=ws&host=tr-cd.sublink-vip2.com&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@172.67.69.236:8080?path=%2F&security=none&encryption=none&host=tr-cd.sublink-vip2.com&type=ws#🏳️
@@ -192,9 +198,3 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@178.104.29.84:2096?encryption=none&
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@46.225.239.50:2096?encryption=none&security=none&serviceName=fast-domain-gb.dhbhvfbhfbvhfbvhfbhv.shop&type=grpc#🇩🇪
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@speedtest.net:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@speedtest.net:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
-vless://00b2c573-d37e-447b-a979-5b940be44fd4@89.116.250.135:2053?encryption=none&security=tls&type=ws&headerType=none&sni=fl.matrix-shop.ir&alpn=http%2F1.1#🏳️
-vless://00b2c573-d37e-447b-a979-5b940be44fd4@89.116.250.135:2053?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=fl.matrix-shop.ir#🏳️
-vless://00e94078-bb1e-49aa-8567-e1b3b2843150@172.67.195.229:443?allowInsecure=1&encryption=none&fp=chrome&host=rapid-hat-441d.platovpn.workers.dev&path=%2F&security=tls&sni=rapid-hat-441d.platovpn.workers.dev&type=ws#🏳️
-vless://00f7f9c6-70cf-4a50-a9bf-08c77229251b@107.189.7.176:443?fp=chrome&security=tls&allowInsecure=0&type=ws&alpn=h2%2Chttp%2F1.1&host=107.189.7.176&sni=107.189.7.176&path=%2Fws&insecure=0&encryption=none#🇱🇺
-vless://017be259-a5de-442e-a4da-ee7a6294a620@Cloudflare.sellvpn.app:2087?path=%2F&security=tls&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0#🏳️
-vless://01bda09b-f79a-4e47-b903-acaae59ebfee@hentai-cdn.apruxdomain.xyz:80?encryption=none&security=none&type=ws&path=%2F#🇷🇺
