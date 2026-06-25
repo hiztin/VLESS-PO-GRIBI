@@ -47,7 +47,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJSU14Rk15cTNGd3lQZDIxVUdXZ21OSkNBaVlOOW0ydk9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJVGoxMXlrRzFpamhDTVF3aDhXTHp0bVNPVmNpWnBiNA@p4.hoomankh.info:1080#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLR2NKc3IycGZGSDB4N0dN@4.168.196.7:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLRjZiazd0cTZteHRDNWpx@qugvl.padafan.de:15101#🇮🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLUDZGUVZtSmhsWFBndlBocncyZ25J@62.133.63.169:37096#🇹🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUWZPdTFKQ19YRm5VdEVycGZrOFB3@0:0#🏳️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPRGRJRmdMcHd5RHA0dFpq@20.164.211.148:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQV3BqUG8zdHFoUE40eVJa@8.209.74.72:20001#🇩🇪
@@ -64,6 +63,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZelMya20zMEZoTEtrVThR@ir5.nextping.xyz:44812
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMWViZjc2NTA5MDlhZjJlMzBkZDU2MGI5NzQ2ZTM1MQ@159.69.21.145:1080#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMWViZjc2NTA5MDlhZjJlMzBkZDU2MGI5NzQ2ZTM1MQ@de.vncbiz.infom.ew.usdtbama.site:1080#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiSU9vaTVUdUltRzJLY2N4VjctamNBN0Nleit2dW4tY19F@104.156.233.234:27116#🇦🇺
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpieFF4ZjJwbUR4dkt6YmFjTlFGV1g4NnZvdk9Jbl85OA@coco1.farajet.net:2095#🇮🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpieFF4ZjJwbUR4dkt6YmFjTlFGV1g4NnZvdk9Jbl85OA@coco2.farajet.net:2096#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjQ29rOENCRjRPSlZRMHc4SkdqTEtfSU16QjRzRHd3Zg@1.1.1.1:1080#🏳️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjQXFiQllCQjBmOUNBbXBVX21jXzdGeXZ2TENjd3p0MA@31.76.7.28:8388#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157:8080#🇳🇱
@@ -74,6 +75,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplc2UwbHRnZF9VQ2QwT1ozNW9xb0Fn@213.155.15.188
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplenllSDIyaUdTMVVEZWV3NXp6YlRpbXFlY3JHQktTUzFJc0VxaA@185.246.153.12:31348#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoMkdOUDZ4enNzMHhRNWtmN0JOY0pJ@46.224.2.35:47199#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoUmQ9SVhram96TUVLTGVHUl8wcTA5anR3bHk1SjJsYTJP@172.234.202.34:24833#🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNnFqMVFpOWJLdkZmSU0w@20.234.9.106:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.181:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.182:8080#🇬🇬
@@ -140,7 +142,6 @@ vless://%40Net2ray@62.60.184.168:6666?security=none&encryption=none&headerType=n
 vless://%40Net2ray@89.144.145.247:6666?security=none&encryption=none&headerType=none&type=tcp#🇮🇷
 vless://00000000-0000-4000-8000-000000000000@89.22.238.213:46209?path=%2F%40Marisa_kristi&security=tls&encryption=none&insecure=0&host=g1ixej-urdn-dlqnu1ol.gespz5p7nm04ej96ia7qc9tvsktgtx.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=g1ixej-urdn-dlqnu1ol.gespz5p7nm04ej96ia7qc9tvsktgtx.workers.dev#🇸🇪
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.1:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.35:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.0.60:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
@@ -197,4 +198,3 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@172.67.69.236:8080?ed=2560&eh=Sec-W
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@172.67.69.236:8080?encryption=none&security=none&type=ws&host=tr-cd.sublink-vip2.com&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@172.67.69.236:8080?path=%2F&security=none&encryption=none&host=tr-cd.sublink-vip2.com&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@178.104.29.84:2096?encryption=none&security=none&serviceName=fast-domain-gb.dhbhvfbhfbvhfbvhfbhv.shop&type=grpc#🇩🇪
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@46.225.239.50:2096?encryption=none&security=none&serviceName=fast-domain-gb.dhbhvfbhfbvhfbvhfbhv.shop&type=grpc#🇩🇪
