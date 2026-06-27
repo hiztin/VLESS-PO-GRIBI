@@ -11,6 +11,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDFuVnBxSlZwNW9xMlc0RDBMank0@109.107.182.22
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VTNwc1Iwc1F1UXhXWG9CSEI0S1REM1lhY3dRd1MyMVh2U0V5OQ@45.129.96.62:41348#🇪🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@61.231.25.172:50099#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg001286ek2.cybervena.com:50099#🇹🇼
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4Y0pEY0JmSHpoQUhWekxZbEtMTFplVUpJZmdBZzhsWQ@p4.hoomankh.info:1080#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YmFhNGVhZDIyZGIxZDdlOGZlYTA2M2I2YWVmY2M3Mw@159.69.21.145:1080#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YmFhNGVhZDIyZGIxZDdlOGZlYTA2M2I2YWVmY2M3Mw@172.233.108.250:1083#🇪🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YmFhNGVhZDIyZGIxZDdlOGZlYTA2M2I2YWVmY2M3Mw@de.vncbiz.infom.ew.usdtbama.site:1080#🇩🇪
@@ -45,6 +46,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIYnlVNV9iMkJBbnpOODJ2R3BuSVpWUm42U1o3d013cw@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOU9ZMEQtc3FWR2NZTFhYTHZFTXp0VFVkbGZ6d1FrTg@1.1.1.1:1080#🏳️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJSU14Rk15cTNGd3lQZDIxVUdXZ21OSkNBaVlOOW0ydk9v@91.108.254.252:18982#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJVGoxMXlrRzFpamhDTVF3aDhXTHp0bVNPVmNpWnBiNA@p4.hoomankh.info:1080#🇩🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJYVU1dXZhUlpoZno@167.86.95.192:8560#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLR2NKc3IycGZGSDB4N0dN@4.168.196.7:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLRjZiazd0cTZteHRDNWpx@qugvl.padafan.de:15101#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUWZPdTFKQ19YRm5VdEVycGZrOFB3@0:0#🏳️
@@ -196,5 +198,3 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.66.151:80?path=%2F%3Fhttps%
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.70.151:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.70.151:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.84.151:80?path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.91.151:80?host=max-gb1.global.ssl.fastly.net&path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&type=ws#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.99.151:80?path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
