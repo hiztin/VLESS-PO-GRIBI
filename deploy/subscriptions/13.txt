@@ -16,7 +16,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YmFhNGVhZDIyZGIxZDdlOGZlYTA2M2I2YWVmY2M3Mw@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YmFhNGVhZDIyZGIxZDdlOGZlYTA2M2I2YWVmY2M3Mw@172.233.108.250:1083#🇪🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YmFhNGVhZDIyZGIxZDdlOGZlYTA2M2I2YWVmY2M3Mw@de.vncbiz.infom.ew.usdtbama.site:1080#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YmFhNGVhZDIyZGIxZDdlOGZlYTA2M2I2YWVmY2M3Mw@fr.bazrilornam.txt.usdtbama.site:1082#🇫🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4aVcyR0VsT0xXbDladGpq@4.168.196.7:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4cFQ1OWVicjN6dERRQ3FI@bfqji.Packetnet.de:22807#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4cFQ1OWVicjN6dERRQ3FI@bfqji.packetnet.de:22807#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5RzVJWFBya0YwU3kzRDZq@20.166.126.19:443#🇮🇪
@@ -47,7 +46,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJOU9ZMEQtc3FWR2NZTFhYTHZFTXp0VFVkbGZ6d1FrTg@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJSU14Rk15cTNGd3lQZDIxVUdXZ21OSkNBaVlOOW0ydk9v@91.108.254.252:18982#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJVGoxMXlrRzFpamhDTVF3aDhXTHp0bVNPVmNpWnBiNA@p4.hoomankh.info:1080#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJYVU1dXZhUlpoZno@167.86.95.192:8560#🇩🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLR2NKc3IycGZGSDB4N0dN@4.168.196.7:443#🇿🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLRjZiazd0cTZteHRDNWpx@qugvl.padafan.de:15101#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOUWZPdTFKQ19YRm5VdEVycGZrOFB3@0:0#🏳️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpObFY1eHNrX0Nlb01NMmpRdVoxZEdB@18.184.156.126:1003#🇩🇪
@@ -84,7 +82,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplenllSDIyaUdTMVVEZWV3NXp6YlRpbXFlY3JHQktTUzF
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoMkdOUDZ4enNzMHhRNWtmN0JOY0pJ@46.224.2.35:47199#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoUmQ9SVhram96TUVLTGVHUl8wcTA5anR3bHk1SjJsYTJP@172.234.202.34:24833#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNnFqMVFpOWJLdkZmSU0w@20.234.9.106:443#🇮🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.181:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.182:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.183:8080#🇬🇬
@@ -198,3 +195,6 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.66.151:80?path=%2F%3Fhttps%
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.70.151:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.70.151:80?path=%2F&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.84.151:80?path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
+vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.91.151:80?host=max-gb1.global.ssl.fastly.net&path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&type=ws#🏳️
+vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.99.151:80?path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
+vless://0058c215-ab1e-400c-a403-b5b2fda7e846@167.233.104.128:2096?encryption=none&security=none&serviceName=fast-domain-gb.dhbhvfbhfbvhfbvhfbhv.shop&type=grpc#🇩🇪
