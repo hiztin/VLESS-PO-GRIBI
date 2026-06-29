@@ -5,6 +5,7 @@ ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TWFINm51L2prWm1ZdXNrVkpXekdKUT09Oi9KaVFDU21
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TWFINm51L2prWm1ZdXNrVkpXekdKUT09Oi9KaVFDU21lMWQxU3dVTUVqdlRuZWc9PQ@92.242.196.178:443#🇮🇷
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206a0NzOGgweHVTTmZObmdMMVNlRExUR1JBRVdld0RuVGovYXczdU1tRWJTVT06emlIVXFQeXhKL2F0Uk5ra0NmWFZBRS83SCtSbTlocGJkL0gyU1hYRFROND0@65.109.218.60:8880#🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDFuVnBxSlZwNW9xMlc0RDBMank0@109.107.182.229:51544#🇫🇮
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NTM2Y2M4MmU1YWU0ZTI1NTFiNzg5ODViNWIwY2IzYQ@54.38.224.105:1021#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2Rng2UWFxRmJ0dnZWWWY4@20.166.25.13:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@61.231.25.172:50099#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg001269pz2.cybervena.com:50099#🇹🇼
@@ -56,6 +57,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpieFF4ZjJwbUR4dkt6YmFjTlFGV1g4NnZvdk9Jbl85OA@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjQXFiQllCQjBmOUNBbXBVX21jXzdGeXZ2TENjd3p0MA@31.76.7.28:8388#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@193.29.139.157:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNGU5YTMyNGQzNjdjMzY4NzZlYjA0YzVhNjJhOTAxYg@mosgo.javansystem.ir.usdtbama.site:1081#🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@198.98.53.130:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoMkdOUDZ4enNzMHhRNWtmN0JOY0pJ@46.224.2.35:47199#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoUmQ9SVhram96TUVLTGVHUl8wcTA5anR3bHk1SjJsYTJP@172.234.202.34:24833#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNnFqMVFpOWJLdkZmSU0w@20.234.9.106:443#🇮🇪
@@ -79,6 +81,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.216:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.217:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.219:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.152:8080#🇳🇱
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.184:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.10:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.11:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.15:443#🇬🇬
@@ -168,7 +171,6 @@ vless://010a6106-960a-4a3c-94d3-410a50c1219d@104.253.134.92:14216?encryption=non
 vless://010a6106-960a-4a3c-94d3-410a50c1219d@104.253.134.92:14216?path=%2F&security=none&encryption=none&type=httpupgrade#🇫🇷
 vless://010a6106-960a-4a3c-94d3-410a50c1219d@104.253.134.92:35007?security=none&encryption=none&headerType=none&type=tcp#🇫🇷
 vless://013704b2-3029-475b-bc01-9de077ac427a@188.40.237.132:8443?mode=auto&path=%2Fcdn-cgi&security=reality&encryption=none&pbk=nW_BXjdhh-WWF94rW5-FmfwJJ7zUKSu3naCPVuC_AQE&fp=firefox&spx=%2Ffavicon.ico&type=xhttp&sni=www.yahoo.com&sid=0ef0909acd#🇩🇪
-vless://01bda09b-f79a-4e47-b903-acaae59ebfee@hentai-cdn.apruxdomain.xyz:80?encryption=none&security=none&type=ws&path=%2F#🇷🇺
 vless://0331b690-79fc-49d5-85f0-54faa4eff89f@go.adslimit.info:2345?security=&encryption=none&headerType=none&type=tcp#🏳️
 vless://037db5a7-051f-4ac9-844d-703d087a3984@142.248.219.172:2053?encryption=none&fp=chrome&host=wvdi9kuh.bqjk41e0gtbj1fg244d7.workers.dev&path=%2F&security=tls&sni=wvdi9kuh.bqjk41e0gtbj1fg244d7.workers.dev&type=ws#🇺🇸
 vless://037db5a7-051f-4ac9-844d-703d087a3984@46.101.250.238:8443?encryption=none&fp=chrome&host=wvdi9kuh.bqjk41e0gtbj1fg244d7.workers.dev&path=%2F&security=tls&sni=wvdi9kuh.bqjk41e0gtbj1fg244d7.workers.dev&type=ws#🇩🇪
@@ -179,6 +181,7 @@ vless://03d73bc8-01a9-46a7-90b9-3d27065ed328@43.153.208.246:7788?path=%2F&securi
 vless://03d73bc8-01a9-46a7-90b9-3d27065ed328@43.160.247.113:9999?path=%2F&security=tls&encryption=none&insecure=0&host=c.eoa.ccwu.cc&type=ws&allowInsecure=0&sni=c.eoa.ccwu.cc#🇸🇬
 vless://03d73bc8-01a9-46a7-90b9-3d27065ed328@43.163.77.140:443?path=%2F&security=tls&encryption=none&insecure=0&host=c.eoa.ccwu.cc&fp=chrome&type=ws&allowInsecure=0&sni=c.eoa.ccwu.cc#🇸🇬
 vless://03f929bb-7a94-4400-a882-d846d18b614e@185.141.107.42:777?encryption=none&security=none&type=tcp&headerType=none&host=@BlueberryNetWork#🇮🇷
+vless://03fcc618-b93d-6796-6aed-8a38c975d581@186.190.211.188:443?security=tls&encryption=none&insecure=1&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp&allowInsecure=1&sni=186.190.211.188#🇬🇬
 vless://042ac5fe-e1e9-4857-8cc6-c3c0113a7be3@65.21.109.91:443?mode=auto&path=%2Fbin&security=reality&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=v0vhjyFJPMzOUrM5l1PgoQCr83mHd1rNAIK2hi8ID1s&host=speedtest.com&fp=chrome&spx=%2F77KlQ2f0J1spIMw&type=xhttp&sni=www.samsung.com&sid=0e3f3a#🇫🇮
 vless://042ac5fe-e1e9-4857-8cc6-c3c0113a7be3@65.21.109.91:80?path=%2Fnotbin&security=none&encryption=none&host=speedtest.com&type=ws#🇫🇮
 vless://04b56386-958f-471c-8836-d6044604975a@3.71.8.174:1001?encryption=none&security=none&type=tcp&headerType=none#🇩🇪
@@ -195,6 +198,3 @@ vless://04f7e317-d9d5-444a-b563-0e83df862282@k6.capigodserv.ir:42542?security=no
 vless://04f7e317-d9d5-444a-b563-0e83df862282@o6.lunaboutiqu.ir:42542?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#🇦🇪
 vless://04f7e317-d9d5-444a-b563-0e83df862282@o6.lunaboutiqu.ir:42542?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇦🇪
 vless://04f7e317-d9d5-444a-b563-0e83df862282@p4.capigodserv.ir:42542?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#🇹🇷
-vless://04f7e317-d9d5-444a-b563-0e83df862282@p4.capigodserv.ir:42542?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇹🇷
-vless://04f7e317-d9d5-444a-b563-0e83df862282@rshirt.lordmakuboutiqu.site:42542?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#🇹🇷
-vless://04f7e317-d9d5-444a-b563-0e83df862282@rshirt.lordmakuboutiqu.site:42542?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇹🇷
