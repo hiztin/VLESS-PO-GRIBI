@@ -81,7 +81,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.10:80
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.11:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.15:443#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.2:8080#🇬🇬
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxOGdzSlZMWjVlWVhVM3VobW5iSA@170.130.15.34:8389#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyX05SZS0rV1JxMnpWcU1wQ25KdFRFU2xUOFd5ZmZIeUZ5@38.54.80.160:16292#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpycnlsOTRpbGYyZzdrejR0@31.57.158.48:1006#🇱🇻
@@ -129,7 +128,6 @@ vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.2.219:80?path=%2F%3FTELEGRA
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.205.151:80?path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.215.151:80?path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&security=&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.22.151:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#🏳️
-vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.24.151:80?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=max-gb1.global.ssl.fastly.net&path=%2F&security=none&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.24.151:80?encryption=none&security=none&type=ws&host=max-gb1.global.ssl.fastly.net&path=%2F#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.24.151:80?path=%2F&security=none&encryption=none&host=max-gb1.global.ssl.fastly.net&type=ws#🏳️
 vless://0058c215-ab1e-400c-a403-b5b2fda7e846@151.101.241.151:80?encryption=none&type=ws&path=%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3&host=max-gb1.global.ssl.fastly.net#🏳️
@@ -198,3 +196,5 @@ vless://04f7e317-d9d5-444a-b563-0e83df862282@v3.capigodserv.ir:42542?encryption=
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.39.98.83:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#🇫🇷
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.156.10.205:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#🇩🇪
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.180.163.45:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#🇫🇷
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.181.116.34:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#🇫🇷
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.58.3.46:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#🇩🇪
