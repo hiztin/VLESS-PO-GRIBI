@@ -41,7 +41,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpieFF4ZjJwbUR4dkt6YmFjTlFGV1g4NnZvdk9Jbl85OA@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkeW1WelJlQWF6YWFrV3Vq@20.107.201.69:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@198.98.53.130:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplenllSDIyaUdTMVVEZWV3NXp6YlRpbXFlY3JHQktTUzFJc0VxaA@185.246.153.12:31348#🇳🇱
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppNnFqMVFpOWJLdkZmSU0w@20.234.9.106:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.181:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.189:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.190:8080#🇬🇬
@@ -73,6 +72,7 @@ ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.6:443#🇺🇸
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@192.71.227.17:989#🇨🇦
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@95.174.23.218:989#🇮🇹
 ss://YWVzLTI1Ni1nY206MTIz@61.171.92.202:1001#🇨🇳
+ss://YWVzLTI1Ni1nY206NDlrbWdiMjBoa3JmcXRxbQ@188.121.123.55:443#🇮🇷
 ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@15.204.254.187:12000#🇺🇸
 ss://YWVzLTI1Ni1nY206R1RaSTVBYmpOQWVXUUcwb1ZOcHR2V0pvZ0hOS2lpS0E@47.79.144.115:40003#🇯🇵
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@172.105.39.124:7002#🇮🇳
@@ -94,6 +94,7 @@ vless://00870c04-d720-45e5-b5b9-87ea18a86c13@trktaklink.serendpiti.ir:3063?mode=
 vless://010a6106-960a-4a3c-94d3-410a50c1219d@104.253.134.92:14216?encryption=none&security=none&type=httpupgrade&path=%2F#🇫🇷
 vless://010a6106-960a-4a3c-94d3-410a50c1219d@104.253.134.92:14216?path=%2F&security=none&encryption=none&type=httpupgrade#🇫🇷
 vless://010a6106-960a-4a3c-94d3-410a50c1219d@104.253.134.92:35007?security=none&encryption=none&headerType=none&type=tcp#🇫🇷
+vless://0201c954-071d-4159-8f1d-d67219a56686@sub.1.polnejat.ir:5326?type=tcp#🇱🇻
 vless://029a2282-b987-4d07-a092-3aa9f0379c65@Bbbhhgf.dadashinet10.ir:2044?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#🇳🇱
 vless://029a2282-b987-4d07-a092-3aa9f0379c65@Nkoihgf.dadashinet10.ir:2044?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#🇫🇷
 vless://029a2282-b987-4d07-a092-3aa9f0379c65@aoe5119534.dadashinet10.ir:2044?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#🇳🇱
@@ -161,7 +162,6 @@ vless://05e1e54b-f96a-4667-86e6-d55ba115f779@199.181.197.1:443?path=%2F%3Fu%3Dd6
 vless://06347f8b-44b2-40b5-b498-e7eaabcff088@167.82.101.251:443?mode=auto&path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=FINIM.global.ssl.fastly.net&fp=chrome&type=xhttp&allowInsecure=0&sni=ssl.fastly.com#🏳️
 vless://0638aac2-2075-4b5f-aa79-cb3ec2f13035@104.17.153.140:8443?path=%2F&security=tls&encryption=none&insecure=0&host=node-1156018316-429f05.studentsnaap-irr.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=node-1156018316-429f05.studentsnaap-irr.workers.dev#🏳️
 vless://06462f62-5f9c-4632-9041-d35fedd0df97@199.232.78.159:443?path=%2F&security=tls&encryption=none&insecure=1&host=bazaryabab.global.ssl.fastly.net&type=ws&allowInsecure=1&sni=ssl.fastly.com#🏳️
-vless://06a368f4-e62e-4486-97a1-4c60bb7a0eed@client.jison.ir:443?path=%2Fws&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=sdt.jison.ir&type=ws&sni=fty.jison.ir#🏳️
 vless://06a368f4-e62e-4486-97a1-4c60bb7a0eed@client.jison.ir:443?path=%2Fws&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=0&host=sdt.jison.ir&type=ws&allowInsecure=0&sni=fty.jison.ir#🏳️
 vless://06ac0ab6-0c4c-4275-b3f6-236c4ffa4479@shk-techblog.icu:443?encryption=none&security=tls&sni=shk-techblog.icu&allowinsecure=0&type=ws&host=shk-techblog.icu&path=%2Fmessages%2Fv1%2Fstream%2Fsync#🇱🇹
 vless://06b65903-406d-4a41-8400-6fd5c0ee7798@104.16.72.2:2096?path=%2Fproxyip&security=tls&encryption=none&host=sp.linuxdododo.ccwu.cc&fp=chrome&type=ws&sni=sp.linuxdododo.ccwu.cc#🏳️
