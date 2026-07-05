@@ -31,6 +31,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@95.85.90.181:804#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIYjhnYWhLRVFySkV1THZmWjB6MXpvLURaN3c4WXBOWA@bot.sobhanpor.ir:1080#🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMMGNTZ3hMcmhVVk9TclJDVEhxTmdFZDM1VXNzYlBiZA@bot.sobhanpor.ir:1080#🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNZlVQZGtvRVhTd2Y2SnVN@168.63.68.5:443#🇮🇪
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNbHJEQlppZlh2c3h5eGVY@168.63.67.154:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTU1VpTjRuRW9MN0lWNzExV3JtbXNB@130.51.22.8:2096#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVazhsZm12aFlueDVySnZYeEtyUnFHUnluZDlnSXBKLmlZ@103.240.147.113:14605#🇮🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVazhsZm12aFlueDVySnZYeEtyUnFHUnluZDlnSXBKLmlZ@103.241.66.76:14605#🇮🇹
@@ -197,4 +198,3 @@ vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.7.215:443?encryption=none&ty
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.131.7.215:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#🏳️
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.8.211.14:443?encryption=none&type=ws&security=tls&path=%2F&host=vpn47.cc.cd&sni=vpn47.cc.cd&fp=chrome&insecure=0&allowInsecure=0#🏳️
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.8.211.14:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#🏳️
-vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.8.211.14:443?sni=vpn47.cc.cd&fp=chrome&security=tls&path=%2F&type=ws&encryption=none&insecure=0&host=vpn47.cc.cd&allowInsecure=0#🏳️
