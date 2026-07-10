@@ -182,6 +182,7 @@ vless://05a01432-0302-439f-a88d-8442cd27b7d5@gt-ch-01.live:8443?security=reality
 vless://05b6c724-9e62-42b3-b708-61675db0e7e7@Hom11.xubi.org:2053?security=reality&encryption=none&pbk=8As0u-gVh9i5XkDC_HNcK6TLcqYdQ2aNnmQcGCjud3I&headerType=&fp=chrome&spx=%2F4YkKe360dhAzbPB&type=tcp&sni=www.yahoo.com&sid=b59400349fe082#🇱🇻
 vless://05be8278-fbf1-4b9d-a3ff-35a1b19ffe4c@nodejs.org:443?path=%2FeyJqdW5rIjoic0ExVlRWMnNRMCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=ez-fb84e1.handelmn.workers.dev&fp=chrome&type=ws&sni=Ez-FB84e1.HandeLMN.Workers.DEv#🏳️
 vless://05be8278-fbf1-4b9d-a3ff-35a1b19ffe4c@nodejs.org:443?path=%2FeyJqdW5rIjoic0ExVlRWMnNRMCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=ez-fb84e1.handelmn.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=Ez-FB84e1.HandeLMN.Workers.DEv#🏳️
+vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@85.17.145.65:12068?security=none&encryption=none&type=ws#🇳🇱
 vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?security=none&allowInsecure=0&encryption=none&type=ws&path=/#🇳🇱
 vless://0611401f-a49e-4a55-9954-e74d4af47100@65.109.186.44:45026?security=none&encryption=none&host=%2F%3FBIA_TELEGRAM%40vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr&headerType=none&type=tcp#🇫🇮
 vless://067edfc4-67e6-4a2b-885f-d42d201efbf0@109.61.42.28:443?security=reality&encryption=none&pbk=IPQnrYgylfKb_gaBYPek1HoU6LGWPCAcx4xBdcmFGCY&headerType=http&fp=chrome&spx=%2F6hRbcgPtABhdwTe&type=tcp&sni=www.yahoo.com&sid=890617#🇦🇪
@@ -197,4 +198,3 @@ vless://07842189-6a75-4a58-a13f-590fbbf56d4f@212.100.171.205:443?mode=auto&path=
 vless://07960816-6a66-40f2-b7ca-d074bd708828@ips.list.nonpath.ir:3350?security=reality&encryption=none&pbk=y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=play.google.com#🇩🇪
 vless://07960816-6a66-40f2-b7ca-d074bd708828@myip.check.nonpath.ir:42542?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇹🇷
 vless://07960816-6a66-40f2-b7ca-d074bd708828@us-google.mobileemdad.top:443?security=reality&encryption=none&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&headerType=none&fp=qq&type=tcp&sni=play.google.com&sid=cbe2503ffd040d#🇺🇸
-vless://07a978bb-49ec-4dbe-827b-feb9243f3e63@panel.aminsec.ir:22338?encryption=none&headerType=http&host=play.google.com&path=%2F&security=none&type=tcp#🇸🇪
