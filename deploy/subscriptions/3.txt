@@ -87,6 +87,7 @@ vless://7968c546-02dc-4f8c-b791-934591a94cb2@104.16.72.50:443?path=/cbasur&amp;s
 vless://b26ec0f4-6c92-45f7-b287-2a664abf1963@104.16.72.2:443?path=/&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;type=ws&amp;allowInsecure=0&amp;sni=server-ir-7.ariyuz.org#@Capoit
 vless://6680846a-8a57-4dfd-9a0e-63209cfc8535@104.16.72.2:443?path=/sg-amz&amp;security=tls&amp;encryption=none&amp;host=support.zoom.us.yxls.eu.cc&amp;fp=chrome&amp;type=ws&amp;sni=support.zoom.us.yxls.eu.cc#@Capoit
 vless://f75566a5-4744-4806-ac2e-ccaefe1b1080@server.xv98.ir:2044?security=&amp;encryption=none&amp;host=play.google.com&amp;headerType=http&amp;type=tcp#@Capoit
+vless://a4f01119-883c-42e2-8c27-5711af28083a@85.234.65.234:36348?headerType=http&amp;sid=1b04e265&amp;sni=www.yahoo.com&amp;encryption=none&amp;security=reality&amp;pbk=cX_7WNnSaxIaFcgS1w9kGVK6wDz1DMYen5hUW4ZxQQQ&amp;spx=/AEjVyHTJTKyeBhg&amp;type=tcp&amp;fp=chrome&amp;host=play.google.com#@Capoit
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ@admin.c2.havij.co:443#@CloudCityy
 vless://9ecfba25-f382-41c2-ac80-429f8689da9a@185.126.7.182:12486?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#@CloudCityy
 vmess://eyJhZGQiOiIxOTIuMjAwLjE2MC4xNiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5YjRjMmVkYS0zNDFlLTQ4OGYtYTNiMi0xZGM3MTZiOWYzNmEiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IkBDbG91ZENpdHl5Iiwic2N5IjoiYXV0byIsInNuaSI6InN0ZWFtLmF2YWFhYWwuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
@@ -197,4 +198,3 @@ vless://eab915bc-d2df-73d1-47d0-6eb240497055@it.fifapes.monster:29148?security=&
 vless://577699f7-468d-4b63-ae21-cdcdfd8d11c2@172.67.74.10:443?path=/GoorBah&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=baguette.adaspoloandco.com&amp;fp=chrome&amp;type=ws&amp;allowInsecure=0&amp;sni=baguette.adaspoloandco.com#[🇨🇦]ConfigV2RayNG
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=&amp;encryption=none&amp;headerType=http&amp;type=tcp#[🏁]t.me/ConfigV2RayNG
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=&amp;encryption=none&amp;host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&amp;headerType=http&amp;type=tcp#@ConfigV2RayNG
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=&amp;encryption=none&amp;host=/?&amp;headerType=http&amp;type=tcp#🔰
