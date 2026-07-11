@@ -13,7 +13,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dkNfSW83Nzg1bzh6TGtVSjg4OTdOaUs@bot.sobhanp
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ek42V0R3NVdiYWQ3WlZi@20.223.152.73:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotdDFJZGNZY2JrWmpSMUs1cFdsejJB@v2.nooend.me:1080#🇸🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowQ1l2SjlaV1RaVmdSSTV5OXpSaHJT@195.133.2.2:34898#🇫🇮
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMzQ4YTgzOC05MTA1LTRmM2UtYmQwNC02OTlhOWJlMTA0ODA@sgp01.network-cdn-gw-yd.net:45506#🇭🇰
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxRDRDYVk3b05CUmgyVW5qSWtMemJGX0s4Y1hBOVF1Rw@bot.sobhanpor.ir:1080#🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyS0F1OWVNbUd3U2hXVFdjdXl5bm1MRTgxUFZrb0tEdlEzZmIyOWRQU2NjMWJNVVc1eTZocHByWHFWV3FTcWpUaTIzNGhGR2REZjNBckN1V3RCdzVGQTZ6VjV3QmdXVFA@185.5.38.89:57327#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozTktzc3ZpSFNFUFpYeks3TGlaNm9TRklrZngzZVRpeA@bot.sobhanpor.ir:1080#🇫🇮
@@ -26,7 +25,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6SDVWd0t1WnVhYnI4WjMwcGF0cTEvVjhET3JJeC9iSHN
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGOUV2YUs1MmZ3S2JROExm@40.112.71.34:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGZnJFUGt4VVJuRlFpMDB1TWxRd09B@188.245.87.3:2096#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@185.17.113.234:812#🇹🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIYjhnYWhLRVFySkV1THZmWjB6MXpvLURaN3c4WXBOWA@bot.sobhanpor.ir:1080#🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJNlJzU1VJWXJLSHBJMjZK@20.223.152.73:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLUDZGUVZtSmhsWFBndlBocncyZ25J@62.133.63.169:37096#🇹🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNbHJEQlppZlh2c3h5eGVY@168.63.67.154:443#🇮🇪
@@ -44,7 +42,10 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYkM0M1dlTnh1REFYZG1RWmRrd1Z4@62.133.63.222:
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMWFlMGZjZS05MzQwLTRmMmUtODgyZC1mZGIyMjE4ZTJlMmI@114.25.8.182:50099#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnZWx3dlU5bVVSMG9yRUZTNUQ2dTdB@217.138.213.38:1080#🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoTi9HSDB5WFNQV2tmanU1citnRnZBPT0@170.106.115.159:8388#🇺🇸
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqam1qZHZua2Z5OWFsOGpi@mmd.radanjami.org:37309#🇮🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.180:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.183:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.190:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.193:8080#🇬🇬
@@ -65,12 +66,10 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.15:44
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.164:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.32:443#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#🇬🇬
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.3:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.47:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwYzZreHV1dHBibThxZ2Y1@155.103.71.163:1080#🇹🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxNDZUMVYzdGRqbWVscnAtMHllXzRoTkdQSDk1eFZRMw@1.1.1.1:1080#🏳️
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxNmJocHlqazBvMzUyeDdp@135.125.113.81:8080#🇫🇷
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxWERmTnBjb2NKdXZCRGlUWF9nelVR@91.124.209.145:1080#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxa1JOTmhzSXJ6VTZxbmtM@168.63.66.81:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxa1JOTmhzSXJ6VTZxbmtM@20.223.221.41:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyaFppUDY2X0UxWEdVVGpQZlpPV1F3@de2.v4trojn.xyz:2096#🇩🇪
@@ -198,3 +197,4 @@ vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@103.160.204.56:443?path=%2F&securit
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@139.162.133.162:58148?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#🇩🇪
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@146.185.172.227:2053?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#🇳🇱
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@154.83.2.24:443?path=%2F&security=tls&encryption=none&insecure=0&host=vpn47.cc.cd&fp=chrome&type=ws&allowInsecure=0&sni=vpn47.cc.cd#🏳️
+vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@188.226.149.72:443?encryption=none&type=ws&security=tls&path=%2F&host=vpn47.cc.cd&sni=vpn47.cc.cd&fp=chrome&insecure=0&allowInsecure=0#🇳🇱
