@@ -78,10 +78,12 @@ ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@3.145.57.90:443#🇺🇸
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@35.180.199.237:443#🇫🇷
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.238.164.53:443#🇯🇵
 ss://YWVzLTI1Ni1nY206N2UxZGQ0YzU1YmY4NWRhNQ@212.192.13.214:30129#🇭🇰
+ss://YWVzLTI1Ni1nY206ZTRGQ1dyZ3BramkzUVk@85.208.108.58:9101#🇨🇦
 ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.68.134.85:2375#🇺🇸
 ss://aW5zdGE6bWFoYW5fdnBu@www.speedtest.net:443#🏳️
 ss://bnVsbDpudWxs@hayabusa.proxy.rlwy.net:12502#🇺🇸
 ss://bnVsbDpudWxs@hayabusa.proxy.rlwy.net:55876#🇺🇸
+ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRvMU1qZzBZekU0Tnkxa01XSXpMVFF4WlRrdE9ERTRZaTB5WldZM09UbGhNREptWW1N@free.2weradf.xyz:36111#🇨🇳
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRwa05ESTVPRGxtTnkwNE1HSTFMVFJoT1RndFltUTBZaTAxTXpVNVlXTmxaak13WkdR@free.2weradf.xyz:36671#🇨🇳
 vless://%40MAconnectt@acela.proxy.rlwy.net:34100?mode=auto&path=%2F&security=reality&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%2C%22mode%22%3A%22auto%22%2C%22scMaxEachPostBytes%22%3A%221000000%22%7D&pbk=c6Odo5Abci1KiOQxUTETIVIxxYSFXp1DC0N2oZccYUE&fp=firefox&spx=%2F&type=xhttp&sni=is1-ssl.mzstatic.com&sid=585c6291#🇺🇸
 vless://%40MAconnectt@hayabusa.proxy.rlwy.net:26704?mode=auto&path=%2F&security=reality&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%2C%22mode%22%3A%22auto%22%2C%22scMaxEachPostBytes%22%3A%221000000%22%7D&pbk=xXrN1gpI9WN8Xc_2IXKdmB1OofNhwZPOQWFnlcaTo0A&fp=firefox&spx=%2F&type=xhttp&sni=is1-ssl.mzstatic.com&sid=c57ac6a249#🇺🇸
@@ -114,7 +116,6 @@ vless://0149d47c-2360-4b77-8e24-882b62a3ddd6@185.193.28.150:443?path=%2FZEUS_PAN
 vless://0149d47c-2360-4b77-8e24-882b62a3ddd6@185.193.28.182:443?path=%2FZEUS_PANEL_BOT&security=tls&encryption=none&insecure=0&host=ez-ab51a8.ezaccess153ab11.workers.dev&fp=ios&type=ws&allowInsecure=0&sni=ez-ab51a8.ezaccess153ab11.workers.dev#🏳️
 vless://0149d47c-2360-4b77-8e24-882b62a3ddd6@185.193.28.190:443?path=%2FZEUS_PANEL_BOT&security=tls&encryption=none&insecure=0&host=ez-ab51a8.ezaccess153ab11.workers.dev&fp=ios&type=ws&allowInsecure=0&sni=ez-ab51a8.ezaccess153ab11.workers.dev#🏳️
 vless://01707af2-86ef-43b2-99f1-ed18e3e9a828@edge.shk-cloud.click:8443?security=reality&encryption=none&pbk=7NSy4JVDQprUBgggfklike6fHnHAU5jLsXYf4RxozHQ&headerType=none&fp=qq&spx=%2F4KOINtQZ7WIka9X&type=tcp&sni=www.cloudflare.com&sid=37#🇱🇹
-vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@65.109.184.172:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&host=snapp.ir&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#🇫🇮
 vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@DE2-UNlimiTed.pavilof.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#🇩🇪
 vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@TR2-UNlimiTed.pavilof.ir:2095?security=&encryption=none&host=snapp.ir&headerType=http&type=tcp#🇹🇷
 vless://01aacd3b-fdda-4e3f-894b-bc380f184fe1@fn2-unlimited.pavilof.ir:1020?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=chrome&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&sid=3fa2fdb7dce16b8b&type=tcp&headerType=none&host=snapp.ir#🇫🇮
@@ -197,4 +198,3 @@ vless://0ae9e91e-bf8c-44e4-b9c2-a7e3a6c3a335@1.tls.fastly.veraspeed.ir:443?path=
 vless://0ae9e91e-bf8c-44e4-b9c2-a7e3a6c3a335@1.tls.fastly.veraspeed.ir:443?path=%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed&security=tls&encryption=none&insecure=0&host=pan1.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com#🏳️
 vless://0ae9e91e-bf8c-44e4-b9c2-a7e3a6c3a335@1.tls.fastly.veraspeed.ir:443?path=/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053&security=tls&encryption=none&insecure=0&host=pan1.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com#🏳️
 vless://0ae9e91e-bf8c-44e4-b9c2-a7e3a6c3a335@fast.motorbazan.com:443?path=/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053&security=tls&encryption=none&insecure=0&host=pan1.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=ssl.fastly.com#🏳️
-vless://0b88ebab-9a6b-415c-b881-2f10020e659a@Al-iopp.jorzel.ir:19302?security=reality&type=xhttp&headerType=&path=%2Fpath&host=hostname&mode=auto&extra=%7B%22scMaxEachPostBytes%22%3A+1000000%2C+%22scMaxConcurrentPosts%22%3A+100%2C+%22scMinPostsIntervalMs%22%3A+30%2C+%22xPaddingBytes%22%3A+%22100-1000%22%2C+%22noGRPCHeader%22%3A+false%7D&sni=yahoo.com&fp=chrome&pbk=yr3q-vsj5zsbIOSDFaYlKNhGc-C4P2GrnpljVeaAblE&sid=86b5b1f40a5893e1#🇩🇪
