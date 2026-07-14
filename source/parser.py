@@ -25,7 +25,7 @@ URLS = [
     "https://raw.githubusercontent.com/roosterkid/openproxylist/main/V2RAY_RAW.txt",  # 6
     "https://raw.githubusercontent.com/Hidashimora/free-vpn-anti-rkn/main/configs/1.txt",  # 7
     "https://raw.githubusercontent.com/CidVpn/cid-vpn-config/refs/heads/main/general.txt",  # 8
-    "https://raw.githubusercontent.com/mohamadfg-dev/telegram-v2ray-configs-collector/refs/heads/main/category/vless.txt",
+    "https://gitverse.ru/api/repos/cid-uskoritel/cid-white/raw/branch/master/whitelist.txt",
     # 9
     "https://github.com/Epodonios/v2ray-configs/raw/main/All_Configs_Sub.txt",  # 10
     "https://raw.githubusercontent.com/youfoundamin/V2rayCollector/main/mixed_iran.txt",  # 11
