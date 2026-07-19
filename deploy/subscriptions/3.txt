@@ -85,6 +85,7 @@ vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@185.209.15.91:443?encryption=none&a
 vless://6e270c02-4fda-4874-a6e2-9cad6591e685@46.101.128.159:10249?encryption=none&amp;type=tcp&amp;headerType=http&amp;host=play.google.com#@Capoit
 vless://eeb6823c-b926-4ea2-866a-5542edd26e59@104.16.72.50:443?encryption=none&amp;type=ws&amp;security=tls&amp;path=/fp&amp;host=t1s1.rittbo.kdns.fr&amp;sni=t1s1.rittbo.kdns.fr&amp;insecure=0&amp;allowInsecure=0#@Capoit
 vless://b17e6a63-78f2-4f8f-aea4-0867405a096e@okla.dearhossein-taktaz.ir:443?encryption=none&amp;sid=586c339944e8&amp;pbk=3f4yGlt03YN98A2dTVXc-bm8c2gZBi09uQXODZE5lmE&amp;security=reality&amp;fp=chrome&amp;spx=/182973acde35100&amp;sni=google.com&amp;type=tcp&amp;headerType=none#@Capoit
+vless://6baf0a4b-a4e7-4b34-a762-fd0c6ec3f72f@185.173.144.38:443?encryption=none&amp;flow=xtls-rprx-vision&amp;type=tcp&amp;security=reality&amp;fp=firefox&amp;sni=cloudflare.com&amp;pbk=PZeIaMJF01u_7wFj3E3NN1wW_8sV1NzC59CnLTTMvzM&amp;sid=6ba85179e30d4fc2#@Capoit
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ@admin.c2.havij.co:443#@CloudCityy
 vless://9ecfba25-f382-41c2-ac80-429f8689da9a@185.126.7.182:12486?security=&amp;encryption=none&amp;headerType=&amp;type=tcp#@CloudCityy
 vmess://eyJhZGQiOiIxOTIuMjAwLjE2MC4xNiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI5YjRjMmVkYS0zNDFlLTQ4OGYtYTNiMi0xZGM3MTZiOWYzNmEiLCJpbnNlY3VyZSI6IjEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IkBDbG91ZENpdHl5Iiwic2N5IjoiYXV0byIsInNuaSI6InN0ZWFtLmF2YWFhYWwuaXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
@@ -197,4 +198,3 @@ vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@add.oneoker.com:443?security=realit
 vless://0e917787-bed7-4eda-bb6b-d9dc31944c4a@panel.podcastico.ir:8529?security=&amp;encryption=none&amp;host=play.google.com&amp;headerType=http&amp;type=tcp#[🇩🇪]t.me/ConfigV2RayNG
 vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@main.oneoker.com:443?mode=gun&amp;security=reality&amp;encryption=none&amp;pbk=yiX2T6z3GavNIgnnxsoU57vgq2pdfngXAU83vhBDQlA&amp;fp=firefox&amp;type=grpc&amp;serviceName=api.v1.StreamService&amp;sni=main.oneoker.com&amp;sid=a9b0c08836bad3c5#[🏁]t.me/ConfigV2RayNG
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.39.56.66:22224?security=&amp;encryption=none&amp;headerType=none&amp;type=tcp#[🇫🇷]t.me/ConfigV2RayNG
-vless://d7b8d855-352f-44fd-a20f-7e8ff06d0f66@31.56.146.93:8443?security=reality&amp;encryption=none&amp;pbk=8i-67NPZNxTU8dgnF5yKYpijyu4GbQsDOdZSHQjsLGQ&amp;headerType=none&amp;type=tcp&amp;flow=xtls-rprx-vision&amp;sni=tradingview.com#Channel
