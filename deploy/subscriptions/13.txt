@@ -67,7 +67,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsZ2hYM3JjRzdicVNROEw2@128.251.12.23:443#🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsaGRKTkxuYkFsQ1FyaTFmbW1IWmhj@62.133.60.60:21712#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptZHA2NWc2bGZ3cGh6Mnc2@46.8.231.216:1010#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptbUlIWXhJQWpmZm83MU83@20.234.98.39:443#🇮🇪
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.10:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.11:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.155:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.164:8080#🇬🇬
@@ -118,6 +117,7 @@ ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.68.134.85:2375#🇺🇸
 ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.75.136.21:2375#🇺🇸
 ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@38.75.136.21:2376#🇺🇸
 ss://YWVzLTI1Ni1nY206ZmJhZjMzYmNmZmU1M2NmOQ@195.133.23.45:10125#🇷🇺
+ss://YWVzLTI1Ni1nY206ZmJhZjMzYmNmZmU1M2NmOQ@195.133.23.45:60129#🇷🇺
 ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@23.154.136.132:5004#🇺🇸
 ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.68.134.202:5004#🇺🇸
 ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@38.121.43.71:8882#🇺🇸
@@ -128,8 +128,6 @@ ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@149.202.82.172:4444#🇫🇷
 ss://YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN@38.121.43.142:4444#🇺🇸
 ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@23.157.40.120:445#🇺🇸
 ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@69.50.92.99:6379#🇺🇸
-ss://bnVsbDpudWxs@hayabusa.proxy.rlwy.net:12502#🇺🇸
-ss://bnVsbDpudWxs@hayabusa.proxy.rlwy.net:55876#🇺🇸
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRvME1UWmhObUkwTlMwM01XUmpMVFF3TlRNdFlqZ3pOaTA1TTJaak9EVTVOVEV6TkdV@free.2weradf.xyz:36171#🇨🇳
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRvME1UWmhObUkwTlMwM01XUmpMVFF3TlRNdFlqZ3pOaTA1TTJaak9EVTVOVEV6TkdV@free.2weradf.xyz:36241#🇨🇳
 ss://c3M6Ly9ZMmhoWTJoaE1qQXRhV1YwWmkxd2IyeDVNVE13TlRvME1UWmhObUkwTlMwM01XUmpMVFF3TlRNdFlqZ3pOaTA1TTJaak9EVTVOVEV6TkdV@free.2weradf.xyz:36371#🇨🇳
@@ -198,3 +196,5 @@ vless://04b3ed78-61b5-42bb-9143-eeb70e64b5aa@37.9.4.22:443?security=reality&encr
 vless://0523ef53-93c5-cb35-72f5-791fc7473e3f@x4g-production-cc8b.up.railway.app:443?encryption=none&security=tls&type=ws&host=x4g-production-cc8b.up.railway.app&path=/ws/0523ef53-93c5-cb35-72f5-791fc7473e3f&sni=x4g-production-cc8b.up.railway.app&fp=chrome&alpn=http/1.1#🇺🇸
 vless://05509bc5-ddd8-4bd8-bca2-056f6fb9f1a5@f.tehran-game.ir:443?encryption=none&security=none&type=ws&host=tehran-game.ir&path=%2F#🇦🇪
 vless://05509bc5-ddd8-4bd8-bca2-056f6fb9f1a5@f.tehran-game.ir:443?path=%2F&security=none&encryption=none&host=tehran-game.ir&type=ws#🇦🇪
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@16.170.64.137:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=%2Ftelegram-channel-vlessconfig-ws#🇸🇪
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.175.99.237:22222?path=/telegram-channel-vlessconfig-ws&security=tls&encryption=none&host=telegram-channel-vlessconfig.sohala.uk&type=ws&sni=telegram-channel-vlessconfig.sohala.uk#🇬🇬
