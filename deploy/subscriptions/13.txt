@@ -78,6 +78,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.34:80
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.39:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.3:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.46:8080#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwdmd6OXBx@54.36.174.134:443#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzOExiSkNnVWlHWGVDS1ZjNjN0SEpQ@94.198.220.183:64674#🇰🇿
 ss://YWVzLTEyOC1nY206WWMyQ3RySXo4TA@172.245.180.193:16899#🇺🇸
@@ -185,6 +186,7 @@ vless://02bdb22f-0dd3-4800-8afd-ea7c2c507ed7@elias3.helsinki2upload.shop:443?enc
 vless://02c1c7d0-0539-8e13-9720-8c94fabbc3fe@telegramemen-timazadi-8585.up.railway.app:443?encryption=none&security=tls&type=ws&host=telegramemen-timazadi-8585.up.railway.app&path=/ws/02c1c7d0-0539-8e13-9720-8c94fabbc3fe&sni=telegramemen-timazadi-8585.up.railway.app&fp=chrome&alpn=http/1.1#🇺🇸
 vless://0331b690-79fc-49d5-85f0-54faa4eff89f@go.adslimit.info:2345?security=&encryption=none&headerType=none&type=tcp#🏳️
 vless://03a8e966-a884-4eec-b433-c9c0b91c53a2@api1.hexogate.net:443?security=reality&encryption=none&pbk=I2_bIN-vkKdu02l_1TXzb1FCu5oZHMvx6s_j6lqL7zI&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=4fbe35a79c1e884d#🇩🇪
+vless://03a8e966-a884-4eec-b433-c9c0b91c53a2@media1.hexogate.net:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=reality&encryption=none&pbk=MMe0uBnEJrn2lbaXx92GrNxIbQ7Cv9ICH53k3lRgHzg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=c83a7fdba5f630f8#🇹🇷
 vless://03cdf416-c7ec-963e-e2de-ac678ed009bd@x4g-production-dbff.up.railway.app:443?path=%2Fws%2F03cdf416-c7ec-963e-e2de-ac678ed009bd&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=x4g-production-dbff.up.railway.app&fp=ios&type=ws&allowInsecure=0&sni=x4g-production-dbff.up.railway.app#🇺🇸
 vless://03fcc618-b93d-6796-6aed-8a38c975d581@186.190.211.188:443?encryption=none&security=tls&sni=186.190.211.188&insecure=1&allowInsecure=1&type=tcp&headerType=none&host=%2F%3F#🇬🇬
 vless://03fcc618-b93d-6796-6aed-8a38c975d581@186.190.211.188:443?security=tls&encryption=none&insecure=1&headerType=none&type=tcp&allowInsecure=1&sni=186.190.211.188#🇬🇬
@@ -196,5 +198,3 @@ vless://04b3ed78-61b5-42bb-9143-eeb70e64b5aa@37.9.4.22:443?security=reality&encr
 vless://0523ef53-93c5-cb35-72f5-791fc7473e3f@x4g-production-cc8b.up.railway.app:443?encryption=none&security=tls&type=ws&host=x4g-production-cc8b.up.railway.app&path=/ws/0523ef53-93c5-cb35-72f5-791fc7473e3f&sni=x4g-production-cc8b.up.railway.app&fp=chrome&alpn=http/1.1#🇺🇸
 vless://05509bc5-ddd8-4bd8-bca2-056f6fb9f1a5@f.tehran-game.ir:443?encryption=none&security=none&type=ws&host=tehran-game.ir&path=%2F#🇦🇪
 vless://05509bc5-ddd8-4bd8-bca2-056f6fb9f1a5@f.tehran-game.ir:443?path=%2F&security=none&encryption=none&host=tehran-game.ir&type=ws#🇦🇪
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@16.170.64.137:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=%2Ftelegram-channel-vlessconfig-ws#🇸🇪
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.175.99.237:22222?path=/telegram-channel-vlessconfig-ws&security=tls&encryption=none&host=telegram-channel-vlessconfig.sohala.uk&type=ws&sni=telegram-channel-vlessconfig.sohala.uk#🇬🇬
