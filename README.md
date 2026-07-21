@@ -195,7 +195,7 @@
   4. Hidashimora (free-vpn-anti-rkn)
   5. miladtahanian (V2RayCFGDumper)
   6. roosterkid (openproxylist)
-  7. CidVpn (cid-vpn-config)
+  7. etoneya (whitelist)
   8. mohamadfg-dev (telegram-v2ray-configs-collector)
   9. Epodonios (v2ray-configs)
   10. youfoundamin (V2rayCollector)
