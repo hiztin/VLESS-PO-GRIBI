@@ -1,5 +1,3 @@
-vless://3ad2d35c-ee05-4a47-a751-a47364707414@de.cdn.salvaran.com:443?encryption=none&fp=chrome&pbk=SrCs_FEPa8080pJG_nK-Ub0XjZQuyAS8NMPCQ85n6nE&security=reality&sid=7b11f17a&sni=pic.rtbcdn.ru&type=tcp#@freenet_vt
-vless://adeed323-e702-409a-afb1-1d2e4fdb6ee9@66.33.22.225:58903?mode=packet-up&path=%2F&security=reality&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%2C%22mode%22%3A%22packet-up%22%2C%22sessionPlacement%22%3A%22path%22%2C%22seqPlacement%22%3A%22path%22%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22scMaxEachPostBytes%22%3A%221000000%22%7D&pbk=1d2s37bpFzTxo6cbhflLu7It7pIydGn5E3FVQh_8cnI&fp=ios&spx=%2F&type=xhttp&sni=is1-ssl.mzstatic.com&sid=c47dd7bde0#%40freenet_vt
 vless://29ca503d-e6b8-4509-b666-48133f450857@162.159.33.118:443?path=%2Ffdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&fp=chrome&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%A8%F0%9F%87%A6
 vless://29ca503d-e6b8-4509-b666-48133f450857@108.162.192.161:443?path=%2Ffdip&security=tls&encryption=none&insecure=0&host=learn00.evany.de5.net&type=ws&allowInsecure=0&sni=learn00.evany.de5.net#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%A8%F0%9F%87%A6
 vless://14f19724-de91-4285-a633-aa8e2caaf812@46.246.92.109:443?security=reality&encryption=none&pbk=JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=site.rumedia-cdn.com&sid=cd40c992fe4b10c2#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%B8%F0%9F%87%AA
@@ -198,3 +196,5 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@178.255.41.214
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.247.68.94:1080#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%BA%F0%9F%87%B8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.34.226:1080#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%BA%F0%9F%87%B8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.117.88.9:1080#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%B8%F0%9F%87%AA
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@195.123.209.159:1080#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%B1%F0%9F%87%BB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@62.210.123.100:1080#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%AB%F0%9F%87%B7
