@@ -1,4 +1,5 @@
 vless://0370b162-baff-4757-86cc-cce4bf07f6f1@52.56.168.216:443?security=reality&encryption=none&pbk=lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4&headerType=none&fp=chrome&spx=/fdded5f9698d939&type=tcp&sni=www.cloudflare.com&sid=cfe08c23a85f24#EPODONIOS
+vless://0370b162-baff-4757-86cc-cce4bf07f6f1@52.56.168.216:443?security=reality&encryption=none&pbk=lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4&headerType=none&fp=chrome&spx=/fdded5f9698d939&type=tcp&sni=www.cloudflare.com&sid=cfe08c23a85f24#EPODONIOS
 vless://0370b162-baff-4757-86cc-cce4bf07f6f1@78.111.89.171:443?security=reality&encryption=none&pbk=lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4&headerType=none&fp=chrome&spx=/fdded5f9698d939&type=tcp&sni=www.cloudflare.com&sid=cfe08c23a85f24#EPODONIOS
 vless://0370b162-baff-4757-86cc-cce4bf07f6f1@78.111.89.171:443?security=reality&encryption=none&pbk=lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4&headerType=none&fp=chrome&spx=/fdded5f9698d939&type=tcp&sni=www.cloudflare.com&sid=cfe08c23a85f24#EPODONIOS
 vless://0370b162-baff-4757-86cc-cce4bf07f6f1@78.111.89.171:443?security=reality&encryption=none&pbk=lYcMPEgf6ePmF_d8RXR5fsVorycW37v_ECl-fz_H6w4&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&spx=/fdded5f9698d939&type=tcp&sni=www.cloudflare.com&sid=cfe08c23a85f24#EPODONIOS
@@ -197,4 +198,3 @@ vless://108ac7b1-44e8-4725-b41c-3faae148a6ef@bxqg5w6r.helpower.ir:443?encryption
 vless://108ac7b1-44e8-4725-b41c-3faae148a6ef@bxqg5w6r.helpower.ir:443?encryption=none&type=tcp&security=reality&headerType=none&host=www.play.google&sni=www.play.google&fp=chrome&insecure=1&allowInsecure=1&pbk=OCR2Jsxytv_7DXaBAs3JgoL2-na-fBlEXEs4AvWM_Ao&sid=667e7c5f623ab929#EPODONIOS
 vless://10ccd98d-91ed-49bf-a6a6-1ee3392ea7cc@185.146.173.58:8080?Telegram=@V2RayTz,@V2RayTz&path=/servernett&security=none&encryption=none&host=dcc11.servernet.fun.&type=ws#EPODONIOS
 vless://10f3f47c-7a6d-483f-a485-e4315bf3f245@201.34.129.44:420?security=none&encryption=none&headerType=none&type=tcp#EPODONIOS
-vless://10f3f47c-7a6d-483f-a485-e4315bf3f245@201.34.129.44:443?security=none&encryption=none&headerType=none&type=tcp#EPODONIOS
