@@ -36,7 +36,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOGJ0OWZZMFFzTFM2ZUxuWFVlMFlt@45.158.171.148
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphQmxxZGZEdjFhVGIya2xy@4.210.66.171:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiQm5WMzZ0enQ3TUtWNzVhRFpUYnpH@141.227.152.129:8388#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiUVpsN0hEeFNhYnIxRnVyVFlRSEZV@216.105.168.18:443#🇺🇸
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkaU9NQlU1SUR2SmNGcXlOUGJSallS@137.74.119.18:10443#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@198.98.53.130:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.180:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.181:8080#🇬🇬
@@ -66,6 +65,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSnBzZDg3VTRQTExyV1JW@20.234.89.202:443#🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyWWZpNGNRM3o3enRzN0JPNC1ZOV9B@188.41.249.20:1080#🇹🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyWWZpNGNRM3o3enRzN0JPNC1ZOV9B@Vpna.Poorifast.ir:1080#🇹🇷
 ss://YWVzLTEyOC1nY206ZjAzMzBkMzktMTY5ZS00OWJlLWIyMjQtNWMwYzg4NzYzZmIw@120.233.7.29:25027#🇨🇳
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.178:443#🇬🇬
 ss://YWVzLTI1Ni1jZmI6R0E5S3plRWd2ZnhOcmdtTQ@5.188.181.201:9019#🇪🇸
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.53.198.63:443#🇸🇪
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.53.38.71:443#🇸🇪
@@ -180,8 +180,6 @@ vless://09513f27-b454-4769-ba55-82eaadbd000b@Mmd-riga.gorqino.ir:8156?security=n
 vless://0973e006-9083-5830-88a0-4b777cbe3627@channel.tradeip.store:8443?security=reality&encryption=none&pbk=HL-IrEO6_mXNGgiBztNWX0VY3nb-JQ3thK_7gFbk4Bg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=06f4e6#🇨🇭
 vless://09c9b2e5-875a-460b-bf03-a237d3be0293@79.174.92.138:8443?security=reality&encryption=none&pbk=XlPZy538jkCt-VNtnLXcwjtrTSaVrM2AzIWq_rh7pRU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=51d04ca6fb10#🇷🇺
 vless://09e38b01-3bc2-42ac-bb71-68f8b72b8f19@104.26.6.23:2096?path=%2F&security=tls&encryption=none&insecure=0&host=ez-938486.tahakhoshghadam8989.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=ez-938486.tahakhoshghadam8989.workers.dev#🏳️
-vless://0a268813-7200-4d23-9851-74568928fc82@xn--dash-4o53c.xn--ir-nz82a.netbazshop.ir:2095?encryption=none&security=none&type=tcp&headerType=http&host=play.google.com#🇩🇪
-vless://0a715ede-593a-4018-8406-66e2c3b1169c@89.106.64.15:7000?mode=stream-one&path=%2F&security=none&encryption=none&host=a12.crowsvpn.shop&type=xhttp#🇩🇪
 vless://0a85da84-bbb4-4b0e-b67c-0c3eb4a8df19@zxcvbnm1.roozaraa.ir:8880?path=%2F&security=tls&alpn=h2%2Chttp%2F1.1%2Ch3&encryption=none&insecure=0&host=zxcvbnm1.roozaraa.ir&fp=chrome&type=ws&allowInsecure=0&sni=zxcvbnm1.roozaraa.ir#🇮🇷
 vless://0a85da84-bbb4-4b0e-b67c-0c3eb4a8df19@zxcvbnm1.roozaraa.ir:8880?path=%2F&security=tls&encryption=none&insecure=0&host=zxcvbnm1.roozaraa.ir&fp=chrome&type=ws&allowInsecure=0&sni=zxcvbnm1.roozaraa.ir#🇮🇷
 vless://0b2f0dd1-248a-4f3c-b125-6609c52e98ba@www.parsvds.ir:8080?type=ws&host=VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net.&path=VPNCUSTOMIZE?ed=8080&security=none#🏳️
@@ -198,3 +196,5 @@ vless://0ce30685-5d18-45b5-9669-90bf584d0905@184.tradeip.store:443?security=real
 vless://0d0566b8-203a-4076-b18c-5645d9815e18@89.116.161.230:2053?security=tls&sni=asdffafd.injairane.site&type=grpc&alpn=h2,http/1.1#🏳️
 vless://0e9ccbbe-556a-4a33-8c73-c57ab24155d1@69.46.46.89:443?encryption=none&security=tls&sni=ezaccess1-luffy-ezaccess1-c235.up.railway.app&fp=chrome&alpn=h3&insecure=0&allowInsecure=0&type=ws&host=ezaccess1-luffy-ezaccess1-c235.up.railway.app&path=%2Fws%2Fvless%2F0e9ccbbe-556a-4a33-8c73-c57ab24155d1%3Fed%3D2048#🇺🇸
 vless://0eab0265-1a13-49a1-ac5c-c171a523d804@201.24.115.184:410?security=&encryption=none&headerType=&type=tcp#🇷🇺
+vless://0eab0265-1a13-49a1-ac5c-c171a523d804@201.24.115.184:445?security=&encryption=none&headerType=&type=tcp#🇷🇺
+vless://0f2765c2-1845-4545-987e-337c7cfb4e52@116.204.164.5:7443?encryption=none&security=tls&sni=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&fp=chrome&insecure=0&allowInsecure=0&ech=cloudflare-ech.com+https://dns.alidns.com/dns-query&type=ws&host=c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev&path=/@Marisa_kristi#🇺🇸
