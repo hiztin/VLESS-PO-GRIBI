@@ -7,12 +7,12 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2eGtHQ1lrcm01UXhWZ0JW@68.219.96.61:443#🇮�
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@36.224.191.247:50099#🇹🇼
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyODc4OTk4OC04ODdlLTRlNDEtODNjZC0yN2JiZmI3OTk5YWQ@hg1.levikogjgfdd.ir:40028#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyS0F1OWVNbUd3U2hXVFdjdXl5bm1MRTgxUFZrb0tEdlEzZmIyOWRQU2NjMWJNVVc1eTZocHByWHFWV3FTcWpUaTIzNGhGR2REZjNBckN1V3RCdzVGQTZ6VjV3QmdXVFA@185.5.38.89:57327#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ@92.112.126.90:443#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUnJCZzlTOWtvc1NvM3RH@20.223.136.145:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWQ@108.181.58.239:8388#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDc1NZT2hsRFV5N0h6MXlRQ1hTbnhq@130.49.189.158:10792#🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFdkxmV0dlMEFLdks@70.39.198.35:54166#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHNXA2d3c0bzY3SEI@108.181.118.10:8388#🇨🇦
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMRzlVemtLbE82cWY3QUhrWHpaM003TCtWWkpwUHJzY0ZuMU4wTVhKNWhrPQ@157.230.240.128:12380#🇸🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMWU5YTGpJWGVxbWVka2VlMHRYMkdJ@130.49.189.158:10792#🇷🇺
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNR1U0WmpWa01HTmhZMlkzWXpNME5tSXhNRGd5TkRRNU9HVmpaalkyWTJZPQ@129.151.64.45:61312#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNR1U0WmpWa01HTmhZMlkzWXpNME5tSXhNRGd5TkRRNU9HVmpaalkyWTJZPQ@129.151.78.156:61312#🇬🇬
@@ -126,7 +126,6 @@ vless://039bdef3-cde6-4d5b-9507-cc82496aa2eb@104.21.69.42:443?security=tls&sni=W
 vless://03fcc618-b93d-6796-6aed-8a38c975d581@186.190.211.188:443?security=tls&encryption=none&insecure=1&host=%2F%3FBIA_TELEGRAM%40YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy&headerType=none&type=tcp&allowInsecure=1&sni=186.190.211.188#🇬🇬
 vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@fbi.gov:443?sni=misaka.cndyw.ggff.net&type=ws&host=misaka.cndyw.ggff.net&path=/?ed=2560fp=random&security=tls#🏳️
 vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.4chan.org:443?sni=misaka.cndyw.ggff.net&type=ws&host=misaka.cndyw.ggff.net&path=/?ed=2560fp=random&security=tls#🏳️
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.37.164.164:22222?path=/telegram-channel-vlessconfig-ws&security=tls&encryption=none&host=telegram-channel-vlessconfig.sohala.uk&type=ws&sni=telegram-channel-vlessconfig.sohala.uk#🇫🇷
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.50.47.134:22222?path=/telegram-channel-vlessconfig-ws&security=tls&encryption=none&host=telegram-channel-vlessconfig.sohala.uk&type=ws&sni=telegram-channel-vlessconfig.sohala.uk#🇸🇪
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.53.219.5:22222/?type=ws&encryption=none&host=telegram-channel-vlessconfig.sohala.uk&path=%2Ftelegram-channel-vlessconfig-ws&security=tls&sni=telegram-channel-vlessconfig.sohala.uk&fp=chrome#🇸🇪
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.132.76.36:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🇬🇬
@@ -198,3 +197,4 @@ vless://0bd6aa8d-3bdb-4fa3-893e-75a844e2e409@download.yunzhongzhuan.com:8880?pat
 vless://0c0b895d-b954-4bec-94e6-5770677e7925@199.232.78.159:443?path=%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed&security=tls&encryption=none&insecure=0&host=pan1.global.ssl.fastly.neT&type=ws&allowInsecure=0&sni=ssl.fastly.com#🏳️
 vless://0c0b895d-b954-4bec-94e6-5770677e7925@199.232.78.159:443?path=%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed&security=tls&encryption=none&insecure=1&host=pan1.global.ssl.fastly.neT&type=ws&allowInsecure=1&sni=ssl.fastly.com#🏳️
 vless://0c5a2ecd-bf56-4ba3-a3bc-69f474e7ac7d@116.202.13.37:31047?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇩🇪
+vless://0c9839aa-c64f-4791-9137-420432605987@168.138.166.89:8899?security=reality&encryption=none&pbk=4ciiQdZe4F8wyoRKpNzW5xwmQzGyIJnlPHrK70iU6DQ&headerType=none&fp=ios&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.lovelive-anime.jp&sid=f0cce996#🇸🇬
