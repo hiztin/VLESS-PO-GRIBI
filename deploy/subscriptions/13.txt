@@ -77,7 +77,6 @@ ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@173.244.56.9:443#🇺🇸
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160:443#🇺🇸
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.236:443#🇺🇸
 ss://YWVzLTEyOC1nY206eG82azg0bDdiMDBuMmhKcA@23.185.200.135:57841#🇺🇸
-ss://YWVzLTI1Ni1jZmI6R0E5S3plRWd2ZnhOcmdtTQ@5.188.181.201:9019#🇪🇸
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.115.57.197:443#🇯🇵
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@13.53.38.71:443#🇸🇪
 ss://YWVzLTI1Ni1nY206MjAyN2U4MzAzOTlkOGQwOA@195.58.48.19:10910#🇷🇺
@@ -93,7 +92,6 @@ ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@103.106.231.82:5600#🇦🇺
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:9090#🇰🇷
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@154.90.32.5:5601#🇸🇨
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.86.135.225:9090#🇺🇸
-ss://YWVzLTI1Ni1nY206WXpZM1kySmhZakF5TjJFeU9ESXlNREF5TjJZMU9ESTJNMlV5TW1ZMw@iran.tonanimalia.com:11102#🇮🇷
 ss://YWVzLTI1Ni1nY206Wm1ReE9EQXpOREExT0RWaE9UbGtPV0V4TVRGbE1qVTFaV0poTTJReA@188.213.196.222:9138#🇮🇷
 ss://YWVzLTI1Ni1nY206YjUzNzIyYjQ2MmFhZDc2NQ@166.88.130.210:7011#🇨🇦
 ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.152:10901#🇮🇹
@@ -133,8 +131,6 @@ vless://02610d91-def0-40cf-9f55-bf5620788a7a@104.18.31.6:80?security=none&type=w
 vless://0261c8f9-413a-455b-942b-3713c6b0084a@172.66.40.99:443?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=www.dollardoon.com&fp=chrome&type=ws&allowInsecure=0&sni=www.dollardoon.com#🏳️
 vless://02a3132c-6a0d-4c02-b715-95e704e0e96a@185.31.200.243:47301?encryption=none&security=none&type=tcp#🇳🇱
 vless://0366386e-dc64-b505-c87b-baac26b183c1@185.171.202.229:8443?mode=auto&security=reality&encryption=none&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&host=play.google.com&fp=firefox&spx=%2F&type=xhttp&sni=play.google.com&sid=f49da53c#🇫🇷
-vless://0366386e-dc64-b505-c87b-baac26b183c1@forallpanel.srtongston.ir:443?encryption=none&alpn=h3%2Ch2%2Chttp%2F1.1&security=tls&host=uwhsijsjsbd.mobilex55.com.&type=httpupgrade&path=%2Fws%3Fed%3D2560&sni=uwhsijsjsbd.mobilex55.com.&allowInsecure=0&fp=firefox&insecure=0#🏳️
-vless://0366386e-dc64-b505-c87b-baac26b183c1@forallpanel.srtongston.ir:8880?type=httpupgrade&security=none&path=%2F%3Fed%3D2082&host=wwwfi.ayar24gold.com.&encryption=none#🏳️
 vless://03707fb7-0990-440f-88f6-b0e0f7242a38@104.16.73.50:2087?path=%2F&security=tls&encryption=none&insecure=0&host=vo1.erooo12345.xyz&fp=chrome&type=ws&allowInsecure=0&sni=vo1.erooo12345.xyz#🏳️
 vless://03707fb7-0990-440f-88f6-b0e0f7242a38@104.16.75.42:443?type=ws&security=tls&path=/&sni=de-new-1.ariyuz.org#🏳️
 vless://03707fb7-0990-440f-88f6-b0e0f7242a38@104.16.75.44:443?path=%2F&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=de-new-1.ariyuz.org#🏳️
@@ -198,3 +194,7 @@ vless://09aae7ad-8549-4713-af25-64b9e8d5f343@vip.trymsbsj.neninet.ir:2080?encryp
 vless://09aae7ad-8549-4713-af25-64b9e8d5f343@vip.ttrroon.admni.ir:51795?mode=gun&security=reality&encryption=mlkem768x25519plus.native.0rtt.3pOPMXelNJp1UUcTZdgcQX_k6NN0i5uL6cBiI6rwQTE&pbk=hqdJfTcGLgfGy2DtyZTp7LDU56eY-KltlkaTGSy3Ax8&fp=chrome&type=grpc&sni=play.google.com&sid=2eeb1d23abab6bbb#🇹🇷
 vless://09aae7ad-8549-4713-af25-64b9e8d5f343@vipmkajdejejeoor.neninet.ir:61885?encryption=none&security=reality&type=tcp&headerType=http&path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&host=rubika.ir&sni=skyroom.online&fp=chrome&pbk=zhx1Hs2m5-qHm6S6FqKJVBbAkoEtU5Xzh7d9S1unfBI&sid=64b02fb5e0ccd03b#🇱🇻
 vless://09c9b2e5-875a-460b-bf03-a237d3be0293@79.174.92.138:8443?security=reality&encryption=none&pbk=XlPZy538jkCt-VNtnLXcwjtrTSaVrM2AzIWq_rh7pRU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=51d04ca6fb10#🇷🇺
+vless://0aae78ee-b401-4497-8911-cfd75d97b075@hcaptcha.com:443?path=%2F%3Fed&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=sh.havray2025.ir&fp=chrome&type=ws&allowInsecure=0&sni=sh.havray2025.ir#🏳️
+vless://0b2b6765-f352-4c9f-8b4b-8ebda80ed715@20.46.49.99:45743?path=%2F&security=none&encryption=none&host=bmw.com&type=ws#🇦🇪
+vless://0b2f0dd1-248a-4f3c-b125-6609c52e98ba@www.parsvds.ir:8080?type=ws&host=VPNcustomize-vpnCUSTOMIZE-VPNcustomize.CUSTOMIZEspeedtest.net.&path=VPNCUSTOMIZE?ed=8080&security=none#🏳️
+vless://0b9bcbc1-b289-4a64-86fa-a5b731b65384@85.11.161.8:444?mode=gun&security=reality&encryption=none&pbk=lxq7uAa7l0ozobBgTRrQIF_aCxDeJqZZFaNv8CFA9TQ&fp=chrome&type=grpc&serviceName=web.max.ru&sni=web.max.ru&sid=8622176789abcdef#🇭🇰
