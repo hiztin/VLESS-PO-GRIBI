@@ -99,6 +99,7 @@ ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.86.135.225:9090#🇺🇸
 ss://YWVzLTI1Ni1nY206WXpZM1kySmhZakF5TjJFeU9ESXlNREF5TjJZMU9ESTJNMlV5TW1ZMw@iran.tonanimalia.com:11102#🇮🇷
 ss://YWVzLTI1Ni1nY206Wm1ReE9EQXpOREExT0RWaE9UbGtPV0V4TVRGbE1qVTFaV0poTTJReA@188.213.196.222:9138#🇮🇷
 ss://YWVzLTI1Ni1nY206YjUzNzIyYjQ2MmFhZDc2NQ@166.88.130.210:7011#🇨🇦
+ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.152:10901#🇮🇹
 ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@62.76.234.75:10901#🇮🇹
 ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@it2.levikogjgfdd.ir:10901#🇮🇹
 ss://YWVzLTI1Ni1nY206ZmFCQW9ENTRrODdVSkc3@109.104.154.163:2375#🇳🇱
@@ -197,4 +198,3 @@ vless://09513f27-b454-4769-ba55-82eaadbd000b@Liu-fr.gorqino.ir:8156?security=non
 vless://09513f27-b454-4769-ba55-82eaadbd000b@Mmd-riga.gorqino.ir:8156?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇱🇻
 vless://0973e006-9083-5830-88a0-4b777cbe3627@channel.tradeip.store:8443?security=reality&encryption=none&pbk=HL-IrEO6_mXNGgiBztNWX0VY3nb-JQ3thK_7gFbk4Bg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=06f4e6#🇨🇭
 vless://09aae7ad-8549-4713-af25-64b9e8d5f343@bbbbbjwhsjejeh.belamona.ir:61885?encryption=none&security=reality&type=tcp&headerType=http&path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&host=rubika.ir&sni=skyroom.online&fp=chrome&pbk=zhx1Hs2m5-qHm6S6FqKJVBbAkoEtU5Xzh7d9S1unfBI&sid=64b02fb5e0ccd03b#🇹🇷
-vless://09aae7ad-8549-4713-af25-64b9e8d5f343@vip.fnlan.mnb.viramiq.ir:443?encryption=mlkem768x25519plus.native.0rtt.dk9Tn2fvE1K3oJJE_issFXownbGDhOcllkVy16VbSjY&security=none&type=tcp&headerType=none#🇫🇮
