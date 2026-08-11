@@ -181,10 +181,6 @@ vless://00f4ebcf-6bae-4eb2-9064-2a272e4d4875@cdn.melodyshopone2.ir:8080?path=/&a
 vless://40b7d140-2ae6-4ef5-a1bd-46c430bf89ab@cdn.melodyshopone2.ir:8080?path=/&amp;security=none&amp;encryption=none&amp;host=cdn.melodyshopone2.ir&amp;type=ws#@configforVPN
 vmess://eyJhZGQiOiJqb2luLm1lbG9keWZyZWVuZXQyLnNob3AiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiIiwiaWQiOiI1MGVmMGIyMy1mMTRiLTQ1OWYtOTdhYS1kMGYzNDYxODlkMmEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvbWFpbC8iLCJwb3J0IjoiNDQzIiwicHMiOiJAY29uZmlnZm9yVlBOIiwic2N5IjoiYXV0byIsInNuaSI6IkpvaW4uTWVsb2R5RmVlbkV0Mi5zaG9QLiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiJzaGFoaW5uZXQtZnJlZW5ldGNkbi5tZWxvZHlzaG9wb25lMi5pciIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0Ijoic29nLnNoYWhpbm5ldC5zaG9wIiwiaWQiOiI5NjU4ODkxMi0zYmNiLTQ5MWMtOGNlMy03YTk2NWJiZWMwN2YiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjgwODAiLCJwcyI6IkBDb25maWdmb3JWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.38.221.117:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.237.145.128:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.102.174.17:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.188.72.71:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.188.72.71:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.176.44.159:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.126.61.199:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
@@ -195,6 +191,10 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.178.105.116:22223?encryption=non
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.236.79.105:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.224.48.146:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.180.222.124:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.65.145.222:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.37.184.30:22223?encryption=none&amp;security=none&amp;type=tcp#OurChannel
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.151:8080#@Easy_Free_VPN
 vless://56e626c8-6396-4f81-a20f-3a84bc71164a@fox3.wizard2shop.org:2083?path=/?ed=2560&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=xiz30.wizard2shop.org&amp;fp=360&amp;type=ws&amp;allowInsecure=0&amp;sni=xiz30.wizard2shop.org#@Easy_Free_VPN
 vless://vpn_connects@clfconnect.pishipishi.pro:8880?path=/&amp;security=none&amp;encryption=none&amp;host=hamon.hamimelectronic.ir&amp;type=ws#@Easy_Free_VPN
+vless://6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20@ercf-ma.rainzone.site:443?path=/45.76.183.217=49292&amp;security=tls&amp;encryption=none&amp;insecure=0&amp;host=delta090.qzz.io&amp;type=ws&amp;allowInsecure=0&amp;sni=delta090.qzz.io#@Easy_Free_VPN
+vless://53ec5fd1-fa25-41ff-bd25-fc24ca8e4d24@ert-4.v-sub.site:8880?path=/?ed=2080&amp;security=none&amp;encryption=none&amp;host=norton-vip.cfd&amp;type=httpupgrade#@Easy_Free_VPN
