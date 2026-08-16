@@ -1,7 +1,9 @@
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MmYvaFNuQUY1R0RoeXZlOGJybXdlcC9MelMxZEtNOHVhV1JZc3ZJb2JGdz0@163.176.56.46:59319#🇧🇷
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6NUNrYVkvRWdBMTA2RWMvY2VXSTJBNEk3QlhJZ2JEVUo2aFJuRGlDV1g2MD0@134.65.62.195:61312#🇬🇬
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6dm0vNTR4NngxanNoVzhUSDVCUE8yTUFNdFExTTVlc3JGcGIrRHlkU2Joaz0@163.176.64.97:59319#🇧🇷
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6eEJLUk9Fd2NFQkM4U1lJc21yS0o1Zkl6ODVlTkZoTVZrNHF5NHpiblBkMD0@164.152.59.44:59319#🇧🇷
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206Nm95aXN1cGpvZkJtWUVSZWNWUTVIQT09OmxiSWtZdHpNbGwxajJNckZvV29PL2c9PQ@Firozkoh.Sav-savteAm.iR:34132#🇩🇪
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TUNHSmFtaHZyL2FJRDNKZWMvTEFRZz09OmFYTzVNN1RRSTJUSjhSZDQrNkpsbGc9PQ@185.126.6.126:8388#🇮🇷
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZW5LaGJJQTArTlowRE9ESVpxcTV6YXZVeUd0dlk2Sitya1FCbzg0S0FtTT06OEpINWdHVXY3ZFVZVlZrMlNNRXhDZDhzRDc5dnIxbWlDQ0ROcDdXaWdZWT0@176.65.151.82:52000#🇳🇱
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Zm52bzgycDl5NEFLeWtaWHlJRnRub2RGeTZmUW1XblZsSTJTdkdsZU9CMD0@167.150.100.115:27755#🇸🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.234:8080#🇳🇱
@@ -33,6 +35,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5dHcyYXdu@ca225.vpnbook.com:443#🇨🇦
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5dHcyYXdu@pl134.vpnbook.com:443#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5dHcyYXdu@pl140.vpnbook.com:443#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6UlpOQnN6WXlXbzU@51.77.225.200:8388#🇫🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6UlpOQnN6WXlXbzU@fr4.levikogjgfdd.ir:8388#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBYjRZaUlDUWZlRGp2cUNNb3ZLWGxE@74.81.63.87:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCcW5xVG9paDBQYlU@51.255.13.232:8388#🇫🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCcW5xVG9paDBQYlU@fr3.levikogjgfdd.ir:8388#🇫🇷
@@ -112,7 +115,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.184
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.225:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.230:443#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.230:8080#🇳🇱
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.235:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.251:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:443#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#🇬🇬
@@ -142,6 +144,7 @@ ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.244:443#🇺🇸
 ss://YWVzLTEyOC1nY206d3JEQ3Y4TzB3b28zdzVoeE14eFl3cW5EZ0YxRFRsSkVFUUREaWtjOHc1UENzMFFBd3BnVndxOHp3N2Nw@192.220.32.7:54804#🇺🇸
 ss://YWVzLTEyOC1nY206eG82azg0bDdiMDBuMmhKcA@23.185.200.135:57841#🇺🇸
 ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.181.170.157:443#🇯🇵
+ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.199.102.146:443#🇩🇪
 ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA@218.237.185.230:4652#🇰🇷
 ss://YWVzLTI1Ni1nY206NmIzOWFlMzIzNGRmZDY4Yg@185.22.155.162:10808#🇷🇺
 ss://YWVzLTI1Ni1nY206NzI1NTMzMjBhZTZiY2M4Zg@212.192.13.221:10910#🇭🇰
@@ -195,6 +198,3 @@ vless://00b41e07-68e6-46b0-928f-a02becd4e398@uk.awexaiooo.shop:2020?mode=auto&pa
 vless://00dda8ac-c263-4106-a740-1e4478a7dc44@31.58.50.200:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU&security=reality&sni=tradingview.com&type=tcp#🇺🇸
 vless://0108346a-e5a8-485f-912c-e5b142cf0a80@62.60.188.240:443?security=reality&encryption=none&pbk=2HZyHolhLXqkOW3A6VGNJeDwC7lStJJmN1GhIVkpYWI&headerType=&fp=firefox&spx=%2FMbpn9IVT0dACRul&type=tcp&sni=it.nvidia.com&sid=571a5e8791b284e7#🇮🇷
 vless://0108346a-e5a8-485f-912c-e5b142cf0a80@pl1.levikogjgfdd.ir:443?security=reality&encryption=none&pbk=2HZyHolhLXqkOW3A6VGNJeDwC7lStJJmN1GhIVkpYWI&host=Telegram-Leviko_v2ray&headerType=none&fp=chrome&spx=%2FMbpn9IVT0dACRul&type=tcp&sni=it.nvidia.com&sid=571a5e8791b284e7#🇵🇱
-vless://0149ec2e-adb7-4166-82c9-86908bee2292@fatloss.akfitness.ir:8443?mode=auto&path=%2Ftutorial%2Ffat_loss%2Fvideos%2Ffat_loss_videos_4K_60_HDR&security=reality&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%220%22%2C%22maxConcurrency%22%3A%22%22%2C%22maxConnections%22%3A3%7D%7D&pbk=jW1mIeWxLhz6SB3xnxEEHmC8K2I3K2CboaQoC17gGQ4&host=fatloss.akfitness.ir&fp=chrome&spx=%2Fde139834f256fc8&type=xhttp&sni=cdn.gameq.ir&sid=5b3f20#🇸🇪
-vless://0149ec2e-adb7-4166-82c9-86908bee2292@gym.akfitness.ir:8443?mode=auto&path=%2Fgym%2Ftutorials%2Fvideos%2F4K_Tutorials_HDR_watch&security=reality&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22hKeepAlivePeriod%22%3A0%2C%22hMaxRequestTimes%22%3A%220%22%2C%22hMaxReusableSecs%22%3A%220%22%2C%22maxConcurrency%22%3A%22%22%2C%22maxConnections%22%3A3%7D%7D&pbk=O7GwAjykfKdQ6PhkVhl60U_Bttz9fm-6xkvMXb_-ems&host=gym.akfitness.ir&fp=chrome&spx=%2F3edcd711946dede&type=xhttp&sni=cdn.gameq.ir&sid=8136da3a34f20027#🇩🇪
-vless://015b83b4-53a3-4719-8553-3a7c03c4128d@2.26.128.77:443?pbk=w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg&headerType=none&spx=%2F&security=reality&sid=1b40e7c2a1d8f635&type=tcp&fp=qq&flow=xtls-rprx-vision&encryption=none&sni=wombat.mycdn-me.ru#🇨🇭
