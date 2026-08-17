@@ -137,6 +137,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyU2VZY2lnX1hCeThxM2szM05wSzNB@fi1.levikogjgf
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzOExiSkNnVWlHWGVDS1ZjNjN0SEpQ@94.198.220.183:64674#🇰🇿
 ss://YWVzLTEyOC1nY206U3lTV0RhUDhybTFORUswd2RMZG9hVjVDbGtTakZEZnc@antony.athforce.ir:51058#🇫🇷
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.181:443#🇬🇬
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.240:443#🇯🇵
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.95.183:443#🇨🇦
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#🇺🇸
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#🇺🇸
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243:443#🇺🇸
@@ -196,5 +198,3 @@ vless://000f16e8-cc68-4951-b336-acd81996efde@89.208.113.54:50443?encryption=none
 vless://0047a8bc-0025-4d45-899b-c75c669f3ede@154.83.159.240:8443?security=reality&encryption=none&pbk=LT_0j3zQkaqgtJHvyaG24xz0IfmXUswVCTeC75Qsgjo&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=storage.yandex.net&sid=6f15101ff2cc4887#🇳🇱
 vless://00b41e07-68e6-46b0-928f-a02becd4e398@uk.awexaiooo.shop:2020?mode=auto&path=%2F&security=reality&encryption=mlkem768x25519plus.native.0rtt.3mjd2WKbtUjfzkJO2SMVeOLyDFUE0bMH5T_R5H_YCV0&pbk=OyYgPJuSFg1qNrYLBRLZpiqxUVkiEP19FCZq6hJtBTs&fp=qq&type=xhttp&sni=play.googleapis.com&sid=6ca6fedb30b640a3#🇬🇬
 vless://00dda8ac-c263-4106-a740-1e4478a7dc44@31.58.50.200:8443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU&security=reality&sni=tradingview.com&type=tcp#🇺🇸
-vless://0108346a-e5a8-485f-912c-e5b142cf0a80@62.60.188.240:443?security=reality&encryption=none&pbk=2HZyHolhLXqkOW3A6VGNJeDwC7lStJJmN1GhIVkpYWI&headerType=&fp=firefox&spx=%2FMbpn9IVT0dACRul&type=tcp&sni=it.nvidia.com&sid=571a5e8791b284e7#🇮🇷
-vless://0108346a-e5a8-485f-912c-e5b142cf0a80@pl1.levikogjgfdd.ir:443?security=reality&encryption=none&pbk=2HZyHolhLXqkOW3A6VGNJeDwC7lStJJmN1GhIVkpYWI&host=Telegram-Leviko_v2ray&headerType=none&fp=chrome&spx=%2FMbpn9IVT0dACRul&type=tcp&sni=it.nvidia.com&sid=571a5e8791b284e7#🇵🇱
