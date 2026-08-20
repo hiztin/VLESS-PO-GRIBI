@@ -130,7 +130,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyU2VZY2lnX1hCeThxM2szM05wSzNB@65.109.215.118
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyU2VZY2lnX1hCeThxM2szM05wSzNB@fi1.levikogjgfdd.ir:1080#🇫🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyWWZpNGNRM3o3enRzN0JPNC1ZOV9B@188.41.249.20:1080#🇹🇷
 ss://YWVzLTEyOC1nY206U3lTV0RhUDhybTFORUswd2RMZG9hVjVDbGtTakZEZnc@173.212.251.231:51058#🇫🇷
-ss://YWVzLTEyOC1nY206U3lTV0RhUDhybTFORUswd2RMZG9hVjVDbGtTakZEZnc@antony.athforce.ir:51058#🇫🇷
 ss://YWVzLTEyOC1nY206VjJKelIySnpkRFl4YVVOYVdHSnhTVGgzZGsxNWRWQnBaRk42Y2xVMVFWUjZjVFY0WkVaMlVsVm5SMFp2ZEVGRlNHNUVVWEJRVFdKNVUzQkZhM1YzWWc9PQ@217.25.94.168:11808#🇷🇺
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.181:443#🇬🇬
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.240:443#🇯🇵
@@ -198,3 +197,4 @@ ss://YWVzLTI1Ni1nY206c1pTWmk3dEdzOXdvZFQ3aw@155.138.136.240:80#🇨🇦
 ss://YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2@51.222.12.127:445#🇨🇦
 vless://%40V2XNET@143.246.136.25:35610?mode=auto&path=%2F&security=reality&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=x-cH2EK0fjBliX6CaiHE_5DheA1VX2hxrXB979yXPzQ&fp=chrome&spx=%2Fa97ef6da8e4ab5a&type=xhttp&sni=support-shield.nvidia.no&sid=127230d6#🇹🇷
 vless://%40V2XNET@188.114.97.8:443?mode=auto&path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=mlkem768x25519plus.native.0rtt.Rj5Jm-uPO7iwO9TJV7j4zgDKBpEvUNxDQafm_8zRND4&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=allineedradiohead.dpdns.org&fp=chrome&type=xhttp&allowInsecure=0&sni=allineedradiohead.dpdns.org#🏳️
+vless://%58pnTeam-1@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🏳️
