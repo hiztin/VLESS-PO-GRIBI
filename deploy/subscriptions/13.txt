@@ -105,7 +105,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxYjB1Uk4ycjhDQUNpMXRxT3NaTjNuNWpfSWN5cWNFbQ@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyVzIyeTlxMk01NVBjb1VMMWFfSGdR@109.230.196.66:1080#🇹🇷
 ss://YWVzLTEyOC1nY206ODY2NjNmN2EtNjAwMS00Y2QwLTljNDQtOTUzZmU3ODVjNmNl@vpn.yuzhe.cc.cd:18888#🇭🇰
 ss://YWVzLTEyOC1nY206T0RKYWVsZzBOMUJ1TWtGTU4xRTRUM05LTjBwaVFVNU5aMU5OU1ZsVE9EbEJUSEUzZEU5dVdtUkdOM2R3Y1VaRFZFcEhZbk4yWkZKWFZtcFdaRVZwZHc9PQ@200.169.178.229:37518#🇺🇸
-ss://YWVzLTEyOC1nY206YWRiYzFlOGMtMTg0ZS00ZDAyLWIwZTAtZjBjYjcwYjM3N2Rm@mn.qwer-cn.org:10929#🇭🇰
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.181:443#🇬🇬
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#🇺🇸
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#🇺🇸
@@ -198,3 +197,4 @@ vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?path=%2Fvless%2F&s
 vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?path=%2Fvless%2F&security=&encryption=none&type=ws#🇮🇹
 vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@57.131.32.191:80?path=%2Fvless%2F&security=none&encryption=none&type=ws#🇮🇹
 vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?path=%2Fvless%2F&security=&encryption=none&host=OV-Italy1.09vpn.com&type=ws#🇮🇹
+vless://04cb9c0f-363c-4bf8-a195-2cb8bd43b02a@o.server5peekconfig.workers.dev:443?alpn=http%252F1.1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=O.seRVer5peEKCOnFIG.WOrKers.dEV&path=%2FeyJqdW5rIjoiSU9LdXp3R1p6IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19&security=tls&sni=O.seRVer5peEKCOnFIG.WOrKers.dEV&type=ws#🏳️
