@@ -47,6 +47,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpidHpnUW5XYzYtTFM2RTVsb0JNSFptMHJRQ3F5alhrbg@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjWHpxVEx0TUhtVkF1dWVFcTJyQnl3@cdn-2d12.giftcardbazarbot.com:8243#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@198.98.53.130:443#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZUYxbFlLZDVaQ242dHhz@gj2hktum.makevaslim.xyz:36174#🇮🇷
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnTXZ1T0oyQmh0aldtampY@52.236.93.60:443#🇮🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppUkFUU2JWRjBxMTI0enZ0ODM2OTFqZURYWmFkUHRkaQ@104.167.196.170:1080#🇺🇸
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppUkFUU2JWRjBxMTI0enZ0ODM2OTFqZURYWmFkUHRkaQ@de-server-1.zelnora.ir:1080#🇩🇪
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppUkFUU2JWRjBxMTI0enZ0ODM2OTFqZURYWmFkUHRkaQ@pl-server-1.zelnora.ir:1080#🇵🇱
@@ -197,4 +198,3 @@ vless://053440e6-fc8d-48d9-bb4f-2675e367f64f@wsnl7.wba-pn.ru:443?path=%2F&securi
 vless://053440e6-fc8d-48d9-bb4f-2675e367f64f@wsnl7.wba-pn.ru:443?path=%2F&security=tls&encryption=none&insecure=0&host=wsnl7.wba-pn.ru&fp=qq&type=ws&allowInsecure=0#🇷🇺
 vless://053440e6-fc8d-48d9-bb4f-2675e367f64f@wsnl7.wba-pn.ru:443?path=%2F&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0#🇷🇺
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.39.69.112:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🇫🇷
-vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?security=reality&encryption=none&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&host=v2rayNplus--v2rayNplus--v2rayNplus--&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com#🇺🇸
