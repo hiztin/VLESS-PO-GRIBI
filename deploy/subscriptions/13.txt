@@ -2,7 +2,6 @@ ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6OHM1SmlIZk1ncVNlTHhNSjAyaVZTcVhJblV
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SFMvWHFTZU1nYXZMSDR3VDk5aHVuSVlFdE83RENaQTNxenZldHN2dkV1az0@92.5.236.75:45819#🇳🇱
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SmtYNW1Yc0s4VjExU2YrMm9UL0VDaURiSFd3cUV2TGNLY3VsVmh0bUhBbz0@129.151.74.97:61312#🇬🇬
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6ZVBQQkp5dGhreUZJQ2dVMCtCbVNGU05KQ0xXSUgvbjhWSWVCdU0yMkRUVT0@129.146.56.236:50356#🇺🇸
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6bkVMOWdIY2dlNUlOZEpoSUpMMHI5UmRreEJPbjZudm1hZjZ3WXdIK0p4Zz0@129.146.116.35:50356#🇺🇸
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206R0cyZFFycVJsdzBWWG8vakZZUCtFMHZCWUQrMlpGMkxwczdtaUdkVTZXWT06cGdYckx4THVjcU5TU3JGd1FEd0hLb1BNblEzR2VtT2hLM2twc1dnUkVHdz0@server.7.x2link.online:1001#🇮🇷
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206S0NvbUVRMjhjVlhJelZseGRwVHk2TFhMb2NrWEV4WlVoMXhVSlQ0OS9uaz06ZDIzN1lCdzZXbmx1MHhzTjhOQk85VjZqTkNSaS9nRDJ6K3BzbnFpalhiOD0@t2.app20.ir:2082#🇮🇷
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Y09pQyszSmhBWE13ZEdWNWV4bnJNU29ySlUwUmw1cWxMQ2JDQXVEbFdZND06SFdGRkpOMTlKa3ZiVEtvLzc5QWZuYlJCSzl1SFVVYUZOWkp5TGpFb0pHcz0@51.222.107.43:2083#🇨🇦
@@ -89,7 +88,6 @@ ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.95.183:443#🇨🇦
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#🇺🇸
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@158.173.20.208:443#🇳🇱
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243:443#🇺🇸
-ss://YWVzLTI1Ni1nY206NmIzOWFlMzIzNGRmZDY4Yg@45.140.169.123:10808#🇷🇺
 ss://YWVzLTI1Ni1nY206NmIzOWFlMzIzNGRmZDY4Yg@45.140.169.123:20101#🇷🇺
 ss://YWVzLTI1Ni1nY206NzI1NTMzMjBhZTZiY2M4Zg@212.192.15.178:10889#🇭🇰
 ss://YWVzLTI1Ni1nY206NzI1NTMzMjBhZTZiY2M4Zg@212.192.15.178:40404#🇭🇰
@@ -100,8 +98,11 @@ ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@38.75.136.102:8080#🇺🇸
 ss://YWVzLTI1Ni1nY206TFhjaExzSXd0Q2VVQVVndQ@149.102.149.207:443#🇬🇬
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@172.105.39.124:7002#🇮🇳
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@94.156.250.148:7001#🇬🇬
+ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.121.43.71:6679#🇺🇸
 ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@62.210.113.98:6679#🇫🇷
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@185.226.172.8:8008#🇩🇪
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@149.202.82.172:5001#🇫🇷
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.121.43.71:3306#🇺🇸
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@51.222.155.113:5601#🇨🇦
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@51.222.200.165:5000#🇨🇦
 ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@54.36.174.181:8119#🇫🇷
@@ -131,7 +132,6 @@ vless://%58pnTeam-62@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&en
 vless://%58pnTeam-64@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🏳️
 vless://%58pnTeam-66@199.232.78.160:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=Appxdn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=ssl.fastly.com#🏳️
 vless://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&security=reality&sid=0990d22f&sni=www.cloudflare.com&type=tcp#🇺🇸
-vless://002deb3f-7b0b-4c78-ac4b-3701f0c96d9f@germani.maniran-v3.ir:443?security=reality&alpn=h2%2Chttp%2F1.1&encryption=none&pbk=EW4wbYV1o5FPKkOVHx4Z572oP__5usAVE7K8bXtxzQ8&headerType=none&fp=edge&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=04ac4765d572b7b7#🇮🇷
 vless://008678b8-5e27-49fa-b95a-1fff4c61a849@www.g.mobilesari.ir:4777?security=reality&encryption=none&pbk=8ZL2JgDP9gHkgGTbGF-uK8omfWkFplZnCH0N2_U18Uo&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=01115788253bc845#🇩🇪
 vless://00f6757c-7dec-4338-affc-3630c053b33f@66.33.22.220:12580?security=reality&encryption=none&pbk=2hbPKGw1sSx2JzztIcTquTduzbNB7wDbY4lNK30BoD0&headerType=none&fp=ios&spx=%2Fd68f92e37fe4aa7&type=tcp&sni=hexdocs.pm&sid=56d13342b3fb1f#🇺🇸
 vless://010bf7ad-b6ec-482b-8392-ae038f466a0a@www.g.mobilesari.ir:4777?security=reality&encryption=none&pbk=8ZL2JgDP9gHkgGTbGF-uK8omfWkFplZnCH0N2_U18Uo&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=01115788253bc845#🇩🇪
