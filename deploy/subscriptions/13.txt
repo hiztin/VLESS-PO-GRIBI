@@ -1,5 +1,6 @@
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6OHM1SmlIZk1ncVNlTHhNSjAyaVZTcVhJblVocStOclB3cDB4TGM4alBBVT0@168.107.84.248:56927#🇸🇬
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SFMvWHFTZU1nYXZMSDR3VDk5aHVuSVlFdE83RENaQTNxenZldHN2dkV1az0@92.5.236.75:45819#🇳🇱
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SXFHQno1UXFjT0NtU0xGcTNCeXozMG56K2VhZmtKOThaeGxmZmh2YzQ4QT0@130.61.231.219:59924#🇩🇪
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SmtYNW1Yc0s4VjExU2YrMm9UL0VDaURiSFd3cUV2TGNLY3VsVmh0bUhBbz0@129.151.74.97:61312#🇬🇬
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6ZVBQQkp5dGhreUZJQ2dVMCtCbVNGU05KQ0xXSUgvbjhWSWVCdU0yMkRUVT0@129.146.56.236:50356#🇺🇸
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206R0cyZFFycVJsdzBWWG8vakZZUCtFMHZCWUQrMlpGMkxwczdtaUdkVTZXWT06cGdYckx4THVjcU5TU3JGd1FEd0hLb1BNblEzR2VtT2hLM2twc1dnUkVHdz0@server.7.x2link.online:1001#🇮🇷
@@ -52,7 +53,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppbXEwdkxpa2JPeDRUSFpQ@20.107.193.38:443#🇮
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@193.29.139.223:8080#🇳🇱
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.186:8080#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.193:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.204:8080#🇬🇬
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.215:8080#🇬🇬
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptNXpTUXljMXBsZERWdnNZYVNOcjVjTWdLVWdsNmV5T1BRTkp4Qys5UXBvPQ@e1.cover20.ir:51570#🇮🇷
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuRWVmSHdMTHBDY3ZabGlheWFhMSt0L1ZISmdWdDhuUDdUeGlQT0pNNklFPQ@130.49.189.158:43558#🇷🇺
@@ -195,6 +198,3 @@ vless://06c4e938-2954-478f-a870-ca1b163e30e9@94.183.170.135:443?encryption=none&
 vless://0764541b-3e57-4b47-954b-51e996fae5fc@78.159.247.123:7444?encryption=none&flow=xtls-rprx-vision&fp=&pbk=-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo&security=reality&sni=akamai.com&type=tcp#🇷🇺
 vless://0764541b-3e57-4b47-954b-51e996fae5fc@xs13.mcufa.pro:443?encryption=none&security=tls&sni=xs13.mcufa.pro&fp=firefox&type=xhttp&host=xs13.mcufa.pro&path=%2Fapi%2Fv1%2Fminecraft178%2Fsync%2F&mode=packet-up&extra=%7B%22scMaxEachPostBytes%22%3A1000000%2C%22uplinkDataPlacement%22%3A%22body%22%2C%22uplinkHTTPMethod%22%3A%22GET%22%2C%22xmux%22%3A%7B%22cMaxLifetimeMs%22%3A0%2C%22cMaxReuseTimes%22%3A%2236-96%22%2C%22hMaxRequestTimes%22%3A%22320-640%22%2C%22hMaxReusableSecs%22%3A%22720-1800%22%2C%22maxConcurrency%22%3A%228-32%22%2C%22maxConnections%22%3A0%7D%7D#🇦🇪
 vless://0764541b-3e57-4b47-954b-51e996fae5fc@xs13.mcufa.pro:443?security=tls&allowInsecure=0&host=xs13.mcufa.pro&mode=packet-up&path=%2Fapi%2Fv1%2Fminecraft178%2Fsync%2F&fp=firefox&encryption=none&sni=xs13.mcufa.pro&insecure=0&extra=%7B%0A%20%20%22scMaxEachPostBytes%22%20%3A%201000000%2C%0A%20%20%22uplinkDataPlacement%22%20%3A%20%22body%22%2C%0A%20%20%22uplinkHTTPMethod%22%20%3A%20%22GET%22%2C%0A%20%20%22xmux%22%20%3A%20%7B%0A%20%20%20%20%22cMaxLifetimeMs%22%20%3A%200%2C%0A%20%20%20%20%22cMaxReuseTimes%22%20%3A%20%2236-96%22%2C%0A%20%20%20%20%22hMaxRequestTimes%22%20%3A%20%22320-640%22%2C%0A%20%20%20%20%22hMaxReusableSecs%22%20%3A%20%22720-1800%22%2C%0A%20%20%20%20%22maxConcurrency%22%20%3A%20%228-32%22%2C%0A%20%20%20%20%22maxConnections%22%20%3A%200%0A%20%20%7D%0A%7D&type=xhttp#🇦🇪
-vless://07821f66-cdb7-4c70-9de6-e230cffac470@wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev:443?alpn=http%2F1.1&ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&fp=chrome&host=wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev&path=%2Fvl%2FLi1khIHH3DNItJyzraemsPBQvu&security=tls&sni=wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev&type=ws#🏳️
-vless://07974401-62dd-4ec3-b9e0-42c08accbc04@cloudinary.com:443?encryption=none&security=tls&sni=wallweb-9gw.pages.dev&allowinsecure=0&type=ws&host=wallweb-9gw.pages.dev&path=%2F#🏳️
-vless://07b69edc-18b1-4cbf-a33a-a0fe08c3db15@5.75.196.249:110?security=&encryption=none&headerType=&type=tcp#🇩🇪
